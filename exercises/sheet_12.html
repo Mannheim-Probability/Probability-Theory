@@ -1,0 +1,223 @@
+<!DOCTYPE html><html lang="de">
+<head>
+<title>Exercise 1.</title>
+<!--Generated on Fri Mar 25 14:27:04 2022 by LaTeXML (version 0.8.5) http://dlmf.nist.gov/LaTeXML/.-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="LaTeXML.css" type="text/css">
+<link rel="stylesheet" href="ltx-article.css" type="text/css">
+</head>
+<body>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<article class="ltx_document" lang="de">
+<div id="p1" class="ltx_para ltx_noindent">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold" style="font-size:120%;">Wahrscheinlichkeitstheorie 1</span>  <span class="ltx_text ltx_font_bold" style="font-size:120%;">Universität Mannheim</span> 
+<br class="ltx_break"><span class="ltx_text" style="font-size:120%;">FSS 2022  Prof. Leif Döring, Felix Benning</span> 
+<br class="ltx_break"></p>
+</div>
+<div id="p2" class="ltx_para ltx_align_center">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold" style="font-size:144%;">Solution Sheet 12</span></p>
+</div>
+<div id="p3" class="ltx_para ltx_noindent">
+<p class="ltx_p">For the exercise class on the 23.05.2022. 
+<br class="ltx_break">Hand in your solutions at 10:15 in the exercise on Monday 23.05.2022.</p>
+</div>
+<div id="Thmexercise1" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 1</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmexercise1.p1" class="ltx_para">
+<ol id="S0.I1" class="ltx_enumerate">
+<li id="S0.I1.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(i)</span> 
+<div id="S0.I1.i1.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Show that, <math id="S0.I1.i1.p1.m1" class="ltx_Math" alttext="f\mapsto\|f\|_{\infty}" display="inline"><mrow><mi>f</mi><mo>↦</mo><msub><mrow><mo>∥</mo><mi>f</mi><mo>∥</mo></mrow><mi mathvariant="normal">∞</mi></msub></mrow></math> is a continuous from <math id="S0.I1.i1.p1.m2" class="ltx_Math" alttext="(C([0,1]),\|\cdot\|_{\infty})" display="inline"><mrow><mo stretchy="false">(</mo><mi>C</mi><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">[</mo><mn>0,1</mn><mo stretchy="false">]</mo></mrow><mo stretchy="false">)</mo></mrow><mo>,</mo><mo>∥</mo><mo>⋅</mo><msub><mo>∥</mo><mi mathvariant="normal">∞</mi></msub><mo stretchy="false">)</mo></mrow></math> to <math id="S0.I1.i1.p1.m3" class="ltx_Math" alttext="\mathbb{R}" display="inline"><mi>ℝ</mi></math>. That is, if <math id="S0.I1.i1.p1.m4" class="ltx_Math" alttext="f_{n}\to f_{\infty}" display="inline"><mrow><msub><mi>f</mi><mi>n</mi></msub><mo>→</mo><msub><mi>f</mi><mi mathvariant="normal">∞</mi></msub></mrow></math> in the metric space <math id="S0.I1.i1.p1.m5" class="ltx_Math" alttext="(C([0,1]),\|\cdot\|_{\infty})" display="inline"><mrow><mo stretchy="false">(</mo><mi>C</mi><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">[</mo><mn>0,1</mn><mo stretchy="false">]</mo></mrow><mo stretchy="false">)</mo></mrow><mo>,</mo><mo>∥</mo><mo>⋅</mo><msub><mo>∥</mo><mi mathvariant="normal">∞</mi></msub><mo stretchy="false">)</mo></mrow></math>, then <math id="S0.I1.i1.p1.m6" class="ltx_Math" alttext="\|f_{n}\|_{\infty}\to\|f_{\infty}\|_{\infty}" display="inline"><mrow><msub><mrow><mo>∥</mo><msub><mi>f</mi><mi>n</mi></msub><mo>∥</mo></mrow><mi mathvariant="normal">∞</mi></msub><mo>→</mo><msub><mrow><mo>∥</mo><msub><mi>f</mi><mi mathvariant="normal">∞</mi></msub><mo>∥</mo></mrow><mi mathvariant="normal">∞</mi></msub></mrow></math>.</p>
+</div>
+</li>
+<li id="S0.I1.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(ii)</span> 
+<div id="S0.I1.i2.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Let <math id="S0.I1.i2.p1.m1" class="ltx_Math" alttext="(X_{n})_{n\geq 1}" display="inline"><msub><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow><mrow><mi>n</mi><mo>≥</mo><mn>1</mn></mrow></msub></math> be a sequence of i.i.d. random variables with <math id="S0.I1.i2.p1.m2" class="ltx_Math" alttext="\mathbb{P}(X_{1}=1)=\mathbb{P}(X_{1}=-1)=1/2" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><mo>=</mo><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mn>1</mn></msub><mo>=</mo><mo>-</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><mo>=</mo><mn>1</mn><mo>/</mo><mn>2</mn></mrow></math>. Define <math id="S0.I1.i2.p1.m3" class="ltx_Math" alttext="S_{0}=0" display="inline"><mrow><msub><mi>S</mi><mn>0</mn></msub><mo>=</mo><mn>0</mn></mrow></math> and <math id="S0.I1.i2.p1.m4" class="ltx_Math" alttext="S_{n}:=\sum_{i=1}^{n}X_{i}" display="inline"><mrow><msub><mi>S</mi><mi>n</mi></msub><mo>:=</mo><mrow><msubsup><mo largeop="true" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></msubsup><msub><mi>X</mi><mi>i</mi></msub></mrow></mrow></math>, <math id="S0.I1.i2.p1.m5" class="ltx_Math" alttext="n\geq 1" display="inline"><mrow><mi>n</mi><mo>≥</mo><mn>1</mn></mrow></math>.
+Set <math id="S0.I1.i2.p1.m6" class="ltx_Math" alttext="M_{n}=\max_{0\leq k\leq n}S_{k}" display="inline"><mrow><msub><mi>M</mi><mi>n</mi></msub><mo>=</mo><mrow><msub><mi>max</mi><mrow><mn>0</mn><mo>≤</mo><mi>k</mi><mo>≤</mo><mi>n</mi></mrow></msub><mo>⁡</mo><msub><mi>S</mi><mi>k</mi></msub></mrow></mrow></math>, <math id="S0.I1.i2.p1.m7" class="ltx_Math" alttext="n\geq 1" display="inline"><mrow><mi>n</mi><mo>≥</mo><mn>1</mn></mrow></math>.
+Using the Donsker’s theorem, show that <math id="S0.I1.i2.p1.m8" class="ltx_Math" alttext="\frac{M_{n}}{\sqrt{n}}\to\sup_{t\in[0,1]}B_{t}" display="inline"><mrow><mfrac><msub><mi>M</mi><mi>n</mi></msub><msqrt><mi>n</mi></msqrt></mfrac><mo>→</mo><mrow><msub><mo>sup</mo><mrow><mi>t</mi><mo>∈</mo><mrow><mo stretchy="false">[</mo><mn>0,1</mn><mo stretchy="false">]</mo></mrow></mrow></msub><mo>⁡</mo><msub><mi>B</mi><mi>t</mi></msub></mrow></mrow></math> weakly, where <math id="S0.I1.i2.p1.m9" class="ltx_Math" alttext="(B_{t})" display="inline"><mrow><mo stretchy="false">(</mo><msub><mi>B</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow></math> is a Brownian motion.</p>
+</div>
+</li>
+<li id="S0.I1.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(iii)</span> 
+<div id="S0.I1.i3.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">We accept the reflection principle of a simple random walk: for any non-negative integer <math id="S0.I1.i3.p1.m1" class="ltx_Math" alttext="a\geq 0" display="inline"><mrow><mi>a</mi><mo>≥</mo><mn>0</mn></mrow></math>, there is the identity</p>
+<table id="S0.Ex1" class="ltx_equation ltx_eqn_table">
+
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S0.Ex1.m1" class="ltx_Math" alttext="\mathbb{P}(M_{n}\geq a,S_{n}&lt;a)=\mathbb{P}(M_{n}\geq a,S_{n}&gt;a),\qquad\forall n%
+\geq 0." display="block"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><msub><mi>M</mi><mi>n</mi></msub><mo>≥</mo><mi>a</mi><mo>,</mo><msub><mi>S</mi><mi>n</mi></msub><mo>&lt;</mo><mi>a</mi><mo stretchy="false">)</mo></mrow><mo>=</mo><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><msub><mi>M</mi><mi>n</mi></msub><mo>≥</mo><mi>a</mi><mo>,</mo><msub><mi>S</mi><mi>n</mi></msub><mo>&gt;</mo><mi>a</mi><mo stretchy="false">)</mo></mrow><mo rspace="22.5pt">,</mo><mo>∀</mo><mi>n</mi><mo>≥</mo><mn>0</mn><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+</table>
+<p class="ltx_p">(In fact, we can find a one-to-one correspondence for paths in these two events.)
+Using this fact, show that</p>
+<table id="S0.Ex2" class="ltx_equation ltx_eqn_table">
+
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S0.Ex2.m1" class="ltx_Math" alttext="\mathbb{P}(M_{n}\geq a)=2\mathbb{P}(S_{n}&gt;a)+\mathbb{P}(S_{n}=a),\qquad\forall
+n%
+\geq 0." display="block"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><msub><mi>M</mi><mi>n</mi></msub><mo>≥</mo><mi>a</mi><mo stretchy="false">)</mo></mrow><mo>=</mo><mn>2</mn><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><msub><mi>S</mi><mi>n</mi></msub><mo>&gt;</mo><mi>a</mi><mo stretchy="false">)</mo></mrow><mo>+</mo><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><mi>a</mi><mo stretchy="false">)</mo></mrow><mo rspace="22.5pt">,</mo><mo>∀</mo><mi>n</mi><mo>≥</mo><mn>0</mn><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+</table>
+</div>
+</li>
+<li id="S0.I1.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(iv)</span> 
+<div id="S0.I1.i4.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Determine the law of <math id="S0.I1.i4.p1.m1" class="ltx_Math" alttext="\sup_{t\in[0,1]}B_{t}" display="inline"><mrow><msub><mo>sup</mo><mrow><mi>t</mi><mo>∈</mo><mrow><mo stretchy="false">[</mo><mn>0,1</mn><mo stretchy="false">]</mo></mrow></mrow></msub><mo>⁡</mo><msub><mi>B</mi><mi>t</mi></msub></mrow></math>, where <math id="S0.I1.i4.p1.m2" class="ltx_Math" alttext="(B_{t})" display="inline"><mrow><mo stretchy="false">(</mo><msub><mi>B</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow></math> is a Brownian motion.
+Show that <math id="S0.I1.i4.p1.m3" class="ltx_Math" alttext="\sup_{t\in[0,1]}B_{t}" display="inline"><mrow><msub><mo>sup</mo><mrow><mi>t</mi><mo>∈</mo><mrow><mo stretchy="false">[</mo><mn>0,1</mn><mo stretchy="false">]</mo></mrow></mrow></msub><mo>⁡</mo><msub><mi>B</mi><mi>t</mi></msub></mrow></math> has the same law as <math id="S0.I1.i4.p1.m4" class="ltx_Math" alttext="|Z|" display="inline"><mrow><mo stretchy="false">|</mo><mi>Z</mi><mo stretchy="false">|</mo></mrow></math>, where <math id="S0.I1.i4.p1.m5" class="ltx_Math" alttext="Z\sim\mathcal{N}(0,1)" display="inline"><mrow><mi>Z</mi><mo>∼</mo><mrow><mi class="ltx_font_mathcaligraphic">𝒩</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mn>0,1</mn><mo stretchy="false">)</mo></mrow></mrow></mrow></math>.</p>
+</div>
+</li>
+<li id="S0.I1.i5" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(v)</span> 
+<div id="S0.I1.i5.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Using the scaling property, for every <math id="S0.I1.i5.p1.m1" class="ltx_Math" alttext="t\geq 0" display="inline"><mrow><mi>t</mi><mo>≥</mo><mn>0</mn></mrow></math>, show that <math id="S0.I1.i5.p1.m2" class="ltx_Math" alttext="\sup_{s\in[0,t]}B_{s}" display="inline"><mrow><msub><mo>sup</mo><mrow><mi>s</mi><mo>∈</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mi>t</mi><mo stretchy="false">]</mo></mrow></mrow></msub><mo>⁡</mo><msub><mi>B</mi><mi>s</mi></msub></mrow></math> has the same law as <math id="S0.I1.i5.p1.m3" class="ltx_Math" alttext="|Z_{t}|" display="inline"><mrow><mo stretchy="false">|</mo><msub><mi>Z</mi><mi>t</mi></msub><mo stretchy="false">|</mo></mrow></math>, where <math id="S0.I1.i5.p1.m4" class="ltx_Math" alttext="Z_{t}\sim\mathcal{N}(0,t)" display="inline"><mrow><msub><mi>Z</mi><mi>t</mi></msub><mo>∼</mo><mrow><mi class="ltx_font_mathcaligraphic">𝒩</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math>.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="p4" class="ltx_para ltx_noindent">
+<p class="ltx_p">————–More exercises for revision ———————————————–</p>
+</div>
+<div id="Thmexercise2" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 2</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmexercise2.p1" class="ltx_para">
+<p class="ltx_p">Let <math id="Thmexercise2.p1.m1" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> be an integrable random variable. Set <math id="Thmexercise2.p1.m2" class="ltx_Math" alttext="X^{+}=X\vee 0" display="inline"><mrow><msup><mi>X</mi><mo>+</mo></msup><mo>=</mo><mrow><mi>X</mi><mo>∨</mo><mn>0</mn></mrow></mrow></math> and <math id="Thmexercise2.p1.m3" class="ltx_Math" alttext="X^{-}=-X\vee 0" display="inline"><mrow><msup><mi>X</mi><mo>-</mo></msup><mo>=</mo><mrow><mrow><mo>-</mo><mi>X</mi></mrow><mo>∨</mo><mn>0</mn></mrow></mrow></math>, such that <math id="Thmexercise2.p1.m4" class="ltx_Math" alttext="X=X^{+}-X^{-}" display="inline"><mrow><mi>X</mi><mo>=</mo><mrow><msup><mi>X</mi><mo>+</mo></msup><mo>-</mo><msup><mi>X</mi><mo>-</mo></msup></mrow></mrow></math>.</p>
+<ol id="S0.I2" class="ltx_enumerate">
+<li id="S0.I2.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(i)</span> 
+<div id="S0.I2.i1.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Show that <math id="S0.I2.i1.p1.m1" class="ltx_Math" alttext="\mathbb{E}[X^{-}\,|\,X^{+}]=-\frac{\mathbb{E}[X\mathbbm{1}_{X\leq 0}]}{\mathbb%
+{P}(X\leq 0)}\mathbbm{1}_{X^{+}=0}" display="inline"><mrow><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mpadded width="+1.7pt"><msup><mi>X</mi><mo>-</mo></msup></mpadded><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><msup><mi>X</mi><mo>+</mo></msup></mrow><mo stretchy="false">]</mo></mrow></mrow><mo>=</mo><mrow><mo>-</mo><mrow><mfrac><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mi>X</mi><mo>⁢</mo><msub><mn>𝟙</mn><mrow><mi>X</mi><mo>≤</mo><mn>0</mn></mrow></msub></mrow><mo stretchy="false">]</mo></mrow></mrow><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>≤</mo><mn>0</mn><mo stretchy="false">)</mo></mrow></mrow></mfrac><mo>⁢</mo><msub><mn>𝟙</mn><mrow><msup><mi>X</mi><mo>+</mo></msup><mo>=</mo><mn>0</mn></mrow></msub></mrow></mrow></mrow></math>.
+<br class="ltx_break"><span class="ltx_text ltx_font_bold">Hint</span>: by using the factorization lemma, we may try to find a function <math id="S0.I2.i1.p1.m2" class="ltx_Math" alttext="g" display="inline"><mi>g</mi></math> such that 
+<br class="ltx_break"><math id="S0.I2.i1.p1.m3" class="ltx_Math" alttext="\mathbb{E}[X^{-}\,|\,X^{+}]=g(X^{+})" display="inline"><mrow><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mpadded width="+1.7pt"><msup><mi>X</mi><mo>-</mo></msup></mpadded><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><msup><mi>X</mi><mo>+</mo></msup></mrow><mo stretchy="false">]</mo></mrow></mrow><mo>=</mo><mrow><mi>g</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msup><mi>X</mi><mo>+</mo></msup><mo stretchy="false">)</mo></mrow></mrow></mrow></math>.</p>
+</div>
+</li>
+<li id="S0.I2.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(ii)</span> 
+<div id="S0.I2.i2.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Determine <math id="S0.I2.i2.p1.m1" class="ltx_Math" alttext="\mathbb{E}[X\,|\,X^{+}]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mpadded width="+1.7pt"><mi>X</mi></mpadded><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><msup><mi>X</mi><mo>+</mo></msup></mrow><mo stretchy="false">]</mo></mrow></mrow></math></p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="Thmexercise3" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 3</span></span><span class="ltx_text ltx_font_bold"> </span>(Symmetric random walk)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmexercise3.p1" class="ltx_para">
+<p class="ltx_p">Let <math id="Thmexercise3.p1.m1" class="ltx_Math" alttext="(X_{n})_{n\geq 1}" display="inline"><msub><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow><mrow><mi>n</mi><mo>≥</mo><mn>1</mn></mrow></msub></math> be a sequence of i.i.d. random variables with <math id="Thmexercise3.p1.m2" class="ltx_Math" alttext="\mathbb{P}(X_{1}=1)=\mathbb{P}(X_{1}=-1)=1/2" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><mo>=</mo><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mn>1</mn></msub><mo>=</mo><mo>-</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><mo>=</mo><mn>1</mn><mo>/</mo><mn>2</mn></mrow></math>. Let <math id="Thmexercise3.p1.m3" class="ltx_Math" alttext="a,b\in\mathbb{N}" display="inline"><mrow><mrow><mi>a</mi><mo>,</mo><mi>b</mi></mrow><mo>∈</mo><mi>ℕ</mi></mrow></math> with <math id="Thmexercise3.p1.m4" class="ltx_Math" alttext="0&lt;a&lt;b" display="inline"><mrow><mn>0</mn><mo>&lt;</mo><mi>a</mi><mo>&lt;</mo><mi>b</mi></mrow></math>. Define <math id="Thmexercise3.p1.m5" class="ltx_Math" alttext="S_{0}\coloneqq a" display="inline"><mrow><msub><mi>S</mi><mn>0</mn></msub><mo>≔</mo><mi>a</mi></mrow></math> and for every <math id="Thmexercise3.p1.m6" class="ltx_Math" alttext="n\geq 1" display="inline"><mrow><mi>n</mi><mo>≥</mo><mn>1</mn></mrow></math>, <math id="Thmexercise3.p1.m7" class="ltx_Math" alttext="S_{n}\coloneqq S_{n-1}+X_{n}" display="inline"><mrow><msub><mi>S</mi><mi>n</mi></msub><mo>≔</mo><mrow><msub><mi>S</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub><mo>+</mo><msub><mi>X</mi><mi>n</mi></msub></mrow></mrow></math>. Finally, define the following stopping time:</p>
+<table id="S0.Ex3" class="ltx_equation ltx_eqn_table">
+
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S0.Ex3.m1" class="ltx_Math" alttext="T_{0}\coloneqq\inf\{n\geq 0:S_{n}=0\}\leavevmode\nobreak\ \text{and}%
+\leavevmode\nobreak\ T_{b}\coloneqq\inf\{n\geq 0:S_{n}=b\}." display="block"><mrow><mrow><msub><mi>T</mi><mn>0</mn></msub><mo>≔</mo><mrow><mo movablelimits="false">inf</mo><mo>⁡</mo><mrow><mrow><mo stretchy="false">{</mo><mrow><mi>n</mi><mo>≥</mo><mn>0</mn></mrow><mo>:</mo><mrow><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><mn>0</mn></mrow><mo rspace="7.5pt" stretchy="false">}</mo></mrow><mo>⁢</mo><mpadded width="+5pt"><mtext>and</mtext></mpadded><mo>⁢</mo><msub><mi>T</mi><mi>b</mi></msub></mrow></mrow><mo>≔</mo><mrow><mo movablelimits="false">inf</mo><mo>⁡</mo><mrow><mo stretchy="false">{</mo><mrow><mi>n</mi><mo>≥</mo><mn>0</mn></mrow><mo>:</mo><mrow><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><mi>b</mi></mrow><mo stretchy="false">}</mo></mrow></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+</table>
+<p class="ltx_p">Let <math id="Thmexercise3.p1.m8" class="ltx_Math" alttext="T=T_{0}\wedge T_{b}" display="inline"><mrow><mi>T</mi><mo>=</mo><mrow><msub><mi>T</mi><mn>0</mn></msub><mo>∧</mo><msub><mi>T</mi><mi>b</mi></msub></mrow></mrow></math>.
+</p>
+<ol id="S0.I3" class="ltx_enumerate">
+<li id="S0.I3.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(i)</span> 
+<div id="S0.I3.i1.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Deduce the values of <math id="S0.I3.i1.p1.m1" class="ltx_Math" alttext="\mathbb{P}(T_{0}&lt;T_{b})" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><msub><mi>T</mi><mn>0</mn></msub><mo>&lt;</mo><msub><mi>T</mi><mi>b</mi></msub><mo stretchy="false">)</mo></mrow></mrow></math> and <math id="S0.I3.i1.p1.m2" class="ltx_Math" alttext="\mathbb{P}(T_{0}&gt;T_{b})" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><msub><mi>T</mi><mn>0</mn></msub><mo>&gt;</mo><msub><mi>T</mi><mi>b</mi></msub><mo stretchy="false">)</mo></mrow></mrow></math>.</p>
+</div>
+</li>
+<li id="S0.I3.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(ii)</span> 
+<div id="S0.I3.i2.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Compute the value of <math id="S0.I3.i2.p1.m1" class="ltx_Math" alttext="\mathbb{E}[T]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>T</mi><mo stretchy="false">]</mo></mrow></mrow></math>.</p>
+</div>
+</li>
+<li id="S0.I3.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(iii)</span> 
+<div id="S0.I3.i3.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Show that <math id="S0.I3.i3.p1.m1" class="ltx_Math" alttext="\mathbb{P}(T_{0}&lt;\infty)=1" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><msub><mi>T</mi><mn>0</mn></msub><mo>&lt;</mo><mi mathvariant="normal">∞</mi><mo stretchy="false">)</mo></mrow><mo>=</mo><mn>1</mn></mrow></math> and <math id="S0.I3.i3.p1.m2" class="ltx_Math" alttext="\mathbb{P}(T_{b}&lt;\infty)=1" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><msub><mi>T</mi><mi>b</mi></msub><mo>&lt;</mo><mi mathvariant="normal">∞</mi><mo stretchy="false">)</mo></mrow><mo>=</mo><mn>1</mn></mrow></math>.</p>
+</div>
+</li>
+<li id="S0.I3.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(iv)</span> 
+<div id="S0.I3.i4.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">I have 20 euros initially and I play in a fair game.
+I have 2 different choices: either I always bet for 10 euros every round; or I always bet for 1 euro each round.
+I will leave the game whenever I have 100 euros or I lose all my money.
+Which one should I choose, in order to reduce my risk to lose all?</p>
+</div>
+</li>
+</ol>
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Hint:</span> you have many martingales for use. Be careful with the assumptions in optional stopping theorem.</p>
+</div>
+</div>
+<div id="Thmexercise4" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 4</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmexercise4.p1" class="ltx_para">
+<p class="ltx_p">Let <math id="Thmexercise4.p1.m1" class="ltx_Math" alttext="(P_{n})" display="inline"><mrow><mo stretchy="false">(</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow></math> be a sequence of probability measures on <math id="Thmexercise4.p1.m2" class="ltx_Math" alttext="E^{\prime}\times E^{\prime\prime}" display="inline"><mrow><msup><mi>E</mi><mo>′</mo></msup><mo>×</mo><msup><mi>E</mi><mo>′′</mo></msup></mrow></math>. Show that, <math id="Thmexercise4.p1.m3" class="ltx_Math" alttext="(P_{n})" display="inline"><mrow><mo stretchy="false">(</mo><msub><mi>P</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow></math> is tight if and only if the two sets of marginal distributions are tight are <math id="Thmexercise4.p1.m4" class="ltx_Math" alttext="E^{\prime}" display="inline"><msup><mi>E</mi><mo>′</mo></msup></math> and <math id="Thmexercise4.p1.m5" class="ltx_Math" alttext="E^{\prime\prime}" display="inline"><msup><mi>E</mi><mo>′′</mo></msup></math>.</p>
+</div>
+</div>
+<div id="Thmexercise5" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 5</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmexercise5.p1" class="ltx_para">
+<p class="ltx_p">Let <math id="Thmexercise5.p1.m1" class="ltx_Math" alttext="(B_{t},t\geq 0)" display="inline"><mrow><mo stretchy="false">(</mo><mrow><mrow><msub><mi>B</mi><mi>t</mi></msub><mo>,</mo><mi>t</mi></mrow><mo>≥</mo><mn>0</mn></mrow><mo stretchy="false">)</mo></mrow></math> be a standard Brownian motion.</p>
+<ol id="S0.I4" class="ltx_enumerate">
+<li id="S0.I4.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(i)</span> 
+<div id="S0.I4.i1.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">For an arbitrary <math id="S0.I4.i1.p1.m1" class="ltx_Math" alttext="t&gt;0" display="inline"><mrow><mi>t</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, calculate <math id="S0.I4.i1.p1.m2" class="ltx_Math" alttext="\mathbb{E}\left[B_{t}^{4}\right]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><msubsup><mi>B</mi><mi>t</mi><mn>4</mn></msubsup><mo>]</mo></mrow></mrow></math> and <math id="S0.I4.i1.p1.m3" class="ltx_Math" alttext="\mathbb{E}\left[|B_{t}|\right]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><mo stretchy="false">|</mo><msub><mi>B</mi><mi>t</mi></msub><mo stretchy="false">|</mo></mrow><mo>]</mo></mrow></mrow></math>.</p>
+</div>
+</li>
+<li id="S0.I4.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(ii)</span> 
+<div id="S0.I4.i2.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">For an arbitrary <math id="S0.I4.i2.p1.m1" class="ltx_Math" alttext="t&gt;0" display="inline"><mrow><mi>t</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, and <math id="S0.I4.i2.p1.m2" class="ltx_Math" alttext="a\in\mathbb{R}" display="inline"><mrow><mi>a</mi><mo>∈</mo><mi>ℝ</mi></mrow></math>, calculate <math id="S0.I4.i2.p1.m3" class="ltx_Math" alttext="\mathbb{E}\left[\exp(aB_{t})\right]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><mi>exp</mi><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mrow><mi>a</mi><mo>⁢</mo><msub><mi>B</mi><mi>t</mi></msub></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>]</mo></mrow></mrow></math>.
+</p>
+</div>
+</li>
+<li id="S0.I4.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(iii)</span> 
+<div id="S0.I4.i3.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Let <math id="S0.I4.i3.p1.m1" class="ltx_Math" alttext="\mathcal{F}_{1}:=\sigma(B_{s},s\in[0,1])" display="inline"><mrow><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mn>1</mn></msub><mo>:=</mo><mi>σ</mi><mrow><mo stretchy="false">(</mo><msub><mi>B</mi><mi>s</mi></msub><mo>,</mo><mi>s</mi><mo>∈</mo><mrow><mo stretchy="false">[</mo><mn>0,1</mn><mo stretchy="false">]</mo></mrow><mo stretchy="false">)</mo></mrow></mrow></math>. Calculate <math id="S0.I4.i3.p1.m2" class="ltx_Math" alttext="\mathbb{E}\left[B_{5}|\mathcal{F}_{1}\right]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><msub><mi>B</mi><mn>5</mn></msub><mo lspace="2.5pt" rspace="2.5pt" stretchy="false">|</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mn>1</mn></msub></mrow><mo>]</mo></mrow></mrow></math> and <math id="S0.I4.i3.p1.m3" class="ltx_Math" alttext="\mathbb{E}\left[B_{5}^{2}|\mathcal{F}_{1}\right]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><msubsup><mi>B</mi><mn>5</mn><mn>2</mn></msubsup><mo lspace="2.5pt" rspace="2.5pt" stretchy="false">|</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mn>1</mn></msub></mrow><mo>]</mo></mrow></mrow></math>.</p>
+</div>
+</li>
+<li id="S0.I4.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(iv)</span> 
+<div id="S0.I4.i4.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Show that <math id="S0.I4.i4.p1.m1" class="ltx_Math" alttext="\mathbb{E}\left[\Big{|}\int_{[0,1]}B_{s}/s\leavevmode\nobreak\ ds\Big{|}\right%
+]&lt;\infty" display="inline"><mrow><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><mo maxsize="160%" minsize="160%">|</mo><mrow><msub><mo largeop="true" symmetric="true">∫</mo><mrow><mo stretchy="false">[</mo><mn>0,1</mn><mo stretchy="false">]</mo></mrow></msub><mrow><mrow><msub><mi>B</mi><mi>s</mi></msub><mo>/</mo><mpadded width="+5pt"><mi>s</mi></mpadded></mrow><mo>⁢</mo><mrow><mo rspace="0pt">𝑑</mo><mi>s</mi></mrow></mrow></mrow><mo maxsize="160%" minsize="160%">|</mo></mrow><mo>]</mo></mrow></mrow><mo>&lt;</mo><mi mathvariant="normal">∞</mi></mrow></math>.</p>
+</div>
+</li>
+<li id="S0.I4.i5" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(v)</span> 
+<div id="S0.I4.i5.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Let <math id="S0.I4.i5.p1.m1" class="ltx_Math" alttext="\beta_{t}:=B_{t}-\int_{[0,t]}\frac{B_{s}}{s}ds" display="inline"><mrow><msub><mi>β</mi><mi>t</mi></msub><mo>:=</mo><mrow><msub><mi>B</mi><mi>t</mi></msub><mo>-</mo><mrow><msub><mo largeop="true" symmetric="true">∫</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mi>t</mi><mo stretchy="false">]</mo></mrow></msub><mrow><mfrac><msub><mi>B</mi><mi>s</mi></msub><mi>s</mi></mfrac><mo>⁢</mo><mrow><mo rspace="0pt">𝑑</mo><mi>s</mi></mrow></mrow></mrow></mrow></mrow></math>. Show that <math id="S0.I4.i5.p1.m2" class="ltx_Math" alttext="(\beta_{t},t\geq 0)" display="inline"><mrow><mo stretchy="false">(</mo><mrow><mrow><msub><mi>β</mi><mi>t</mi></msub><mo>,</mo><mi>t</mi></mrow><mo>≥</mo><mn>0</mn></mrow><mo stretchy="false">)</mo></mrow></math> is a Brownian motion.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</article>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Fri Mar 25 14:27:04 2022 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"></a>
+</div></footer>
+</div>
+</body>
+</html>

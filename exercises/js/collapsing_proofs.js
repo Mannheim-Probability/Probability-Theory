@@ -17,7 +17,7 @@ window.addEventListener("load", function() {
 		for(let proof of proofs) {
 			proof = changeTag(proof, "details");
 			proof_name = changeTag(proof.children[0], "summary");
-			proof_name.removeAttribute("ltx_runin");
+			proof_name.classList.remove("ltx_runin");
 		}
 	}
 

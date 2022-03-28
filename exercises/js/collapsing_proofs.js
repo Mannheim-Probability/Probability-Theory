@@ -16,7 +16,8 @@ window.addEventListener("load", function() {
 	if(proofs.size != 0){
 		for(let proof of proofs) {
 			proof = changeTag(proof, "details");
-			changeTag(proof.children[0], "summary");
+			proof_name = changeTag(proof.children[0], "summary");
+			proof_name.removeAttribute("ltx_runin");
 		}
 	}
 

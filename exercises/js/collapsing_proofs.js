@@ -1,3 +1,4 @@
+// https://stackoverflow.com/a/65090521/6662425
 function changeTag (node, tag) {
 	const clone = document.createElement(tag);
 	for (const attr of node.attributes) {
@@ -20,5 +21,4 @@ window.addEventListener("load", function() {
 			proof_name.classList.remove("ltx_runin");
 		}
 	}
-
 })

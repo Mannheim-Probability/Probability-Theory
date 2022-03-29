@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="en">
 <head>
 <title>Sheet 2</title>
-<!--Generated on Tue Mar 29 11:10:09 2022 by LaTeXML (version 0.8.5) http://dlmf.nist.gov/LaTeXML/.-->
+<!--Generated on Mon Mar 28 15:43:53 2022 by LaTeXML (version 0.8.5) http://dlmf.nist.gov/LaTeXML/.-->
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="LaTeXML.css" type="text/css">
@@ -12,14 +12,27 @@
 <body>
 <div class="ltx_page_main">
 <div class="ltx_page_content">
-<article class="ltx_document ltx_authors_1line" lang="en">
+<article class="ltx_document" lang="en">
 <h1 class="ltx_title ltx_title_document">Sheet 2</h1>
 <div class="ltx_authors">
 <span class="ltx_creator ltx_role_author">
 <span class="ltx_personname">Prof. Leif Döring, Felix Benning
 </span></span>
 </div>
-<span class="ltx_note ltx_role_course"><sup class="ltx_note_mark">†</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">†</sup><span class="ltx_note_type">course: </span>Wahrscheinlichkeitstheorie 1</span></span></span><span class="ltx_note ltx_role_semester"><sup class="ltx_note_mark">†</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">†</sup><span class="ltx_note_type">semester: </span>FSS 2022</span></span></span><span class="ltx_note ltx_role_tutorialDate"><sup class="ltx_note_mark">†</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">†</sup><span class="ltx_note_type">tutorialDate: </span>28.02.2022</span></span></span><span class="ltx_note ltx_role_dueDate"><sup class="ltx_note_mark">†</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">†</sup><span class="ltx_note_type">dueDate: </span>10:15 in the exercise on Monday 28.02.2022</span></span></span>
+
+<div id="p1" class="ltx_para ltx_noindent">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold" style="font-size:120%;">Wahrscheinlichkeitstheorie 1</span>  <span class="ltx_text ltx_font_bold" style="font-size:120%;">Universität Mannheim</span> 
+<br class="ltx_break"><span class="ltx_text" style="font-size:120%;">FSS 2022 Prof. Leif Döring, Felix Benning</span> 
+<br class="ltx_break"></p>
+</div>
+<div id="p2" class="ltx_para ltx_align_center">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold" style="font-size:144%;">Solution Sheet 2<span class="ltx_text ltx_font_medium">
+</span></span></p>
+</div>
+<div id="p3" class="ltx_para ltx_noindent">
+<p class="ltx_p">For the exercise class on the 28.02.2022.
+<br class="ltx_break">Hand in your solutions by 10:15 in the exercise on Monday 28.02.2022.</p>
+</div>
 <div id="Thmexercise1" class="ltx_theorem ltx_theorem_exercise">
 <h6 class="ltx_title ltx_runin ltx_title_theorem">
 <span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 1</span></span><span class="ltx_text ltx_font_bold">.</span>
@@ -29,30 +42,346 @@
 <ol id="S0.I1" class="ltx_enumerate">
 <li id="S0.I1.i1" class="ltx_item" style="list-style-type:none;">
 <span class="ltx_tag ltx_tag_item">(i)</span> 
-<div id="S0.I1.i1.p1" class="ltx_para ltx_noindent">
+<div id="S0.I1.i1.p1" class="ltx_para">
 <p class="ltx_p"><math id="S0.I1.i1.p1.m1" class="ltx_Math" alttext="\mathbb{E}\left[(Y-X)^{+}|X\right]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><msup><mrow><mo stretchy="false">(</mo><mrow><mi>Y</mi><mo>-</mo><mi>X</mi></mrow><mo stretchy="false">)</mo></mrow><mo>+</mo></msup><mo lspace="2.5pt" rspace="2.5pt" stretchy="false">|</mo><mi>X</mi></mrow><mo>]</mo></mrow></mrow></math>, where <math id="S0.I1.i1.p1.m2" class="ltx_Math" alttext="X,Y" display="inline"><mrow><mi>X</mi><mo>,</mo><mi>Y</mi></mrow></math> are independent uniform random variables on <math id="S0.I1.i1.p1.m3" class="ltx_Math" alttext="[0,1]" display="inline"><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">]</mo></mrow></math>.</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I1.i1.p2" class="ltx_para">
+<p class="ltx_p">Using our kernel representation we get</p>
+<table id="S0.EGx1" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex1"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex1.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}[(Y-X)^{+}\,|\,X]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mpadded width="+1.7pt"><msup><mrow><mo stretchy="false">(</mo><mrow><mi>Y</mi><mo>-</mo><mi>X</mi></mrow><mo stretchy="false">)</mo></mrow><mo>+</mo></msup></mpadded><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><mi>X</mi></mrow><mo stretchy="false">]</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex1.m2" class="ltx_Math" alttext="\displaystyle=\int(y-X)^{+}\mathbb{P}(Y\in dy\,|\,X)" display="inline"><mrow><mo>=</mo><mstyle displaystyle="true"><mo largeop="true" symmetric="true">∫</mo></mstyle><msup><mrow><mo stretchy="false">(</mo><mi>y</mi><mo>-</mo><mi>X</mi><mo stretchy="false">)</mo></mrow><mo>+</mo></msup><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>Y</mi><mo>∈</mo><mi>d</mi><mpadded width="+1.7pt"><mi>y</mi></mpadded><mo rspace="4.2pt" stretchy="false">|</mo><mi>X</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex2"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex2.m2" class="ltx_Math" alttext="\displaystyle\mathrel{\smashoperator[l]{\mathop{=}_{}^{\text{independent}}}}%
+\int(y-X)^{+}\mathbb{P}(Y\in dy)" display="inline"><mrow><mpadded width="+25.1pt"><mover><mo movablelimits="false">=</mo><mpadded lspace="-28.9pt" width="0.0pt"><mtext>independent</mtext></mpadded></mover></mpadded><mstyle displaystyle="true"><mo largeop="true" symmetric="true">∫</mo></mstyle><msup><mrow><mo stretchy="false">(</mo><mi>y</mi><mo>-</mo><mi>X</mi><mo stretchy="false">)</mo></mrow><mo>+</mo></msup><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>Y</mi><mo>∈</mo><mi>d</mi><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex3"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex3.m2" class="ltx_Math" alttext="\displaystyle=\int_{0}^{1}(y-X)^{+}dy=\int_{X}^{1}y-Xdy=\int_{0}^{1-X}sds" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><msubsup><mo largeop="true" symmetric="true">∫</mo><mn>0</mn><mn>1</mn></msubsup></mstyle><mrow><msup><mrow><mo stretchy="false">(</mo><mrow><mi>y</mi><mo>-</mo><mi>X</mi></mrow><mo stretchy="false">)</mo></mrow><mo>+</mo></msup><mo>⁢</mo><mrow><mo rspace="0pt">𝑑</mo><mi>y</mi></mrow></mrow></mrow><mo>=</mo><mrow><mrow><mstyle displaystyle="true"><msubsup><mo largeop="true" symmetric="true">∫</mo><mi>X</mi><mn>1</mn></msubsup></mstyle><mi>y</mi></mrow><mo>-</mo><mrow><mi>X</mi><mo>⁢</mo><mi>d</mi><mo>⁢</mo><mi>y</mi></mrow></mrow><mo>=</mo><mrow><mstyle displaystyle="true"><msubsup><mo largeop="true" symmetric="true">∫</mo><mn>0</mn><mrow><mn>1</mn><mo>-</mo><mi>X</mi></mrow></msubsup></mstyle><mrow><mi>s</mi><mo>⁢</mo><mrow><mo rspace="0pt">𝑑</mo><mi>s</mi></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex4"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex4.m2" class="ltx_Math" alttext="\displaystyle=\tfrac{1}{2}(1-X)^{2}\qed" display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>⁢</mo><msup><mrow><mo stretchy="false">(</mo><mrow><mn>1</mn><mo>-</mo><mi>X</mi></mrow><mo stretchy="false">)</mo></mrow><mn>2</mn></msup></mrow></mrow><mo mathvariant="italic" separator="true">∎</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+</div>
+</div>
+</li>
+<li id="S0.I1.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(ii)</span> 
+<div id="S0.I1.i2.p1" class="ltx_para">
+<p class="ltx_p"><math id="S0.I1.i2.p1.m1" class="ltx_Math" alttext="\mathbb{E}\left[X|Y\right]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><mi>X</mi><mo lspace="2.5pt" rspace="2.5pt" stretchy="false">|</mo><mi>Y</mi></mrow><mo>]</mo></mrow></mrow></math>, where <math id="S0.I1.i2.p1.m2" class="ltx_Math" alttext="(X,Y)" display="inline"><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>,</mo><mi>Y</mi><mo stretchy="false">)</mo></mrow></math> has a joint distribution with density:</p>
+<table id="S0.Ex5" class="ltx_equation ltx_eqn_table">
+
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S0.Ex5.m1" class="ltx_Math" alttext="f(x,y)=4y(x-y)e^{-(x+y)}\mathbbm{1}_{0&lt;y&lt;x}." display="block"><mrow><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mn>4</mn><mo>⁢</mo><mi>y</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></msup><mo>⁢</mo><msub><mn>𝟙</mn><mrow><mn>0</mn><mo>&lt;</mo><mi>y</mi><mo>&lt;</mo><mi>x</mi></mrow></msub></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+</table>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I1.i2.p2" class="ltx_para">
+<p class="ltx_p">We know that</p>
+<table id="S0.EGx2" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex6"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex6.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}[X\,|\,Y]=\int x\mathbb{P}(X\in dx\,|\,Y)=\int xf(x\,|%
+\,Y)dx" display="inline"><mrow><mi>𝔼</mi><mrow><mo stretchy="false">[</mo><mpadded width="+1.7pt"><mi>X</mi></mpadded><mo rspace="4.2pt" stretchy="false">|</mo><mi>Y</mi><mo stretchy="false">]</mo></mrow><mo>=</mo><mstyle displaystyle="true"><mo largeop="true" symmetric="true">∫</mo></mstyle><mi>x</mi><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>∈</mo><mi>d</mi><mpadded width="+1.7pt"><mi>x</mi></mpadded><mo rspace="4.2pt" stretchy="false">|</mo><mi>Y</mi><mo stretchy="false">)</mo></mrow><mo>=</mo><mstyle displaystyle="true"><mo largeop="true" symmetric="true">∫</mo></mstyle><mi>x</mi><mi>f</mi><mrow><mo stretchy="false">(</mo><mpadded width="+1.7pt"><mi>x</mi></mpadded><mo rspace="4.2pt" stretchy="false">|</mo><mi>Y</mi><mo stretchy="false">)</mo></mrow><mi>d</mi><mi>x</mi></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">with</p>
+<table id="S0.EGx3" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex7"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex7.m1" class="ltx_Math" alttext="\displaystyle f(x\,|\,y)=\frac{f(x,y)}{f_{Y}(y)}," display="inline"><mrow><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mpadded width="+1.7pt"><mi>x</mi></mpadded><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><mi>y</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mstyle displaystyle="true"><mfrac><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow><mrow><msub><mi>f</mi><mi>Y</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow></mfrac></mstyle></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">where</p>
+<table id="S0.EGx4" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex8"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex8.m1" class="ltx_Math" alttext="\displaystyle f_{Y}(y)" display="inline"><mrow><msub><mi>f</mi><mi>Y</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex8.m2" class="ltx_Math" alttext="\displaystyle=\int f(x,y)dx=\int 4y(x-y)e^{-(x+y)}\mathbbm{1}_{0&lt;y&lt;x}dx=\int_{%
+y}^{\infty}4y(x-y)e^{-(x+y)}dx" display="inline"><mrow><mi></mi><mo>=</mo><mstyle displaystyle="true"><mrow><mo largeop="true" symmetric="true">∫</mo><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mrow><mo rspace="0pt">𝑑</mo><mi>x</mi></mrow></mrow></mrow></mstyle><mo>=</mo><mstyle displaystyle="true"><mrow><mo largeop="true" symmetric="true">∫</mo><mrow><mn>4</mn><mo>⁢</mo><mi>y</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></msup><mo>⁢</mo><msub><mn>𝟙</mn><mrow><mn>0</mn><mo>&lt;</mo><mi>y</mi><mo>&lt;</mo><mi>x</mi></mrow></msub><mo>⁢</mo><mrow><mo rspace="0pt">𝑑</mo><mi>x</mi></mrow></mrow></mrow></mstyle><mo>=</mo><mrow><mstyle displaystyle="true"><msubsup><mo largeop="true" symmetric="true">∫</mo><mi>y</mi><mi mathvariant="normal">∞</mi></msubsup></mstyle><mrow><mn>4</mn><mo>⁢</mo><mi>y</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></msup><mo>⁢</mo><mrow><mo rspace="0pt">𝑑</mo><mi>x</mi></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex9"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex9.m2" class="ltx_Math" alttext="\displaystyle\mathrel{\smashoperator[l]{\mathop{=}_{}^{z=x-y}}}\int_{0}^{%
+\infty}4yze^{-(z+2y)}dz=4ye^{-2y}\underbrace{\int_{0}^{\infty}ze^{-z}dz}_{=%
+\Gamma(2)=1!}" display="inline"><mrow><mi></mi><mpadded width="+9.4pt"><mover><mo movablelimits="false">=</mo><mpadded lspace="-13.1pt" width="0.0pt"><mi>z</mi><mo>=</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow></mpadded></mover></mpadded><mrow><mstyle displaystyle="true"><msubsup><mo largeop="true" symmetric="true">∫</mo><mn>0</mn><mi mathvariant="normal">∞</mi></msubsup></mstyle><mrow><mn>4</mn><mo>⁢</mo><mi>y</mi><mo>⁢</mo><mi>z</mi><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mrow><mo stretchy="false">(</mo><mrow><mi>z</mi><mo>+</mo><mrow><mn>2</mn><mo>⁢</mo><mi>y</mi></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></msup><mo>⁢</mo><mrow><mo rspace="0pt">𝑑</mo><mi>z</mi></mrow></mrow></mrow><mo>=</mo><mrow><mn>4</mn><mo>⁢</mo><mi>y</mi><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mrow><mn>2</mn><mo>⁢</mo><mi>y</mi></mrow></mrow></msup><mo>⁢</mo><munder><munder accentunder="true"><mrow><mstyle displaystyle="true"><msubsup><mo largeop="true" movablelimits="false" symmetric="true">∫</mo><mn>0</mn><mi mathvariant="normal">∞</mi></msubsup></mstyle><mrow><mi>z</mi><mo movablelimits="false">⁢</mo><msup><mi>e</mi><mrow><mo movablelimits="false">-</mo><mi>z</mi></mrow></msup><mo movablelimits="false">⁢</mo><mrow><mo movablelimits="false" rspace="0pt">𝑑</mo><mi>z</mi></mrow></mrow></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mrow><mi></mi><mo>=</mo><mrow><mi mathvariant="normal">Γ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mn>2</mn><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>⁣</mo><mrow><mi></mi><mo>=</mo><mrow><mn>1</mn><mo>!</mo></mrow></mrow></mrow></munder></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex10"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex10.m2" class="ltx_Math" alttext="\displaystyle=4ye^{-2y}." display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><mn>4</mn><mo>⁢</mo><mi>y</mi><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mrow><mn>2</mn><mo>⁢</mo><mi>y</mi></mrow></mrow></msup></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">Using</p>
+<table id="S0.EGx5" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex11"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex11.m1" class="ltx_Math" alttext="\displaystyle\int xf(x,y)dx" display="inline"><mstyle displaystyle="true"><mrow><mo largeop="true" symmetric="true">∫</mo><mrow><mi>x</mi><mo>⁢</mo><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mrow><mo rspace="0pt">𝑑</mo><mi>x</mi></mrow></mrow></mrow></mstyle></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex11.m2" class="ltx_Math" alttext="\displaystyle=\int_{y}^{\infty}4xy(x-y)e^{-(x+y)}dx=\int_{0}^{\infty}4(z+y)yze%
+^{-(z+2y)}dz" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><msubsup><mo largeop="true" symmetric="true">∫</mo><mi>y</mi><mi mathvariant="normal">∞</mi></msubsup></mstyle><mrow><mn>4</mn><mo>⁢</mo><mi>x</mi><mo>⁢</mo><mi>y</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></msup><mo>⁢</mo><mrow><mo rspace="0pt">𝑑</mo><mi>x</mi></mrow></mrow></mrow><mo>=</mo><mrow><mstyle displaystyle="true"><msubsup><mo largeop="true" symmetric="true">∫</mo><mn>0</mn><mi mathvariant="normal">∞</mi></msubsup></mstyle><mrow><mn>4</mn><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>z</mi><mo>+</mo><mi>y</mi></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mi>y</mi><mo>⁢</mo><mi>z</mi><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mrow><mo stretchy="false">(</mo><mrow><mi>z</mi><mo>+</mo><mrow><mn>2</mn><mo>⁢</mo><mi>y</mi></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></msup><mo>⁢</mo><mrow><mo rspace="0pt">𝑑</mo><mi>z</mi></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex12"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex12.m2" class="ltx_Math" alttext="\displaystyle=4ye^{-2y}\int_{0}^{\infty}(z+y)ze^{-z}dz=4ye^{-2y}(\Gamma(3)+y%
+\Gamma(2))" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mn>4</mn><mo>⁢</mo><mi>y</mi><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mrow><mn>2</mn><mo>⁢</mo><mi>y</mi></mrow></mrow></msup><mo>⁢</mo><mrow><mstyle displaystyle="true"><msubsup><mo largeop="true" symmetric="true">∫</mo><mn>0</mn><mi mathvariant="normal">∞</mi></msubsup></mstyle><mrow><mrow><mo stretchy="false">(</mo><mrow><mi>z</mi><mo>+</mo><mi>y</mi></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mi>z</mi><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>z</mi></mrow></msup><mo>⁢</mo><mrow><mo rspace="0pt">𝑑</mo><mi>z</mi></mrow></mrow></mrow></mrow><mo>=</mo><mrow><mn>4</mn><mo>⁢</mo><mi>y</mi><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mrow><mn>2</mn><mo>⁢</mo><mi>y</mi></mrow></mrow></msup><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><mi mathvariant="normal">Γ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mn>3</mn><mo stretchy="false">)</mo></mrow></mrow><mo>+</mo><mrow><mi>y</mi><mo>⁢</mo><mi mathvariant="normal">Γ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mn>2</mn><mo stretchy="false">)</mo></mrow></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex13"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex13.m2" class="ltx_Math" alttext="\displaystyle=4ye^{-2y}(2+y)" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mn>4</mn><mo>⁢</mo><mi>y</mi><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mrow><mn>2</mn><mo>⁢</mo><mi>y</mi></mrow></mrow></msup><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mn>2</mn><mo>+</mo><mi>y</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">we therefore get</p>
+<table id="S0.EGx6" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex14"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex14.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}[X\,|\,Y]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mpadded width="+1.7pt"><mi>X</mi></mpadded><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><mi>Y</mi></mrow><mo stretchy="false">]</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex14.m2" class="ltx_Math" alttext="\displaystyle=\int xf(x\,|\,Y)dx=\frac{\int xf(x,Y)dx}{f_{Y}(Y)}=\frac{4Ye^{-2%
+Y}(2+Y)}{4Ye^{-2Y}}=2+Y.\qed" display="inline"><mrow><mrow><mi></mi><mo>=</mo><mstyle displaystyle="true"><mrow><mo largeop="true" symmetric="true">∫</mo><mrow><mi>x</mi><mo>⁢</mo><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mpadded width="+1.7pt"><mi>x</mi></mpadded><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><mi>Y</mi></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mrow><mo rspace="0pt">𝑑</mo><mi>x</mi></mrow></mrow></mrow></mstyle><mo>=</mo><mstyle displaystyle="true"><mfrac><mrow><mo largeop="true" symmetric="true">∫</mo><mrow><mi>x</mi><mo>⁢</mo><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><mi>Y</mi><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mrow><mo rspace="0pt">𝑑</mo><mi>x</mi></mrow></mrow></mrow><mrow><msub><mi>f</mi><mi>Y</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>Y</mi><mo stretchy="false">)</mo></mrow></mrow></mfrac></mstyle><mo>=</mo><mstyle displaystyle="true"><mfrac><mrow><mn>4</mn><mo>⁢</mo><mi>Y</mi><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mrow><mn>2</mn><mo>⁢</mo><mi>Y</mi></mrow></mrow></msup><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mn>2</mn><mo>+</mo><mi>Y</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mrow><mn>4</mn><mo>⁢</mo><mi>Y</mi><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mrow><mn>2</mn><mo>⁢</mo><mi>Y</mi></mrow></mrow></msup></mrow></mfrac></mstyle><mo>=</mo><mrow><mn>2</mn><mo>+</mo><mi>Y</mi></mrow></mrow><mo>.</mo><mo mathvariant="italic" separator="true">∎</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+</div>
+</div>
+</li>
+<li id="S0.I1.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(iii)</span> 
+<div id="S0.I1.i3.p1" class="ltx_para">
+<p class="ltx_p"><math id="S0.I1.i3.p1.m1" class="ltx_Math" alttext="\mathbb{E}\left[X|X+Y\right]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><mi>X</mi><mo lspace="2.5pt" rspace="2.5pt" stretchy="false">|</mo><mrow><mi>X</mi><mo>+</mo><mi>Y</mi></mrow></mrow><mo>]</mo></mrow></mrow></math>, where <math id="S0.I1.i3.p1.m2" class="ltx_Math" alttext="X,Y" display="inline"><mrow><mi>X</mi><mo>,</mo><mi>Y</mi></mrow></math> are independent Poisson random variables
+with parameters <math id="S0.I1.i3.p1.m3" class="ltx_Math" alttext="\lambda" display="inline"><mi>λ</mi></math> and <math id="S0.I1.i3.p1.m4" class="ltx_Math" alttext="\mu" display="inline"><mi>μ</mi></math> respectively.</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I1.i3.p2" class="ltx_para">
+<p class="ltx_p">Since <math id="S0.I1.i3.p2.m1" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> and <math id="S0.I1.i3.p2.m2" class="ltx_Math" alttext="Y" display="inline"><mi>Y</mi></math> are both Poission we are in the discrete setting.
+So first, we want to compute the conditional probability:</p>
+<table id="S0.EGx7" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex15"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex15.m1" class="ltx_Math" alttext="\displaystyle\mathbb{P}(X=x\,|\,X+Y=z)=\frac{\mathbb{P}(X=x,\&gt;X+Y=z)}{\mathbb{%
+P}(X+Y=z)}." display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>=</mo><mpadded width="+1.7pt"><mi>x</mi></mpadded><mo rspace="4.2pt" stretchy="false">|</mo><mi>X</mi><mo>+</mo><mi>Y</mi><mo>=</mo><mi>z</mi><mo stretchy="false">)</mo></mrow><mo>=</mo><mstyle displaystyle="true"><mfrac><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>=</mo><mi>x</mi><mo rspace="4.7pt">,</mo><mi>X</mi><mo>+</mo><mi>Y</mi><mo>=</mo><mi>z</mi><mo stretchy="false">)</mo></mrow></mrow><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>+</mo><mi>Y</mi><mo>=</mo><mi>z</mi><mo stretchy="false">)</mo></mrow></mrow></mfrac></mstyle><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">Let us calculate each part separately. Starting with the nominator, we get:</p>
+<table id="S0.EGx8" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex16"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex16.m1" class="ltx_Math" alttext="\displaystyle\mathbb{P}(X=k,\&gt;X+Y=z)" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>=</mo><mi>k</mi><mo rspace="4.7pt">,</mo><mi>X</mi><mo>+</mo><mi>Y</mi><mo>=</mo><mi>z</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex16.m2" class="ltx_Math" alttext="\displaystyle=\mathbb{P}(X=x,\&gt;Y=z-x)" display="inline"><mrow><mo>=</mo><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>=</mo><mi>x</mi><mo rspace="4.7pt">,</mo><mi>Y</mi><mo>=</mo><mi>z</mi><mo>-</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex17"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex17.m2" class="ltx_Math" alttext="\displaystyle=\frac{\lambda^{x}e^{-\lambda}}{x!}\cdot\frac{\mu^{z-x}e^{-\mu}}{%
+(z-x)!}\mathbbm{1}_{z\geq x}" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mrow><mstyle displaystyle="true"><mfrac><mrow><msup><mi>λ</mi><mi>x</mi></msup><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>λ</mi></mrow></msup></mrow><mrow><mi>x</mi><mo>!</mo></mrow></mfrac></mstyle><mo>⋅</mo><mstyle displaystyle="true"><mfrac><mrow><msup><mi>μ</mi><mrow><mi>z</mi><mo>-</mo><mi>x</mi></mrow></msup><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>μ</mi></mrow></msup></mrow><mrow><mrow><mo stretchy="false">(</mo><mrow><mi>z</mi><mo>-</mo><mi>x</mi></mrow><mo stretchy="false">)</mo></mrow><mo>!</mo></mrow></mfrac></mstyle></mrow><mo>⁢</mo><msub><mn>𝟙</mn><mrow><mi>z</mi><mo>≥</mo><mi>x</mi></mrow></msub></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">For the denominator we can use the results from Stochastics 1, that <math id="S0.I1.i3.p2.m3" class="ltx_Math" alttext="X+Y\sim\text{Poi}(\lambda+\mu)" display="inline"><mrow><mrow><mi>X</mi><mo>+</mo><mi>Y</mi></mrow><mo>∼</mo><mrow><mtext>Poi</mtext><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>λ</mi><mo>+</mo><mi>μ</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math>.
+In case, you have not seen it so far, the calculation below shows the claim from Sto1:</p>
+<table id="S0.EGx9" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex18"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex18.m1" class="ltx_Math" alttext="\displaystyle\mathbb{P}(X+Y=z)" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>+</mo><mi>Y</mi><mo>=</mo><mi>z</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex18.m2" class="ltx_Math" alttext="\displaystyle=\sum_{x\in\mathbb{N}_{0}}\mathbb{P}(X=x,\&gt;Y=z-x)" display="inline"><mrow><mo>=</mo><mstyle displaystyle="true"><munder><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>x</mi><mo>∈</mo><msub><mi>ℕ</mi><mn>0</mn></msub></mrow></munder></mstyle><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>=</mo><mi>x</mi><mo rspace="4.7pt">,</mo><mi>Y</mi><mo>=</mo><mi>z</mi><mo>-</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex19"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex19.m2" class="ltx_Math" alttext="\displaystyle=\sum_{x=0}^{z}\frac{\lambda^{x}e^{-\lambda}}{x!}\cdot\frac{\mu^{%
+z-x}e^{-\mu}}{(z-x)!}" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow><mi>z</mi></munderover></mstyle><mrow><mstyle displaystyle="true"><mfrac><mrow><msup><mi>λ</mi><mi>x</mi></msup><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>λ</mi></mrow></msup></mrow><mrow><mi>x</mi><mo>!</mo></mrow></mfrac></mstyle><mo>⋅</mo><mstyle displaystyle="true"><mfrac><mrow><msup><mi>μ</mi><mrow><mi>z</mi><mo>-</mo><mi>x</mi></mrow></msup><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>μ</mi></mrow></msup></mrow><mrow><mrow><mo stretchy="false">(</mo><mrow><mi>z</mi><mo>-</mo><mi>x</mi></mrow><mo stretchy="false">)</mo></mrow><mo>!</mo></mrow></mfrac></mstyle></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex20"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex20.m2" class="ltx_Math" alttext="\displaystyle=\frac{e^{-(\lambda+\mu)}}{z!}\underbrace{\sum_{x=0}^{z}\frac{z!}%
+{x!(z-x)!}\mu^{z-x}\lambda^{x}}_{=(\mu+\lambda)^{z}}" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><mfrac><msup><mi>e</mi><mrow><mo>-</mo><mrow><mo stretchy="false">(</mo><mrow><mi>λ</mi><mo>+</mo><mi>μ</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></msup><mrow><mi>z</mi><mo>!</mo></mrow></mfrac></mstyle><mo>⁢</mo><munder><munder accentunder="true"><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>x</mi><mo movablelimits="false">=</mo><mn>0</mn></mrow><mi>z</mi></munderover></mstyle><mrow><mstyle displaystyle="true"><mfrac><mrow><mi>z</mi><mo movablelimits="false">!</mo></mrow><mrow><mrow><mi>x</mi><mo movablelimits="false">!</mo></mrow><mo movablelimits="false">⁢</mo><mrow><mrow><mo movablelimits="false" stretchy="false">(</mo><mrow><mi>z</mi><mo movablelimits="false">-</mo><mi>x</mi></mrow><mo movablelimits="false" stretchy="false">)</mo></mrow><mo movablelimits="false">!</mo></mrow></mrow></mfrac></mstyle><mo movablelimits="false">⁢</mo><msup><mi>μ</mi><mrow><mi>z</mi><mo movablelimits="false">-</mo><mi>x</mi></mrow></msup><mo movablelimits="false">⁢</mo><msup><mi>λ</mi><mi>x</mi></msup></mrow></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>=</mo><msup><mrow><mo stretchy="false">(</mo><mrow><mi>μ</mi><mo>+</mo><mi>λ</mi></mrow><mo stretchy="false">)</mo></mrow><mi>z</mi></msup></mrow></munder></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex21"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex21.m2" class="ltx_Math" alttext="\displaystyle=\frac{(\mu+\lambda)^{z}}{z!}e^{-(\lambda+\mu)}" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><mfrac><msup><mrow><mo stretchy="false">(</mo><mrow><mi>μ</mi><mo>+</mo><mi>λ</mi></mrow><mo stretchy="false">)</mo></mrow><mi>z</mi></msup><mrow><mi>z</mi><mo>!</mo></mrow></mfrac></mstyle><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mrow><mo stretchy="false">(</mo><mrow><mi>λ</mi><mo>+</mo><mi>μ</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></msup></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">Now we can calculate the conditional expectation <math id="S0.I1.i3.p2.m4" class="ltx_Math" alttext="\mathbb{E}\left[X|X+Y\right]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><mi>X</mi><mo lspace="2.5pt" rspace="2.5pt" stretchy="false">|</mo><mrow><mi>X</mi><mo>+</mo><mi>Y</mi></mrow></mrow><mo>]</mo></mrow></mrow></math>:</p>
+<table id="S0.EGx10" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex22"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex22.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}\left[X|X+Y\right]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><mi>X</mi><mo lspace="2.5pt" rspace="2.5pt" stretchy="false">|</mo><mrow><mi>X</mi><mo>+</mo><mi>Y</mi></mrow></mrow><mo>]</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex22.m2" class="ltx_Math" alttext="\displaystyle=\sum_{x\in\mathbb{N}_{0}}x\cdot\mathbb{P}(X=x\,|\,X+Y=z)" display="inline"><mrow><mo>=</mo><mstyle displaystyle="true"><munder><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>x</mi><mo>∈</mo><msub><mi>ℕ</mi><mn>0</mn></msub></mrow></munder></mstyle><mi>x</mi><mo>⋅</mo><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>=</mo><mpadded width="+1.7pt"><mi>x</mi></mpadded><mo rspace="4.2pt" stretchy="false">|</mo><mi>X</mi><mo>+</mo><mi>Y</mi><mo>=</mo><mi>z</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex23"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex23.m2" class="ltx_Math" alttext="\displaystyle=\sum_{x=0}^{z}x\frac{\frac{\lambda^{x}e^{-\lambda}}{x!}\frac{\mu%
+^{z-x}e^{-\mu}}{(z-x)!}}{\frac{(\mu+\lambda)^{z}}{z!}e^{-(\lambda+\mu)}}" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow><mi>z</mi></munderover></mstyle><mrow><mi>x</mi><mo>⁢</mo><mstyle displaystyle="true"><mfrac><mrow><mfrac><mrow><msup><mi>λ</mi><mi>x</mi></msup><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>λ</mi></mrow></msup></mrow><mrow><mi>x</mi><mo>!</mo></mrow></mfrac><mo>⁢</mo><mfrac><mrow><msup><mi>μ</mi><mrow><mi>z</mi><mo>-</mo><mi>x</mi></mrow></msup><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>μ</mi></mrow></msup></mrow><mrow><mrow><mo stretchy="false">(</mo><mrow><mi>z</mi><mo>-</mo><mi>x</mi></mrow><mo stretchy="false">)</mo></mrow><mo>!</mo></mrow></mfrac></mrow><mrow><mfrac><msup><mrow><mo stretchy="false">(</mo><mrow><mi>μ</mi><mo>+</mo><mi>λ</mi></mrow><mo stretchy="false">)</mo></mrow><mi>z</mi></msup><mrow><mi>z</mi><mo>!</mo></mrow></mfrac><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mrow><mo stretchy="false">(</mo><mrow><mi>λ</mi><mo>+</mo><mi>μ</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></msup></mrow></mfrac></mstyle></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex24"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex24.m2" class="ltx_Math" alttext="\displaystyle=\frac{\lambda}{(\mu+\lambda)^{z}}\sum_{x=0}^{z}\left(\frac{d}{d%
+\lambda}\lambda^{x}\right)\mu^{z-x}\frac{z!}{x!(z-x)!}" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><mfrac><mi>λ</mi><msup><mrow><mo stretchy="false">(</mo><mrow><mi>μ</mi><mo>+</mo><mi>λ</mi></mrow><mo stretchy="false">)</mo></mrow><mi>z</mi></msup></mfrac></mstyle><mo>⁢</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow><mi>z</mi></munderover></mstyle><mrow><mrow><mo>(</mo><mrow><mstyle displaystyle="true"><mfrac><mi>d</mi><mrow><mi>d</mi><mo>⁢</mo><mi>λ</mi></mrow></mfrac></mstyle><mo>⁢</mo><msup><mi>λ</mi><mi>x</mi></msup></mrow><mo>)</mo></mrow><mo>⁢</mo><msup><mi>μ</mi><mrow><mi>z</mi><mo>-</mo><mi>x</mi></mrow></msup><mo>⁢</mo><mstyle displaystyle="true"><mfrac><mrow><mi>z</mi><mo>!</mo></mrow><mrow><mrow><mi>x</mi><mo>!</mo></mrow><mo>⁢</mo><mrow><mrow><mo stretchy="false">(</mo><mrow><mi>z</mi><mo>-</mo><mi>x</mi></mrow><mo stretchy="false">)</mo></mrow><mo>!</mo></mrow></mrow></mfrac></mstyle></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex25"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex25.m2" class="ltx_Math" alttext="\displaystyle=\frac{\lambda}{(\mu+\lambda)^{z}}\frac{d}{d\lambda}\underbrace{%
+\sum_{x=0}^{z}\lambda^{x}\mu^{z-x}\binom{z}{x}}_{=(\lambda+\mu)^{z}}" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><mfrac><mi>λ</mi><msup><mrow><mo stretchy="false">(</mo><mrow><mi>μ</mi><mo>+</mo><mi>λ</mi></mrow><mo stretchy="false">)</mo></mrow><mi>z</mi></msup></mfrac></mstyle><mo>⁢</mo><mstyle displaystyle="true"><mfrac><mi>d</mi><mrow><mi>d</mi><mo>⁢</mo><mi>λ</mi></mrow></mfrac></mstyle><mo>⁢</mo><munder><munder accentunder="true"><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>x</mi><mo movablelimits="false">=</mo><mn>0</mn></mrow><mi>z</mi></munderover></mstyle><mrow><msup><mi>λ</mi><mi>x</mi></msup><mo movablelimits="false">⁢</mo><msup><mi>μ</mi><mrow><mi>z</mi><mo movablelimits="false">-</mo><mi>x</mi></mrow></msup><mo movablelimits="false">⁢</mo><mrow><mo movablelimits="false">(</mo><mstyle displaystyle="true"><mfrac linethickness="0pt"><mi>z</mi><mi>x</mi></mfrac></mstyle><mo movablelimits="false">)</mo></mrow></mrow></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>=</mo><msup><mrow><mo stretchy="false">(</mo><mrow><mi>λ</mi><mo>+</mo><mi>μ</mi></mrow><mo stretchy="false">)</mo></mrow><mi>z</mi></msup></mrow></munder></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex26"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex26.m2" class="ltx_Math" alttext="\displaystyle=\frac{\lambda\cdot z}{\mu+\lambda}" display="inline"><mrow><mi></mi><mo>=</mo><mstyle displaystyle="true"><mfrac><mrow><mi>λ</mi><mo>⋅</mo><mi>z</mi></mrow><mrow><mi>μ</mi><mo>+</mo><mi>λ</mi></mrow></mfrac></mstyle></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">Thus, we can conclude that <math id="S0.I1.i3.p2.m5" class="ltx_Math" alttext="\mathbb{E}\left[X|X+Y\right]=\frac{\lambda}{\lambda+\mu}(X+Y)" display="inline"><mrow><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><mi>X</mi><mo lspace="2.5pt" rspace="2.5pt" stretchy="false">|</mo><mrow><mi>X</mi><mo>+</mo><mi>Y</mi></mrow></mrow><mo>]</mo></mrow></mrow><mo>=</mo><mrow><mfrac><mi>λ</mi><mrow><mi>λ</mi><mo>+</mo><mi>μ</mi></mrow></mfrac><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>X</mi><mo>+</mo><mi>Y</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math>.
+∎</p>
+</div>
+</div>
+</li>
+</ol>
+</div>
 </div>
 <div id="Thmexercise2" class="ltx_theorem ltx_theorem_exercise">
 <h6 class="ltx_title ltx_runin ltx_title_theorem">
 <span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 2</span></span><span class="ltx_text ltx_font_bold"> </span>((Sub-/Super-)Martingales)<span class="ltx_text ltx_font_bold">.</span>
 </h6>
-<div id="Thmexercise2.p1" class="ltx_para">
-<ol id="S0.I1.i1.I1" class="ltx_enumerate">
-<li id="S0.I1.i1.I1.i1" class="ltx_item" style="list-style-type:none;">
-<span class="ltx_tag ltx_tag_item">(a)</span> 
-<div id="S0.I1.i1.I1.i1.p1" class="ltx_para ltx_noindent">
+<div id="Thmexercise2.p1" class="ltx_para ltx_noindent">
+<ol id="S0.I2" class="ltx_enumerate">
+<li id="S0.I2.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(i)</span> 
+<div id="S0.I2.i1.p1" class="ltx_para">
 <p class="ltx_p">The (sub-/super-)martingale property holds over several time steps, i.e.</p>
-<table id="S0.EGx1" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+<table id="S0.EGx11" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
 
-<tbody id="S0.Ex1"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<tbody id="S0.Ex27"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
 <td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
-<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex1.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}[X_{m}\,|\,\mathcal{F}_{n}]\begin{cases}=X_{n}&amp;\text{%
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex27.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}[X_{m}\,|\,\mathcal{F}_{n}]\begin{cases}=X_{n}&amp;\text{%
 martingale}\\
 \leq X_{n}&amp;\text{supermartingale}\\
 \geq X_{n}&amp;\text{submartingale}\end{cases}\quad\forall m\geq n" display="inline"><mrow><mrow><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mpadded width="+1.7pt"><msub><mi>X</mi><mi>m</mi></msub></mpadded><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow><mo stretchy="false">]</mo></mrow><mo>⁢</mo><mrow><mo>{</mo><mtable columnspacing="5pt" rowspacing="0pt"><mtr><mtd columnalign="left"><mrow><mi></mi><mo>=</mo><msub><mi>X</mi><mi>n</mi></msub></mrow></mtd><mtd columnalign="left"><mtext>martingale</mtext></mtd></mtr><mtr><mtd columnalign="left"><mrow><mi></mi><mo>≤</mo><msub><mi>X</mi><mi>n</mi></msub></mrow></mtd><mtd columnalign="left"><mtext>supermartingale</mtext></mtd></mtr><mtr><mtd columnalign="left"><mrow><mi></mi><mo>≥</mo><msub><mi>X</mi><mi>n</mi></msub></mrow></mtd><mtd columnalign="left"><mtext>submartingale</mtext></mtd></mtr></mtable></mrow></mrow><mo mathvariant="italic" separator="true"> </mo><mrow><mo>∀</mo><mi>m</mi></mrow></mrow><mo>≥</mo><mi>n</mi></mrow></math></td>
 <td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
 </tr></tbody>
 </table>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I2.i1.p2" class="ltx_para">
+<p class="ltx_p">We use induction over <math id="S0.I2.i1.p2.m1" class="ltx_Math" alttext="m" display="inline"><mi>m</mi></math> with induction start <math id="S0.I2.i1.p2.m2" class="ltx_Math" alttext="n" display="inline"><mi>n</mi></math>, so assuming
+the statement holds for <math id="S0.I2.i1.p2.m3" class="ltx_Math" alttext="m" display="inline"><mi>m</mi></math> we have for <math id="S0.I2.i1.p2.m4" class="ltx_Math" alttext="m+1" display="inline"><mrow><mi>m</mi><mo>+</mo><mn>1</mn></mrow></math></p>
+<table id="S0.EGx12" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex28"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex28.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}[X_{m+1}\,|\,\mathcal{F}_{n}]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mpadded width="+1.7pt"><msub><mi>X</mi><mrow><mi>m</mi><mo>+</mo><mn>1</mn></mrow></msub></mpadded><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow><mo stretchy="false">]</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex28.m2" class="ltx_Math" alttext="\displaystyle=\mathbb{E}[\mathbb{E}[X_{m+1}\,|\,\mathcal{F}_{m}]\,|\,\mathcal{%
+F}_{n}]\lesseqgtr\mathbb{E}[X_{m}\,|\,\mathcal{F}_{n}]\lesseqgtr X_{n}.\qed" display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mpadded width="+1.7pt"><msub><mi>X</mi><mrow><mi>m</mi><mo>+</mo><mn>1</mn></mrow></msub></mpadded><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>m</mi></msub></mrow><mo rspace="4.2pt" stretchy="false">]</mo></mrow></mrow><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow><mo stretchy="false">]</mo></mrow></mrow><mo>⋚</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mpadded width="+1.7pt"><msub><mi>X</mi><mi>m</mi></msub></mpadded><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow><mo stretchy="false">]</mo></mrow></mrow><mo>⋚</mo><msub><mi>X</mi><mi>n</mi></msub></mrow><mo>.</mo><mo mathvariant="italic" separator="true">∎</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+</div>
+</div>
+</li>
+<li id="S0.I2.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(ii)</span> 
+<div id="S0.I2.i2.p1" class="ltx_para">
+<p class="ltx_p">Expectation increase/decrease/stay-constant, i.e.
+</p>
+<table id="S0.EGx13" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex29"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex29.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}[X_{m}]\begin{cases}=\mathbb{E}[X_{n}]&amp;\text{martingale%
+}\\
+\leq\mathbb{E}[X_{n}]&amp;\text{supermartingale}\\
+\geq\mathbb{E}[X_{n}]&amp;\text{submartingale}\end{cases}\quad\forall m\geq n" display="inline"><mrow><mrow><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mi>m</mi></msub><mo stretchy="false">]</mo></mrow><mo>⁢</mo><mrow><mo>{</mo><mtable columnspacing="5pt" rowspacing="0pt"><mtr><mtd columnalign="left"><mrow><mi></mi><mo>=</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mi>n</mi></msub><mo stretchy="false">]</mo></mrow></mrow></mrow></mtd><mtd columnalign="left"><mtext>martingale</mtext></mtd></mtr><mtr><mtd columnalign="left"><mrow><mi></mi><mo>≤</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mi>n</mi></msub><mo stretchy="false">]</mo></mrow></mrow></mrow></mtd><mtd columnalign="left"><mtext>supermartingale</mtext></mtd></mtr><mtr><mtd columnalign="left"><mrow><mi></mi><mo>≥</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mi>n</mi></msub><mo stretchy="false">]</mo></mrow></mrow></mrow></mtd><mtd columnalign="left"><mtext>submartingale</mtext></mtd></mtr></mtable></mrow></mrow><mo mathvariant="italic" separator="true"> </mo><mrow><mo>∀</mo><mi>m</mi></mrow></mrow><mo>≥</mo><mi>n</mi></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I2.i2.p2" class="ltx_para">
+<p class="ltx_p">Simply taking the expectation over the previous result yields the claim.
+∎</p>
+</div>
+</div>
+</li>
+<li id="S0.I2.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(iii)</span> 
+<div id="S0.I2.i3.p1" class="ltx_para">
+<p class="ltx_p"><math id="S0.I2.i3.p1.m1" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> is a supermartingale iff <math id="S0.I2.i3.p1.m2" class="ltx_Math" alttext="-X" display="inline"><mrow><mo>-</mo><mi>X</mi></mrow></math> is a submartingale.</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I2.i3.p2" class="ltx_para">
+<p class="ltx_p">Adapted and <math id="S0.I2.i3.p2.m1" class="ltx_Math" alttext="\mathbb{E}[|X_{n}|]&lt;\infty" display="inline"><mrow><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mo stretchy="false">|</mo><msub><mi>X</mi><mi>n</mi></msub><mo stretchy="false">|</mo></mrow><mo stretchy="false">]</mo></mrow></mrow><mo>&lt;</mo><mi mathvariant="normal">∞</mi></mrow></math> follows from both statements. So
+let <math id="S0.I2.i3.p2.m2" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> be a supermartingale, then we have</p>
+<table id="S0.EGx14" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex30"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex30.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}[-X_{n+1}\,|\,\mathcal{F}_{n}]=-\underbrace{\mathbb{E}[%
+X_{n+1}\,|\,\mathcal{F}_{n}]}_{\leq X_{n}}\geq-X_{n}" display="inline"><mrow><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mo>-</mo><mrow><mpadded width="+1.7pt"><msub><mi>X</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub></mpadded><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow></mrow><mo stretchy="false">]</mo></mrow></mrow><mo>=</mo><mrow><mo>-</mo><munder><munder accentunder="true"><mrow><mi>𝔼</mi><mo movablelimits="false">⁢</mo><mrow><mo movablelimits="false" stretchy="false">[</mo><mrow><mpadded width="+1.7pt"><msub><mi>X</mi><mrow><mi>n</mi><mo movablelimits="false">+</mo><mn>1</mn></mrow></msub></mpadded><mo lspace="2.5pt" movablelimits="false" rspace="4.2pt" stretchy="false">|</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow><mo movablelimits="false" stretchy="false">]</mo></mrow></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>≤</mo><msub><mi>X</mi><mi>n</mi></msub></mrow></munder></mrow><mo>≥</mo><mrow><mo>-</mo><msub><mi>X</mi><mi>n</mi></msub></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">therefore <math id="S0.I2.i3.p2.m3" class="ltx_Math" alttext="-X" display="inline"><mrow><mo>-</mo><mi>X</mi></mrow></math> is a submartingale. The opposite direction is analogous.
+∎</p>
+</div>
+</div>
+</li>
+</ol>
+</div>
 </div>
 <div id="Thmexercise3" class="ltx_theorem ltx_theorem_exercise">
 <h6 class="ltx_title ltx_runin ltx_title_theorem">
@@ -61,11 +390,11 @@ martingale}\\
 <div id="Thmexercise3.p1" class="ltx_para">
 <p class="ltx_p">Prove that for two random variables <math id="Thmexercise3.p1.m1" class="ltx_Math" alttext="X,Y" display="inline"><mrow><mi>X</mi><mo>,</mo><mi>Y</mi></mrow></math> and an increasing
 <math id="Thmexercise3.p1.m2" class="ltx_Math" alttext="h:[0,\infty)\to[0,\infty)" display="inline"><mrow><mi>h</mi><mo>:</mo><mrow><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mi mathvariant="normal">∞</mi><mo stretchy="false">)</mo></mrow><mo>→</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mi mathvariant="normal">∞</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math> we have for any <math id="Thmexercise3.p1.m3" class="ltx_Math" alttext="\epsilon&gt;0" display="inline"><mrow><mi>ϵ</mi><mo>&gt;</mo><mn>0</mn></mrow></math></p>
-<table id="S0.EGx2" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+<table id="S0.EGx15" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
 
-<tbody id="S0.Ex2"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<tbody id="S0.Ex31"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
 <td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
-<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex2.m1" class="ltx_Math" alttext="\displaystyle\mathbb{P}(|X|\geq\epsilon\,|\,Y)\leq\frac{\mathbb{E}[h(|X|)\,|\,%
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex31.m1" class="ltx_Math" alttext="\displaystyle\mathbb{P}(|X|\geq\epsilon\,|\,Y)\leq\frac{\mathbb{E}[h(|X|)\,|\,%
 Y]}{h(\epsilon)}\quad\text{a.s.}" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mo stretchy="false">|</mo><mi>X</mi><mo stretchy="false">|</mo><mo>≥</mo><mpadded width="+1.7pt"><mi>ϵ</mi></mpadded><mo rspace="4.2pt" stretchy="false">|</mo><mi>Y</mi><mo stretchy="false">)</mo></mrow><mo>≤</mo><mstyle displaystyle="true"><mfrac><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mrow><mi>h</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">|</mo><mi>X</mi><mo stretchy="false">|</mo></mrow><mo rspace="4.2pt" stretchy="false">)</mo></mrow></mrow><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><mi>Y</mi></mrow><mo stretchy="false">]</mo></mrow></mrow><mrow><mi>h</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>ϵ</mi><mo stretchy="false">)</mo></mrow></mrow></mfrac></mstyle><mo mathvariant="italic" separator="true"> </mo><mtext>a.s.</mtext></mrow></math></td>
 <td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
 </tr></tbody>
@@ -80,36 +409,289 @@ Y]}{h(\epsilon)}\quad\text{a.s.}" display="inline"><mrow><mi>ℙ</mi><mrow><mo s
 a random variable <math id="Thmremarkx1.p1.m1" class="ltx_Math" alttext="Y" display="inline"><mi>Y</mi></math>.</span></p>
 </div>
 </div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="Thmexercise3.p2" class="ltx_para">
+<p class="ltx_p">Simply using monotonicity of conditional expectation we get</p>
+<table id="S0.EGx16" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex32"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex32.m1" class="ltx_Math" alttext="\displaystyle\mathbb{P}(|X|\geq\epsilon\,|\,Y)" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mo stretchy="false">|</mo><mi>X</mi><mo stretchy="false">|</mo><mo>≥</mo><mpadded width="+1.7pt"><mi>ϵ</mi></mpadded><mo rspace="4.2pt" stretchy="false">|</mo><mi>Y</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex32.m2" class="ltx_Math" alttext="\displaystyle=\mathbb{E}[\mathbbm{1}_{|X|\geq\epsilon}\,|\,Y]\leq\mathbb{E}[%
+\mathbbm{1}_{h(|X|)\geq h(\epsilon)}\,|\,Y]\leq\mathbb{E}\left[\frac{h(|X|)}{h%
+(\epsilon)}\mathbbm{1}_{h(|X|)\geq h(\epsilon)}\,|\,Y\right]" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mpadded width="+1.7pt"><msub><mn>𝟙</mn><mrow><mrow><mo stretchy="false">|</mo><mi>X</mi><mo stretchy="false">|</mo></mrow><mo>≥</mo><mi>ϵ</mi></mrow></msub></mpadded><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><mi>Y</mi></mrow><mo stretchy="false">]</mo></mrow></mrow><mo>≤</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mpadded width="+1.7pt"><msub><mn>𝟙</mn><mrow><mrow><mi>h</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">|</mo><mi>X</mi><mo stretchy="false">|</mo></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>≥</mo><mrow><mi>h</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>ϵ</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></msub></mpadded><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><mi>Y</mi></mrow><mo stretchy="false">]</mo></mrow></mrow><mo>≤</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><mrow><mstyle displaystyle="true"><mfrac><mrow><mi>h</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">|</mo><mi>X</mi><mo stretchy="false">|</mo></mrow><mo stretchy="false">)</mo></mrow></mrow><mrow><mi>h</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>ϵ</mi><mo stretchy="false">)</mo></mrow></mrow></mfrac></mstyle><mo>⁢</mo><mpadded width="+1.7pt"><msub><mn>𝟙</mn><mrow><mrow><mi>h</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">|</mo><mi>X</mi><mo stretchy="false">|</mo></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>≥</mo><mrow><mi>h</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>ϵ</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></msub></mpadded></mrow><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><mi>Y</mi></mrow><mo>]</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex33"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex33.m2" class="ltx_Math" alttext="\displaystyle\leq\frac{\mathbb{E}[h(|X|)\,|\,Y]}{h(\epsilon)}.\qed" display="inline"><mrow><mrow><mi></mi><mo>≤</mo><mstyle displaystyle="true"><mfrac><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mrow><mi>h</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">|</mo><mi>X</mi><mo stretchy="false">|</mo></mrow><mo rspace="4.2pt" stretchy="false">)</mo></mrow></mrow><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><mi>Y</mi></mrow><mo stretchy="false">]</mo></mrow></mrow><mrow><mi>h</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>ϵ</mi><mo stretchy="false">)</mo></mrow></mrow></mfrac></mstyle></mrow><mo>.</mo><mo mathvariant="italic" separator="true">∎</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+</div>
+</div>
+</div>
 <div id="Thmexercise4" class="ltx_theorem ltx_theorem_exercise">
 <h6 class="ltx_title ltx_runin ltx_title_theorem">
 <span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 4</span></span><span class="ltx_text ltx_font_bold">.</span>
 </h6>
-<div id="Thmexercise4.p1" class="ltx_para ltx_noindent">
+<div id="Thmexercise4.p1" class="ltx_para">
 <p class="ltx_p">Let <math id="Thmexercise4.p1.m1" class="ltx_Math" alttext="X,Y" display="inline"><mrow><mi>X</mi><mo>,</mo><mi>Y</mi></mrow></math> be independent with standard normal distribution
 <math id="Thmexercise4.p1.m2" class="ltx_Math" alttext="\mathcal{N}(0,1)" display="inline"><mrow><mi class="ltx_font_mathcaligraphic">𝒩</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></mrow></math>. Show that, for any <math id="Thmexercise4.p1.m3" class="ltx_Math" alttext="z\in\mathbb{R}" display="inline"><mrow><mi>z</mi><mo>∈</mo><mi>ℝ</mi></mrow></math>, the conditional
 distribution <math id="Thmexercise4.p1.m4" class="ltx_Math" alttext="\mathbb{P}(X\in\cdot\,|\,X+Y=z)" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>∈</mo><mo rspace="4.2pt">⋅</mo><mo rspace="4.2pt" stretchy="false">|</mo><mi>X</mi><mo>+</mo><mi>Y</mi><mo>=</mo><mi>z</mi><mo stretchy="false">)</mo></mrow></mrow></math> is <math id="Thmexercise4.p1.m5" class="ltx_Math" alttext="\mathcal{N}(z/2,1/2)" display="inline"><mrow><mi class="ltx_font_mathcaligraphic">𝒩</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>z</mi><mo>/</mo><mn>2</mn></mrow><mo>,</mo><mrow><mn>1</mn><mo>/</mo><mn>2</mn></mrow><mo stretchy="false">)</mo></mrow></mrow></math>.</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="Thmexercise4.p2" class="ltx_para">
+<p class="ltx_p">We know that</p>
+<table id="S0.EGx17" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex34"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex34.m1" class="ltx_Math" alttext="\displaystyle\begin{pmatrix}X\\
+X+Y\end{pmatrix}=\underbrace{\begin{pmatrix}1&amp;0\\
+1&amp;1\end{pmatrix}}_{=:A}\begin{pmatrix}X\\
+Y\end{pmatrix}\sim\mathcal{N}(0,\Sigma)," display="inline"><mrow><mrow><mrow><mo>(</mo><mtable rowspacing="0pt"><mtr><mtd columnalign="center"><mi>X</mi></mtd></mtr><mtr><mtd columnalign="center"><mrow><mi>X</mi><mo>+</mo><mi>Y</mi></mrow></mtd></mtr></mtable><mo>)</mo></mrow><mo>=</mo><mrow><munder><munder accentunder="true"><mrow><mo movablelimits="false">(</mo><mtable columnspacing="5pt" rowspacing="0pt"><mtr><mtd columnalign="center"><mn>1</mn></mtd><mtd columnalign="center"><mn>0</mn></mtd></mtr><mtr><mtd columnalign="center"><mn>1</mn></mtd><mtd columnalign="center"><mn>1</mn></mtd></mtr></mtable><mo movablelimits="false">)</mo></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mo>=</mo><mo>⁣</mo><mrow><mi></mi><mo>:</mo><mi>A</mi></mrow></mrow></munder><mo>⁢</mo><mrow><mo>(</mo><mtable rowspacing="0pt"><mtr><mtd columnalign="center"><mi>X</mi></mtd></mtr><mtr><mtd columnalign="center"><mi>Y</mi></mtd></mtr></mtable><mo>)</mo></mrow></mrow><mo>∼</mo><mrow><mi class="ltx_font_mathcaligraphic">𝒩</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mi mathvariant="normal">Σ</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">with</p>
+<table id="S0.EGx18" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex35"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex35.m1" class="ltx_Math" alttext="\displaystyle\Sigma=AA^{T}=\begin{pmatrix}1&amp;1\\
+1&amp;2\end{pmatrix}." display="inline"><mrow><mrow><mi mathvariant="normal">Σ</mi><mo>=</mo><mrow><mi>A</mi><mo>⁢</mo><msup><mi>A</mi><mi>T</mi></msup></mrow><mo>=</mo><mrow><mo>(</mo><mtable columnspacing="5pt" rowspacing="0pt"><mtr><mtd columnalign="center"><mn>1</mn></mtd><mtd columnalign="center"><mn>1</mn></mtd></mtr><mtr><mtd columnalign="center"><mn>1</mn></mtd><mtd columnalign="center"><mn>2</mn></mtd></mtr></mtable><mo>)</mo></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">With</p>
+<table id="S0.EGx19" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex36"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex36.m1" class="ltx_Math" alttext="\displaystyle\det(\Sigma)=2-1=1\quad\text{and}\quad\Sigma^{-1}=\begin{pmatrix}%
+2&amp;-1\\
+-1&amp;1\end{pmatrix}" display="inline"><mrow><mrow><mrow><mo movablelimits="false">det</mo><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mi mathvariant="normal">Σ</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mn>2</mn><mo>-</mo><mn>1</mn></mrow><mo>=</mo><mn>1</mn></mrow><mo mathvariant="italic" separator="true"> </mo><mrow><mrow><mtext>and</mtext><mo mathvariant="italic" separator="true"> </mo><msup><mi mathvariant="normal">Σ</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><mo>=</mo><mrow><mo>(</mo><mtable columnspacing="5pt" rowspacing="0pt"><mtr><mtd columnalign="center"><mn>2</mn></mtd><mtd columnalign="center"><mrow><mo>-</mo><mn>1</mn></mrow></mtd></mtr><mtr><mtd columnalign="center"><mrow><mo>-</mo><mn>1</mn></mrow></mtd><mtd columnalign="center"><mn>1</mn></mtd></mtr></mtable><mo>)</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">we can write the density of this vector explicitly</p>
+<table id="S0.EGx20" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex37"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex37.m1" class="ltx_Math" alttext="\displaystyle f(x,z)" display="inline"><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><mi>z</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex37.m2" class="ltx_Math" alttext="\displaystyle=\det(2\pi\Sigma)^{-\tfrac{1}{2}}\exp\left(-\tfrac{1}{2}\begin{%
+pmatrix}x&amp;z\end{pmatrix}\Sigma^{-1}\begin{pmatrix}x\\
+z\end{pmatrix}\right)" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mo movablelimits="false">det</mo><mo>⁡</mo><mrow><msup><mrow><mo stretchy="false">(</mo><mrow><mn>2</mn><mo>⁢</mo><mi>π</mi><mo>⁢</mo><mi mathvariant="normal">Σ</mi></mrow><mo stretchy="false">)</mo></mrow><mrow><mo>-</mo><mstyle scriptlevel="-1"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle></mrow></msup><mo>⁢</mo><mrow><mi>exp</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mo>-</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>⁢</mo><mrow><mo>(</mo><mtable columnspacing="5pt"><mtr><mtd columnalign="center"><mi>x</mi></mtd><mtd columnalign="center"><mi>z</mi></mtd></mtr></mtable><mo>)</mo></mrow><mo>⁢</mo><msup><mi mathvariant="normal">Σ</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>⁢</mo><mrow><mo>(</mo><mtable rowspacing="0pt"><mtr><mtd columnalign="center"><mi>x</mi></mtd></mtr><mtr><mtd columnalign="center"><mi>z</mi></mtd></mtr></mtable><mo>)</mo></mrow></mrow></mrow><mo>)</mo></mrow></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex38"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex38.m2" class="ltx_Math" alttext="\displaystyle=[(2\pi)^{2}\det(\Sigma)]^{-\tfrac{1}{2}}\exp\left(-\tfrac{1}{2}%
+\begin{pmatrix}2x-z&amp;-x+z\end{pmatrix}\begin{pmatrix}x\\
+z\end{pmatrix}\right)" display="inline"><mrow><mi></mi><mo>=</mo><mrow><msup><mrow><mo stretchy="false">[</mo><mrow><msup><mrow><mo stretchy="false">(</mo><mrow><mn>2</mn><mo>⁢</mo><mi>π</mi></mrow><mo stretchy="false">)</mo></mrow><mn>2</mn></msup><mo>⁢</mo><mrow><mo movablelimits="false">det</mo><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mi mathvariant="normal">Σ</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo stretchy="false">]</mo></mrow><mrow><mo>-</mo><mstyle scriptlevel="-1"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle></mrow></msup><mo>⁢</mo><mrow><mi>exp</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mo>-</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>⁢</mo><mrow><mo>(</mo><mtable columnspacing="5pt"><mtr><mtd columnalign="center"><mrow><mrow><mn>2</mn><mo>⁢</mo><mi>x</mi></mrow><mo>-</mo><mi>z</mi></mrow></mtd><mtd columnalign="center"><mrow><mrow><mo>-</mo><mi>x</mi></mrow><mo>+</mo><mi>z</mi></mrow></mtd></mtr></mtable><mo>)</mo></mrow><mo>⁢</mo><mrow><mo>(</mo><mtable rowspacing="0pt"><mtr><mtd columnalign="center"><mi>x</mi></mtd></mtr><mtr><mtd columnalign="center"><mi>z</mi></mtd></mtr></mtable><mo>)</mo></mrow></mrow></mrow><mo>)</mo></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex39"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex39.m2" class="ltx_Math" alttext="\displaystyle=\tfrac{1}{|2\pi|}\exp(-\tfrac{1}{2}(2x^{2}-zx-xz+z^{2}))." display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><mfrac><mn>1</mn><mrow><mo stretchy="false">|</mo><mrow><mn>2</mn><mo>⁢</mo><mi>π</mi></mrow><mo stretchy="false">|</mo></mrow></mfrac><mo>⁢</mo><mrow><mi>exp</mi><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mrow><mo>-</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><mrow><mn>2</mn><mo>⁢</mo><msup><mi>x</mi><mn>2</mn></msup></mrow><mo>-</mo><mrow><mi>z</mi><mo>⁢</mo><mi>x</mi></mrow><mo>-</mo><mrow><mi>x</mi><mo>⁢</mo><mi>z</mi></mrow></mrow><mo>+</mo><msup><mi>z</mi><mn>2</mn></msup></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">Lastly we have <math id="Thmexercise4.p2.m1" class="ltx_Math" alttext="X+Y\sim\mathcal{N}(0,2)" display="inline"><mrow><mrow><mi>X</mi><mo>+</mo><mi>Y</mi></mrow><mo>∼</mo><mrow><mi class="ltx_font_mathcaligraphic">𝒩</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mn>2</mn><mo stretchy="false">)</mo></mrow></mrow></mrow></math> and therefore the marginal density
+is</p>
+<table id="S0.EGx21" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex40"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex40.m1" class="ltx_Math" alttext="\displaystyle f_{X+Y}(z)=\tfrac{1}{\sqrt{4\pi}}\exp(-\tfrac{z^{2}}{4})." display="inline"><mrow><mrow><mrow><msub><mi>f</mi><mrow><mi>X</mi><mo>+</mo><mi>Y</mi></mrow></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>z</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mfrac><mn>1</mn><msqrt><mrow><mn>4</mn><mo>⁢</mo><mi>π</mi></mrow></msqrt></mfrac><mo>⁢</mo><mrow><mi>exp</mi><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mrow><mo>-</mo><mfrac><msup><mi>z</mi><mn>2</mn></msup><mn>4</mn></mfrac></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">This allows us to calculate the conditional density</p>
+<table id="S0.EGx22" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex41"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex41.m1" class="ltx_Math" alttext="\displaystyle f_{X|X+Y}(x|z)" display="inline"><mrow><msub><mi>f</mi><mrow><mi>X</mi><mo lspace="2.5pt" rspace="2.5pt" stretchy="false">|</mo><mrow><mi>X</mi><mo>+</mo><mi>Y</mi></mrow></mrow></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo lspace="2.5pt" rspace="2.5pt" stretchy="false">|</mo><mi>z</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex41.m2" class="ltx_Math" alttext="\displaystyle=\frac{f(x,z)}{f_{X+Y}(z)}=\frac{\sqrt{4\pi}}{2\pi}\exp(-\tfrac{1%
+}{2}(2x^{2}-2zx+z^{2})+\tfrac{z^{2}}{4})" display="inline"><mrow><mi></mi><mo>=</mo><mstyle displaystyle="true"><mfrac><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><mi>z</mi><mo stretchy="false">)</mo></mrow></mrow><mrow><msub><mi>f</mi><mrow><mi>X</mi><mo>+</mo><mi>Y</mi></mrow></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>z</mi><mo stretchy="false">)</mo></mrow></mrow></mfrac></mstyle><mo>=</mo><mrow><mstyle displaystyle="true"><mfrac><msqrt><mrow><mn>4</mn><mo>⁢</mo><mi>π</mi></mrow></msqrt><mrow><mn>2</mn><mo>⁢</mo><mi>π</mi></mrow></mfrac></mstyle><mo>⁢</mo><mrow><mi>exp</mi><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><mo>-</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><mrow><mn>2</mn><mo>⁢</mo><msup><mi>x</mi><mn>2</mn></msup></mrow><mo>-</mo><mrow><mn>2</mn><mo>⁢</mo><mi>z</mi><mo>⁢</mo><mi>x</mi></mrow></mrow><mo>+</mo><msup><mi>z</mi><mn>2</mn></msup></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>+</mo><mfrac><msup><mi>z</mi><mn>2</mn></msup><mn>4</mn></mfrac></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex42"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex42.m2" class="ltx_Math" alttext="\displaystyle=\frac{1}{\sqrt{\pi}}\exp(-\tfrac{1}{2}(2x^{2}-2zx+\tfrac{1}{2}z^%
+{2}))" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><mfrac><mn>1</mn><msqrt><mi>π</mi></msqrt></mfrac></mstyle><mo>⁢</mo><mrow><mi>exp</mi><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mrow><mo>-</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><mrow><mn>2</mn><mo>⁢</mo><msup><mi>x</mi><mn>2</mn></msup></mrow><mo>-</mo><mrow><mn>2</mn><mo>⁢</mo><mi>z</mi><mo>⁢</mo><mi>x</mi></mrow></mrow><mo>+</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>⁢</mo><msup><mi>z</mi><mn>2</mn></msup></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex43"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex43.m2" class="ltx_Math" alttext="\displaystyle=\frac{1}{\sqrt{\pi}}\exp\left(-(x^{2}-2\tfrac{z}{2}x+\tfrac{1}{4%
+}z^{2})\right)" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><mfrac><mn>1</mn><msqrt><mi>π</mi></msqrt></mfrac></mstyle><mo>⁢</mo><mrow><mi>exp</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mo>-</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mrow><mn>2</mn><mo>⁢</mo><mfrac><mi>z</mi><mn>2</mn></mfrac><mo>⁢</mo><mi>x</mi></mrow></mrow><mo>+</mo><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>⁢</mo><msup><mi>z</mi><mn>2</mn></msup></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>)</mo></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex44"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex44.m2" class="ltx_Math" alttext="\displaystyle=\frac{1}{\sqrt{\pi}}\exp\left(-(x-\tfrac{z}{2})^{2}\right)." display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><mfrac><mn>1</mn><msqrt><mi>π</mi></msqrt></mfrac></mstyle><mo>⁢</mo><mrow><mi>exp</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mo>-</mo><msup><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo>-</mo><mfrac><mi>z</mi><mn>2</mn></mfrac></mrow><mo stretchy="false">)</mo></mrow><mn>2</mn></msup></mrow><mo>)</mo></mrow></mrow></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">Which finally implies <math id="Thmexercise4.p2.m2" class="ltx_Math" alttext="\mathbb{P}(X\in\cdot\,|\,X+Y)\sim\mathcal{N}(\tfrac{z}{2},\tfrac{1}{2})" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>∈</mo><mo rspace="4.2pt">⋅</mo><mo rspace="4.2pt" stretchy="false">|</mo><mi>X</mi><mo>+</mo><mi>Y</mi><mo stretchy="false">)</mo></mrow><mo>∼</mo><mi class="ltx_font_mathcaligraphic">𝒩</mi><mrow><mo stretchy="false">(</mo><mfrac><mi>z</mi><mn>2</mn></mfrac><mo>,</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy="false">)</mo></mrow></mrow></math>.
+∎</p>
+</div>
+</div>
 </div>
 <div id="Thmexercise5" class="ltx_theorem ltx_theorem_exercise">
 <h6 class="ltx_title ltx_runin ltx_title_theorem">
 <span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 5</span></span><span class="ltx_text ltx_font_bold"> </span>(Stopping Times)<span class="ltx_text ltx_font_bold">.</span>
 </h6>
 <div id="Thmexercise5.p1" class="ltx_para">
-<ol id="S0.I1.i1.I1.i1.I1" class="ltx_enumerate">
-<li id="S0.I1.i1.I1.i1.I1.i1" class="ltx_item" style="list-style-type:none;">
-<span class="ltx_tag ltx_tag_item">(I)</span> 
-<div id="S0.I1.i1.I1.i1.I1.i1.p1" class="ltx_para ltx_noindent">
-<p class="ltx_p">Suppose <math id="S0.I1.i1.I1.i1.I1.i1.p1.m1" class="ltx_Math" alttext="T_{1},T_{2},\dots" display="inline"><mrow><msub><mi>T</mi><mn>1</mn></msub><mo>,</mo><msub><mi>T</mi><mn>2</mn></msub><mo>,</mo><mi mathvariant="normal">…</mi></mrow></math> are <math id="S0.I1.i1.I1.i1.I1.i1.p1.m2" class="ltx_Math" alttext="(\mathcal{F}_{n})" display="inline"><mrow><mo stretchy="false">(</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow></math>-stopping times. Prove that
-<math id="S0.I1.i1.I1.i1.I1.i1.p1.m3" class="ltx_Math" alttext="\inf_{k\in\mathbb{N}}T_{k}" display="inline"><mrow><msub><mo>inf</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><mo>⁡</mo><msub><mi>T</mi><mi>k</mi></msub></mrow></math>, <math id="S0.I1.i1.I1.i1.I1.i1.p1.m4" class="ltx_Math" alttext="\sup_{k\in\mathbb{N}}T_{k}" display="inline"><mrow><msub><mo>sup</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><mo>⁡</mo><msub><mi>T</mi><mi>k</mi></msub></mrow></math>, <math id="S0.I1.i1.I1.i1.I1.i1.p1.m5" class="ltx_Math" alttext="\liminf_{k\to\infty}T_{k}" display="inline"><mrow><msub><mo>lim inf</mo><mrow><mi>k</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></msub><mo>⁡</mo><msub><mi>T</mi><mi>k</mi></msub></mrow></math> and
-<math id="S0.I1.i1.I1.i1.I1.i1.p1.m6" class="ltx_Math" alttext="\limsup_{k\to\infty}T_{k}" display="inline"><mrow><msub><mo>lim sup</mo><mrow><mi>k</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></msub><mo>⁡</mo><msub><mi>T</mi><mi>k</mi></msub></mrow></math> are stopping times.</p>
+<ol id="S0.I3" class="ltx_enumerate">
+<li id="S0.I3.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(i)</span> 
+<div id="S0.I3.i1.p1" class="ltx_para">
+<p class="ltx_p">Suppose <math id="S0.I3.i1.p1.m1" class="ltx_Math" alttext="T_{1},T_{2},\dots" display="inline"><mrow><msub><mi>T</mi><mn>1</mn></msub><mo>,</mo><msub><mi>T</mi><mn>2</mn></msub><mo>,</mo><mi mathvariant="normal">…</mi></mrow></math> are <math id="S0.I3.i1.p1.m2" class="ltx_Math" alttext="(\mathcal{F}_{n})" display="inline"><mrow><mo stretchy="false">(</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow></math>-stopping times. Prove that
+<math id="S0.I3.i1.p1.m3" class="ltx_Math" alttext="\inf_{k\in\mathbb{N}}T_{k}" display="inline"><mrow><msub><mo>inf</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><mo>⁡</mo><msub><mi>T</mi><mi>k</mi></msub></mrow></math>, <math id="S0.I3.i1.p1.m4" class="ltx_Math" alttext="\sup_{k\in\mathbb{N}}T_{k}" display="inline"><mrow><msub><mo>sup</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><mo>⁡</mo><msub><mi>T</mi><mi>k</mi></msub></mrow></math>, <math id="S0.I3.i1.p1.m5" class="ltx_Math" alttext="\liminf_{k\to\infty}T_{k}" display="inline"><mrow><msub><mo>lim inf</mo><mrow><mi>k</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></msub><mo>⁡</mo><msub><mi>T</mi><mi>k</mi></msub></mrow></math> and
+<math id="S0.I3.i1.p1.m6" class="ltx_Math" alttext="\limsup_{k\to\infty}T_{k}" display="inline"><mrow><msub><mo>lim sup</mo><mrow><mi>k</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></msub><mo>⁡</mo><msub><mi>T</mi><mi>k</mi></msub></mrow></math> are stopping times.</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I3.i1.p2" class="ltx_para">
+<p class="ltx_p"><math id="S0.I3.i1.p2.m1" class="ltx_Math" alttext="S" display="inline"><mi>S</mi></math> is a stopping time, iff <math id="S0.I3.i1.p2.m2" class="ltx_Math" alttext="\{S\leq n\}\in\mathcal{F}_{n}\}" display="inline"><mrow><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub><mo stretchy="false">}</mo></mrow></math>. So we just need to
+check this definition in every case:</p>
+<ol id="S0.I3.i1.I1" class="ltx_enumerate">
+<li id="S0.I3.i1.I1.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(a)</span> 
+<div id="S0.I3.i1.I1.i1.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p"><math id="S0.I3.i1.I1.i1.p1.m1" class="ltx_Math" alttext="\{\inf_{k\in\mathbb{N}}T_{k}\leq n\}=\bigcup_{k\in\mathbb{N}}\{T_{k}\leq n\}%
+\in\mathcal{F}_{n}" display="inline"><mrow><mrow><mo stretchy="false">{</mo><msub><mo>inf</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><msub><mi>T</mi><mi>k</mi></msub><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>=</mo><msub><mo largeop="true" mathsize="160%" stretchy="false" symmetric="true">⋃</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><mrow><mo stretchy="false">{</mo><msub><mi>T</mi><mi>k</mi></msub><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow></math></p>
+</div>
+</li>
+<li id="S0.I3.i1.I1.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(b)</span> 
+<div id="S0.I3.i1.I1.i2.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p"><math id="S0.I3.i1.I1.i2.p1.m1" class="ltx_Math" alttext="\{\sup_{k\in\mathbb{N}}T_{k}\leq n\}=\bigcap_{k\in\mathbb{N}}\{T_{k}\leq n\}%
+\in\mathcal{F}_{n}" display="inline"><mrow><mrow><mo stretchy="false">{</mo><msub><mo>sup</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><msub><mi>T</mi><mi>k</mi></msub><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>=</mo><msub><mo largeop="true" mathsize="160%" stretchy="false" symmetric="true">⋂</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><mrow><mo stretchy="false">{</mo><msub><mi>T</mi><mi>k</mi></msub><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow></math></p>
+</div>
+</li>
+<li id="S0.I3.i1.I1.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(c)</span> 
+<div id="S0.I3.i1.I1.i3.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p"><math id="S0.I3.i1.I1.i3.p1.m1" class="ltx_Math" alttext="\{\liminf_{k\in\mathbb{N}}T_{k}\leq n\}=\{\lim_{k}\inf_{j\geq k}T_{j}\leq n\}=%
+\bigcap_{k\in\mathbb{N}}\{\inf_{j\geq k}T_{j}\leq n\}\in\mathcal{F}_{n}" display="inline"><mrow><mrow><mo stretchy="false">{</mo><msub><mo>lim inf</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><msub><mi>T</mi><mi>k</mi></msub><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>=</mo><mrow><mo stretchy="false">{</mo><msub><mo>lim</mo><mi>k</mi></msub><msub><mo>inf</mo><mrow><mi>j</mi><mo>≥</mo><mi>k</mi></mrow></msub><msub><mi>T</mi><mi>j</mi></msub><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>=</mo><msub><mo largeop="true" mathsize="160%" stretchy="false" symmetric="true">⋂</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><mrow><mo stretchy="false">{</mo><msub><mo>inf</mo><mrow><mi>j</mi><mo>≥</mo><mi>k</mi></mrow></msub><msub><mi>T</mi><mi>j</mi></msub><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow></math></p>
+</div>
+</li>
+<li id="S0.I3.i1.I1.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(d)</span> 
+<div id="S0.I3.i1.I1.i4.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p"><math id="S0.I3.i1.I1.i4.p1.m1" class="ltx_Math" alttext="\{\limsup_{k\in\mathbb{N}}T_{k}\leq n\}=\{\lim_{k}\sup_{j\geq k}T_{j}\leq n\}=%
+\bigcup_{k\in\mathbb{N}}\{\sup_{j\geq k}T_{j}\leq n\}\in\mathcal{F}_{n}" display="inline"><mrow><mrow><mo stretchy="false">{</mo><msub><mo>lim sup</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><msub><mi>T</mi><mi>k</mi></msub><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>=</mo><mrow><mo stretchy="false">{</mo><msub><mo>lim</mo><mi>k</mi></msub><msub><mo>sup</mo><mrow><mi>j</mi><mo>≥</mo><mi>k</mi></mrow></msub><msub><mi>T</mi><mi>j</mi></msub><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>=</mo><msub><mo largeop="true" mathsize="160%" stretchy="false" symmetric="true">⋃</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><mrow><mo stretchy="false">{</mo><msub><mo>sup</mo><mrow><mi>j</mi><mo>≥</mo><mi>k</mi></mrow></msub><msub><mi>T</mi><mi>j</mi></msub><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow></math>
+∎</p>
 </div>
 </li>
 </ol>
 </div>
 </div>
+</li>
+<li id="S0.I3.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(ii)</span> 
+<div id="S0.I3.i2.p1" class="ltx_para">
+<p class="ltx_p">Suppose <math id="S0.I3.i2.p1.m1" class="ltx_Math" alttext="T,S" display="inline"><mrow><mi>T</mi><mo>,</mo><mi>S</mi></mrow></math> are <math id="S0.I3.i2.p1.m2" class="ltx_Math" alttext="\mathcal{F}_{n}" display="inline"><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></math> stopping times.
+Prove <math id="S0.I3.i2.p1.m3" class="ltx_Math" alttext="\{S\leq T\}\in\mathcal{F}_{S\wedge T}" display="inline"><mrow><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>≤</mo><mi>T</mi><mo stretchy="false">}</mo></mrow><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mrow><mi>S</mi><mo>∧</mo><mi>T</mi></mrow></msub></mrow></math> and <math id="S0.I3.i2.p1.m4" class="ltx_Math" alttext="\{S=T\}\in\mathcal{F}_{S\wedge T}" display="inline"><mrow><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>=</mo><mi>T</mi><mo stretchy="false">}</mo></mrow><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mrow><mi>S</mi><mo>∧</mo><mi>T</mi></mrow></msub></mrow></math>.</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I3.i2.p2" class="ltx_para">
+<p class="ltx_p">To prove <math id="S0.I3.i2.p2.m1" class="ltx_Math" alttext="A\in\mathcal{F}_{S\wedge T}" display="inline"><mrow><mi>A</mi><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mrow><mi>S</mi><mo>∧</mo><mi>T</mi></mrow></msub></mrow></math> one needs to prove <math id="S0.I3.i2.p2.m2" class="ltx_Math" alttext="A\cap\{S\wedge T\leq n\}\in\mathcal{F}_{n}" display="inline"><mrow><mi>A</mi><mo>∩</mo><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>∧</mo><mi>T</mi><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow></math>,
+so</p>
+<table id="S0.EGx23" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex45"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex45.m1" class="ltx_Math" alttext="\displaystyle\{S\leq T\}\cap\{S\wedge T\leq n\}" display="inline"><mrow><mi mathvariant="normal">{</mi><mi>S</mi><mo>≤</mo><mi>T</mi><mo stretchy="false">}</mo><mo>∩</mo><mo stretchy="false">{</mo><mi>S</mi><mo>∧</mo><mi>T</mi><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex45.m2" class="ltx_Math" alttext="\displaystyle=\left[\{S\leq n,S\leq T\}\cup\{S&gt;n,S\leq T\}\right]\cap\{S\wedge
+T%
+\leq n\}" display="inline"><mrow><mo>=</mo><mrow><mo>[</mo><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>≤</mo><mi>n</mi><mo>,</mo><mi>S</mi><mo>≤</mo><mi>T</mi><mo stretchy="false">}</mo></mrow><mo>∪</mo><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>&gt;</mo><mi>n</mi><mo>,</mo><mi>S</mi><mo>≤</mo><mi>T</mi><mo stretchy="false">}</mo></mrow><mo>]</mo></mrow><mo>∩</mo><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>∧</mo><mi>T</mi><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex46"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex46.m2" class="ltx_Math" alttext="\displaystyle=\left[\bigcup_{k=0}^{n}\{S\leq k\leq T\}\cup\{S&gt;n,S\leq T\}%
+\right]\cap\{S\wedge T\leq n\}" display="inline"><mrow><mo>=</mo><mrow><mo>[</mo><mstyle displaystyle="true"><munderover><mo largeop="true" mathsize="160%" movablelimits="false" stretchy="false" symmetric="true">⋃</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mi>n</mi></munderover></mstyle><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>≤</mo><mi>k</mi><mo>≤</mo><mi>T</mi><mo stretchy="false">}</mo></mrow><mo>∪</mo><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>&gt;</mo><mi>n</mi><mo>,</mo><mi>S</mi><mo>≤</mo><mi>T</mi><mo stretchy="false">}</mo></mrow><mo>]</mo></mrow><mo>∩</mo><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>∧</mo><mi>T</mi><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex47"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex47.m2" class="ltx_Math" alttext="\displaystyle=\bigcup_{k=0}^{n}\{S\leq k\leq T\}\cup\underbrace{\{S\geq n,S%
+\leq T,S\wedge T\leq n\}}_{=\emptyset}" display="inline"><mrow><mo>=</mo><mstyle displaystyle="true"><munderover><mo largeop="true" mathsize="160%" movablelimits="false" stretchy="false" symmetric="true">⋃</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mi>n</mi></munderover></mstyle><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>≤</mo><mi>k</mi><mo>≤</mo><mi>T</mi><mo stretchy="false">}</mo></mrow><mo>∪</mo><munder><munder accentunder="true"><mrow><mo movablelimits="false" stretchy="false">{</mo><mrow><mrow><mi>S</mi><mo movablelimits="false">≥</mo><mi>n</mi></mrow><mo movablelimits="false">,</mo><mrow><mrow><mi>S</mi><mo movablelimits="false">≤</mo><mi>T</mi></mrow><mo movablelimits="false">,</mo><mrow><mrow><mi>S</mi><mo movablelimits="false">∧</mo><mi>T</mi></mrow><mo movablelimits="false">≤</mo><mi>n</mi></mrow></mrow></mrow><mo movablelimits="false" stretchy="false">}</mo></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>=</mo><mi mathvariant="normal">∅</mi></mrow></munder></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex48"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex48.m2" class="ltx_Math" alttext="\displaystyle=\bigcup_{k=0}^{n}\Big{[}\underbrace{\{S\leq k\}}_{\in\mathcal{F}%
+_{k}\subseteq\mathcal{F}_{n}}\cap\underbrace{\{k\leq T\}}_{\in\mathcal{F}_{k}%
+\subseteq\mathcal{F}_{n}}\Big{]}\in\mathcal{F}_{n}" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" mathsize="160%" movablelimits="false" stretchy="false" symmetric="true">⋃</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mi>n</mi></munderover></mstyle><mrow><mo maxsize="160%" minsize="160%">[</mo><mrow><munder><munder accentunder="true"><mrow><mo movablelimits="false" stretchy="false">{</mo><mrow><mi>S</mi><mo movablelimits="false">≤</mo><mi>k</mi></mrow><mo movablelimits="false" stretchy="false">}</mo></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mrow><mi></mi><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>k</mi></msub></mrow><mo>⁣</mo><mrow><mi></mi><mo>⊆</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow></mrow></munder><mo>∩</mo><munder><munder accentunder="true"><mrow><mo movablelimits="false" stretchy="false">{</mo><mrow><mi>k</mi><mo movablelimits="false">≤</mo><mi>T</mi></mrow><mo movablelimits="false" stretchy="false">}</mo></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mrow><mi></mi><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>k</mi></msub></mrow><mo>⁣</mo><mrow><mi></mi><mo>⊆</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow></mrow></munder></mrow><mo maxsize="160%" minsize="160%">]</mo></mrow></mrow><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">Similarly we have <math id="S0.I3.i2.p2.m3" class="ltx_Math" alttext="\{T\leq S\}\in\mathcal{F}_{S\wedge T}" display="inline"><mrow><mrow><mo stretchy="false">{</mo><mi>T</mi><mo>≤</mo><mi>S</mi><mo stretchy="false">}</mo></mrow><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mrow><mi>S</mi><mo>∧</mo><mi>T</mi></mrow></msub></mrow></math>, therefore their intersection
+<math id="S0.I3.i2.p2.m4" class="ltx_Math" alttext="\{S=T\}" display="inline"><mrow><mo stretchy="false">{</mo><mrow><mi>S</mi><mo>=</mo><mi>T</mi></mrow><mo stretchy="false">}</mo></mrow></math> is also in <math id="S0.I3.i2.p2.m5" class="ltx_Math" alttext="\mathcal{F}_{S\wedge T}" display="inline"><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mrow><mi>S</mi><mo>∧</mo><mi>T</mi></mrow></msub></math>.
+∎</p>
 </div>
 </div>
 </li>
-</ol>
+<li id="S0.I3.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(iii)</span> 
+<div id="S0.I3.i3.p1" class="ltx_para">
+<p class="ltx_p">(Last Hitting Time is no Stopping Time in General) Consider the
+stochastic process <math id="S0.I3.i3.p1.m1" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> defined by <math id="S0.I3.i3.p1.m2" class="ltx_Math" alttext="X_{0}=0" display="inline"><mrow><msub><mi>X</mi><mn>0</mn></msub><mo>=</mo><mn>0</mn></mrow></math>, <math id="S0.I3.i3.p1.m3" class="ltx_Math" alttext="X_{1}\sim\mathcal{U}(\{0,1\})" display="inline"><mrow><msub><mi>X</mi><mn>1</mn></msub><mo>∼</mo><mrow><mi class="ltx_font_mathcaligraphic">𝒰</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">{</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">}</mo></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math> and
+<math id="S0.I3.i3.p1.m4" class="ltx_Math" alttext="X_{k}=1" display="inline"><mrow><msub><mi>X</mi><mi>k</mi></msub><mo>=</mo><mn>1</mn></mrow></math> for all <math id="S0.I3.i3.p1.m5" class="ltx_Math" alttext="k&gt;1" display="inline"><mrow><mi>k</mi><mo>&gt;</mo><mn>1</mn></mrow></math>. Let <math id="S0.I3.i3.p1.m6" class="ltx_Math" alttext="\mathcal{F}_{n}=\sigma(X_{1},\dots,X_{n})" display="inline"><mrow><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub><mo>=</mo><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mn>1</mn></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>X</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow></mrow></mrow></math> be the
+natural filtration generated by <math id="S0.I3.i3.p1.m7" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math>. Show that the last hitting time of <math id="S0.I3.i3.p1.m8" class="ltx_Math" alttext="0" display="inline"><mn>0</mn></math></p>
+<table id="S0.EGx24" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex49"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex49.m1" class="ltx_Math" alttext="\displaystyle L:=\sup\{k\geq 0:X_{k}=0\}" display="inline"><mrow><mi>L</mi><mo>:=</mo><mrow><mo movablelimits="false">sup</mo><mo>⁡</mo><mrow><mo stretchy="false">{</mo><mrow><mi>k</mi><mo>≥</mo><mn>0</mn></mrow><mo>:</mo><mrow><msub><mi>X</mi><mi>k</mi></msub><mo>=</mo><mn>0</mn></mrow><mo stretchy="false">}</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">is not a stopping time.</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I3.i3.p2" class="ltx_para">
+<p class="ltx_p">We have <math id="S0.I3.i3.p2.m1" class="ltx_Math" alttext="\mathcal{F}_{0}=\{\emptyset,\Omega\}" display="inline"><mrow><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mn>0</mn></msub><mo>=</mo><mrow><mo stretchy="false">{</mo><mi mathvariant="normal">∅</mi><mo>,</mo><mi mathvariant="normal">Ω</mi><mo stretchy="false">}</mo></mrow></mrow></math> and</p>
+<table id="S0.EGx25" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex50"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex50.m1" class="ltx_Math" alttext="\displaystyle L=\begin{cases}0&amp;X_{1}=1\\
+1&amp;X_{1}=0\end{cases}" display="inline"><mrow><mi>L</mi><mo>=</mo><mrow><mo>{</mo><mtable columnspacing="5pt" rowspacing="0pt"><mtr><mtd columnalign="left"><mn>0</mn></mtd><mtd columnalign="left"><mrow><msub><mi>X</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn></mrow></mtd></mtr><mtr><mtd columnalign="left"><mn>1</mn></mtd><mtd columnalign="left"><mrow><msub><mi>X</mi><mn>1</mn></msub><mo>=</mo><mn>0</mn></mrow></mtd></mtr></mtable></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">therefore <math id="S0.I3.i3.p2.m2" class="ltx_Math" alttext="L" display="inline"><mi>L</mi></math> is not a stopping time since</p>
+<table id="S0.EGx26" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex51"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex51.m1" class="ltx_Math" alttext="\displaystyle\{L\leq 0\}" display="inline"><mrow><mi mathvariant="normal">{</mi><mi>L</mi><mo>≤</mo><mn>0</mn><mo stretchy="false">}</mo></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex51.m2" class="ltx_Math" alttext="\displaystyle=\{X_{1}=1\}\notin\mathcal{F}_{0}.\qed" display="inline"><mrow><mo>=</mo><mrow><mo stretchy="false">{</mo><msub><mi>X</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn><mo stretchy="false">}</mo></mrow><mo>∉</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mn>0</mn></msub><mo>.</mo><mo mathvariant="italic" separator="true">∎</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
 </div>
 </div>
 </li>
@@ -119,7 +701,7 @@ distribution <math id="Thmexercise4.p1.m4" class="ltx_Math" alttext="\mathbb{P}(
 </article>
 </div>
 <footer class="ltx_page_footer">
-<div class="ltx_page_logo">Generated  on Tue Mar 29 11:10:09 2022 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"></a>
+<div class="ltx_page_logo">Generated  on Mon Mar 28 15:43:53 2022 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"></a>
 </div></footer>
 </div>
 </body>

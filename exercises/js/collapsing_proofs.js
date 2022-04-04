@@ -11,14 +11,18 @@ function changeTag (node, tag) {
 	return clone;
 }
 
-window.addEventListener("load", function() {
-	const proofs = document.getElementsByClassName("ltx_proof");
+// window.addEventListener("load", function() {
 
-	if(proofs.size != 0){
-		for(let proof of proofs) {
-			proof = changeTag(proof, "details");
-			proof_name = changeTag(proof.children[0], "summary");
-			proof_name.classList.remove("ltx_runin");
-		}
+const proofs = document.getElementsByClassName("ltx_proof");
+
+if(proofs.size != 0){
+	for(let proof of proofs) {
+		proof = changeTag(proof, "details");
+		proof_name = changeTag(proof.children[0], "summary");
+		// ltx_runin adds display=inline CSS which removes the open arrow
+		// https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details#customizing_the_disclosure_widget
+		proof_name.classList.remove("ltx_runin");
 	}
-})
+}
+
+// })

@@ -11,6 +11,65 @@
     <div class="ltx_page_main">
       <div class="ltx_page_content">
         <article class="ltx_document" lang="en">
+<div id="Thmexercise1" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 1</span></span> (Non-separable Space).</h6>
+<div id="Thmexercise1.p1" class="ltx_para">
+<p class="ltx_p">Consider <math id="Thmexercise1.p1.m1" class="ltx_Math" alttext="\mathbb{R}" display="inline"><mi>ℝ</mi></math> endowed with the Lebesgue measure <math id="Thmexercise1.p1.m2" class="ltx_Math" alttext="\lambda" display="inline"><mi>λ</mi></math>.
+Let <math id="Thmexercise1.p1.m3" class="ltx_Math" alttext="L_{\infty}" display="inline"><msub><mi>L</mi><mi mathvariant="normal">∞</mi></msub></math> be the space of measurable functions that are bounded almost everywhere, with the essential supremum of its absolute value as a norm:
+for any measurable function <math id="Thmexercise1.p1.m4" class="ltx_Math" alttext="f" display="inline"><mi>f</mi></math>,</p>
+<table id="S0.Ex1" class="ltx_equation ltx_eqn_table">
+
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S0.Ex1.m1" class="ltx_Math" alttext="\|f\|_{\infty}=\inf\{C\geq 0\colon\lambda(f&gt;C)=0\}." display="block"><mrow><mo>∥</mo><mi>f</mi><msub><mo>∥</mo><mi mathvariant="normal">∞</mi></msub><mo>=</mo><mo movablelimits="false">inf</mo><mrow><mo stretchy="false">{</mo><mi>C</mi><mo>≥</mo><mn>0</mn><mo>:</mo><mi>λ</mi><mrow><mo stretchy="false">(</mo><mi>f</mi><mo>&gt;</mo><mi>C</mi><mo stretchy="false">)</mo></mrow><mo>=</mo><mn>0</mn><mo stretchy="false">}</mo></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr>
+</table>
+<p class="ltx_p">Show that the metric space <math id="Thmexercise1.p1.m5" class="ltx_Math" alttext="L^{\infty}" display="inline"><msup><mi>L</mi><mi mathvariant="normal">∞</mi></msup></math>
+(with metric induced by the norm <math id="Thmexercise1.p1.m6" class="ltx_Math" alttext="\|\cdot\|_{\infty}" display="inline"><mrow><mo>∥</mo><mo>⋅</mo><msub><mo>∥</mo><mi mathvariant="normal">∞</mi></msub></mrow></math>) is not separable.</p>
+</div>
+<div id="Thmhintx1" class="ltx_theorem ltx_theorem_hint">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Hint</span></span>.</h6>
+<div id="Thmhintx1.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">consider all the indicator functions <math id="Thmhintx1.p1.m1" class="ltx_Math" alttext="\mathbbm{1}_{[0,r)}" display="inline"><msub><mn mathvariant="normal">1</mn><mrow><mo mathvariant="normal" stretchy="false">[</mo><mn mathvariant="normal">0</mn><mo mathvariant="normal">,</mo><mi>r</mi><mo mathvariant="normal" stretchy="false">)</mo></mrow></msub></math>, <math id="Thmhintx1.p1.m2" class="ltx_Math" alttext="r&gt;0" display="inline"><mrow><mi>r</mi><mo mathvariant="normal">&gt;</mo><mn mathvariant="normal">0</mn></mrow></math></span></p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="Thmexercise1.p2" class="ltx_para">
+<p class="ltx_p">The set of indicator functions <math id="Thmexercise1.p2.m1" class="ltx_Math" alttext="I=\{\mathbbm{1}_{[0,r)}:r&gt;0\}" display="inline"><mrow><mi>I</mi><mo>=</mo><mrow><mo stretchy="false">{</mo><msub><mn>𝟙</mn><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mi>r</mi><mo stretchy="false">)</mo></mrow></msub><mo>:</mo><mrow><mi>r</mi><mo>&gt;</mo><mn>0</mn></mrow><mo stretchy="false">}</mo></mrow></mrow></math> is a subset
+of <math id="Thmexercise1.p2.m2" class="ltx_Math" alttext="L_{\infty}" display="inline"><msub><mi>L</mi><mi mathvariant="normal">∞</mi></msub></math> and for any <math id="Thmexercise1.p2.m3" class="ltx_Math" alttext="r_{1}\neq r_{2}" display="inline"><mrow><msub><mi>r</mi><mn>1</mn></msub><mo>≠</mo><msub><mi>r</mi><mn>2</mn></msub></mrow></math> (without loss of generality
+<math id="Thmexercise1.p2.m4" class="ltx_Math" alttext="&lt;" display="inline"><mo>&lt;</mo></math>) we have</p>
+<table id="S0.EGx1" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex2"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex2.m1" class="ltx_Math" alttext="\displaystyle\|\mathbbm{1}_{[0,r_{2})}-\mathbbm{1}_{[0,r_{1})}\|_{\infty}=\|%&#10;\mathbbm{1}_{[r_{1},r_{2})}\|_{\infty}=1." display="inline"><mrow><mrow><msub><mrow><mo>∥</mo><mrow><msub><mn>𝟙</mn><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><msub><mi>r</mi><mn>2</mn></msub><mo stretchy="false">)</mo></mrow></msub><mo>-</mo><msub><mn>𝟙</mn><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><msub><mi>r</mi><mn>1</mn></msub><mo stretchy="false">)</mo></mrow></msub></mrow><mo>∥</mo></mrow><mi mathvariant="normal">∞</mi></msub><mo>=</mo><msub><mrow><mo>∥</mo><msub><mn>𝟙</mn><mrow><mo stretchy="false">[</mo><msub><mi>r</mi><mn>1</mn></msub><mo>,</mo><msub><mi>r</mi><mn>2</mn></msub><mo stretchy="false">)</mo></mrow></msub><mo>∥</mo></mrow><mi mathvariant="normal">∞</mi></msub><mo>=</mo><mn>1</mn></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">So we have an uncountable set of functions which are all at
+distance <math id="Thmexercise1.p2.m5" class="ltx_Math" alttext="1" display="inline"><mn>1</mn></math> to each other. This rules out separability. Because if we had</p>
+<table id="S0.EGx2" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex3"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex3.m1" class="ltx_Math" alttext="\displaystyle I\subseteq L_{\infty}\subseteq\bigcup_{n\in\mathbb{N}}B_{%&#10;\varepsilon}(f_{n})," display="inline"><mrow><mrow><mi>I</mi><mo>⊆</mo><msub><mi>L</mi><mi mathvariant="normal">∞</mi></msub><mo>⊆</mo><mrow><mstyle displaystyle="true"><munder><mo largeop="true" mathsize="160%" movablelimits="false" stretchy="false" symmetric="true">⋃</mo><mrow><mi>n</mi><mo>∈</mo><mi>ℕ</mi></mrow></munder></mstyle><mrow><msub><mi>B</mi><mi>ε</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>f</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">we could find <math id="Thmexercise1.p2.m6" class="ltx_Math" alttext="r_{1}\neq r_{2}" display="inline"><mrow><msub><mi>r</mi><mn>1</mn></msub><mo>≠</mo><msub><mi>r</mi><mn>2</mn></msub></mrow></math> with <math id="Thmexercise1.p2.m7" class="ltx_Math" alttext="\mathbbm{1}_{[0,r_{1})},\mathbbm{1}_{[0,r_{2})}\in B_{\varepsilon}(f_{n})" display="inline"><mrow><mrow><msub><mn>𝟙</mn><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><msub><mi>r</mi><mn>1</mn></msub><mo stretchy="false">)</mo></mrow></msub><mo>,</mo><msub><mn>𝟙</mn><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><msub><mi>r</mi><mn>2</mn></msub><mo stretchy="false">)</mo></mrow></msub></mrow><mo>∈</mo><mrow><msub><mi>B</mi><mi>ε</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>f</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow></mrow></mrow></math>,
+since <math id="Thmexercise1.p2.m8" class="ltx_Math" alttext="I" display="inline"><mi>I</mi></math> is uncountable and the number of <math id="Thmexercise1.p2.m9" class="ltx_Math" alttext="f_{n}" display="inline"><msub><mi>f</mi><mi>n</mi></msub></math> is just countable.
+But then</p>
+<table id="S0.EGx3" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex4"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex4.m1" class="ltx_Math" alttext="\displaystyle 1=\|\mathbbm{1}_{[0,r_{1})}-\mathbbm{1}_{[0,r_{2})}\|_{\infty}%&#10;\leq\|\mathbbm{1}_{[0,r_{1})}-f_{n}\|_{\infty}+\|f_{n}-\mathbbm{1}_{[0,r_{2})}%&#10;\|_{\infty}\leq 2\varepsilon" display="inline"><mrow><mn>1</mn><mo>=</mo><msub><mrow><mo>∥</mo><mrow><msub><mn>𝟙</mn><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><msub><mi>r</mi><mn>1</mn></msub><mo stretchy="false">)</mo></mrow></msub><mo>-</mo><msub><mn>𝟙</mn><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><msub><mi>r</mi><mn>2</mn></msub><mo stretchy="false">)</mo></mrow></msub></mrow><mo>∥</mo></mrow><mi mathvariant="normal">∞</mi></msub><mo>≤</mo><mrow><msub><mrow><mo>∥</mo><mrow><msub><mn>𝟙</mn><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><msub><mi>r</mi><mn>1</mn></msub><mo stretchy="false">)</mo></mrow></msub><mo>-</mo><msub><mi>f</mi><mi>n</mi></msub></mrow><mo>∥</mo></mrow><mi mathvariant="normal">∞</mi></msub><mo>+</mo><msub><mrow><mo>∥</mo><mrow><msub><mi>f</mi><mi>n</mi></msub><mo>-</mo><msub><mn>𝟙</mn><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><msub><mi>r</mi><mn>2</mn></msub><mo stretchy="false">)</mo></mrow></msub></mrow><mo>∥</mo></mrow><mi mathvariant="normal">∞</mi></msub></mrow><mo>≤</mo><mrow><mn>2</mn><mo>⁢</mo><mi>ε</mi></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">which is a contradiction for small epsilon.
+∎</p>
+</div>
+</div>
+</div>
 </article>
 
       </div>

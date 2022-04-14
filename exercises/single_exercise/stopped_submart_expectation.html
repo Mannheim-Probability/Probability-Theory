@@ -11,6 +11,58 @@
     <div class="ltx_page_main">
       <div class="ltx_page_content">
         <article class="ltx_document" lang="en">
+<div id="Thmexercise1" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 1</span></span> (Lemma 6.3.5).</h6>
+<div id="Thmexercise1.p1" class="ltx_para">
+<p class="ltx_p">Let <math id="Thmexercise1.p1.m1" class="ltx_Math" alttext="(X_{n})" display="inline"><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow></math> be an <math id="Thmexercise1.p1.m2" class="ltx_Math" alttext="(\mathcal{F}_{n})" display="inline"><mrow><mo stretchy="false">(</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow></math>-submartingale and <math id="Thmexercise1.p1.m3" class="ltx_Math" alttext="S,T" display="inline"><mrow><mi>S</mi><mo>,</mo><mi>T</mi></mrow></math> be bounded stopping
+times such that <math id="Thmexercise1.p1.m4" class="ltx_Math" alttext="S\leq T" display="inline"><mrow><mi>S</mi><mo>≤</mo><mi>T</mi></mrow></math> a.s. Prove that, <math id="Thmexercise1.p1.m5" class="ltx_Math" alttext="\mathbb{E}[X_{S}]\leq\mathbb{E}[X_{T}]" display="inline"><mrow><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mi>S</mi></msub><mo stretchy="false">]</mo></mrow></mrow><mo>≤</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mi>T</mi></msub><mo stretchy="false">]</mo></mrow></mrow></mrow></math>.</p>
+</div>
+<div id="Thmhintx1" class="ltx_theorem ltx_theorem_hint">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Hint</span></span>.</h6>
+<div id="Thmhintx1.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">Consider the stochastic integral of <math id="Thmhintx1.p1.m1" class="ltx_Math" alttext="H=(H_{n})" display="inline"><mrow><mi>H</mi><mo mathvariant="normal">=</mo><mrow><mo mathvariant="normal" stretchy="false">(</mo><msub><mi>H</mi><mi>n</mi></msub><mo mathvariant="normal" stretchy="false">)</mo></mrow></mrow></math> against <math id="Thmhintx1.p1.m2" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> with
+<math id="Thmhintx1.p1.m3" class="ltx_Math" alttext="H_{n}:=\mathbbm{1}_{S\leq n-1&lt;T}" display="inline"><mrow><msub><mi>H</mi><mi>n</mi></msub><mo mathvariant="normal">:=</mo><msub><mn mathvariant="normal">1</mn><mrow><mi>S</mi><mo mathvariant="normal">≤</mo><mrow><mi>n</mi><mo mathvariant="normal">-</mo><mn mathvariant="normal">1</mn></mrow><mo mathvariant="normal">&lt;</mo><mi>T</mi></mrow></msub></mrow></math>.</span></p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="Thmexercise1.p2" class="ltx_para">
+<p class="ltx_p">Since <math id="Thmexercise1.p2.m1" class="ltx_Math" alttext="S,T" display="inline"><mrow><mi>S</mi><mo>,</mo><mi>T</mi></mrow></math> are stopping times, we have that</p>
+<table id="S0.EGx1" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex1"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex1.m1" class="ltx_Math" alttext="\displaystyle H_{n}:=\mathbbm{1}_{S\leq n-1&lt;T}=\mathbbm{1}_{S\leq n-1}\mathbbm%&#10;{1}_{T&gt;n-1}=\mathbbm{1}_{S\leq n-1}(1-\mathbbm{1}_{T\leq n-1})" display="inline"><mrow><msub><mi>H</mi><mi>n</mi></msub><mo>:=</mo><msub><mn>𝟙</mn><mrow><mi>S</mi><mo>≤</mo><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow><mo>&lt;</mo><mi>T</mi></mrow></msub><mo>=</mo><mrow><msub><mn>𝟙</mn><mrow><mi>S</mi><mo>≤</mo><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mrow></msub><mo>⁢</mo><msub><mn>𝟙</mn><mrow><mi>T</mi><mo>&gt;</mo><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mrow></msub></mrow><mo>=</mo><mrow><msub><mn>𝟙</mn><mrow><mi>S</mi><mo>≤</mo><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mrow></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mn>1</mn><mo>-</mo><msub><mn>𝟙</mn><mrow><mi>T</mi><mo>≤</mo><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mrow></msub></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">is <math id="Thmexercise1.p2.m2" class="ltx_Math" alttext="\mathcal{F}_{n-1}" display="inline"><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub></math> measurable and therefore that the process <math id="Thmexercise1.p2.m3" class="ltx_Math" alttext="H=(H_{n})" display="inline"><mrow><mi>H</mi><mo>=</mo><mrow><mo stretchy="false">(</mo><msub><mi>H</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow></mrow></math> is
+previsible. The stochastic integral</p>
+<table id="S0.EGx2" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex2"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex2.m1" class="ltx_Math" alttext="\displaystyle(H\cdot X)_{n}" display="inline"><msub><mrow><mo stretchy="false">(</mo><mrow><mi>H</mi><mo>⋅</mo><mi>X</mi></mrow><mo stretchy="false">)</mo></mrow><mi>n</mi></msub></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex2.m2" class="ltx_Math" alttext="\displaystyle=\sum_{k=1}^{n}\underbrace{\mathbbm{1}_{S\leq k-1&lt;T}}_{=\mathbbm{%&#10;1}_{S+1\leq k}\mathbbm{1}_{k\leq T}}(X_{k}-X_{k-1})=\sum_{k=(S+1)\wedge n}^{T%&#10;\wedge n}(X_{k}-X_{k-1})" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover></mstyle><mrow><munder><munder accentunder="true"><msub><mn>𝟙</mn><mrow><mi>S</mi><mo movablelimits="false">≤</mo><mrow><mi>k</mi><mo movablelimits="false">-</mo><mn>1</mn></mrow><mo movablelimits="false">&lt;</mo><mi>T</mi></mrow></msub><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>=</mo><mrow><msub><mn>𝟙</mn><mrow><mrow><mi>S</mi><mo>+</mo><mn>1</mn></mrow><mo>≤</mo><mi>k</mi></mrow></msub><mo>⁢</mo><msub><mn>𝟙</mn><mrow><mi>k</mi><mo>≤</mo><mi>T</mi></mrow></msub></mrow></mrow></munder><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>X</mi><mi>k</mi></msub><mo>-</mo><msub><mi>X</mi><mrow><mi>k</mi><mo>-</mo><mn>1</mn></mrow></msub></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>=</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>k</mi><mo>=</mo><mrow><mrow><mo stretchy="false">(</mo><mrow><mi>S</mi><mo>+</mo><mn>1</mn></mrow><mo stretchy="false">)</mo></mrow><mo>∧</mo><mi>n</mi></mrow></mrow><mrow><mi>T</mi><mo>∧</mo><mi>n</mi></mrow></munderover></mstyle><mrow><mo stretchy="false">(</mo><mrow><msub><mi>X</mi><mi>k</mi></msub><mo>-</mo><msub><mi>X</mi><mrow><mi>k</mi><mo>-</mo><mn>1</mn></mrow></msub></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex3"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex3.m2" class="ltx_Math" alttext="\displaystyle=X_{T\wedge n}-X_{S\wedge n}." display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><msub><mi>X</mi><mrow><mi>T</mi><mo>∧</mo><mi>n</mi></mrow></msub><mo>-</mo><msub><mi>X</mi><mrow><mi>S</mi><mo>∧</mo><mi>n</mi></mrow></msub></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">is a submartingale since <math id="Thmexercise1.p2.m4" class="ltx_Math" alttext="H_{n}" display="inline"><msub><mi>H</mi><mi>n</mi></msub></math> is positive. Since <math id="Thmexercise1.p2.m5" class="ltx_Math" alttext="S,T" display="inline"><mrow><mi>S</mi><mo>,</mo><mi>T</mi></mrow></math> are bounded,
+there exists <math id="Thmexercise1.p2.m6" class="ltx_Math" alttext="N\in\mathbb{N}" display="inline"><mrow><mi>N</mi><mo>∈</mo><mi>ℕ</mi></mrow></math> such that</p>
+<table id="S0.EGx3" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex4"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex4.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}[X_{T}]-\mathbb{E}[X_{S}]" display="inline"><mrow><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mi>T</mi></msub><mo stretchy="false">]</mo></mrow></mrow><mo>-</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mi>S</mi></msub><mo stretchy="false">]</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex4.m2" class="ltx_Math" alttext="\displaystyle=\mathbb{E}[X_{T\wedge N}-X_{S\wedge N}]=\mathbb{E}[(H\cdot X)_{N%&#10;}]\geq\mathbb{E}[(H\cdot X)_{0}]=0.\qed" display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><msub><mi>X</mi><mrow><mi>T</mi><mo>∧</mo><mi>N</mi></mrow></msub><mo>-</mo><msub><mi>X</mi><mrow><mi>S</mi><mo>∧</mo><mi>N</mi></mrow></msub></mrow><mo stretchy="false">]</mo></mrow></mrow><mo>=</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msub><mrow><mo stretchy="false">(</mo><mrow><mi>H</mi><mo>⋅</mo><mi>X</mi></mrow><mo stretchy="false">)</mo></mrow><mi>N</mi></msub><mo stretchy="false">]</mo></mrow></mrow><mo>≥</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msub><mrow><mo stretchy="false">(</mo><mrow><mi>H</mi><mo>⋅</mo><mi>X</mi></mrow><mo stretchy="false">)</mo></mrow><mn>0</mn></msub><mo stretchy="false">]</mo></mrow></mrow><mo>=</mo><mn>0</mn></mrow><mo>.</mo><mo mathvariant="italic" separator="true">∎</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+</div>
+</div>
+</div>
 </article>
 
       </div>

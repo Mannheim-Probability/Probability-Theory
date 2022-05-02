@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Binomial against possion</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="../LaTeXML.css" type="text/css" />
+    <link rel="stylesheet" href="../ltx-article.css" type="text/css" />
+  </head>
+  <body>
+    <div class="ltx_page_main">
+      <div class="ltx_page_content">
+        <article class="ltx_document" lang="en">
+<div id="Thmexercise1" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 1</span></span> (Binomial against Poission).</h6>
+<div id="Thmexercise1.p1" class="ltx_para">
+<p class="ltx_p">Let <math id="Thmexercise1.p1.m1" class="ltx_Math" alttext="(p_{n})" display="inline"><mrow><mo stretchy="false">(</mo><msub><mi>p</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow></math> be a sequence of real numbers in <math id="Thmexercise1.p1.m2" class="ltx_Math" alttext="[0,1]" display="inline"><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">]</mo></mrow></math>. Suppose that
+<math id="Thmexercise1.p1.m3" class="ltx_Math" alttext="\lim_{n\to\infty}np_{n}=\lambda&gt;0" display="inline"><mrow><mrow><msub><mo>lim</mo><mrow><mi>n</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></msub><mo>⁡</mo><mrow><mi>n</mi><mo>⁢</mo><msub><mi>p</mi><mi>n</mi></msub></mrow></mrow><mo>=</mo><mi>λ</mi><mo>&gt;</mo><mn>0</mn></mrow></math>. Using Lévy’s continuity theorem,
+show that</p>
+<table id="S0.Ex1" class="ltx_equation ltx_eqn_table">
+
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S0.Ex1.m1" class="ltx_Math" alttext="\lim_{n\to\infty}\binom{n}{k}(p_{n})^{k}(1-p_{n})^{n-k}=e^{-\lambda}\frac{%&#10;\lambda^{k}}{k!},\qquad 0\leq k\leq n." display="block"><mrow><mrow><mrow><mrow><munder><mo movablelimits="false">lim</mo><mrow><mi>n</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><mo>⁡</mo><mrow><mrow><mo>(</mo><mfrac linethickness="0pt"><mi>n</mi><mi>k</mi></mfrac><mo>)</mo></mrow><mo>⁢</mo><msup><mrow><mo stretchy="false">(</mo><msub><mi>p</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow><mi>k</mi></msup><mo>⁢</mo><msup><mrow><mo stretchy="false">(</mo><mrow><mn>1</mn><mo>-</mo><msub><mi>p</mi><mi>n</mi></msub></mrow><mo stretchy="false">)</mo></mrow><mrow><mi>n</mi><mo>-</mo><mi>k</mi></mrow></msup></mrow></mrow><mo>=</mo><mrow><msup><mi>e</mi><mrow><mo>-</mo><mi>λ</mi></mrow></msup><mo>⁢</mo><mfrac><msup><mi>λ</mi><mi>k</mi></msup><mrow><mi>k</mi><mo>!</mo></mrow></mfrac></mrow></mrow><mo rspace="22.5pt">,</mo><mrow><mn>0</mn><mo>≤</mo><mi>k</mi><mo>≤</mo><mi>n</mi></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr>
+</table>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="Thmexercise1.p2" class="ltx_para">
+<p class="ltx_p">From Example 7.4.10 we know that the characteristic functions of
+Bernoulli and Poisson random variables. So let<math id="Thmexercise1.p2.m1" class="ltx_Math" alttext="X_{n}\sim\text{Ber}(n,p_{n})" display="inline"><mrow><msub><mi>X</mi><mi>n</mi></msub><mo>∼</mo><mrow><mtext>Ber</mtext><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>n</mi><mo>,</mo><msub><mi>p</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow></mrow></mrow></math> and <math id="Thmexercise1.p2.m2" class="ltx_Math" alttext="X\sim\text{Poi}(\lambda)" display="inline"><mrow><mi>X</mi><mo>∼</mo><mrow><mtext>Poi</mtext><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>λ</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math>, then</p>
+<table id="S0.EGx1" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex2"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex2.m1" class="ltx_Math" alttext="\displaystyle\varphi_{X_{n}}(t)=\big{(}1-p_{n}+p_{n}e^{it}\big{)}^{n}=\bigg{(}%&#10;1+\frac{np_{n}e^{it}-p_{n}n}{n}\bigg{)}^{n}\to\exp(\lambda e^{it}-\lambda)=%&#10;\varphi_{X}(t)" display="inline"><mrow><mrow><msub><mi>φ</mi><msub><mi>X</mi><mi>n</mi></msub></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><msup><mrow><mo maxsize="120%" minsize="120%">(</mo><mrow><mrow><mn>1</mn><mo>-</mo><msub><mi>p</mi><mi>n</mi></msub></mrow><mo>+</mo><mrow><msub><mi>p</mi><mi>n</mi></msub><mo>⁢</mo><msup><mi>e</mi><mrow><mi>i</mi><mo>⁢</mo><mi>t</mi></mrow></msup></mrow></mrow><mo maxsize="120%" minsize="120%">)</mo></mrow><mi>n</mi></msup><mo>=</mo><msup><mrow><mo maxsize="210%" minsize="210%">(</mo><mrow><mn>1</mn><mo>+</mo><mstyle displaystyle="true"><mfrac><mrow><mrow><mi>n</mi><mo>⁢</mo><msub><mi>p</mi><mi>n</mi></msub><mo>⁢</mo><msup><mi>e</mi><mrow><mi>i</mi><mo>⁢</mo><mi>t</mi></mrow></msup></mrow><mo>-</mo><mrow><msub><mi>p</mi><mi>n</mi></msub><mo>⁢</mo><mi>n</mi></mrow></mrow><mi>n</mi></mfrac></mstyle></mrow><mo maxsize="210%" minsize="210%">)</mo></mrow><mi>n</mi></msup><mo>→</mo><mrow><mi>exp</mi><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><mi>λ</mi><mo>⁢</mo><msup><mi>e</mi><mrow><mi>i</mi><mo>⁢</mo><mi>t</mi></mrow></msup></mrow><mo>-</mo><mi>λ</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><msub><mi>φ</mi><mi>X</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">as <math id="Thmexercise1.p2.m3" class="ltx_Math" alttext="np_{n}\to\lambda" display="inline"><mrow><mrow><mi>n</mi><mo>⁢</mo><msub><mi>p</mi><mi>n</mi></msub></mrow><mo>→</mo><mi>λ</mi></mrow></math> for <math id="Thmexercise1.p2.m4" class="ltx_Math" alttext="n\to\infty" display="inline"><mrow><mi>n</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></math>. Hence, by Lévy’s
+continuity theorem 7.5.3 the distributions converge against each other.
+For</p>
+<table id="S0.EGx2" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex3"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex3.m1" class="ltx_Math" alttext="\displaystyle\lim_{n\to\infty}\mathbb{P}(X_{n}=k)\to\mathbb{P}(X=k)," display="inline"><mrow><munder><mo movablelimits="false">lim</mo><mrow><mi>n</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mi>n</mi></msub><mo>=</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo>→</mo><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>=</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">we want to apply Portmanteau. But (v) is not applicable because the border
+of the point set <math id="Thmexercise1.p2.m5" class="ltx_Math" alttext="\{X=k\}" display="inline"><mrow><mo stretchy="false">{</mo><mrow><mi>X</mi><mo>=</mo><mi>k</mi></mrow><mo stretchy="false">}</mo></mrow></math> is generally not of probability zero. Instead
+we view our probability measures <math id="Thmexercise1.p2.m6" class="ltx_Math" alttext="\mathbb{P}_{X_{N}},\mathbb{P}_{X}" display="inline"><mrow><msub><mi>ℙ</mi><msub><mi>X</mi><mi>N</mi></msub></msub><mo>,</mo><msub><mi>ℙ</mi><mi>X</mi></msub></mrow></math> as probability
+measures on <math id="Thmexercise1.p2.m7" class="ltx_Math" alttext="\mathbb{Z}" display="inline"><mi>ℤ</mi></math>. Now using <math id="Thmexercise1.p2.m8" class="ltx_Math" alttext="1/2" display="inline"><mrow><mn>1</mn><mo>/</mo><mn>2</mn></mrow></math>-balls it becomes obvious, that
+<em class="ltx_emph ltx_font_italic">all</em> sets on this metric space are open, and therefore all sets are
+closed. This allows us to use (iii) and (iv) of the Portmanteau theorem
+for the same result, finishing our proof.
+∎</p>
+</div>
+</div>
+</div>
+</article>
+
+      </div>
+    </div>
+
+    <script src="../js/LaTeXML-maybeMathJax.js" type="text/javascript"></script>
+    <script src="../js/collapsing_proofs.js" type="text/javascript"></script>
+  </body>
+</html>

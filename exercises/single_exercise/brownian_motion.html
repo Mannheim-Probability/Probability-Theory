@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Brownian motion</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="../LaTeXML.css" type="text/css" />
+    <link rel="stylesheet" href="../ltx-article.css" type="text/css" />
+  </head>
+  <body>
+    <div class="ltx_page_main">
+      <div class="ltx_page_content">
+        <article class="ltx_document" lang="en">
+<div id="Thmexercise1" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 1</span></span> (Brownian Motion).</h6>
+<div id="Thmexercise1.p1" class="ltx_para">
+<p class="ltx_p">Recall that <math id="Thmexercise1.p1.m1" class="ltx_Math" alttext="(X_{t},t\geq 0)" display="inline"><mrow><mo stretchy="false">(</mo><mrow><mrow><msub><mi>X</mi><mi>t</mi></msub><mo>,</mo><mi>t</mi></mrow><mo>≥</mo><mn>0</mn></mrow><mo stretchy="false">)</mo></mrow></math> called a (centred) Gaussian process, if for
+every sequence of finite times <math id="Thmexercise1.p1.m2" class="ltx_Math" alttext="0\leq t_{1}&lt;\cdots&lt;t_{k}" display="inline"><mrow><mn>0</mn><mo>≤</mo><msub><mi>t</mi><mn>1</mn></msub><mo>&lt;</mo><mi mathvariant="normal">⋯</mi><mo>&lt;</mo><msub><mi>t</mi><mi>k</mi></msub></mrow></math>, <math id="Thmexercise1.p1.m3" class="ltx_Math" alttext="k\in\mathbb{N}" display="inline"><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></math>,
+<math id="Thmexercise1.p1.m4" class="ltx_Math" alttext="(X_{t_{1}},\ldots,X_{t_{k}})" display="inline"><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><msub><mi>t</mi><mn>1</mn></msub></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>X</mi><msub><mi>t</mi><mi>k</mi></msub></msub><mo stretchy="false">)</mo></mrow></math> is (centred) Gaussian vector.</p>
+<ol id="S0.I1" class="ltx_enumerate">
+<li id="S0.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">1.</span> 
+<div id="S0.I1.i1.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Suppose that <math id="S0.I1.i1.p1.m1" class="ltx_Math" alttext="(X_{t},t\geq 0)" display="inline"><mrow><mo stretchy="false">(</mo><mrow><mrow><msub><mi>X</mi><mi>t</mi></msub><mo>,</mo><mi>t</mi></mrow><mo>≥</mo><mn>0</mn></mrow><mo stretchy="false">)</mo></mrow></math> is a continuous centred Gaussian
+process with <math id="S0.I1.i1.p1.m2" class="ltx_Math" alttext="\text{Cov}(X_{s},X_{t})=s\wedge t" display="inline"><mrow><mrow><mtext>Cov</mtext><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mi>s</mi></msub><mo>,</mo><msub><mi>X</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mi>s</mi><mo>∧</mo><mi>t</mi></mrow></mrow></math> for all <math id="S0.I1.i1.p1.m3" class="ltx_Math" alttext="s,t\geq 0" display="inline"><mrow><mrow><mi>s</mi><mo>,</mo><mi>t</mi></mrow><mo>≥</mo><mn>0</mn></mrow></math>.
+Show that <math id="S0.I1.i1.p1.m4" class="ltx_Math" alttext="(X_{t},t\geq 0)" display="inline"><mrow><mo stretchy="false">(</mo><mrow><mrow><msub><mi>X</mi><mi>t</mi></msub><mo>,</mo><mi>t</mi></mrow><mo>≥</mo><mn>0</mn></mrow><mo stretchy="false">)</mo></mrow></math> is a standard Brownian motion.</p>
+</div></li>
+<li id="S0.I1.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">2.</span> 
+<div id="S0.I1.i2.p1" class="ltx_para">
+<p class="ltx_p">A stochastic process <math id="S0.I1.i2.p1.m1" class="ltx_Math" alttext="(X_{t})_{0\leq t\leq 1}" display="inline"><msub><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow><mrow><mn>0</mn><mo>≤</mo><mi>t</mi><mo>≤</mo><mn>1</mn></mrow></msub></math> is called a
+<em class="ltx_emph ltx_font_italic">Brownian bridge</em> if: it is a continuous centred Gaussian process
+with covariance function given by</p>
+<table id="S0.Ex1" class="ltx_equation ltx_eqn_table">
+
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S0.Ex1.m1" class="ltx_Math" alttext="\text{Cov}(X_{s},X_{t})=s(1-t),\quad s\leq t." display="block"><mrow><mrow><mrow><mrow><mtext>Cov</mtext><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mi>s</mi></msub><mo>,</mo><msub><mi>X</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mi>s</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mn>1</mn><mo>-</mo><mi>t</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><mo rspace="12.5pt">,</mo><mrow><mi>s</mi><mo>≤</mo><mi>t</mi></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr>
+</table>
+<p class="ltx_p">Let <math id="S0.I1.i2.p1.m2" class="ltx_Math" alttext="(B_{t},t\geq 0)" display="inline"><mrow><mo stretchy="false">(</mo><mrow><mrow><msub><mi>B</mi><mi>t</mi></msub><mo>,</mo><mi>t</mi></mrow><mo>≥</mo><mn>0</mn></mrow><mo stretchy="false">)</mo></mrow></math> be a standard Brownian motion. Show that the process</p>
+<table id="S0.Ex2" class="ltx_equation ltx_eqn_table">
+
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S0.Ex2.m1" class="ltx_Math" alttext="X_{t}=B_{t}-tB_{1},\quad t\in[0,1]" display="block"><mrow><mrow><msub><mi>X</mi><mi>t</mi></msub><mo>=</mo><mrow><msub><mi>B</mi><mi>t</mi></msub><mo>-</mo><mrow><mi>t</mi><mo>⁢</mo><msub><mi>B</mi><mn>1</mn></msub></mrow></mrow></mrow><mo rspace="12.5pt">,</mo><mrow><mi>t</mi><mo>∈</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">]</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr>
+</table>
+<p class="ltx_p">is a Brownian bridge. Moreover, prove that <math id="S0.I1.i2.p1.m3" class="ltx_Math" alttext="B_{1}" display="inline"><msub><mi>B</mi><mn>1</mn></msub></math> is independent of
+<math id="S0.I1.i2.p1.m4" class="ltx_Math" alttext="(X_{t},t\in[0,1])" display="inline"><mrow><mo stretchy="false">(</mo><mrow><mrow><msub><mi>X</mi><mi>t</mi></msub><mo>,</mo><mi>t</mi></mrow><mo>∈</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">]</mo></mrow></mrow><mo stretchy="false">)</mo></mrow></math>.</p>
+</div>
+<div id="Thmhintx1" class="ltx_theorem ltx_theorem_hint">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Hint</span></span>.</h6>
+<div id="Thmhintx1.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">please check the definition of independence; read e.g. Definition
+2.14, Remark 2.15 and Theorem 2.16 in Klenke.</span></p>
+</div>
+</div></li>
+</ol>
+</div>
+</div>
+</article>
+
+      </div>
+    </div>
+
+    <script src="../js/LaTeXML-maybeMathJax.js" type="text/javascript"></script>
+    <script src="../js/collapsing_proofs.js" type="text/javascript"></script>
+  </body>
+</html>

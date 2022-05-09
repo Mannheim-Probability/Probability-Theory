@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Positive semidefinite functions</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="../LaTeXML.css" type="text/css" />
+    <link rel="stylesheet" href="../ltx-article.css" type="text/css" />
+  </head>
+  <body>
+    <div class="ltx_page_main">
+      <div class="ltx_page_content">
+        <article class="ltx_document" lang="en">
+<div id="Thmexercise1" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 1</span></span> (Positive semi-definite Functions).</h6>
+<div id="Thmexercise1.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Prove the following statements</p>
+<ol id="S0.I1" class="ltx_enumerate">
+<li id="S0.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">1.</span> 
+<div id="S0.I1.i1.p1" class="ltx_para">
+<p class="ltx_p">Let <math id="S0.I1.i1.p1.m1" class="ltx_Math" alttext="\varphi:[0,\infty)\to\mathbb{R}" display="inline"><mrow><mi>φ</mi><mo>:</mo><mrow><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mi mathvariant="normal">∞</mi><mo stretchy="false">)</mo></mrow><mo>→</mo><mi>ℝ</mi></mrow></mrow></math> be a continuous convex function
+with <math id="S0.I1.i1.p1.m2" class="ltx_Math" alttext="\lim_{x\to\infty}\varphi(x)=0" display="inline"><mrow><mrow><msub><mo>lim</mo><mrow><mi>x</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></msub><mo>⁡</mo><mrow><mi>φ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>=</mo><mn>0</mn></mrow></math>. Then
+<math id="S0.I1.i1.p1.m3" class="ltx_Math" alttext="k(s,t)=\varphi(|t-s|)" display="inline"><mrow><mrow><mi>k</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mi>φ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">|</mo><mrow><mi>t</mi><mo>-</mo><mi>s</mi></mrow><mo stretchy="false">|</mo></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math> is positive semi-definite for all <math id="S0.I1.i1.p1.m4" class="ltx_Math" alttext="s,t\in\mathbb{R}" display="inline"><mrow><mrow><mi>s</mi><mo>,</mo><mi>t</mi></mrow><mo>∈</mo><mi>ℝ</mi></mrow></math>.</p>
+</div>
+<div id="Thmhintx1" class="ltx_theorem ltx_theorem_hint">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Hint</span></span>.</h6>
+<div id="Thmhintx1.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">Pòlya’s Theorem.</span></p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I1.i1.p2" class="ltx_para">
+<p class="ltx_p"><math id="S0.I1.i1.p2.m1" class="ltx_Math" alttext="x\mapsto\varphi(|x|)" display="inline"><mrow><mi>x</mi><mo>↦</mo><mrow><mi>φ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">|</mo><mi>x</mi><mo stretchy="false">|</mo></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math> fulfills all the requirements of Pòlya’s
+theorem. It is therefore a characteristic function and by Bochner’s
+theorem positive semi-definite.
+∎</p>
+</div>
+</div></li>
+<li id="S0.I1.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">2.</span> 
+<div id="S0.I1.i2.p1" class="ltx_para">
+<p class="ltx_p"><math id="S0.I1.i2.p1.m1" class="ltx_Math" alttext="k(s,t)=e^{-|t-s|}" display="inline"><mrow><mrow><mi>k</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><msup><mi>e</mi><mrow><mo>-</mo><mrow><mo stretchy="false">|</mo><mrow><mi>t</mi><mo>-</mo><mi>s</mi></mrow><mo stretchy="false">|</mo></mrow></mrow></msup></mrow></math> is positive semi-definite for all <math id="S0.I1.i2.p1.m2" class="ltx_Math" alttext="s,t\in\mathbb{R}" display="inline"><mrow><mrow><mi>s</mi><mo>,</mo><mi>t</mi></mrow><mo>∈</mo><mi>ℝ</mi></mrow></math>.</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I1.i2.p2" class="ltx_para">
+<p class="ltx_p">Since <math id="S0.I1.i2.p2.m1" class="ltx_Math" alttext="e^{-x}" display="inline"><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup></math> is continuous, convex and <math id="S0.I1.i2.p2.m2" class="ltx_Math" alttext="\lim_{x\to\infty}e^{-x}=0" display="inline"><mrow><mrow><msub><mo>lim</mo><mrow><mi>x</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></msub><mo>⁡</mo><msup><mi>e</mi><mrow><mo>-</mo><mi>x</mi></mrow></msup></mrow><mo>=</mo><mn>0</mn></mrow></math>
+it fulfills all the requirements of <span class="ltx_ref ltx_ref_self"><span class="ltx_text ltx_ref_tag">1</span></span> which implies
+the claim.
+∎</p>
+</div>
+</div></li>
+</ol>
+</div>
+<div id="Thmexercise1.p2" class="ltx_para">
+<p class="ltx_p">Another trick to check positive semi-definiteness is based around scalar products
+in an arbitrary hilbertspace.</p>
+</div>
+<div id="Thmremarkx1" class="ltx_theorem ltx_theorem_remark">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Remark</span></span>.</h6>
+<div id="Thmremarkx1.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">This is closely related to “kernels” from
+support vector machines, where you want to separate data with a
+“hyper-surface”. For the surface to be not necessarily a
+hyperplane, you first map the data to some hilbertspace and look for a
+separating hyperplane in that space instead – recall that a hyperplane can
+be parametrized as <math id="Thmremarkx1.p1.m1" class="ltx_Math" alttext="\{x\in H:\langle x,a\rangle=c\}" display="inline"><mrow><mo mathvariant="normal" stretchy="false">{</mo><mrow><mi>x</mi><mo mathvariant="normal">∈</mo><mi>H</mi></mrow><mo mathvariant="normal">:</mo><mrow><mrow><mo mathvariant="normal" stretchy="false">⟨</mo><mi>x</mi><mo mathvariant="normal">,</mo><mi>a</mi><mo mathvariant="normal" stretchy="false">⟩</mo></mrow><mo mathvariant="normal">=</mo><mi>c</mi></mrow><mo mathvariant="normal" stretchy="false">}</mo></mrow></math>, where <math id="Thmremarkx1.p1.m2" class="ltx_Math" alttext="a" display="inline"><mi>a</mi></math> is
+the normal vector.</span></p>
+</div>
+</div>
+<div id="Thmexercise1.p3" class="ltx_para ltx_noindent">
+<ol id="S0.I2" class="ltx_enumerate">
+<li id="S0.I2.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">1.</span> 
+<div id="S0.I2.i1.p1" class="ltx_para">
+<p class="ltx_p">Let <math id="S0.I2.i1.p1.m1" class="ltx_Math" alttext="H" display="inline"><mi>H</mi></math> be a complex
+hilbertspace, <math id="S0.I2.i1.p1.m2" class="ltx_Math" alttext="\phi:M\to H" display="inline"><mrow><mi>ϕ</mi><mo>:</mo><mrow><mi>M</mi><mo>→</mo><mi>H</mi></mrow></mrow></math> any function. Then <math id="S0.I2.i1.p1.m3" class="ltx_Math" alttext="k(x,y)=\langle\phi(x),\phi(y)\rangle" display="inline"><mrow><mrow><mi>k</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mo stretchy="false">⟨</mo><mrow><mi>ϕ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>,</mo><mrow><mi>ϕ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">⟩</mo></mrow></mrow></math> is positive semi-definite for
+all <math id="S0.I2.i1.p1.m4" class="ltx_Math" alttext="x,y\in M" display="inline"><mrow><mrow><mi>x</mi><mo>,</mo><mi>y</mi></mrow><mo>∈</mo><mi>M</mi></mrow></math>.</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I2.i1.p2" class="ltx_para">
+<p class="ltx_p">Let <math id="S0.I2.i1.p2.m1" class="ltx_Math" alttext="x_{1},\dots,x_{n}\in M" display="inline"><mrow><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>x</mi><mi>n</mi></msub></mrow><mo>∈</mo><mi>M</mi></mrow></math> and <math id="S0.I2.i1.p2.m2" class="ltx_Math" alttext="a_{1},\dots,a_{n}\in\mathbb{C}" display="inline"><mrow><mrow><msub><mi>a</mi><mn>1</mn></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>a</mi><mi>n</mi></msub></mrow><mo>∈</mo><mi>ℂ</mi></mrow></math>. Then</p>
+<table id="S0.EGx1" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex1"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex1.m1" class="ltx_Math" alttext="\displaystyle\sum_{i=1}^{n}\sum_{j=1}^{n}a_{i}\overline{a_{j}}k(x_{i},x_{j})" display="inline"><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover></mstyle><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover></mstyle><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>⁢</mo><mover accent="true"><msub><mi>a</mi><mi>j</mi></msub><mo>¯</mo></mover><mo>⁢</mo><mi>k</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>x</mi><mi>i</mi></msub><mo>,</mo><msub><mi>x</mi><mi>j</mi></msub><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex1.m2" class="ltx_Math" alttext="\displaystyle=\sum_{i=1}^{n}\sum_{j=1}^{n}a_{i}\overline{a_{j}}\langle\phi(x_{%&#10;i}),\phi(x_{j})\rangle=\left\langle\sum_{i=1}^{n}a_{i}\phi(x_{i}),\sum_{j=1}^{%&#10;n}a_{j}\phi(x_{j})\right\rangle\geq 0," display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover></mstyle><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover></mstyle><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>⁢</mo><mover accent="true"><msub><mi>a</mi><mi>j</mi></msub><mo>¯</mo></mover><mo>⁢</mo><mrow><mo stretchy="false">⟨</mo><mrow><mi>ϕ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>x</mi><mi>i</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo>,</mo><mrow><mi>ϕ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>x</mi><mi>j</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">⟩</mo></mrow></mrow></mrow></mrow><mo>=</mo><mrow><mo>⟨</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover></mstyle><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>⁢</mo><mi>ϕ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>x</mi><mi>i</mi></msub><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>,</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover></mstyle><mrow><msub><mi>a</mi><mi>j</mi></msub><mo>⁢</mo><mi>ϕ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>x</mi><mi>j</mi></msub><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>⟩</mo></mrow><mo>≥</mo><mn>0</mn></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">by bilinearity of the scalar product of the hilbertspace.
+∎</p>
+</div>
+</div></li>
+<li id="S0.I2.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">2.</span> 
+<div id="S0.I2.i2.p1" class="ltx_para">
+<p class="ltx_p"><math id="S0.I2.i2.p1.m1" class="ltx_Math" alttext="k(s,t)=e^{i(s-t)}" display="inline"><mrow><mrow><mi>k</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><msup><mi>e</mi><mrow><mi>i</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>s</mi><mo>-</mo><mi>t</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></msup></mrow></math> is positive semi-definite for all <math id="S0.I2.i2.p1.m2" class="ltx_Math" alttext="s,t\in\mathbb{R}" display="inline"><mrow><mrow><mi>s</mi><mo>,</mo><mi>t</mi></mrow><mo>∈</mo><mi>ℝ</mi></mrow></math>.</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I2.i2.p2" class="ltx_para">
+<p class="ltx_p">Defining <math id="S0.I2.i2.p2.m1" class="ltx_Math" alttext="\phi(s):=e^{is}\in\mathbb{C}" display="inline"><mrow><mrow><mi>ϕ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow><mo>:=</mo><msup><mi>e</mi><mrow><mi>i</mi><mo>⁢</mo><mi>s</mi></mrow></msup><mo>∈</mo><mi>ℂ</mi></mrow></math> and using the complex scalar
+product results in the claim by <span class="ltx_ref ltx_ref_self"><span class="ltx_text ltx_ref_tag">1</span></span>,
+since</p>
+<table id="S0.EGx2" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex2"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex2.m1" class="ltx_Math" alttext="\displaystyle k(s,t)" display="inline"><mrow><mi>k</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex2.m2" class="ltx_Math" alttext="\displaystyle=\langle\phi(s),\phi(t)\rangle=e^{is}\overline{e^{it}}=e^{is}e^{-%&#10;it}=e^{i(s-t)}.\qed" display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><mo stretchy="false">⟨</mo><mrow><mi>ϕ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow><mo>,</mo><mrow><mi>ϕ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">⟩</mo></mrow><mo>=</mo><mrow><msup><mi>e</mi><mrow><mi>i</mi><mo>⁢</mo><mi>s</mi></mrow></msup><mo>⁢</mo><mover accent="true"><msup><mi>e</mi><mrow><mi>i</mi><mo>⁢</mo><mi>t</mi></mrow></msup><mo>¯</mo></mover></mrow><mo>=</mo><mrow><msup><mi>e</mi><mrow><mi>i</mi><mo>⁢</mo><mi>s</mi></mrow></msup><mo>⁢</mo><msup><mi>e</mi><mrow><mo>-</mo><mrow><mi>i</mi><mo>⁢</mo><mi>t</mi></mrow></mrow></msup></mrow><mo>=</mo><msup><mi>e</mi><mrow><mi>i</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>s</mi><mo>-</mo><mi>t</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></msup></mrow><mo>.</mo><mo mathvariant="italic" separator="true">∎</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+</div>
+</div></li>
+<li id="S0.I2.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">3.</span> 
+<div id="S0.I2.i3.p1" class="ltx_para">
+<p class="ltx_p"><math id="S0.I2.i3.p1.m1" class="ltx_Math" alttext="k(s,t)=\cos(s-t)" display="inline"><mrow><mrow><mi>k</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mi>cos</mi><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mrow><mi>s</mi><mo>-</mo><mi>t</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math> is positive semi-definite for all <math id="S0.I2.i3.p1.m2" class="ltx_Math" alttext="s,t\in\mathbb{R}" display="inline"><mrow><mrow><mi>s</mi><mo>,</mo><mi>t</mi></mrow><mo>∈</mo><mi>ℝ</mi></mrow></math>.</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I2.i3.p2" class="ltx_para">
+<p class="ltx_p">Using</p>
+<table id="S0.EGx3" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex3"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex3.m1" class="ltx_Math" alttext="\displaystyle\phi(s):=\frac{1}{\sqrt{2}}\begin{pmatrix}e^{is}\\&#10;e^{-is}\end{pmatrix}\in\mathbb{C}^{2}" display="inline"><mrow><mrow><mi>ϕ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow><mo>:=</mo><mrow><mstyle displaystyle="true"><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac></mstyle><mo>⁢</mo><mrow><mo>(</mo><mtable rowspacing="0pt"><mtr><mtd columnalign="center"><msup><mi>e</mi><mrow><mi>i</mi><mo>⁢</mo><mi>s</mi></mrow></msup></mtd></mtr><mtr><mtd columnalign="center"><msup><mi>e</mi><mrow><mo>-</mo><mrow><mi>i</mi><mo>⁢</mo><mi>s</mi></mrow></mrow></msup></mtd></mtr></mtable><mo>)</mo></mrow></mrow><mo>∈</mo><msup><mi>ℂ</mi><mn>2</mn></msup></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">with the complex scalar product, we get the claim with <span class="ltx_ref ltx_ref_self"><span class="ltx_text ltx_ref_tag">1</span></span> and</p>
+<table id="S0.EGx4" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex4"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex4.m1" class="ltx_Math" alttext="\displaystyle k(s,t)" display="inline"><mrow><mi>k</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex4.m2" class="ltx_Math" alttext="\displaystyle=\frac{1}{2}\left\langle\begin{pmatrix}e^{is}\\&#10;e^{-is}\end{pmatrix},\begin{pmatrix}e^{it}\\&#10;e^{-it}\end{pmatrix}\right\rangle=\frac{1}{2}(e^{i(s-t)}+\underbrace{e^{i(t-s)%&#10;}}_{=\overline{e^{i(s-t)}}})" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mo>⁢</mo><mrow><mo>⟨</mo><mrow><mo>(</mo><mtable rowspacing="0pt"><mtr><mtd columnalign="center"><msup><mi>e</mi><mrow><mi>i</mi><mo>⁢</mo><mi>s</mi></mrow></msup></mtd></mtr><mtr><mtd columnalign="center"><msup><mi>e</mi><mrow><mo>-</mo><mrow><mi>i</mi><mo>⁢</mo><mi>s</mi></mrow></mrow></msup></mtd></mtr></mtable><mo>)</mo></mrow><mo>,</mo><mrow><mo>(</mo><mtable rowspacing="0pt"><mtr><mtd columnalign="center"><msup><mi>e</mi><mrow><mi>i</mi><mo>⁢</mo><mi>t</mi></mrow></msup></mtd></mtr><mtr><mtd columnalign="center"><msup><mi>e</mi><mrow><mo>-</mo><mrow><mi>i</mi><mo>⁢</mo><mi>t</mi></mrow></mrow></msup></mtd></mtr></mtable><mo>)</mo></mrow><mo>⟩</mo></mrow></mrow><mo>=</mo><mrow><mstyle displaystyle="true"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msup><mi>e</mi><mrow><mi>i</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>s</mi><mo>-</mo><mi>t</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></msup><mo>+</mo><munder><munder accentunder="true"><msup><mi>e</mi><mrow><mi>i</mi><mo movablelimits="false">⁢</mo><mrow><mo movablelimits="false" stretchy="false">(</mo><mrow><mi>t</mi><mo movablelimits="false">-</mo><mi>s</mi></mrow><mo movablelimits="false" stretchy="false">)</mo></mrow></mrow></msup><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>=</mo><mover accent="true"><msup><mi>e</mi><mrow><mi>i</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>s</mi><mo>-</mo><mi>t</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></msup><mo>¯</mo></mover></mrow></munder></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex5"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex5.m2" class="ltx_Math" alttext="\displaystyle=\frac{\cos(s-t)+i\sin(s-t)+\cos(s-t)-i\sin(s-t)}{2}" display="inline"><mrow><mi></mi><mo>=</mo><mstyle displaystyle="true"><mfrac><mrow><mrow><mrow><mi>cos</mi><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mrow><mi>s</mi><mo>-</mo><mi>t</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>+</mo><mrow><mi>i</mi><mo>⁢</mo><mrow><mi>sin</mi><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mrow><mi>s</mi><mo>-</mo><mi>t</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>+</mo><mrow><mi>cos</mi><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mrow><mi>s</mi><mo>-</mo><mi>t</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>-</mo><mrow><mi>i</mi><mo>⁢</mo><mrow><mi>sin</mi><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mrow><mi>s</mi><mo>-</mo><mi>t</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><mn>2</mn></mfrac></mstyle></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex6"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex6.m2" class="ltx_Math" alttext="\displaystyle=\cos(s-t).\qed" display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><mi>cos</mi><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mrow><mi>s</mi><mo>-</mo><mi>t</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>.</mo><mo mathvariant="italic" separator="true">∎</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+</div>
+</div></li>
+</ol>
+</div>
+<div id="Thmexercise1.p4" class="ltx_para ltx_noindent">
+<p class="ltx_p">And sometimes you just have to apply the definition manually.</p>
+</div>
+<div id="Thmexercise1.p5" class="ltx_para">
+<ol id="S0.I3" class="ltx_enumerate">
+<li id="S0.I3.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">1.</span> 
+<div id="S0.I3.i1.p1" class="ltx_para">
+<p class="ltx_p"><math id="S0.I3.i1.p1.m1" class="ltx_Math" alttext="k(s,t)=\min\{s,t\}" display="inline"><mrow><mrow><mi>k</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mi>min</mi><mo>⁡</mo><mrow><mo stretchy="false">{</mo><mi>s</mi><mo>,</mo><mi>t</mi><mo stretchy="false">}</mo></mrow></mrow></mrow></math> is positive semi-definite for <math id="S0.I3.i1.p1.m2" class="ltx_Math" alttext="s,t\in[0,\infty)" display="inline"><mrow><mrow><mi>s</mi><mo>,</mo><mi>t</mi></mrow><mo>∈</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mi mathvariant="normal">∞</mi><mo stretchy="false">)</mo></mrow></mrow></math>.</p>
+</div>
+<div id="Thmhintx2" class="ltx_theorem ltx_theorem_hint">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Hint</span></span>.</h6>
+<div id="Thmhintx2.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">Sort the <math id="Thmhintx2.p1.m1" class="ltx_Math" alttext="t_{i}" display="inline"><msub><mi>t</mi><mi>i</mi></msub></math> and start induction with <math id="Thmhintx2.p1.m2" class="ltx_Math" alttext="n=2" display="inline"><mrow><mi>n</mi><mo mathvariant="normal">=</mo><mn mathvariant="normal">2</mn></mrow></math>.</span></p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I3.i1.p2" class="ltx_para">
+<p class="ltx_p">Assuming <math id="S0.I3.i1.p2.m1" class="ltx_Math" alttext="0\leq t_{1}\leq\dots\leq t_{n}" display="inline"><mrow><mn>0</mn><mo>≤</mo><msub><mi>t</mi><mn>1</mn></msub><mo>≤</mo><mi mathvariant="normal">⋯</mi><mo>≤</mo><msub><mi>t</mi><mi>n</mi></msub></mrow></math> with <math id="S0.I3.i1.p2.m2" class="ltx_Math" alttext="a_{i}\in\mathbb{R}" display="inline"><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>∈</mo><mi>ℝ</mi></mrow></math>, then by induction over
+<math id="S0.I3.i1.p2.m3" class="ltx_Math" alttext="n" display="inline"><mi>n</mi></math> with induction start <math id="S0.I3.i1.p2.m4" class="ltx_Math" alttext="n=2" display="inline"><mrow><mi>n</mi><mo>=</mo><mn>2</mn></mrow></math> given by</p>
+<table id="S0.EGx5" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex7"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex7.m1" class="ltx_Math" alttext="\displaystyle\sum_{i=1}^{n}\sum_{j=1}^{n}a_{i}a_{j}\min\{t_{i},t_{j}\}=a_{1}^{%&#10;2}t_{1}+2a_{1}a_{2}t_{1}+a_{2}^{2}\underbrace{t_{2}}_{\geq t_{1}}\geq%&#10;\underbrace{(a_{1}^{2}+2a_{1}a_{2}+a_{2}^{2})}_{=(a_{1}+a_{2})^{2}}t_{1}\geq 0," display="inline"><mrow><mrow><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover></mstyle><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover></mstyle><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>⁢</mo><msub><mi>a</mi><mi>j</mi></msub><mo>⁢</mo><mrow><mi>min</mi><mo>⁡</mo><mrow><mo stretchy="false">{</mo><msub><mi>t</mi><mi>i</mi></msub><mo>,</mo><msub><mi>t</mi><mi>j</mi></msub><mo stretchy="false">}</mo></mrow></mrow></mrow></mrow></mrow><mo>=</mo><mrow><mrow><msubsup><mi>a</mi><mn>1</mn><mn>2</mn></msubsup><mo>⁢</mo><msub><mi>t</mi><mn>1</mn></msub></mrow><mo>+</mo><mrow><mn>2</mn><mo>⁢</mo><msub><mi>a</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>a</mi><mn>2</mn></msub><mo>⁢</mo><msub><mi>t</mi><mn>1</mn></msub></mrow><mo>+</mo><mrow><msubsup><mi>a</mi><mn>2</mn><mn>2</mn></msubsup><mo>⁢</mo><munder><munder accentunder="true"><msub><mi>t</mi><mn>2</mn></msub><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>≥</mo><msub><mi>t</mi><mn>1</mn></msub></mrow></munder></mrow></mrow><mo>≥</mo><mrow><munder><munder accentunder="true"><mrow><mo movablelimits="false" stretchy="false">(</mo><mrow><msubsup><mi>a</mi><mn>1</mn><mn>2</mn></msubsup><mo movablelimits="false">+</mo><mrow><mn>2</mn><mo movablelimits="false">⁢</mo><msub><mi>a</mi><mn>1</mn></msub><mo movablelimits="false">⁢</mo><msub><mi>a</mi><mn>2</mn></msub></mrow><mo movablelimits="false">+</mo><msubsup><mi>a</mi><mn>2</mn><mn>2</mn></msubsup></mrow><mo movablelimits="false" stretchy="false">)</mo></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>=</mo><msup><mrow><mo stretchy="false">(</mo><mrow><msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><msub><mi>a</mi><mn>2</mn></msub></mrow><mo stretchy="false">)</mo></mrow><mn>2</mn></msup></mrow></munder><mo>⁢</mo><msub><mi>t</mi><mn>1</mn></msub></mrow><mo>≥</mo><mn>0</mn></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">we can prove positive semi-definiteness with the induction step</p>
+<table id="S0.EGx6" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex8"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex8.m1" class="ltx_Math" alttext="\displaystyle\sum_{i=1}^{n}\sum_{j=1}^{n}a_{i}a_{j}\min\{t_{i},t_{j}\}" display="inline"><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover></mstyle><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>j</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover></mstyle><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>⁢</mo><msub><mi>a</mi><mi>j</mi></msub><mo>⁢</mo><mrow><mi>min</mi><mo>⁡</mo><mrow><mo stretchy="false">{</mo><msub><mi>t</mi><mi>i</mi></msub><mo>,</mo><msub><mi>t</mi><mi>j</mi></msub><mo stretchy="false">}</mo></mrow></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex8.m2" class="ltx_Math" alttext="\displaystyle=\sum_{i=1}^{n}a_{i}\left(a_{i}t_{i}+2\sum_{j=i+1}^{n}a_{j}\min\{%&#10;t_{i},t_{j}\}\right)" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover></mstyle><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>⁢</mo><mrow><mo>(</mo><mrow><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>⁢</mo><msub><mi>t</mi><mi>i</mi></msub></mrow><mo>+</mo><mrow><mn>2</mn><mo>⁢</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>j</mi><mo>=</mo><mrow><mi>i</mi><mo>+</mo><mn>1</mn></mrow></mrow><mi>n</mi></munderover></mstyle><mrow><msub><mi>a</mi><mi>j</mi></msub><mo>⁢</mo><mrow><mi>min</mi><mo>⁡</mo><mrow><mo stretchy="false">{</mo><msub><mi>t</mi><mi>i</mi></msub><mo>,</mo><msub><mi>t</mi><mi>j</mi></msub><mo stretchy="false">}</mo></mrow></mrow></mrow></mrow></mrow></mrow><mo>)</mo></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex9"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex9.m2" class="ltx_Math" alttext="\displaystyle=\sum_{i=1}^{n}a_{i}\left(a_{i}+2\sum_{j=i+1}^{n}a_{j}\right)t_{i}" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover></mstyle><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>⁢</mo><mrow><mo>(</mo><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>+</mo><mrow><mn>2</mn><mo>⁢</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>j</mi><mo>=</mo><mrow><mi>i</mi><mo>+</mo><mn>1</mn></mrow></mrow><mi>n</mi></munderover></mstyle><msub><mi>a</mi><mi>j</mi></msub></mrow></mrow></mrow><mo>)</mo></mrow><mo>⁢</mo><msub><mi>t</mi><mi>i</mi></msub></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex10"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex10.m2" class="ltx_Math" alttext="\displaystyle=a_{n}^{2}\underbrace{t_{n}}_{\geq t_{n-1}}+a_{n-1}(a_{n-1}+2a_{n%&#10;})t_{n-1}+\sum_{i=1}^{n-2}a_{i}\left(a_{i}+2\sum_{j=i+1}^{n}a_{j}\right)t_{i}" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mrow><msubsup><mi>a</mi><mi>n</mi><mn>2</mn></msubsup><mo>⁢</mo><munder><munder accentunder="true"><msub><mi>t</mi><mi>n</mi></msub><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>≥</mo><msub><mi>t</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub></mrow></munder></mrow><mo>+</mo><mrow><msub><mi>a</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>a</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub><mo>+</mo><mrow><mn>2</mn><mo>⁢</mo><msub><mi>a</mi><mi>n</mi></msub></mrow></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><msub><mi>t</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub></mrow><mo>+</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>n</mi><mo>-</mo><mn>2</mn></mrow></munderover></mstyle><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>⁢</mo><mrow><mo>(</mo><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>+</mo><mrow><mn>2</mn><mo>⁢</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>j</mi><mo>=</mo><mrow><mi>i</mi><mo>+</mo><mn>1</mn></mrow></mrow><mi>n</mi></munderover></mstyle><msub><mi>a</mi><mi>j</mi></msub></mrow></mrow></mrow><mo>)</mo></mrow><mo>⁢</mo><msub><mi>t</mi><mi>i</mi></msub></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex11"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex11.m2" class="ltx_Math" alttext="\displaystyle\geq(a_{n}^{2}+2a_{n}a_{n-1}+a_{n-1}^{2})t_{n-1}+\sum_{i=1}^{n-2}%&#10;a_{i}\left(a_{i}+2\sum_{j=i+1}^{n}a_{j}\right)t_{i}" display="inline"><mrow><mi></mi><mo>≥</mo><mrow><mrow><mrow><mo stretchy="false">(</mo><mrow><msubsup><mi>a</mi><mi>n</mi><mn>2</mn></msubsup><mo>+</mo><mrow><mn>2</mn><mo>⁢</mo><msub><mi>a</mi><mi>n</mi></msub><mo>⁢</mo><msub><mi>a</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub></mrow><mo>+</mo><msubsup><mi>a</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow><mn>2</mn></msubsup></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><msub><mi>t</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub></mrow><mo>+</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>n</mi><mo>-</mo><mn>2</mn></mrow></munderover></mstyle><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>⁢</mo><mrow><mo>(</mo><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>+</mo><mrow><mn>2</mn><mo>⁢</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>j</mi><mo>=</mo><mrow><mi>i</mi><mo>+</mo><mn>1</mn></mrow></mrow><mi>n</mi></munderover></mstyle><msub><mi>a</mi><mi>j</mi></msub></mrow></mrow></mrow><mo>)</mo></mrow><mo>⁢</mo><msub><mi>t</mi><mi>i</mi></msub></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex12"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex12.m2" class="ltx_Math" alttext="\displaystyle\geq(\underbrace{a_{n}+a_{n-1}}_{=:\tilde{a}_{n-1}})^{2}t_{n-1}+%&#10;\sum_{i=1}^{n-2}a_{i}\left(a_{i}+2\sum_{j=i+1}^{n}a_{j}\right)t_{i}" display="inline"><mrow><mi></mi><mo>≥</mo><mrow><mrow><msup><mrow><mo stretchy="false">(</mo><munder><munder accentunder="true"><mrow><msub><mi>a</mi><mi>n</mi></msub><mo movablelimits="false">+</mo><msub><mi>a</mi><mrow><mi>n</mi><mo movablelimits="false">-</mo><mn>1</mn></mrow></msub></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mo>=</mo><mo>⁣</mo><mrow><mi></mi><mo>:</mo><msub><mover accent="true"><mi>a</mi><mo stretchy="false">~</mo></mover><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub></mrow></mrow></munder><mo stretchy="false">)</mo></mrow><mn>2</mn></msup><mo>⁢</mo><msub><mi>t</mi><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></msub></mrow><mo>+</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>n</mi><mo>-</mo><mn>2</mn></mrow></munderover></mstyle><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>⁢</mo><mrow><mo>(</mo><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>+</mo><mrow><mn>2</mn><mo>⁢</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>j</mi><mo>=</mo><mrow><mi>i</mi><mo>+</mo><mn>1</mn></mrow></mrow><mi>n</mi></munderover></mstyle><msub><mi>a</mi><mi>j</mi></msub></mrow></mrow></mrow><mo>)</mo></mrow><mo>⁢</mo><msub><mi>t</mi><mi>i</mi></msub></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex13"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex13.m2" class="ltx_Math" alttext="\displaystyle=\sum_{i=1}^{n-1}\tilde{a}_{i}\left(\tilde{a}_{i}+2\sum_{j=i+1}^{%&#10;n-1}\tilde{a}_{j}\right)t_{i}" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></munderover></mstyle><mrow><msub><mover accent="true"><mi>a</mi><mo stretchy="false">~</mo></mover><mi>i</mi></msub><mo>⁢</mo><mrow><mo>(</mo><mrow><msub><mover accent="true"><mi>a</mi><mo stretchy="false">~</mo></mover><mi>i</mi></msub><mo>+</mo><mrow><mn>2</mn><mo>⁢</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>j</mi><mo>=</mo><mrow><mi>i</mi><mo>+</mo><mn>1</mn></mrow></mrow><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></munderover></mstyle><msub><mover accent="true"><mi>a</mi><mo stretchy="false">~</mo></mover><mi>j</mi></msub></mrow></mrow></mrow><mo>)</mo></mrow><mo>⁢</mo><msub><mi>t</mi><mi>i</mi></msub></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex14"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex14.m2" class="ltx_Math" alttext="\displaystyle\geq 0\quad\text{(by induction)}" display="inline"><mrow><mi></mi><mo>≥</mo><mrow><mn>0</mn><mo mathvariant="italic" separator="true"> </mo><mtext>(by induction)</mtext></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">using <math id="S0.I3.i1.p2.m5" class="ltx_Math" alttext="\tilde{a}_{i}=a_{i}" display="inline"><mrow><msub><mover accent="true"><mi>a</mi><mo stretchy="false">~</mo></mover><mi>i</mi></msub><mo>=</mo><msub><mi>a</mi><mi>i</mi></msub></mrow></math> for all <math id="S0.I3.i1.p2.m6" class="ltx_Math" alttext="i&lt;n-1" display="inline"><mrow><mi>i</mi><mo>&lt;</mo><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow></mrow></math>.
+∎</p>
+</div>
+</div></li>
+</ol>
+</div>
+</div>
+</article>
+
+      </div>
+    </div>
+
+    <script src="../js/LaTeXML-maybeMathJax.js" type="text/javascript"></script>
+    <script src="../js/collapsing_proofs.js" type="text/javascript"></script>
+  </body>
+</html>

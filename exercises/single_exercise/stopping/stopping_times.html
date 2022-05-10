@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Stopping times</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="../LaTeXML.css" type="text/css" />
+    <link rel="stylesheet" href="../ltx-article.css" type="text/css" />
+  </head>
+  <body>
+    <div class="ltx_page_main">
+      <div class="ltx_page_content">
+        <article class="ltx_document" lang="en">
+<div id="Thmexercise1" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 1</span></span> (Stopping Times).</h6>
+<div id="Thmexercise1.p1" class="ltx_para">
+<ol id="S0.I1" class="ltx_enumerate">
+<li id="S0.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">1.</span> 
+<div id="S0.I1.i1.p1" class="ltx_para">
+<p class="ltx_p">Suppose <math id="S0.I1.i1.p1.m1" class="ltx_Math" alttext="T_{1},T_{2},\dots" display="inline"><mrow><msub><mi>T</mi><mn>1</mn></msub><mo>,</mo><msub><mi>T</mi><mn>2</mn></msub><mo>,</mo><mi mathvariant="normal">…</mi></mrow></math> are <math id="S0.I1.i1.p1.m2" class="ltx_Math" alttext="(\mathcal{F}_{n})" display="inline"><mrow><mo stretchy="false">(</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow></math>-stopping times. Prove that
+<math id="S0.I1.i1.p1.m3" class="ltx_Math" alttext="\inf_{k\in\mathbb{N}}T_{k}" display="inline"><mrow><msub><mo>inf</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><mo>⁡</mo><msub><mi>T</mi><mi>k</mi></msub></mrow></math>, <math id="S0.I1.i1.p1.m4" class="ltx_Math" alttext="\sup_{k\in\mathbb{N}}T_{k}" display="inline"><mrow><msub><mo>sup</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><mo>⁡</mo><msub><mi>T</mi><mi>k</mi></msub></mrow></math>, <math id="S0.I1.i1.p1.m5" class="ltx_Math" alttext="\liminf_{k\to\infty}T_{k}" display="inline"><mrow><msub><mo>lim inf</mo><mrow><mi>k</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></msub><mo>⁡</mo><msub><mi>T</mi><mi>k</mi></msub></mrow></math> and
+<math id="S0.I1.i1.p1.m6" class="ltx_Math" alttext="\limsup_{k\to\infty}T_{k}" display="inline"><mrow><msub><mo>lim sup</mo><mrow><mi>k</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></msub><mo>⁡</mo><msub><mi>T</mi><mi>k</mi></msub></mrow></math> are stopping times.</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I1.i1.p2" class="ltx_para">
+<p class="ltx_p"><math id="S0.I1.i1.p2.m1" class="ltx_Math" alttext="S" display="inline"><mi>S</mi></math> is a stopping time, iff <math id="S0.I1.i1.p2.m2" class="ltx_Math" alttext="\{S\leq n\}\in\mathcal{F}_{n}\}" display="inline"><mrow><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub><mo stretchy="false">}</mo></mrow></math>. So we just need to
+check this definition in every case:</p>
+<ol id="S0.I1.I1" class="ltx_enumerate">
+<li id="S0.I1.i1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">(a)</span> 
+<div id="S0.I1.i1.i1.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p"><math id="S0.I1.i1.i1.p1.m1" class="ltx_Math" alttext="\{\inf_{k\in\mathbb{N}}T_{k}\leq n\}=\bigcup_{k\in\mathbb{N}}\{T_{k}\leq n\}%&#10;\in\mathcal{F}_{n}" display="inline"><mrow><mrow><mo stretchy="false">{</mo><msub><mo>inf</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><msub><mi>T</mi><mi>k</mi></msub><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>=</mo><msub><mo largeop="true" mathsize="160%" stretchy="false" symmetric="true">⋃</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><mrow><mo stretchy="false">{</mo><msub><mi>T</mi><mi>k</mi></msub><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow></math></p>
+</div></li>
+<li id="S0.I1.i1.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">(b)</span> 
+<div id="S0.I1.i1.i2.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p"><math id="S0.I1.i1.i2.p1.m1" class="ltx_Math" alttext="\{\sup_{k\in\mathbb{N}}T_{k}\leq n\}=\bigcap_{k\in\mathbb{N}}\{T_{k}\leq n\}%&#10;\in\mathcal{F}_{n}" display="inline"><mrow><mrow><mo stretchy="false">{</mo><msub><mo>sup</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><msub><mi>T</mi><mi>k</mi></msub><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>=</mo><msub><mo largeop="true" mathsize="160%" stretchy="false" symmetric="true">⋂</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><mrow><mo stretchy="false">{</mo><msub><mi>T</mi><mi>k</mi></msub><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow></math></p>
+</div></li>
+<li id="S0.I1.i1.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">(c)</span> 
+<div id="S0.I1.i1.i3.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p"><math id="S0.I1.i1.i3.p1.m1" class="ltx_Math" alttext="\{\liminf_{k\in\mathbb{N}}T_{k}\leq n\}=\{\lim_{k}\inf_{j\geq k}T_{j}\leq n\}=%&#10;\bigcap_{k\in\mathbb{N}}\{\inf_{j\geq k}T_{j}\leq n\}\in\mathcal{F}_{n}" display="inline"><mrow><mrow><mo stretchy="false">{</mo><msub><mo>lim inf</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><msub><mi>T</mi><mi>k</mi></msub><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>=</mo><mrow><mo stretchy="false">{</mo><msub><mo>lim</mo><mi>k</mi></msub><msub><mo>inf</mo><mrow><mi>j</mi><mo>≥</mo><mi>k</mi></mrow></msub><msub><mi>T</mi><mi>j</mi></msub><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>=</mo><msub><mo largeop="true" mathsize="160%" stretchy="false" symmetric="true">⋂</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><mrow><mo stretchy="false">{</mo><msub><mo>inf</mo><mrow><mi>j</mi><mo>≥</mo><mi>k</mi></mrow></msub><msub><mi>T</mi><mi>j</mi></msub><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow></math></p>
+</div></li>
+<li id="S0.I1.i1.i4" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">(d)</span> 
+<div id="S0.I1.i1.i4.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p"><math id="S0.I1.i1.i4.p1.m1" class="ltx_Math" alttext="\{\limsup_{k\in\mathbb{N}}T_{k}\leq n\}=\{\lim_{k}\sup_{j\geq k}T_{j}\leq n\}=%&#10;\bigcup_{k\in\mathbb{N}}\{\sup_{j\geq k}T_{j}\leq n\}\in\mathcal{F}_{n}" display="inline"><mrow><mrow><mo stretchy="false">{</mo><msub><mo>lim sup</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><msub><mi>T</mi><mi>k</mi></msub><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>=</mo><mrow><mo stretchy="false">{</mo><msub><mo>lim</mo><mi>k</mi></msub><msub><mo>sup</mo><mrow><mi>j</mi><mo>≥</mo><mi>k</mi></mrow></msub><msub><mi>T</mi><mi>j</mi></msub><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>=</mo><msub><mo largeop="true" mathsize="160%" stretchy="false" symmetric="true">⋃</mo><mrow><mi>k</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub><mrow><mo stretchy="false">{</mo><msub><mo>sup</mo><mrow><mi>j</mi><mo>≥</mo><mi>k</mi></mrow></msub><msub><mi>T</mi><mi>j</mi></msub><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow></math>
+∎</p>
+</div></li>
+</ol>
+</div>
+</div></li>
+<li id="S0.I1.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">2.</span> 
+<div id="S0.I1.i2.p1" class="ltx_para">
+<p class="ltx_p">Suppose <math id="S0.I1.i2.p1.m1" class="ltx_Math" alttext="T,S" display="inline"><mrow><mi>T</mi><mo>,</mo><mi>S</mi></mrow></math> are <math id="S0.I1.i2.p1.m2" class="ltx_Math" alttext="\mathcal{F}_{n}" display="inline"><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></math> stopping times.
+Prove <math id="S0.I1.i2.p1.m3" class="ltx_Math" alttext="\{S\leq T\}\in\mathcal{F}_{S\wedge T}" display="inline"><mrow><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>≤</mo><mi>T</mi><mo stretchy="false">}</mo></mrow><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mrow><mi>S</mi><mo>∧</mo><mi>T</mi></mrow></msub></mrow></math> and <math id="S0.I1.i2.p1.m4" class="ltx_Math" alttext="\{S=T\}\in\mathcal{F}_{S\wedge T}" display="inline"><mrow><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>=</mo><mi>T</mi><mo stretchy="false">}</mo></mrow><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mrow><mi>S</mi><mo>∧</mo><mi>T</mi></mrow></msub></mrow></math>.</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I1.i2.p2" class="ltx_para">
+<p class="ltx_p">To prove <math id="S0.I1.i2.p2.m1" class="ltx_Math" alttext="A\in\mathcal{F}_{S\wedge T}" display="inline"><mrow><mi>A</mi><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mrow><mi>S</mi><mo>∧</mo><mi>T</mi></mrow></msub></mrow></math> one needs to prove <math id="S0.I1.i2.p2.m2" class="ltx_Math" alttext="A\cap\{S\wedge T\leq n\}\in\mathcal{F}_{n}" display="inline"><mrow><mi>A</mi><mo>∩</mo><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>∧</mo><mi>T</mi><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow></math>,
+so</p>
+<table id="S0.EGx1" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex1"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex1.m1" class="ltx_Math" alttext="\displaystyle\{S\leq T\}\cap\{S\wedge T\leq n\}" display="inline"><mrow><mi mathvariant="normal">{</mi><mi>S</mi><mo>≤</mo><mi>T</mi><mo stretchy="false">}</mo><mo>∩</mo><mo stretchy="false">{</mo><mi>S</mi><mo>∧</mo><mi>T</mi><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex1.m2" class="ltx_Math" alttext="\displaystyle=\left[\{S\leq n,S\leq T\}\cup\{S&gt;n,S\leq T\}\right]\cap\{S\wedge&#10;T%&#10;\leq n\}" display="inline"><mrow><mo>=</mo><mrow><mo>[</mo><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>≤</mo><mi>n</mi><mo>,</mo><mi>S</mi><mo>≤</mo><mi>T</mi><mo stretchy="false">}</mo></mrow><mo>∪</mo><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>&gt;</mo><mi>n</mi><mo>,</mo><mi>S</mi><mo>≤</mo><mi>T</mi><mo stretchy="false">}</mo></mrow><mo>]</mo></mrow><mo>∩</mo><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>∧</mo><mi>T</mi><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex2"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex2.m2" class="ltx_Math" alttext="\displaystyle=\left[\bigcup_{k=0}^{n}\{S\leq k\leq T\}\cup\{S&gt;n,S\leq T\}%&#10;\right]\cap\{S\wedge T\leq n\}" display="inline"><mrow><mo>=</mo><mrow><mo>[</mo><mstyle displaystyle="true"><munderover><mo largeop="true" mathsize="160%" movablelimits="false" stretchy="false" symmetric="true">⋃</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mi>n</mi></munderover></mstyle><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>≤</mo><mi>k</mi><mo>≤</mo><mi>T</mi><mo stretchy="false">}</mo></mrow><mo>∪</mo><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>&gt;</mo><mi>n</mi><mo>,</mo><mi>S</mi><mo>≤</mo><mi>T</mi><mo stretchy="false">}</mo></mrow><mo>]</mo></mrow><mo>∩</mo><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>∧</mo><mi>T</mi><mo>≤</mo><mi>n</mi><mo stretchy="false">}</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex3"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex3.m2" class="ltx_Math" alttext="\displaystyle=\bigcup_{k=0}^{n}\{S\leq k\leq T\}\cup\underbrace{\{S\geq n,S%&#10;\leq T,S\wedge T\leq n\}}_{=\emptyset}" display="inline"><mrow><mo>=</mo><mstyle displaystyle="true"><munderover><mo largeop="true" mathsize="160%" movablelimits="false" stretchy="false" symmetric="true">⋃</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mi>n</mi></munderover></mstyle><mrow><mo stretchy="false">{</mo><mi>S</mi><mo>≤</mo><mi>k</mi><mo>≤</mo><mi>T</mi><mo stretchy="false">}</mo></mrow><mo>∪</mo><munder><munder accentunder="true"><mrow><mo movablelimits="false" stretchy="false">{</mo><mrow><mrow><mi>S</mi><mo movablelimits="false">≥</mo><mi>n</mi></mrow><mo movablelimits="false">,</mo><mrow><mrow><mi>S</mi><mo movablelimits="false">≤</mo><mi>T</mi></mrow><mo movablelimits="false">,</mo><mrow><mrow><mi>S</mi><mo movablelimits="false">∧</mo><mi>T</mi></mrow><mo movablelimits="false">≤</mo><mi>n</mi></mrow></mrow></mrow><mo movablelimits="false" stretchy="false">}</mo></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>=</mo><mi mathvariant="normal">∅</mi></mrow></munder></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex4"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex4.m2" class="ltx_Math" alttext="\displaystyle=\bigcup_{k=0}^{n}\Big{[}\underbrace{\{S\leq k\}}_{\in\mathcal{F}%&#10;_{k}\subseteq\mathcal{F}_{n}}\cap\underbrace{\{k\leq T\}}_{\in\mathcal{F}_{k}%&#10;\subseteq\mathcal{F}_{n}}\Big{]}\in\mathcal{F}_{n}" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" mathsize="160%" movablelimits="false" stretchy="false" symmetric="true">⋃</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mi>n</mi></munderover></mstyle><mrow><mo maxsize="160%" minsize="160%">[</mo><mrow><munder><munder accentunder="true"><mrow><mo movablelimits="false" stretchy="false">{</mo><mrow><mi>S</mi><mo movablelimits="false">≤</mo><mi>k</mi></mrow><mo movablelimits="false" stretchy="false">}</mo></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mrow><mi></mi><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>k</mi></msub></mrow><mo>⁣</mo><mrow><mi></mi><mo>⊆</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow></mrow></munder><mo>∩</mo><munder><munder accentunder="true"><mrow><mo movablelimits="false" stretchy="false">{</mo><mrow><mi>k</mi><mo movablelimits="false">≤</mo><mi>T</mi></mrow><mo movablelimits="false" stretchy="false">}</mo></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mrow><mi></mi><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>k</mi></msub></mrow><mo>⁣</mo><mrow><mi></mi><mo>⊆</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow></mrow></munder></mrow><mo maxsize="160%" minsize="160%">]</mo></mrow></mrow><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">Similarly we have <math id="S0.I1.i2.p2.m3" class="ltx_Math" alttext="\{T\leq S\}\in\mathcal{F}_{S\wedge T}" display="inline"><mrow><mrow><mo stretchy="false">{</mo><mi>T</mi><mo>≤</mo><mi>S</mi><mo stretchy="false">}</mo></mrow><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mrow><mi>S</mi><mo>∧</mo><mi>T</mi></mrow></msub></mrow></math>, therefore their intersection
+<math id="S0.I1.i2.p2.m4" class="ltx_Math" alttext="\{S=T\}" display="inline"><mrow><mo stretchy="false">{</mo><mrow><mi>S</mi><mo>=</mo><mi>T</mi></mrow><mo stretchy="false">}</mo></mrow></math> is also in <math id="S0.I1.i2.p2.m5" class="ltx_Math" alttext="\mathcal{F}_{S\wedge T}" display="inline"><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mrow><mi>S</mi><mo>∧</mo><mi>T</mi></mrow></msub></math>.
+∎</p>
+</div>
+</div></li>
+<li id="S0.I1.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">3.</span> 
+<div id="S0.I1.i3.p1" class="ltx_para">
+<p class="ltx_p">(Last Hitting Time is no Stopping Time in General) Consider the
+stochastic process <math id="S0.I1.i3.p1.m1" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> defined by <math id="S0.I1.i3.p1.m2" class="ltx_Math" alttext="X_{0}=0" display="inline"><mrow><msub><mi>X</mi><mn>0</mn></msub><mo>=</mo><mn>0</mn></mrow></math>, <math id="S0.I1.i3.p1.m3" class="ltx_Math" alttext="X_{1}\sim\mathcal{U}(\{0,1\})" display="inline"><mrow><msub><mi>X</mi><mn>1</mn></msub><mo>∼</mo><mrow><mi class="ltx_font_mathcaligraphic">𝒰</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">{</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">}</mo></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math> and
+<math id="S0.I1.i3.p1.m4" class="ltx_Math" alttext="X_{k}=1" display="inline"><mrow><msub><mi>X</mi><mi>k</mi></msub><mo>=</mo><mn>1</mn></mrow></math> for all <math id="S0.I1.i3.p1.m5" class="ltx_Math" alttext="k&gt;1" display="inline"><mrow><mi>k</mi><mo>&gt;</mo><mn>1</mn></mrow></math>. Let <math id="S0.I1.i3.p1.m6" class="ltx_Math" alttext="\mathcal{F}_{n}=\sigma(X_{1},\dots,X_{n})" display="inline"><mrow><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mi>n</mi></msub><mo>=</mo><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mn>1</mn></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>X</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow></mrow></mrow></math> be the
+natural filtration generated by <math id="S0.I1.i3.p1.m7" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math>. Show that the last hitting time of <math id="S0.I1.i3.p1.m8" class="ltx_Math" alttext="0" display="inline"><mn>0</mn></math></p>
+<table id="S0.EGx2" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex5"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex5.m1" class="ltx_Math" alttext="\displaystyle L:=\sup\{k\geq 0:X_{k}=0\}" display="inline"><mrow><mi>L</mi><mo>:=</mo><mrow><mo movablelimits="false">sup</mo><mo>⁡</mo><mrow><mo stretchy="false">{</mo><mrow><mi>k</mi><mo>≥</mo><mn>0</mn></mrow><mo>:</mo><mrow><msub><mi>X</mi><mi>k</mi></msub><mo>=</mo><mn>0</mn></mrow><mo stretchy="false">}</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">is not a stopping time.</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I1.i3.p2" class="ltx_para">
+<p class="ltx_p">We have <math id="S0.I1.i3.p2.m1" class="ltx_Math" alttext="\mathcal{F}_{0}=\{\emptyset,\Omega\}" display="inline"><mrow><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mn>0</mn></msub><mo>=</mo><mrow><mo stretchy="false">{</mo><mi mathvariant="normal">∅</mi><mo>,</mo><mi mathvariant="normal">Ω</mi><mo stretchy="false">}</mo></mrow></mrow></math> and</p>
+<table id="S0.EGx3" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex6"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex6.m1" class="ltx_Math" alttext="\displaystyle L=\begin{cases}0&amp;X_{1}=1\\&#10;1&amp;X_{1}=0\end{cases}" display="inline"><mrow><mi>L</mi><mo>=</mo><mrow><mo>{</mo><mtable columnspacing="5pt" rowspacing="0pt"><mtr><mtd columnalign="left"><mn>0</mn></mtd><mtd columnalign="left"><mrow><msub><mi>X</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn></mrow></mtd></mtr><mtr><mtd columnalign="left"><mn>1</mn></mtd><mtd columnalign="left"><mrow><msub><mi>X</mi><mn>1</mn></msub><mo>=</mo><mn>0</mn></mrow></mtd></mtr></mtable></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">therefore <math id="S0.I1.i3.p2.m2" class="ltx_Math" alttext="L" display="inline"><mi>L</mi></math> is not a stopping time since</p>
+<table id="S0.EGx4" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex7"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex7.m1" class="ltx_Math" alttext="\displaystyle\{L\leq 0\}" display="inline"><mrow><mi mathvariant="normal">{</mi><mi>L</mi><mo>≤</mo><mn>0</mn><mo stretchy="false">}</mo></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex7.m2" class="ltx_Math" alttext="\displaystyle=\{X_{1}=1\}\notin\mathcal{F}_{0}.\qed" display="inline"><mrow><mo>=</mo><mrow><mo stretchy="false">{</mo><msub><mi>X</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn><mo stretchy="false">}</mo></mrow><mo>∉</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mn>0</mn></msub><mo>.</mo><mo mathvariant="italic" separator="true">∎</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+</div>
+</div></li>
+</ol>
+</div>
+</div>
+</article>
+
+      </div>
+    </div>
+
+    <script src="../js/LaTeXML-maybeMathJax.js" type="text/javascript"></script>
+    <script src="../js/collapsing_proofs.js" type="text/javascript"></script>
+  </body>
+</html>

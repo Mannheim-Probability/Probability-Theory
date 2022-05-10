@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Best estimators</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="../LaTeXML.css" type="text/css" />
+    <link rel="stylesheet" href="../ltx-article.css" type="text/css" />
+  </head>
+  <body>
+    <div class="ltx_page_main">
+      <div class="ltx_page_content">
+        <article class="ltx_document" lang="en">
+<div id="Thmexercise1" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 1</span></span> (Best Estimators).</h6>
+<div id="Thmexercise1.p1" class="ltx_para">
+<p class="ltx_p">Let <math id="Thmexercise1.p1.m1" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> be a real random variable.</p>
+<ol id="S0.I1" class="ltx_enumerate">
+<li id="S0.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">1.</span> 
+<div id="S0.I1.i1.p1" class="ltx_para">
+<p class="ltx_p">Find the estimator <math id="S0.I1.i1.p1.m1" class="ltx_Math" alttext="m" display="inline"><mi>m</mi></math> minimizing <math id="S0.I1.i1.p1.m2" class="ltx_Math" alttext="\mathbb{E}[\mathbbm{1}_{X\neq m}]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msub><mn>𝟙</mn><mrow><mi>X</mi><mo>≠</mo><mi>m</mi></mrow></msub><mo stretchy="false">]</mo></mrow></mrow></math>
+when <math id="S0.I1.i1.p1.m3" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> is discrete. What is the best estimator for a dice roll
+using this loss?</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I1.i1.p2" class="ltx_para">
+<p class="ltx_p">The best estimator is the maximum likelihood estimator <math id="S0.I1.i1.p2.m1" class="ltx_Math" alttext="\max_{m}P(X=m)" display="inline"><mrow><msub><mi>max</mi><mi>m</mi></msub><mi>P</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>=</mo><mi>m</mi><mo stretchy="false">)</mo></mrow></mrow></math>, as</p>
+<table id="S0.EGx1" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex1"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex1.m1" class="ltx_Math" alttext="\displaystyle\min_{m}\mathbb{E}[\mathbbm{1}_{X\neq m}]=\min_{m}\mathbb{P}(X%&#10;\neq m)=\min_{m}[1-P(X=m)]=1-\max_{m}P(X=m)." display="inline"><mrow><munder><mi>min</mi><mi>m</mi></munder><mi>𝔼</mi><mrow><mo stretchy="false">[</mo><msub><mn>𝟙</mn><mrow><mi>X</mi><mo>≠</mo><mi>m</mi></mrow></msub><mo stretchy="false">]</mo></mrow><mo>=</mo><munder><mi>min</mi><mi>m</mi></munder><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>≠</mo><mi>m</mi><mo stretchy="false">)</mo></mrow><mo>=</mo><munder><mi>min</mi><mi>m</mi></munder><mrow><mo stretchy="false">[</mo><mn>1</mn><mo>-</mo><mi>P</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>=</mo><mi>m</mi><mo stretchy="false">)</mo></mrow><mo stretchy="false">]</mo></mrow><mo>=</mo><mn>1</mn><mo>-</mo><munder><mi>max</mi><mi>m</mi></munder><mi>P</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>=</mo><mi>m</mi><mo stretchy="false">)</mo></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">So for a fair dice, any of its faces <math id="S0.I1.i1.p2.m2" class="ltx_Math" alttext="\{1,\dots,6\}" display="inline"><mrow><mo stretchy="false">{</mo><mn>1</mn><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><mn>6</mn><mo stretchy="false">}</mo></mrow></math> is a minimizer.
+∎</p>
+</div>
+</div></li>
+</ol>
+<p class="ltx_p">We define the median of <math id="Thmexercise1.p1.m2" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> to be <math id="Thmexercise1.p1.m3" class="ltx_Math" alttext="\mathbb{M}[X]:=\inf\{m\in\mathbb{R}:f(m)&gt;0\}" display="inline"><mrow><mrow><mi>𝕄</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow></mrow><mo>:=</mo><mrow><mo>inf</mo><mo>⁡</mo><mrow><mo stretchy="false">{</mo><mrow><mi>m</mi><mo>∈</mo><mi>ℝ</mi></mrow><mo>:</mo><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>m</mi><mo stretchy="false">)</mo></mrow></mrow><mo>&gt;</mo><mn>0</mn></mrow><mo stretchy="false">}</mo></mrow></mrow></mrow></math>, where</p>
+<table id="S0.EGx2" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex2"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex2.m1" class="ltx_Math" alttext="\displaystyle f:\begin{cases}\mathbb{R}\to[-1,1]\\&#10;m\mapsto\mathbb{P}(X\leq m)-\mathbb{P}(X&gt;m)\end{cases}" display="inline"><mrow><mi>f</mi><mo>:</mo><mrow><mo>{</mo><mtable columnspacing="5pt" rowspacing="0pt"><mtr><mtd columnalign="left"><mrow><mi>ℝ</mi><mo>→</mo><mrow><mo stretchy="false">[</mo><mrow><mo>-</mo><mn>1</mn></mrow><mo>,</mo><mn>1</mn><mo stretchy="false">]</mo></mrow></mrow></mtd><mtd></mtd></mtr><mtr><mtd columnalign="left"><mrow><mi>m</mi><mo>↦</mo><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>≤</mo><mi>m</mi><mo stretchy="false">)</mo></mrow><mo>-</mo><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>&gt;</mo><mi>m</mi><mo stretchy="false">)</mo></mrow></mrow></mtd><mtd></mtd></mtr></mtable></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<ol id="S0.I2" class="ltx_enumerate">
+<li id="S0.I2.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">1.</span> 
+<div id="S0.I2.i1.p1" class="ltx_para">
+<p class="ltx_p">(Unimportant) Prove that <math id="S0.I2.i1.p1.m1" class="ltx_Math" alttext="\mathbb{P}(X\leq\mathbb{M}[X])\geq\tfrac{1}{2}" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>≤</mo><mi>𝕄</mi><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow><mo stretchy="false">)</mo></mrow><mo>≥</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math> and <math id="S0.I2.i1.p1.m2" class="ltx_Math" alttext="\mathbb{P}(X\geq\mathbb{M}[X])\geq\tfrac{1}{2}" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>≥</mo><mi>𝕄</mi><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow><mo stretchy="false">)</mo></mrow><mo>≥</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>,
+and show that for all <math id="S0.I2.i1.p1.m3" class="ltx_Math" alttext="m&gt;\mathbb{M}[X]" display="inline"><mrow><mi>m</mi><mo>&gt;</mo><mrow><mi>𝕄</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow></mrow></mrow></math> we do not have <math id="S0.I2.i1.p1.m4" class="ltx_Math" alttext="\mathbb{P}(X\leq m)\geq\tfrac{1}{2}" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>≤</mo><mi>m</mi><mo stretchy="false">)</mo></mrow><mo>≥</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>.</p>
+</div>
+<div id="Thmhintx1" class="ltx_theorem ltx_theorem_hint">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Hint</span></span>.</h6>
+<div id="Thmhintx1.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">Calculate the limits <math id="Thmhintx1.p1.m1" class="ltx_Math" alttext="\lim_{m\uparrow\mathbb{M}[X]}f(m)" display="inline"><mrow><msub><mo mathvariant="normal">lim</mo><mrow><mi>m</mi><mo mathvariant="normal">↑</mo><mrow><mi mathvariant="normal">M</mi><mo mathvariant="italic">⁢</mo><mrow><mo mathvariant="normal" stretchy="false">[</mo><mi>X</mi><mo mathvariant="normal" stretchy="false">]</mo></mrow></mrow></mrow></msub><mo mathvariant="italic">⁡</mo><mrow><mi>f</mi><mo mathvariant="italic">⁢</mo><mrow><mo mathvariant="normal" stretchy="false">(</mo><mi>m</mi><mo mathvariant="normal" stretchy="false">)</mo></mrow></mrow></mrow></math> and
+<math id="Thmhintx1.p1.m2" class="ltx_Math" alttext="\lim_{m\downarrow\mathbb{M}[X]}f(m)" display="inline"><mrow><msub><mo mathvariant="normal">lim</mo><mrow><mi>m</mi><mo mathvariant="normal">↓</mo><mrow><mi mathvariant="normal">M</mi><mo mathvariant="italic">⁢</mo><mrow><mo mathvariant="normal" stretchy="false">[</mo><mi>X</mi><mo mathvariant="normal" stretchy="false">]</mo></mrow></mrow></mrow></msub><mo mathvariant="italic">⁡</mo><mrow><mi>f</mi><mo mathvariant="italic">⁢</mo><mrow><mo mathvariant="normal" stretchy="false">(</mo><mi>m</mi><mo mathvariant="normal" stretchy="false">)</mo></mrow></mrow></mrow></math> using the continuity of measures.
+Also note that <math id="Thmhintx1.p1.m3" class="ltx_Math" alttext="f(m)=2F_{X}(m)-1" display="inline"><mrow><mrow><mi>f</mi><mo mathvariant="italic">⁢</mo><mrow><mo mathvariant="normal" stretchy="false">(</mo><mi>m</mi><mo mathvariant="normal" stretchy="false">)</mo></mrow></mrow><mo mathvariant="normal">=</mo><mrow><mrow><mn mathvariant="normal">2</mn><mo mathvariant="italic">⁢</mo><msub><mi>F</mi><mi>X</mi></msub><mo mathvariant="italic">⁢</mo><mrow><mo mathvariant="normal" stretchy="false">(</mo><mi>m</mi><mo mathvariant="normal" stretchy="false">)</mo></mrow></mrow><mo mathvariant="normal">-</mo><mn mathvariant="normal">1</mn></mrow></mrow></math>, where <math id="Thmhintx1.p1.m4" class="ltx_Math" alttext="F_{X}" display="inline"><msub><mi>F</mi><mi>X</mi></msub></math> is the cumulative
+distribution function of <math id="Thmhintx1.p1.m5" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math>.</span></p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I2.i1.p2" class="ltx_para ltx_noindent">
+<p class="ltx_p">As <math id="S0.I2.i1.p2.m1" class="ltx_Math" alttext="f" display="inline"><mi>f</mi></math> is right-continuous, since <math id="S0.I2.i1.p2.m2" class="ltx_Math" alttext="F_{X}(m)=\mathbb{P}(X\leq m)" display="inline"><mrow><msub><mi>F</mi><mi>X</mi></msub><mrow><mo stretchy="false">(</mo><mi>m</mi><mo stretchy="false">)</mo></mrow><mo>=</mo><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>≤</mo><mi>m</mi><mo stretchy="false">)</mo></mrow></mrow></math> is right-continuous,
+we have</p>
+<table id="S0.EGx3" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex3"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex3.m1" class="ltx_Math" alttext="\displaystyle 2\mathbb{P}(X\leq\mathbb{M}[X])-1=f(\mathbb{M}[X])=\lim_{m%&#10;\downarrow\mathbb{M}[X]}f(m)\geq 0" display="inline"><mrow><mn>2</mn><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>≤</mo><mi>𝕄</mi><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow><mo stretchy="false">)</mo></mrow><mo>-</mo><mn>1</mn><mo>=</mo><mi>f</mi><mrow><mo stretchy="false">(</mo><mi>𝕄</mi><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow><mo stretchy="false">)</mo></mrow><mo>=</mo><munder><mo movablelimits="false">lim</mo><mrow><mi>m</mi><mo>↓</mo><mrow><mi>𝕄</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow></mrow></mrow></munder><mi>f</mi><mrow><mo stretchy="false">(</mo><mi>m</mi><mo stretchy="false">)</mo></mrow><mo>≥</mo><mn>0</mn></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">and therefore <math id="S0.I2.i1.p2.m3" class="ltx_Math" alttext="\mathbb{P}(X\leq\mathbb{M}[X])\geq\tfrac{1}{2}" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>≤</mo><mi>𝕄</mi><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow><mo stretchy="false">)</mo></mrow><mo>≥</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>. For the second claim we
+need to use continuity of measures directly</p>
+<table id="S0.EGx4" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex4"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex4.m1" class="ltx_Math" alttext="\displaystyle 2\mathbb{P}(X&lt;\mathbb{M}[X])-1" display="inline"><mrow><mn>2</mn><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>&lt;</mo><mi>𝕄</mi><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow><mo stretchy="false">)</mo></mrow><mo>-</mo><mn>1</mn></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex4.m2" class="ltx_Math" alttext="\displaystyle=\mathbb{P}(X&lt;\mathbb{M}[X])-\mathbb{P}(X\geq\mathbb{M}[X])" display="inline"><mrow><mo>=</mo><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>&lt;</mo><mi>𝕄</mi><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow><mo stretchy="false">)</mo></mrow><mo>-</mo><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>≥</mo><mi>𝕄</mi><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex5"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex5.m2" class="ltx_Math" alttext="\displaystyle=\mathbb{P}\left(\bigcup_{m&lt;\mathbb{M}[X]}\{X\leq m\}\right)-%&#10;\mathbb{P}\left(\bigcap_{m&lt;\mathbb{M}[X]}\{X&gt;m\}\right)" display="inline"><mrow><mo>=</mo><mi>ℙ</mi><mrow><mo>(</mo><mstyle displaystyle="true"><munder><mo largeop="true" mathsize="160%" movablelimits="false" stretchy="false" symmetric="true">⋃</mo><mrow><mi>m</mi><mo>&lt;</mo><mrow><mi>𝕄</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow></mrow></mrow></munder></mstyle><mrow><mo stretchy="false">{</mo><mi>X</mi><mo>≤</mo><mi>m</mi><mo stretchy="false">}</mo></mrow><mo>)</mo></mrow><mo>-</mo><mi>ℙ</mi><mrow><mo>(</mo><mstyle displaystyle="true"><munder><mo largeop="true" mathsize="160%" movablelimits="false" stretchy="false" symmetric="true">⋂</mo><mrow><mi>m</mi><mo>&lt;</mo><mrow><mi>𝕄</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow></mrow></mrow></munder></mstyle><mrow><mo stretchy="false">{</mo><mi>X</mi><mo>&gt;</mo><mi>m</mi><mo stretchy="false">}</mo></mrow><mo>)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex6"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex6.m2" class="ltx_Math" alttext="\displaystyle=\lim_{m\uparrow\mathbb{M}[X]}\mathbb{P}(X\leq m)-\mathbb{P}(X&gt;m)" display="inline"><mrow><mo>=</mo><munder><mo movablelimits="false">lim</mo><mrow><mi>m</mi><mo>↑</mo><mrow><mi>𝕄</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow></mrow></mrow></munder><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>≤</mo><mi>m</mi><mo stretchy="false">)</mo></mrow><mo>-</mo><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>&gt;</mo><mi>m</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex7"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex7.m2" class="ltx_Math" alttext="\displaystyle=\lim_{m\uparrow\mathbb{M}[X]}f(m)\leq 0" display="inline"><mrow><mi></mi><mo>=</mo><mrow><munder><mo movablelimits="false">lim</mo><mrow><mi>m</mi><mo>↑</mo><mrow><mi>𝕄</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow></mrow></mrow></munder><mo>⁡</mo><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>m</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>≤</mo><mn>0</mn></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">Therefore we have <math id="S0.I2.i1.p2.m4" class="ltx_Math" alttext="\mathbb{P}(X&lt;\mathbb{M}[X])\leq\tfrac{1}{2}" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>&lt;</mo><mi>𝕄</mi><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow><mo stretchy="false">)</mo></mrow><mo>≤</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>, which implies that
+<math id="S0.I2.i1.p2.m5" class="ltx_Math" alttext="\mathbb{P}(X\geq\mathbb{M}[X])\geq\tfrac{1}{2}" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>≥</mo><mi>𝕄</mi><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow><mo stretchy="false">)</mo></mrow><mo>≥</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>.</p>
+</div>
+<div id="S0.I2.i1.p3" class="ltx_para">
+<p class="ltx_p">Lastly, for any <math id="S0.I2.i1.p3.m1" class="ltx_Math" alttext="m&gt;\mathbb{M}[X]" display="inline"><mrow><mi>m</mi><mo>&gt;</mo><mrow><mi>𝕄</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow></mrow></mrow></math>, we can find a small <math id="S0.I2.i1.p3.m2" class="ltx_Math" alttext="\epsilon&gt;0" display="inline"><mrow><mi>ϵ</mi><mo>&gt;</mo><mn>0</mn></mrow></math> with
+<math id="S0.I2.i1.p3.m3" class="ltx_Math" alttext="m-\epsilon&gt;\mathbb{M}[X]" display="inline"><mrow><mrow><mi>m</mi><mo>-</mo><mi>ϵ</mi></mrow><mo>&gt;</mo><mrow><mi>𝕄</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow></mrow></mrow></math>. Therefore</p>
+<table id="S0.EGx5" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex8"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex8.m1" class="ltx_Math" alttext="\displaystyle 2\mathbb{P}(X&lt;m)-1\geq 2\mathbb{P}(X\leq m-\epsilon)-1=f(m-%&#10;\epsilon)&gt;0," display="inline"><mrow><mn>2</mn><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>&lt;</mo><mi>m</mi><mo stretchy="false">)</mo></mrow><mo>-</mo><mn>1</mn><mo>≥</mo><mn>2</mn><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>≤</mo><mi>m</mi><mo>-</mo><mi>ϵ</mi><mo stretchy="false">)</mo></mrow><mo>-</mo><mn>1</mn><mo>=</mo><mi>f</mi><mrow><mo stretchy="false">(</mo><mi>m</mi><mo>-</mo><mi>ϵ</mi><mo stretchy="false">)</mo></mrow><mo>&gt;</mo><mn>0</mn><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">which implies <math id="S0.I2.i1.p3.m4" class="ltx_Math" alttext="\mathbb{P}(X&lt;m)&gt;\tfrac{1}{2}" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>&lt;</mo><mi>m</mi><mo stretchy="false">)</mo></mrow><mo>&gt;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math> and therefore <math id="S0.I2.i1.p3.m5" class="ltx_Math" alttext="P(X\leq m)&lt;\tfrac{1}{2}" display="inline"><mrow><mi>P</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>≤</mo><mi>m</mi><mo stretchy="false">)</mo></mrow><mo>&lt;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>.
+∎</p>
+</div>
+</div>
+<div id="Thmremarkx1" class="ltx_theorem ltx_theorem_remark">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Remark</span></span>.</h6>
+<div id="Thmremarkx1.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">This property is usually the defining property of the median. If this property
+does not define the median uniquely, <math id="Thmremarkx1.p1.m1" class="ltx_Math" alttext="\mathbb{M}[X]" display="inline"><mrow><mi mathvariant="normal">M</mi><mo mathvariant="italic">⁢</mo><mrow><mo mathvariant="normal" stretchy="false">[</mo><mi>X</mi><mo mathvariant="normal" stretchy="false">]</mo></mrow></mrow></math> is the largest median. A
+lower bound can be found similarly.</span></p>
+</div>
+</div></li>
+<li id="S0.I2.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">2.</span> 
+<div id="S0.I2.i2.p1" class="ltx_para">
+<p class="ltx_p">Prove that the median minimizes the <math id="S0.I2.i2.p1.m1" class="ltx_Math" alttext="L^{1}" display="inline"><msup><mi>L</mi><mn>1</mn></msup></math> error, i.e. <math id="S0.I2.i2.p1.m2" class="ltx_Math" alttext="\mathbb{M}[X]=\arg\min_{m}\mathbb{E}[|X-m|]" display="inline"><mrow><mrow><mi>𝕄</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow></mrow><mo>=</mo><mrow><mrow><mi>arg</mi><mo>⁡</mo><mrow><msub><mi>min</mi><mi>m</mi></msub><mo>⁡</mo><mi>𝔼</mi></mrow></mrow><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mo stretchy="false">|</mo><mrow><mi>X</mi><mo>-</mo><mi>m</mi></mrow><mo stretchy="false">|</mo></mrow><mo stretchy="false">]</mo></mrow></mrow></mrow></math>.
+Whenever useful, you can assume continuity.
+</p>
+</div>
+<div id="Thmhintx2" class="ltx_theorem ltx_theorem_hint">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Hint</span></span>.</h6>
+<div id="Thmhintx2.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">Recall that for <math id="Thmhintx2.p1.m1" class="ltx_Math" alttext="X\geq 0" display="inline"><mrow><mi>X</mi><mo mathvariant="normal">≥</mo><mn mathvariant="normal">0</mn></mrow></math> a.s., we have <math id="Thmhintx2.p1.m2" class="ltx_Math" alttext="\mathbb{E}[X]=\int_{0}^{\infty}\mathbb{P}(X\geq t)dt=\int_{0}^{\infty}\mathbb{%&#10;P}(X&gt;t)dt" display="inline"><mrow><mi mathvariant="normal">E</mi><mrow><mo mathvariant="normal" stretchy="false">[</mo><mi>X</mi><mo mathvariant="normal" stretchy="false">]</mo></mrow><mo mathvariant="normal">=</mo><msubsup><mo largeop="true" mathvariant="normal" symmetric="true">∫</mo><mn mathvariant="normal">0</mn><mi mathvariant="normal">∞</mi></msubsup><mi mathvariant="normal">P</mi><mrow><mo mathvariant="normal" stretchy="false">(</mo><mi>X</mi><mo mathvariant="normal">≥</mo><mi>t</mi><mo mathvariant="normal" stretchy="false">)</mo></mrow><mi>d</mi><mi>t</mi><mo mathvariant="normal">=</mo><msubsup><mo largeop="true" mathvariant="normal" symmetric="true">∫</mo><mn mathvariant="normal">0</mn><mi mathvariant="normal">∞</mi></msubsup><mi mathvariant="normal">P</mi><mrow><mo mathvariant="normal" stretchy="false">(</mo><mi>X</mi><mo mathvariant="normal">&gt;</mo><mi>t</mi><mo mathvariant="normal" stretchy="false">)</mo></mrow><mi>d</mi><mi>t</mi></mrow></math>.
+Use this fact to prove</span></p>
+<table id="S0.EGx6" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex9"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex9.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}[(X-m)_{+}]=\int_{m}^{\infty}\mathbb{P}(X&gt;m)dt." display="inline"><mrow><mi>𝔼</mi><mrow><mo stretchy="false">[</mo><msub><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>-</mo><mi>m</mi><mo stretchy="false">)</mo></mrow><mo>+</mo></msub><mo stretchy="false">]</mo></mrow><mo>=</mo><mstyle displaystyle="true"><msubsup><mo largeop="true" symmetric="true">∫</mo><mi>m</mi><mi mathvariant="normal">∞</mi></msubsup></mstyle><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>&gt;</mo><mi>m</mi><mo stretchy="false">)</mo></mrow><mi>d</mi><mi>t</mi><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I2.i2.p2" class="ltx_para ltx_noindent">
+<p class="ltx_p">Recall that for <math id="S0.I2.i2.p2.m1" class="ltx_Math" alttext="X\geq 0" display="inline"><mrow><mi>X</mi><mo>≥</mo><mn>0</mn></mrow></math> a.s., we have <math id="S0.I2.i2.p2.m2" class="ltx_Math" alttext="\mathbb{E}[X]=\int_{0}^{\infty}\mathbb{P}(X\geq t)dt=\int_{0}^{\infty}\mathbb{%&#10;P}(X&gt;t)dt" display="inline"><mrow><mi>𝔼</mi><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow><mo>=</mo><msubsup><mo largeop="true" symmetric="true">∫</mo><mn>0</mn><mi mathvariant="normal">∞</mi></msubsup><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>≥</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><mi>d</mi><mi>t</mi><mo>=</mo><msubsup><mo largeop="true" symmetric="true">∫</mo><mn>0</mn><mi mathvariant="normal">∞</mi></msubsup><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>&gt;</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><mi>d</mi><mi>t</mi></mrow></math>. Applying this fact to <math id="S0.I2.i2.p2.m3" class="ltx_Math" alttext="(X-m)_{+}" display="inline"><msub><mrow><mo stretchy="false">(</mo><mrow><mi>X</mi><mo>-</mo><mi>m</mi></mrow><mo stretchy="false">)</mo></mrow><mo>+</mo></msub></math>
+we get</p>
+<table id="S0.EGx7" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex10"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex10.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}[(X-m)_{+}]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msub><mrow><mo stretchy="false">(</mo><mrow><mi>X</mi><mo>-</mo><mi>m</mi></mrow><mo stretchy="false">)</mo></mrow><mo>+</mo></msub><mo stretchy="false">]</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex10.m2" class="ltx_Math" alttext="\displaystyle=\int_{0}^{\infty}\underbrace{\mathbb{P}((X-m)_{+}&gt;t)}_{\begin{%&#10;aligned} &amp;\displaystyle=\mathbb{P}(X-m&gt;t)\\&#10;&amp;\displaystyle=\mathbb{P}(X&gt;t-m)\end{aligned}}dt" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><msubsup><mo largeop="true" symmetric="true">∫</mo><mn>0</mn><mi mathvariant="normal">∞</mi></msubsup></mstyle><mrow><munder><munder accentunder="true"><mrow><mi>ℙ</mi><mrow><mo movablelimits="false" stretchy="false">(</mo><msub><mrow><mo movablelimits="false" stretchy="false">(</mo><mi>X</mi><mo movablelimits="false">-</mo><mi>m</mi><mo movablelimits="false" stretchy="false">)</mo></mrow><mo movablelimits="false">+</mo></msub><mo movablelimits="false">&gt;</mo><mi>t</mi><mo movablelimits="false" stretchy="false">)</mo></mrow></mrow><mo movablelimits="false">⏟</mo></munder><mtable columnspacing="0pt" rowspacing="0pt"><mtr><mtd></mtd><mtd columnalign="left"><mrow><mo mathsize="142%" stretchy="false">=</mo><mi mathsize="142%">ℙ</mi><mrow><mo maxsize="142%" minsize="142%">(</mo><mi mathsize="142%">X</mi><mo mathsize="142%" stretchy="false">-</mo><mi mathsize="142%">m</mi><mo mathsize="142%" stretchy="false">&gt;</mo><mi mathsize="142%">t</mi><mo maxsize="142%" minsize="142%">)</mo></mrow></mrow></mtd></mtr><mtr><mtd></mtd><mtd columnalign="left"><mrow><mo mathsize="142%" stretchy="false">=</mo><mi mathsize="142%">ℙ</mi><mrow><mo maxsize="142%" minsize="142%">(</mo><mi mathsize="142%">X</mi><mo mathsize="142%" stretchy="false">&gt;</mo><mi mathsize="142%">t</mi><mo mathsize="142%" stretchy="false">-</mo><mi mathsize="142%">m</mi><mo maxsize="142%" minsize="142%">)</mo></mrow></mrow></mtd></mtr></mtable></munder><mo>⁢</mo><mrow><mo rspace="0pt">𝑑</mo><mi>t</mi></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex11"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex11.m2" class="ltx_Math" alttext="\displaystyle=\int_{m}^{\infty}\mathbb{P}(X&gt;s)ds" display="inline"><mrow><mo>=</mo><mstyle displaystyle="true"><msubsup><mo largeop="true" symmetric="true">∫</mo><mi>m</mi><mi mathvariant="normal">∞</mi></msubsup></mstyle><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>&gt;</mo><mi>s</mi><mo stretchy="false">)</mo></mrow><mi>d</mi><mi>s</mi></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">And similarly</p>
+<table id="S0.EGx8" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex12"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex12.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}[(X-m)_{-}]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msub><mrow><mo stretchy="false">(</mo><mrow><mi>X</mi><mo>-</mo><mi>m</mi></mrow><mo stretchy="false">)</mo></mrow><mo>-</mo></msub><mo stretchy="false">]</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex12.m2" class="ltx_Math" alttext="\displaystyle=\int_{0}^{\infty}\underbrace{\mathbb{P}((X-m)_{-}\geq t)}_{%&#10;\begin{aligned} &amp;\displaystyle=\mathbb{P}(m-X\geq t)\quad\mathrlap{(\forall t&gt;%&#10;0)}\\&#10;&amp;\displaystyle=\mathbb{P}(m-t\geq x)\end{aligned}}dt" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><msubsup><mo largeop="true" symmetric="true">∫</mo><mn>0</mn><mi mathvariant="normal">∞</mi></msubsup></mstyle><mrow><munder><munder accentunder="true"><mrow><mi>ℙ</mi><mrow><mo movablelimits="false" stretchy="false">(</mo><msub><mrow><mo movablelimits="false" stretchy="false">(</mo><mi>X</mi><mo movablelimits="false">-</mo><mi>m</mi><mo movablelimits="false" stretchy="false">)</mo></mrow><mo movablelimits="false">-</mo></msub><mo movablelimits="false">≥</mo><mi>t</mi><mo movablelimits="false" stretchy="false">)</mo></mrow></mrow><mo movablelimits="false">⏟</mo></munder><mtable columnspacing="0pt" rowspacing="0pt"><mtr><mtd></mtd><mtd columnalign="left"><mrow><mo mathsize="142%" stretchy="false">=</mo><mi mathsize="142%">ℙ</mi><mrow><mo maxsize="142%" minsize="142%">(</mo><mi mathsize="142%">m</mi><mo mathsize="142%" stretchy="false">-</mo><mi mathsize="142%">X</mi><mo mathsize="142%" stretchy="false">≥</mo><mi mathsize="142%">t</mi><mo maxsize="142%" minsize="142%">)</mo></mrow><mo mathsize="142%" mathvariant="italic" separator="true" stretchy="false"> </mo><mrow><mo maxsize="142%" minsize="142%">(</mo><mrow><mrow><mo mathsize="142%" stretchy="false">∀</mo><mi mathsize="142%">t</mi></mrow><mo mathsize="142%" stretchy="false">&gt;</mo><mn mathsize="142%">0</mn></mrow><mo maxsize="142%" minsize="142%">)</mo></mrow></mrow></mtd></mtr><mtr><mtd></mtd><mtd columnalign="left"><mrow><mo mathsize="142%" stretchy="false">=</mo><mi mathsize="142%">ℙ</mi><mrow><mo maxsize="142%" minsize="142%">(</mo><mi mathsize="142%">m</mi><mo mathsize="142%" stretchy="false">-</mo><mi mathsize="142%">t</mi><mo mathsize="142%" stretchy="false">≥</mo><mi mathsize="142%">x</mi><mo maxsize="142%" minsize="142%">)</mo></mrow></mrow></mtd></mtr></mtable></munder><mo>⁢</mo><mrow><mo rspace="0pt">𝑑</mo><mi>t</mi></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex13"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex13.m2" class="ltx_Math" alttext="\displaystyle=\int_{-\infty}^{m}\mathbb{P}(s\geq X)ds" display="inline"><mrow><mo>=</mo><mstyle displaystyle="true"><msubsup><mo largeop="true" symmetric="true">∫</mo><mrow><mo>-</mo><mi mathvariant="normal">∞</mi></mrow><mi>m</mi></msubsup></mstyle><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>≥</mo><mi>X</mi><mo stretchy="false">)</mo></mrow><mi>d</mi><mi>s</mi></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">Put together we have</p>
+<table id="S0.EGx9" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex14"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex14.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}[|X-m|]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mo stretchy="false">|</mo><mrow><mi>X</mi><mo>-</mo><mi>m</mi></mrow><mo stretchy="false">|</mo></mrow><mo stretchy="false">]</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex14.m2" class="ltx_Math" alttext="\displaystyle=\int_{m}^{\infty}\mathbb{P}(X&gt;s)ds+\int_{-\infty}^{m}\mathbb{P}(%&#10;X\leq s)ds." display="inline"><mrow><mo>=</mo><mstyle displaystyle="true"><msubsup><mo largeop="true" symmetric="true">∫</mo><mi>m</mi><mi mathvariant="normal">∞</mi></msubsup></mstyle><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>&gt;</mo><mi>s</mi><mo stretchy="false">)</mo></mrow><mi>d</mi><mi>s</mi><mo>+</mo><mstyle displaystyle="true"><msubsup><mo largeop="true" symmetric="true">∫</mo><mrow><mo>-</mo><mi mathvariant="normal">∞</mi></mrow><mi>m</mi></msubsup></mstyle><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>≤</mo><mi>s</mi><mo stretchy="false">)</mo></mrow><mi>d</mi><mi>s</mi><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">Assuming <math id="S0.I2.i2.p2.m4" class="ltx_Math" alttext="\mathbb{P}(X&gt;s)" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>&gt;</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></math> and <math id="S0.I2.i2.p2.m5" class="ltx_Math" alttext="\mathbb{P}(X\leq x)" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>≤</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow></math> are both continuous in <math id="S0.I2.i2.p2.m6" class="ltx_Math" alttext="s" display="inline"><mi>s</mi></math>,
+we can use the fundamental theorem of calculus to obtain</p>
+<table id="S0.EGx10" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex15"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex15.m1" class="ltx_Math" alttext="\displaystyle\frac{d}{dm}\mathbb{E}[|X-m|]=\mathbb{P}(X\leq m)-\mathbb{P}(X&gt;m)%&#10;=f(m)." display="inline"><mrow><mstyle displaystyle="true"><mfrac><mi>d</mi><mrow><mi>d</mi><mo>⁢</mo><mi>m</mi></mrow></mfrac></mstyle><mi>𝔼</mi><mrow><mo stretchy="false">[</mo><mo stretchy="false">|</mo><mi>X</mi><mo>-</mo><mi>m</mi><mo stretchy="false">|</mo><mo stretchy="false">]</mo></mrow><mo>=</mo><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>≤</mo><mi>m</mi><mo stretchy="false">)</mo></mrow><mo>-</mo><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>&gt;</mo><mi>m</mi><mo stretchy="false">)</mo></mrow><mo>=</mo><mi>f</mi><mrow><mo stretchy="false">(</mo><mi>m</mi><mo stretchy="false">)</mo></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">Therefore we have</p>
+<table id="S0.EGx11" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex16"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex16.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}[|X-m|]-\mathbb{E}[|X-\mathbb{M}[X]|]=\int_{\mathbb{M}[%&#10;X]}^{m}f(t)dt\geq 0" display="inline"><mrow><mrow><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mo stretchy="false">|</mo><mrow><mi>X</mi><mo>-</mo><mi>m</mi></mrow><mo stretchy="false">|</mo></mrow><mo stretchy="false">]</mo></mrow></mrow><mo>-</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mo stretchy="false">|</mo><mrow><mi>X</mi><mo>-</mo><mrow><mi>𝕄</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow></mrow></mrow><mo stretchy="false">|</mo></mrow><mo stretchy="false">]</mo></mrow></mrow></mrow><mo>=</mo><mrow><mstyle displaystyle="true"><msubsup><mo largeop="true" symmetric="true">∫</mo><mrow><mi>𝕄</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow></mrow><mi>m</mi></msubsup></mstyle><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mrow><mo rspace="0pt">𝑑</mo><mi>t</mi></mrow></mrow></mrow><mo>≥</mo><mn>0</mn></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">as <math id="S0.I2.i2.p2.m7" class="ltx_Math" alttext="f" display="inline"><mi>f</mi></math> is greater than zero for any <math id="S0.I2.i2.p2.m8" class="ltx_Math" alttext="m\geq\mathbb{M}[X]" display="inline"><mrow><mi>m</mi><mo>≥</mo><mrow><mi>𝕄</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow></mrow></mrow></math> and less than
+zero for any <math id="S0.I2.i2.p2.m9" class="ltx_Math" alttext="m\leq\mathbb{M}[X]" display="inline"><mrow><mi>m</mi><mo>≤</mo><mrow><mi>𝕄</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow></mrow></mrow></math> and sorting the integral borders results
+in another sign flip. Notice that <math id="S0.I2.i2.p2.m10" class="ltx_Math" alttext="f" display="inline"><mi>f</mi></math> is strictly greater than zero
+for <math id="S0.I2.i2.p2.m11" class="ltx_Math" alttext="m\geq\mathbb{M}[X]" display="inline"><mrow><mi>m</mi><mo>≥</mo><mrow><mi>𝕄</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow></mrow></mrow></math> which implies that <math id="S0.I2.i2.p2.m12" class="ltx_Math" alttext="\mathbb{M}[X]" display="inline"><mrow><mi>𝕄</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow></mrow></math> is the largest median,
+i.e. all numbers greater than <math id="S0.I2.i2.p2.m13" class="ltx_Math" alttext="\mathbb{M}[X]" display="inline"><mrow><mi>𝕄</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mi>X</mi><mo stretchy="false">]</mo></mrow></mrow></math> do not minimize <math id="S0.I2.i2.p2.m14" class="ltx_Math" alttext="\mathbb{E}[|X-m|]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mo stretchy="false">|</mo><mrow><mi>X</mi><mo>-</mo><mi>m</mi></mrow><mo stretchy="false">|</mo></mrow><mo stretchy="false">]</mo></mrow></mrow></math>.</p>
+</div>
+<div id="S0.I2.i2.p3" class="ltx_para ltx_noindent">
+<p class="ltx_p">As mentioned one can similarly define a lower bound, and all numbers
+in-between fulfill the defining property of medians of <math id="S0.I2.i2.p3.m1" class="ltx_Math" alttext="\mathbb{P}(X\geq m)\geq\tfrac{1}{2}" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>≥</mo><mi>m</mi><mo stretchy="false">)</mo></mrow><mo>≥</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>
+and <math id="S0.I2.i2.p3.m2" class="ltx_Math" alttext="\mathbb{P}(X\leq m)\geq\tfrac{1}{2}" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>≤</mo><mi>m</mi><mo stretchy="false">)</mo></mrow><mo>≥</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>.
+∎</p>
+</div>
+<div id="Thmremarkx2" class="ltx_theorem ltx_theorem_remark">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Remark</span></span>.</h6>
+<div id="Thmremarkx2.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">In the non-continuous case, one still has right-continuity of <math id="Thmremarkx2.p1.m1" class="ltx_Math" alttext="f" display="inline"><mi>f</mi></math>
+and can prove right-differentiability of <math id="Thmremarkx2.p1.m2" class="ltx_Math" alttext="\mathbb{E}[|X-m|]" display="inline"><mrow><mi mathvariant="normal">E</mi><mo mathvariant="italic">⁢</mo><mrow><mo mathvariant="normal" stretchy="false">[</mo><mrow><mo mathvariant="normal" stretchy="false">|</mo><mrow><mi>X</mi><mo mathvariant="normal">-</mo><mi>m</mi></mrow><mo mathvariant="normal" stretchy="false">|</mo></mrow><mo mathvariant="normal" stretchy="false">]</mo></mrow></mrow></math>. This might be
+sufficient to prove it is monotonously increasing after <math id="Thmremarkx2.p1.m3" class="ltx_Math" alttext="\mathbb{M}[X]" display="inline"><mrow><mi mathvariant="normal">M</mi><mo mathvariant="italic">⁢</mo><mrow><mo mathvariant="normal" stretchy="false">[</mo><mi>X</mi><mo mathvariant="normal" stretchy="false">]</mo></mrow></mrow></math> and
+similarly monotonously decreasing before. But the proof is likely going to
+be complex or require a strong analysis foundation. Alternatively, a
+short and basic (but unintuitive) proof of the general case can be found here:
+<a href="https://math.stackexchange.com/a/2790390/445105" title="" class="ltx_ref ltx_url ltx_font_typewriter">https://math.stackexchange.com/a/2790390/445105</a>.</span></p>
+</div>
+</div>
+</div></li>
+</ol>
+</div>
+</div>
+</article>
+
+      </div>
+    </div>
+
+    <script src="../js/LaTeXML-maybeMathJax.js" type="text/javascript"></script>
+    <script src="../js/collapsing_proofs.js" type="text/javascript"></script>
+  </body>
+</html>

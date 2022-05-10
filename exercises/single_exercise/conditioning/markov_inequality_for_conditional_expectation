@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Markov inequality for conditional expectation</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="../LaTeXML.css" type="text/css" />
+    <link rel="stylesheet" href="../ltx-article.css" type="text/css" />
+  </head>
+  <body>
+    <div class="ltx_page_main">
+      <div class="ltx_page_content">
+        <article class="ltx_document" lang="en">
+<div id="Thmexercise1" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 1</span></span> (Markov Inequality for Conditional Expectation).</h6>
+<div id="Thmexercise1.p1" class="ltx_para">
+<p class="ltx_p">Prove that for two random variables <math id="Thmexercise1.p1.m1" class="ltx_Math" alttext="X,Y" display="inline"><mrow><mi>X</mi><mo>,</mo><mi>Y</mi></mrow></math> and an increasing
+<math id="Thmexercise1.p1.m2" class="ltx_Math" alttext="h:[0,\infty)\to[0,\infty)" display="inline"><mrow><mi>h</mi><mo>:</mo><mrow><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mi mathvariant="normal">∞</mi><mo stretchy="false">)</mo></mrow><mo>→</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mi mathvariant="normal">∞</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math> we have for any <math id="Thmexercise1.p1.m3" class="ltx_Math" alttext="\epsilon&gt;0" display="inline"><mrow><mi>ϵ</mi><mo>&gt;</mo><mn>0</mn></mrow></math></p>
+<table id="S0.EGx1" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex1"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex1.m1" class="ltx_Math" alttext="\displaystyle\mathbb{P}(|X|\geq\epsilon\,|\,Y)\leq\frac{\mathbb{E}[h(|X|)\,|\,%&#10;Y]}{h(\epsilon)}\quad\text{a.s.}" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mo stretchy="false">|</mo><mi>X</mi><mo stretchy="false">|</mo><mo>≥</mo><mpadded width="+1.7pt"><mi>ϵ</mi></mpadded><mo rspace="4.2pt" stretchy="false">|</mo><mi>Y</mi><mo stretchy="false">)</mo></mrow><mo>≤</mo><mstyle displaystyle="true"><mfrac><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mrow><mi>h</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">|</mo><mi>X</mi><mo stretchy="false">|</mo></mrow><mo rspace="4.2pt" stretchy="false">)</mo></mrow></mrow><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><mi>Y</mi></mrow><mo stretchy="false">]</mo></mrow></mrow><mrow><mi>h</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>ϵ</mi><mo stretchy="false">)</mo></mrow></mrow></mfrac></mstyle><mo mathvariant="italic" separator="true"> </mo><mtext>a.s.</mtext></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+</div>
+<div id="Thmremarkx1" class="ltx_theorem ltx_theorem_remark">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Remark</span></span>.</h6>
+<div id="Thmremarkx1.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">The proof works the same when one conditions on a sigma algebra instead of
+a random variable <math id="Thmremarkx1.p1.m1" class="ltx_Math" alttext="Y" display="inline"><mi>Y</mi></math>.</span></p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="Thmexercise1.p2" class="ltx_para">
+<p class="ltx_p">Simply using monotonicity of conditional expectation we get</p>
+<table id="S0.EGx2" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex2"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex2.m1" class="ltx_Math" alttext="\displaystyle\mathbb{P}(|X|\geq\epsilon\,|\,Y)" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mo stretchy="false">|</mo><mi>X</mi><mo stretchy="false">|</mo><mo>≥</mo><mpadded width="+1.7pt"><mi>ϵ</mi></mpadded><mo rspace="4.2pt" stretchy="false">|</mo><mi>Y</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex2.m2" class="ltx_Math" alttext="\displaystyle=\mathbb{E}[\mathbbm{1}_{|X|\geq\epsilon}\,|\,Y]\leq\mathbb{E}[%&#10;\mathbbm{1}_{h(|X|)\geq h(\epsilon)}\,|\,Y]\leq\mathbb{E}\left[\frac{h(|X|)}{h%&#10;(\epsilon)}\mathbbm{1}_{h(|X|)\geq h(\epsilon)}\,|\,Y\right]" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mpadded width="+1.7pt"><msub><mn>𝟙</mn><mrow><mrow><mo stretchy="false">|</mo><mi>X</mi><mo stretchy="false">|</mo></mrow><mo>≥</mo><mi>ϵ</mi></mrow></msub></mpadded><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><mi>Y</mi></mrow><mo stretchy="false">]</mo></mrow></mrow><mo>≤</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mpadded width="+1.7pt"><msub><mn>𝟙</mn><mrow><mrow><mi>h</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">|</mo><mi>X</mi><mo stretchy="false">|</mo></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>≥</mo><mrow><mi>h</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>ϵ</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></msub></mpadded><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><mi>Y</mi></mrow><mo stretchy="false">]</mo></mrow></mrow><mo>≤</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><mrow><mstyle displaystyle="true"><mfrac><mrow><mi>h</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">|</mo><mi>X</mi><mo stretchy="false">|</mo></mrow><mo stretchy="false">)</mo></mrow></mrow><mrow><mi>h</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>ϵ</mi><mo stretchy="false">)</mo></mrow></mrow></mfrac></mstyle><mo>⁢</mo><mpadded width="+1.7pt"><msub><mn>𝟙</mn><mrow><mrow><mi>h</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">|</mo><mi>X</mi><mo stretchy="false">|</mo></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>≥</mo><mrow><mi>h</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>ϵ</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></msub></mpadded></mrow><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><mi>Y</mi></mrow><mo>]</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex3"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex3.m2" class="ltx_Math" alttext="\displaystyle\leq\frac{\mathbb{E}[h(|X|)\,|\,Y]}{h(\epsilon)}.\qed" display="inline"><mrow><mrow><mi></mi><mo>≤</mo><mstyle displaystyle="true"><mfrac><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mrow><mi>h</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">|</mo><mi>X</mi><mo stretchy="false">|</mo></mrow><mo rspace="4.2pt" stretchy="false">)</mo></mrow></mrow><mo lspace="2.5pt" rspace="4.2pt" stretchy="false">|</mo><mi>Y</mi></mrow><mo stretchy="false">]</mo></mrow></mrow><mrow><mi>h</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>ϵ</mi><mo stretchy="false">)</mo></mrow></mrow></mfrac></mstyle></mrow><mo>.</mo><mo mathvariant="italic" separator="true">∎</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+</div>
+</div>
+</div>
+</article>
+
+      </div>
+    </div>
+
+    <script src="../js/LaTeXML-maybeMathJax.js" type="text/javascript"></script>
+    <script src="../js/collapsing_proofs.js" type="text/javascript"></script>
+  </body>
+</html>

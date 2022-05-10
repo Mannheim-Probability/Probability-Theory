@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Branching process tools</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="/exercises/LaTeXML.css" type="text/css" />
+    <link rel="stylesheet" href="/exercises/ltx-article.css" type="text/css" />
+  </head>
+  <body>
+    <div class="ltx_page_main">
+      <div class="ltx_page_content">
+        
+<article class="ltx_document">
+<div id="Thmexercise1" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 1</span></span><span class="ltx_text ltx_font_bold"> </span>(Branching Process Tools)<span class="ltx_text ltx_font_bold">.</span></h6>
+<div id="Thmexercise1.p1" class="ltx_para">
+<p class="ltx_p">Assume <math id="Thmexercise1.p1.m1" class="ltx_Math" alttext="X=(X_{n})_{n}" display="inline"><mrow><mi>X</mi><mo>=</mo><msub><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow><mi>n</mi></msub></mrow></math> are identically distributed, independent and
+integrable random variables. And assume <math id="Thmexercise1.p1.m2" class="ltx_Math" alttext="N" display="inline"><mi>N</mi></math> is an integrable <math id="Thmexercise1.p1.m3" class="ltx_Math" alttext="\mathbb{N}_{0}" display="inline"><msub><mi>â</mi><mn>0</mn></msub></math>-valued
+random variable independent of <math id="Thmexercise1.p1.m4" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> and <math id="Thmexercise1.p1.m5" class="ltx_Math" alttext="S_{n}:=\sum_{k=1}^{n}X_{i}" display="inline"><mrow><msub><mi>S</mi><mi>n</mi></msub><mo>:=</mo><mrow><msubsup><mo largeop="true" symmetric="true">â</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></msubsup><msub><mi>X</mi><mi>i</mi></msub></mrow></mrow></math>.</p>
+<ol id="S0.I1" class="ltx_enumerate">
+<li id="S0.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">(i)</span> 
+<div id="S0.I1.i1.p1" class="ltx_para">
+<p class="ltx_p">(Waldâs equation) Prove that</p>
+<table id="S0.EGx1" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex1"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex1.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}[S_{N}]=\mathbb{E}[N]\mathbb{E}[X_{1}]" display="inline"><mrow><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msub><mi>S</mi><mi>N</mi></msub><mo stretchy="false">]</mo></mrow></mrow><mo>=</mo><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><mi>N</mi><mo stretchy="false">]</mo></mrow><mo>â¢</mo><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false">]</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+</div>
+<div id="Thmhintx1" class="ltx_theorem ltx_theorem_hint">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Hint</span></span><span class="ltx_text ltx_font_bold">.</span></h6>
+<div id="Thmhintx1.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">Use indicators and Fubini.</span></p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I1.i1.p2" class="ltx_para">
+<p class="ltx_p">The claim follows from Fubini and independence:</p>
+<table id="S0.EGx2" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex2"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex2.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}\left[\sum_{k=1}^{N}X_{i}\right]" display="inline"><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo>[</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">â</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></munderover></mstyle><msub><mi>X</mi><mi>i</mi></msub></mrow><mo>]</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex2.m2" class="ltx_Math" alttext="\displaystyle=\mathbb{E}\left[\sum_{n=0}^{\infty}\mathbbm{1}_{N=n}\sum_{k=1}^{%&#10;n}X_{i}\right]=\sum_{n=0}^{\infty}\mathbb{E}\left[\mathbbm{1}_{N=n}\sum_{k=1}^%&#10;{n}X_{i}\right]" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo>[</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">â</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mi mathvariant="normal">â</mi></munderover></mstyle><mrow><msub><mn>ð</mn><mrow><mi>N</mi><mo>=</mo><mi>n</mi></mrow></msub><mo>â¢</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">â</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover></mstyle><msub><mi>X</mi><mi>i</mi></msub></mrow></mrow></mrow><mo>]</mo></mrow></mrow><mo>=</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">â</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mi mathvariant="normal">â</mi></munderover></mstyle><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo>[</mo><mrow><msub><mn>ð</mn><mrow><mi>N</mi><mo>=</mo><mi>n</mi></mrow></msub><mo>â¢</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">â</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover></mstyle><msub><mi>X</mi><mi>i</mi></msub></mrow></mrow><mo>]</mo></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex3"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex3.m1" class="ltx_Math" alttext="\displaystyle\stackrel{{\scriptstyle\text{indep.}}}{{=}}\sum_{n=0}^{\infty}%&#10;\mathbb{E}[\mathbbm{1}_{N=n}]\underbrace{\mathbb{E}\left[\sum_{k=1}^{n}X_{i}%&#10;\right]}_{=n\mathbb{E}[X_{1}]}" display="inline"><mrow><mi></mi><mover><mo movablelimits="false">=</mo><mtext>indep.</mtext></mover><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">â</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mi mathvariant="normal">â</mi></munderover></mstyle><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msub><mn>ð</mn><mrow><mi>N</mi><mo>=</mo><mi>n</mi></mrow></msub><mo stretchy="false">]</mo></mrow><mo>â¢</mo><munder><munder accentunder="true"><mrow><mi>ð¼</mi><mo movablelimits="false">â¢</mo><mrow><mo movablelimits="false">[</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">â</mo><mrow><mi>k</mi><mo movablelimits="false">=</mo><mn>1</mn></mrow><mi>n</mi></munderover></mstyle><msub><mi>X</mi><mi>i</mi></msub></mrow><mo movablelimits="false">]</mo></mrow></mrow><mo movablelimits="false">â</mo></munder><mrow><mi></mi><mo>=</mo><mrow><mi>n</mi><mo>â¢</mo><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false">]</mo></mrow></mrow></mrow></munder></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex4"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex4.m1" class="ltx_Math" alttext="\displaystyle=\mathbb{E}[X_{1}]\sum_{n=0}^{\infty}\mathbb{E}[n\mathbbm{1}_{N=n}]" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false">]</mo></mrow><mo>â¢</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">â</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mi mathvariant="normal">â</mi></munderover></mstyle><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><mrow><mi>n</mi><mo>â¢</mo><msub><mn>ð</mn><mrow><mi>N</mi><mo>=</mo><mi>n</mi></mrow></msub></mrow><mo stretchy="false">]</mo></mrow></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex5"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex5.m1" class="ltx_Math" alttext="\displaystyle=\mathbb{E}[X_{1}]\mathbb{E}\left[N\sum_{n=0}^{\infty}\mathbbm{1}%&#10;_{N=n}\right]" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false">]</mo></mrow><mo>â¢</mo><mi>ð¼</mi><mo>â¢</mo><mrow><mo>[</mo><mrow><mi>N</mi><mo>â¢</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">â</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mi mathvariant="normal">â</mi></munderover></mstyle><msub><mn>ð</mn><mrow><mi>N</mi><mo>=</mo><mi>n</mi></mrow></msub></mrow></mrow><mo>]</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex6"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex6.m1" class="ltx_Math" alttext="\displaystyle=\mathbb{E}[X_{1}]\mathbb{E}[N]\qed" display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false">]</mo></mrow><mo>â¢</mo><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><mi>N</mi><mo stretchy="false">]</mo></mrow></mrow></mrow><mo mathvariant="italic" separator="true">â</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+</div>
+</div></li>
+<li id="S0.I1.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">(ii)</span> 
+<div id="S0.I1.i2.p1" class="ltx_para">
+<p class="ltx_p">(Blackwell-Girshick) Further assume that <math id="S0.I1.i2.p1.m1" class="ltx_Math" alttext="X_{n},N\in\mathcal{L}^{2}" display="inline"><mrow><mrow><msub><mi>X</mi><mi>n</mi></msub><mo>,</mo><mi>N</mi></mrow><mo>â</mo><msup><mi class="ltx_font_mathcaligraphic">â</mi><mn>2</mn></msup></mrow></math>. Prove that</p>
+<ol id="S0.I1.i2.I1" class="ltx_enumerate">
+<li id="S0.I1.i2.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">(a)</span> 
+<div id="S0.I1.i2.I1.i1.p1" class="ltx_para">
+<p class="ltx_p"><math id="S0.I1.i2.I1.i1.p1.m1" class="ltx_Math" alttext="\mathbb{E}[S_{N}^{2}]=\mathbb{E}[N]\text{Var}[X_{1}]+\mathbb{E}[N^{2}]\mathbb{%&#10;E}[X_{1}]^{2}" display="inline"><mrow><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msubsup><mi>S</mi><mi>N</mi><mn>2</mn></msubsup><mo stretchy="false">]</mo></mrow></mrow><mo>=</mo><mrow><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><mi>N</mi><mo stretchy="false">]</mo></mrow><mo>â¢</mo><mtext>Var</mtext><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false">]</mo></mrow></mrow><mo>+</mo><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msup><mi>N</mi><mn>2</mn></msup><mo stretchy="false">]</mo></mrow><mo>â¢</mo><mi>ð¼</mi><mo>â¢</mo><msup><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false">]</mo></mrow><mn>2</mn></msup></mrow></mrow></mrow></math></p>
+</div></li>
+<li id="S0.I1.i2.I1.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">(b)</span> 
+<div id="S0.I1.i2.I1.i2.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p"><math id="S0.I1.i2.I1.i2.p1.m1" class="ltx_Math" alttext="\text{Var}[S_{N}]=\mathbb{E}[N]\text{Var}[X_{1}]+\text{Var}[N]\mathbb{E}[X_{1}%&#10;]^{2}" display="inline"><mrow><mrow><mtext>Var</mtext><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msub><mi>S</mi><mi>N</mi></msub><mo stretchy="false">]</mo></mrow></mrow><mo>=</mo><mrow><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><mi>N</mi><mo stretchy="false">]</mo></mrow><mo>â¢</mo><mtext>Var</mtext><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false">]</mo></mrow></mrow><mo>+</mo><mrow><mtext>Var</mtext><mo>â¢</mo><mrow><mo stretchy="false">[</mo><mi>N</mi><mo stretchy="false">]</mo></mrow><mo>â¢</mo><mi>ð¼</mi><mo>â¢</mo><msup><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false">]</mo></mrow><mn>2</mn></msup></mrow></mrow></mrow></math></p>
+</div></li>
+</ol>
+</div>
+<div id="Thmhintx2" class="ltx_theorem ltx_theorem_hint">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Hint</span></span><span class="ltx_text ltx_font_bold">.</span></h6>
+<div id="Thmhintx2.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">Same trick as with Waldâs equation.</span></p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I1.i2.p2" class="ltx_para">
+<p class="ltx_p">Similarly to Waldâs equation we have</p>
+<table id="S0.EGx3" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex7"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex7.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}[S_{N}^{2}]" display="inline"><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msubsup><mi>S</mi><mi>N</mi><mn>2</mn></msubsup><mo stretchy="false">]</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex7.m2" class="ltx_Math" alttext="\displaystyle=\sum_{n=0}^{\infty}\mathbb{E}[\mathbbm{1}_{N=n}S_{n}^{2}]" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">â</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mi mathvariant="normal">â</mi></munderover></mstyle><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><mrow><msub><mn>ð</mn><mrow><mi>N</mi><mo>=</mo><mi>n</mi></mrow></msub><mo>â¢</mo><msubsup><mi>S</mi><mi>n</mi><mn>2</mn></msubsup></mrow><mo stretchy="false">]</mo></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex8"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex8.m1" class="ltx_Math" alttext="\displaystyle=\sum_{n=0}^{\infty}\mathbb{E}[\mathbbm{1}_{N=n}]\mathbb{E}[S_{n}%&#10;^{2}]" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">â</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mi mathvariant="normal">â</mi></munderover></mstyle><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msub><mn>ð</mn><mrow><mi>N</mi><mo>=</mo><mi>n</mi></mrow></msub><mo stretchy="false">]</mo></mrow><mo>â¢</mo><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msubsup><mi>S</mi><mi>n</mi><mn>2</mn></msubsup><mo stretchy="false">]</mo></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex9"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex9.m1" class="ltx_Math" alttext="\displaystyle=\sum_{n=0}^{\infty}\mathbb{E}[\mathbbm{1}_{N=n}](\underbrace{%&#10;\text{Var}[S_{n}]}_{=n\text{Var}[X_{1}]}+(\underbrace{\mathbb{E}[S_{n}]}_{=n%&#10;\mathbb{E}[X_{1}]})^{2})" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">â</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mi mathvariant="normal">â</mi></munderover></mstyle><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msub><mn>ð</mn><mrow><mi>N</mi><mo>=</mo><mi>n</mi></mrow></msub><mo stretchy="false">]</mo></mrow><mo>â¢</mo><mrow><mo stretchy="false">(</mo><mrow><munder><munder accentunder="true"><mrow><mtext>Var</mtext><mo movablelimits="false">â¢</mo><mrow><mo movablelimits="false" stretchy="false">[</mo><msub><mi>S</mi><mi>n</mi></msub><mo movablelimits="false" stretchy="false">]</mo></mrow></mrow><mo movablelimits="false">â</mo></munder><mrow><mi></mi><mo>=</mo><mrow><mi>n</mi><mo>â¢</mo><mtext>Var</mtext><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false">]</mo></mrow></mrow></mrow></munder><mo>+</mo><msup><mrow><mo stretchy="false">(</mo><munder><munder accentunder="true"><mrow><mi>ð¼</mi><mo movablelimits="false">â¢</mo><mrow><mo movablelimits="false" stretchy="false">[</mo><msub><mi>S</mi><mi>n</mi></msub><mo movablelimits="false" stretchy="false">]</mo></mrow></mrow><mo movablelimits="false">â</mo></munder><mrow><mi></mi><mo>=</mo><mrow><mi>n</mi><mo>â¢</mo><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false">]</mo></mrow></mrow></mrow></munder><mo stretchy="false">)</mo></mrow><mn>2</mn></msup></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex10"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex10.m1" class="ltx_Math" alttext="\displaystyle=\mathbb{E}\left[\sum_{n=0}^{\infty}\mathbbm{1}_{N=n}n\right]%&#10;\text{Var}[X_{1}]+\mathbb{E}\left[\sum_{n=0}^{\infty}\mathbbm{1}_{N=n}n^{2}%&#10;\right]\mathbb{E}[X_{1}]^{2}" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo>[</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">â</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mi mathvariant="normal">â</mi></munderover></mstyle><mrow><msub><mn>ð</mn><mrow><mi>N</mi><mo>=</mo><mi>n</mi></mrow></msub><mo>â¢</mo><mi>n</mi></mrow></mrow><mo>]</mo></mrow><mo>â¢</mo><mtext>Var</mtext><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false">]</mo></mrow></mrow><mo>+</mo><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo>[</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">â</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mi mathvariant="normal">â</mi></munderover></mstyle><mrow><msub><mn>ð</mn><mrow><mi>N</mi><mo>=</mo><mi>n</mi></mrow></msub><mo>â¢</mo><msup><mi>n</mi><mn>2</mn></msup></mrow></mrow><mo>]</mo></mrow><mo>â¢</mo><mi>ð¼</mi><mo>â¢</mo><msup><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false">]</mo></mrow><mn>2</mn></msup></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex11"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex11.m1" class="ltx_Math" alttext="\displaystyle=\mathbb{E}[N]\text{Var}[X_{1}]+\mathbb{E}[N^{2}]\mathbb{E}[X_{1}%&#10;]^{2}" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><mi>N</mi><mo stretchy="false">]</mo></mrow><mo>â¢</mo><mtext>Var</mtext><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false">]</mo></mrow></mrow><mo>+</mo><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msup><mi>N</mi><mn>2</mn></msup><mo stretchy="false">]</mo></mrow><mo>â¢</mo><mi>ð¼</mi><mo>â¢</mo><msup><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false">]</mo></mrow><mn>2</mn></msup></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">which directly implies <span class="ltx_ref ltx_ref_self"><span class="ltx_text ltx_ref_tag">(ii)(a)</span></span>. <span class="ltx_ref ltx_ref_self"><span class="ltx_text ltx_ref_tag">(ii)(b)</span></span> follows
+using Waldâs equation as</p>
+<table id="S0.EGx4" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex12"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex12.m1" class="ltx_Math" alttext="\displaystyle\text{Var}[S_{N}]" display="inline"><mrow><mtext>Var</mtext><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msub><mi>S</mi><mi>N</mi></msub><mo stretchy="false">]</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex12.m2" class="ltx_Math" alttext="\displaystyle=\mathbb{E}[S_{N}^{2}]-\mathbb{E}[S_{N}]^{2}" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msubsup><mi>S</mi><mi>N</mi><mn>2</mn></msubsup><mo stretchy="false">]</mo></mrow></mrow><mo>-</mo><mrow><mi>ð¼</mi><mo>â¢</mo><msup><mrow><mo stretchy="false">[</mo><msub><mi>S</mi><mi>N</mi></msub><mo stretchy="false">]</mo></mrow><mn>2</mn></msup></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex13"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex13.m1" class="ltx_Math" alttext="\displaystyle=\mathbb{E}[N]\text{Var}[X_{1}]+\mathbb{E}[N^{2}]\mathbb{E}[X_{1}%&#10;]^{2}-(\mathbb{E}[N]\mathbb{E}[X_{1}])^{2}" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mrow><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><mi>N</mi><mo stretchy="false">]</mo></mrow><mo>â¢</mo><mtext>Var</mtext><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false">]</mo></mrow></mrow><mo>+</mo><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msup><mi>N</mi><mn>2</mn></msup><mo stretchy="false">]</mo></mrow><mo>â¢</mo><mi>ð¼</mi><mo>â¢</mo><msup><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false">]</mo></mrow><mn>2</mn></msup></mrow></mrow><mo>-</mo><msup><mrow><mo stretchy="false">(</mo><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><mi>N</mi><mo stretchy="false">]</mo></mrow><mo>â¢</mo><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false">]</mo></mrow></mrow><mo stretchy="false">)</mo></mrow><mn>2</mn></msup></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex14"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex14.m1" class="ltx_Math" alttext="\displaystyle=\mathbb{E}[N]\text{Var}[X_{1}]+\text{Var}[N]\mathbb{E}[X_{1}]^{2}\qed" display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><mrow><mi>ð¼</mi><mo>â¢</mo><mrow><mo stretchy="false">[</mo><mi>N</mi><mo stretchy="false">]</mo></mrow><mo>â¢</mo><mtext>Var</mtext><mo>â¢</mo><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false">]</mo></mrow></mrow><mo>+</mo><mrow><mtext>Var</mtext><mo>â¢</mo><mrow><mo stretchy="false">[</mo><mi>N</mi><mo stretchy="false">]</mo></mrow><mo>â¢</mo><mi>ð¼</mi><mo>â¢</mo><msup><mrow><mo stretchy="false">[</mo><msub><mi>X</mi><mn>1</mn></msub><mo stretchy="false">]</mo></mrow><mn>2</mn></msup></mrow></mrow></mrow><mo mathvariant="italic" separator="true">â</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+</div>
+</div></li>
+</ol>
+</div>
+</div>
+</article>
+
+      </div>
+    </div>
+
+    <script src="/exercises/LaTeXML-maybeMathJax.js" type="text/javascript"></script>
+    <script src="/exercises/js/collapsing_proofs.js" type="text/javascript"></script>
+  </body>
+</html>

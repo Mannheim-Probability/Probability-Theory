@@ -20,7 +20,7 @@
 /* Main content */
 .ltx_page_main { display: flex; align-items: stretch; flex-direction: column; margin: 0px; padding: 1em 2em; }
 .ltx_page_content { clear:both; display: flex; align-items: center; flex-direction: column}
-.ltx_page_content > article { max-width: 1080px; padding: 0em 1em;}
+.ltx_page_content > article { max-width: 70em; padding: 0em 1em;}
 .ltx_page_header  { border-bottom:1px solid; margin-bottom:5px; }
 .ltx_page_footer  { clear:both; border-top:1px solid; margin-top:5px; }
 

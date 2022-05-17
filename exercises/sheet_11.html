@@ -1,0 +1,559 @@
+<!DOCTYPE html><html>
+<head>
+<title>Sheet 11</title>
+<!--Generated on Tue May 17 12:52:29 2022 by LaTeXML (version 0.8.5) http://dlmf.nist.gov/LaTeXML/.-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="css/LaTeXML.css" type="text/css">
+<link rel="stylesheet" href="css/ltx-article.css" type="text/css">
+</head>
+<body>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<article class="ltx_document ltx_authors_1line">
+<h1 class="ltx_title ltx_title_document">Sheet 11</h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">Prof. Leif Döring, Felix Benning
+</span></span>
+</div>
+<span class="ltx_note ltx_role_course"><sup class="ltx_note_mark">†</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">†</sup><span class="ltx_note_type">course: </span>Wahrscheinlichkeitstheorie 1</span></span></span><span class="ltx_note ltx_role_semester"><sup class="ltx_note_mark">†</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">†</sup><span class="ltx_note_type">semester: </span>FSS 2022</span></span></span><span class="ltx_note ltx_role_tutorialDate"><sup class="ltx_note_mark">†</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">†</sup><span class="ltx_note_type">tutorialDate: </span>16.05.2022</span></span></span><span class="ltx_note ltx_role_dueDate"><sup class="ltx_note_mark">†</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">†</sup><span class="ltx_note_type">dueDate: </span>10:15 in the exercise on Monday 16.05.2022</span></span></span>
+<div id="Thmexercise1" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 1</span></span><span class="ltx_text ltx_font_bold"> </span>(Canonical Continuous Process)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmexercise1.p1" class="ltx_para">
+<p class="ltx_p">Suppose <math id="Thmexercise1.p1.m1" class="ltx_Math" alttext="X=(X_{t})_{t\geq 0}" display="inline"><mrow><mi>X</mi><mo>=</mo><msub><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow><mrow><mi>t</mi><mo>≥</mo><mn>0</mn></mrow></msub></mrow></math> is a continuous stochastic process on some probability space
+<math id="Thmexercise1.p1.m2" class="ltx_Math" alttext="(\Omega,\mathcal{A},\mathbb{P})" display="inline"><mrow><mo stretchy="false">(</mo><mi mathvariant="normal">Ω</mi><mo>,</mo><mi class="ltx_font_mathcaligraphic">𝒜</mi><mo>,</mo><mi>ℙ</mi><mo stretchy="false">)</mo></mrow></math> and <math id="Thmexercise1.p1.m3" class="ltx_Math" alttext="\mathbb{P}^{X}" display="inline"><msup><mi>ℙ</mi><mi>X</mi></msup></math> its law on <math id="Thmexercise1.p1.m4" class="ltx_Math" alttext="C([0,\infty)" display="inline"><mrow><mi>C</mi><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mi mathvariant="normal">∞</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math>. Define</p>
+<ul id="S0.I1" class="ltx_itemize">
+<li id="S0.I1.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span> 
+<div id="S0.I1.i1.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p"><math id="S0.I1.i1.p1.m1" class="ltx_Math" alttext="\tilde{\Omega}:=C([0,\infty))" display="inline"><mrow><mover accent="true"><mi mathvariant="normal">Ω</mi><mo stretchy="false">~</mo></mover><mo>:=</mo><mrow><mi>C</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mi mathvariant="normal">∞</mi><mo stretchy="false">)</mo></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math>,
+<math id="S0.I1.i1.p1.m2" class="ltx_Math" alttext="\tilde{\mathcal{A}}:=\mathcal{B}(C([0,\infty)))" display="inline"><mrow><mover accent="true"><mi class="ltx_font_mathcaligraphic">𝒜</mi><mo stretchy="false">~</mo></mover><mo>:=</mo><mrow><mi class="ltx_font_mathcaligraphic">ℬ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>C</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mi mathvariant="normal">∞</mi><mo stretchy="false">)</mo></mrow><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math> and <math id="S0.I1.i1.p1.m3" class="ltx_Math" alttext="\tilde{\mathbb{P}}:=\mathbb{P}^{X,c}" display="inline"><mrow><mover accent="true"><mi>ℙ</mi><mo stretchy="false">~</mo></mover><mo>:=</mo><msup><mi>ℙ</mi><mrow><mi>X</mi><mo>,</mo><mi>c</mi></mrow></msup></mrow></math></p>
+</div>
+</li>
+<li id="S0.I1.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span> 
+<div id="S0.I1.i2.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p"><math id="S0.I1.i2.p1.m1" class="ltx_Math" alttext="\tilde{X}:=\text{id}:C([0,\infty))\to C([0,\infty))" display="inline"><mrow><mrow><mover accent="true"><mi>X</mi><mo stretchy="false">~</mo></mover><mo>:=</mo><mtext>id</mtext></mrow><mo>:</mo><mrow><mrow><mi>C</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mi mathvariant="normal">∞</mi><mo stretchy="false">)</mo></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>→</mo><mrow><mi>C</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mi mathvariant="normal">∞</mi><mo stretchy="false">)</mo></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow></math> with
+<math id="S0.I1.i2.p1.m2" class="ltx_Math" alttext="\tilde{X}_{t}:=\pi_{t}(\tilde{X})" display="inline"><mrow><msub><mover accent="true"><mi>X</mi><mo stretchy="false">~</mo></mover><mi>t</mi></msub><mo>:=</mo><mrow><msub><mi>π</mi><mi>t</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mover accent="true"><mi>X</mi><mo stretchy="false">~</mo></mover><mo stretchy="false">)</mo></mrow></mrow></mrow></math>.</p>
+</div>
+</li>
+</ul>
+<p class="ltx_p">Show that <math id="Thmexercise1.p1.m5" class="ltx_Math" alttext="(\tilde{X}_{t})_{t\geq 0}" display="inline"><msub><mrow><mo stretchy="false">(</mo><msub><mover accent="true"><mi>X</mi><mo stretchy="false">~</mo></mover><mi>t</mi></msub><mo stretchy="false">)</mo></mrow><mrow><mi>t</mi><mo>≥</mo><mn>0</mn></mrow></msub></math> is a continuous stochastic process on
+<math id="Thmexercise1.p1.m6" class="ltx_Math" alttext="(\tilde{\Omega},\tilde{\mathcal{A}},\tilde{\mathbb{P}})" display="inline"><mrow><mo stretchy="false">(</mo><mover accent="true"><mi mathvariant="normal">Ω</mi><mo stretchy="false">~</mo></mover><mo>,</mo><mover accent="true"><mi class="ltx_font_mathcaligraphic">𝒜</mi><mo stretchy="false">~</mo></mover><mo>,</mo><mover accent="true"><mi>ℙ</mi><mo stretchy="false">~</mo></mover><mo stretchy="false">)</mo></mrow></math>, which has the same finite dimensional
+marginals (same law) as <math id="Thmexercise1.p1.m7" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math>.</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="Thmexercise1.p2" class="ltx_para">
+<p class="ltx_p">Due to <math id="Thmexercise1.p2.m1" class="ltx_Math" alttext="\tilde{X}(\omega)\in C([0,\infty))" display="inline"><mrow><mrow><mover accent="true"><mi>X</mi><mo stretchy="false">~</mo></mover><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>ω</mi><mo stretchy="false">)</mo></mrow></mrow><mo>∈</mo><mrow><mi>C</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mi mathvariant="normal">∞</mi><mo stretchy="false">)</mo></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math> for all <math id="Thmexercise1.p2.m2" class="ltx_Math" alttext="\omega" display="inline"><mi>ω</mi></math>, we have</p>
+<table id="S0.EGx1" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex1"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex1.m1" class="ltx_Math" alttext="\displaystyle\tilde{X}_{s}(\omega)" display="inline"><mrow><msub><mover accent="true"><mi>X</mi><mo stretchy="false">~</mo></mover><mi>s</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>ω</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex1.m2" class="ltx_Math" alttext="\displaystyle=\pi_{s}(\tilde{X}(\omega))=\tilde{X}(\omega)(s)" display="inline"><mrow><mi></mi><mo>=</mo><mrow><msub><mi>π</mi><mi>s</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mover accent="true"><mi>X</mi><mo stretchy="false">~</mo></mover><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>ω</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mover accent="true"><mi>X</mi><mo stretchy="false">~</mo></mover><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>ω</mi><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex2"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex2.m2" class="ltx_Math" alttext="\displaystyle\to\tilde{X}(\omega)(t)=\tilde{X}_{t}(\omega)\quad s\to t," display="inline"><mrow><mrow><mrow><mi></mi><mo>→</mo><mrow><mover accent="true"><mi>X</mi><mo stretchy="false">~</mo></mover><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>ω</mi><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><msub><mover accent="true"><mi>X</mi><mo stretchy="false">~</mo></mover><mi>t</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>ω</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo mathvariant="italic" separator="true"> </mo><mrow><mi>s</mi><mo>→</mo><mi>t</mi></mrow></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">for all <math id="Thmexercise1.p2.m3" class="ltx_Math" alttext="\omega\in\tilde{\Omega}" display="inline"><mrow><mi>ω</mi><mo>∈</mo><mover accent="true"><mi mathvariant="normal">Ω</mi><mo stretchy="false">~</mo></mover></mrow></math>, so <math id="Thmexercise1.p2.m4" class="ltx_Math" alttext="(\tilde{X}_{t})_{t\geq 0}" display="inline"><msub><mrow><mo stretchy="false">(</mo><msub><mover accent="true"><mi>X</mi><mo stretchy="false">~</mo></mover><mi>t</mi></msub><mo stretchy="false">)</mo></mrow><mrow><mi>t</mi><mo>≥</mo><mn>0</mn></mrow></msub></math> is a
+continuous stochastic process. Now the law of <math id="Thmexercise1.p2.m5" class="ltx_Math" alttext="\tilde{X}" display="inline"><mover accent="true"><mi>X</mi><mo stretchy="false">~</mo></mover></math> is</p>
+<table id="S0.EGx2" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex3"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex3.m1" class="ltx_Math" alttext="\displaystyle\mathbb{P}^{\tilde{X}}(B)=\tilde{\mathbb{P}}(\tilde{X}\in B)%
+\stackrel{{\scriptstyle\tilde{X}=\text{id}}}{{=}}\tilde{\mathbb{P}}(B)=\mathbb%
+{P}^{X,c}(B)." display="inline"><mrow><msup><mi>ℙ</mi><mover accent="true"><mi>X</mi><mo stretchy="false">~</mo></mover></msup><mrow><mo stretchy="false">(</mo><mi>B</mi><mo stretchy="false">)</mo></mrow><mo>=</mo><mover accent="true"><mi>ℙ</mi><mo stretchy="false">~</mo></mover><mrow><mo stretchy="false">(</mo><mover accent="true"><mi>X</mi><mo stretchy="false">~</mo></mover><mo>∈</mo><mi>B</mi><mo stretchy="false">)</mo></mrow><mover><mo movablelimits="false">=</mo><mrow><mover accent="true"><mi>X</mi><mo stretchy="false">~</mo></mover><mo>=</mo><mtext>id</mtext></mrow></mover><mover accent="true"><mi>ℙ</mi><mo stretchy="false">~</mo></mover><mrow><mo stretchy="false">(</mo><mi>B</mi><mo stretchy="false">)</mo></mrow><mo>=</mo><msup><mi>ℙ</mi><mrow><mi>X</mi><mo>,</mo><mi>c</mi></mrow></msup><mrow><mo stretchy="false">(</mo><mi>B</mi><mo stretchy="false">)</mo></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">And by definition <math id="Thmexercise1.p2.m6" class="ltx_Math" alttext="\mathbb{P}^{X,c}_{t_{1},\dots,t_{n}}:=\mathbb{P}^{X}_{t_{1},\dots,t_{n}}" display="inline"><mrow><msubsup><mi>ℙ</mi><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub></mrow><mrow><mi>X</mi><mo>,</mo><mi>c</mi></mrow></msubsup><mo>:=</mo><msubsup><mi>ℙ</mi><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub></mrow><mi>X</mi></msubsup></mrow></math>,
+therefore we have that the finite dimensional marginals are the same</p>
+<table id="S0.EGx3" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex4"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex4.m1" class="ltx_Math" alttext="\displaystyle\mathbb{P}^{\tilde{X}}_{t_{1},\dots,t_{n}}" display="inline"><msubsup><mi>ℙ</mi><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub></mrow><mover accent="true"><mi>X</mi><mo stretchy="false">~</mo></mover></msubsup></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex4.m2" class="ltx_Math" alttext="\displaystyle=\mathbb{P}^{X}_{t_{1},\dots,t_{n}}.\qed" display="inline"><mrow><mrow><mi></mi><mo>=</mo><msubsup><mi>ℙ</mi><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub></mrow><mi>X</mi></msubsup></mrow><mo>.</mo><mo mathvariant="italic" separator="true">∎</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="Thmexercise2" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 2</span></span><span class="ltx_text ltx_font_bold"> </span>(Modification vs. Indistinguishable)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmexercise2.p1" class="ltx_para">
+<ol id="S0.I2" class="ltx_enumerate">
+<li id="S0.I2.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(i)</span> 
+<div id="S0.I2.i1.p1" class="ltx_para">
+<p class="ltx_p">Let <math id="S0.I2.i1.p1.m1" class="ltx_Math" alttext="X,Y" display="inline"><mrow><mi>X</mi><mo>,</mo><mi>Y</mi></mrow></math> be stochastic processes. Show the implications <a href="#S0.I2.i1.I1.i1" title="item (i)(a) ‣ item (i) ‣ Exercise 2 (Modification vs. Indistinguishable). ‣ Sheet 11" class="ltx_ref"><span class="ltx_text ltx_ref_tag">(i)(a)</span></a><math id="S0.I2.i1.p1.m2" class="ltx_Math" alttext="\Rightarrow" display="inline"><mo>⇒</mo></math><a href="#S0.I2.i1.I1.i2" title="item (i)(b) ‣ item (i) ‣ Exercise 2 (Modification vs. Indistinguishable). ‣ Sheet 11" class="ltx_ref"><span class="ltx_text ltx_ref_tag">(i)(b)</span></a><math id="S0.I2.i1.p1.m3" class="ltx_Math" alttext="\Rightarrow" display="inline"><mo>⇒</mo></math><a href="#S0.I2.i1.I1.i3" title="item (i)(c) ‣ item (i) ‣ Exercise 2 (Modification vs. Indistinguishable). ‣ Sheet 11" class="ltx_ref"><span class="ltx_text ltx_ref_tag">(i)(c)</span></a> for</p>
+<ol id="S0.I2.i1.I1" class="ltx_enumerate">
+<li id="S0.I2.i1.I1.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(a)</span> 
+<div id="S0.I2.i1.I1.i1.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p"><math id="S0.I2.i1.I1.i1.p1.m1" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> and <math id="S0.I2.i1.I1.i1.p1.m2" class="ltx_Math" alttext="Y" display="inline"><mi>Y</mi></math> are indistinguishable</p>
+</div>
+</li>
+<li id="S0.I2.i1.I1.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(b)</span> 
+<div id="S0.I2.i1.I1.i2.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p"><math id="S0.I2.i1.I1.i2.p1.m1" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> is a modification of <math id="S0.I2.i1.I1.i2.p1.m2" class="ltx_Math" alttext="Y" display="inline"><mi>Y</mi></math></p>
+</div>
+</li>
+<li id="S0.I2.i1.I1.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(c)</span> 
+<div id="S0.I2.i1.I1.i3.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p"><math id="S0.I2.i1.I1.i3.p1.m1" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> and <math id="S0.I2.i1.I1.i3.p1.m2" class="ltx_Math" alttext="Y" display="inline"><mi>Y</mi></math> have the same finite
+dimensional distributions</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I2.i1.p2" class="ltx_para ltx_noindent">
+<p class="ltx_p"><a href="#S0.I2.i1.I1.i1" title="item (i)(a) ‣ item (i) ‣ Exercise 2 (Modification vs. Indistinguishable). ‣ Sheet 11" class="ltx_ref"><span class="ltx_text ltx_ref_tag">(i)(a)</span></a><math id="S0.I2.i1.p2.m1" class="ltx_Math" alttext="\Rightarrow" display="inline"><mo>⇒</mo></math><a href="#S0.I2.i1.I1.i2" title="item (i)(b) ‣ item (i) ‣ Exercise 2 (Modification vs. Indistinguishable). ‣ Sheet 11" class="ltx_ref"><span class="ltx_text ltx_ref_tag">(i)(b)</span></a> We have
+for all <math id="S0.I2.i1.p2.m2" class="ltx_Math" alttext="t\in E" display="inline"><mrow><mi>t</mi><mo>∈</mo><mi>E</mi></mrow></math></p>
+<table id="S0.EGx4" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex5"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex5.m1" class="ltx_Math" alttext="\displaystyle\mathbb{P}(X_{t}=Y_{t})" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mi>t</mi></msub><mo>=</mo><msub><mi>Y</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex5.m2" class="ltx_Math" alttext="\displaystyle\geq\mathbb{P}\biggl{(}\bigcap_{s\in E}\{X_{s}=Y_{s}\}\biggr{)}=%
+\mathbb{P}(\forall s\in E:X_{s}=Y_{s})" display="inline"><mrow><mo>≥</mo><mi>ℙ</mi><mrow><mo maxsize="210%" minsize="210%">(</mo><mstyle displaystyle="true"><munder><mo largeop="true" mathsize="160%" movablelimits="false" stretchy="false" symmetric="true">⋂</mo><mrow><mi>s</mi><mo>∈</mo><mi>E</mi></mrow></munder></mstyle><mrow><mo stretchy="false">{</mo><msub><mi>X</mi><mi>s</mi></msub><mo>=</mo><msub><mi>Y</mi><mi>s</mi></msub><mo stretchy="false">}</mo></mrow><mo maxsize="210%" minsize="210%">)</mo></mrow><mo>=</mo><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mo>∀</mo><mi>s</mi><mo>∈</mo><mi>E</mi><mo>:</mo><msub><mi>X</mi><mi>s</mi></msub><mo>=</mo><msub><mi>Y</mi><mi>s</mi></msub><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex6"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex6.m2" class="ltx_Math" alttext="\displaystyle=\mathbb{P}(X,Y\text{ are indistinguishable})=1" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mi>ℙ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>X</mi><mo>,</mo><mrow><mi>Y</mi><mo>⁢</mo><mtext> are indistinguishable</mtext></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mn>1</mn></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">so by definition <math id="S0.I2.i1.p2.m3" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> is a modification of <math id="S0.I2.i1.p2.m4" class="ltx_Math" alttext="Y" display="inline"><mi>Y</mi></math>.</p>
+</div>
+<div id="S0.I2.i1.p3" class="ltx_para">
+<p class="ltx_p"><a href="#S0.I2.i1.I1.i2" title="item (i)(b) ‣ item (i) ‣ Exercise 2 (Modification vs. Indistinguishable). ‣ Sheet 11" class="ltx_ref"><span class="ltx_text ltx_ref_tag">(i)(b)</span></a><math id="S0.I2.i1.p3.m1" class="ltx_Math" alttext="\Rightarrow" display="inline"><mo>⇒</mo></math><a href="#S0.I2.i1.I1.i3" title="item (i)(c) ‣ item (i) ‣ Exercise 2 (Modification vs. Indistinguishable). ‣ Sheet 11" class="ltx_ref"><span class="ltx_text ltx_ref_tag">(i)(c)</span></a>
+For every <math id="S0.I2.i1.p3.m2" class="ltx_Math" alttext="t" display="inline"><mi>t</mi></math> we have <math id="S0.I2.i1.p3.m3" class="ltx_Math" alttext="X_{t}=Y_{t}" display="inline"><mrow><msub><mi>X</mi><mi>t</mi></msub><mo>=</mo><msub><mi>Y</mi><mi>t</mi></msub></mrow></math> almost surely. So for a finite
+set <math id="S0.I2.i1.p3.m4" class="ltx_Math" alttext="\{t_{1},\dots,t_{n}\}" display="inline"><mrow><mo stretchy="false">{</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub><mo stretchy="false">}</mo></mrow></math> we can just take the union of zero sets to
+get <math id="S0.I2.i1.p3.m5" class="ltx_Math" alttext="(X_{t_{1}},\dots X_{t_{n}})=(Y_{t_{1}},\dots Y_{t_{n}})" display="inline"><mrow><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><msub><mi>t</mi><mn>1</mn></msub></msub><mo>,</mo><mrow><mi mathvariant="normal">…</mi><mo>⁢</mo><msub><mi>X</mi><msub><mi>t</mi><mi>n</mi></msub></msub></mrow><mo stretchy="false">)</mo></mrow><mo>=</mo><mrow><mo stretchy="false">(</mo><msub><mi>Y</mi><msub><mi>t</mi><mn>1</mn></msub></msub><mo>,</mo><mrow><mi mathvariant="normal">…</mi><mo>⁢</mo><msub><mi>Y</mi><msub><mi>t</mi><mi>n</mi></msub></msub></mrow><mo stretchy="false">)</mo></mrow></mrow></math> almost surely.
+But this implies that the distributions are also equal and by Prop.
+8.1.14 we only need to check the finite dimensional distributions are
+equal (i.e. <math id="S0.I2.i1.p3.m6" class="ltx_Math" alttext="\mathbb{P}^{X}_{t_{1},\dots,t_{n}}=\mathbb{P}^{Y}_{t_{1},\dots,t_{n}}" display="inline"><mrow><msubsup><mi>ℙ</mi><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub></mrow><mi>X</mi></msubsup><mo>=</mo><msubsup><mi>ℙ</mi><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub></mrow><mi>Y</mi></msubsup></mrow></math>).
+∎</p>
+</div>
+</div>
+</li>
+<li id="S0.I2.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(ii)</span> 
+<div id="S0.I2.i2.p1" class="ltx_para">
+<p class="ltx_p">If <math id="S0.I2.i2.p1.m1" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> is a modification of <math id="S0.I2.i2.p1.m2" class="ltx_Math" alttext="Y" display="inline"><mi>Y</mi></math> and both <math id="S0.I2.i2.p1.m3" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> and <math id="S0.I2.i2.p1.m4" class="ltx_Math" alttext="Y" display="inline"><mi>Y</mi></math> are
+continuous on a Polish space <math id="S0.I2.i2.p1.m5" class="ltx_Math" alttext="(E,d)" display="inline"><mrow><mo stretchy="false">(</mo><mi>E</mi><mo>,</mo><mi>d</mi><mo stretchy="false">)</mo></mrow></math>, then <math id="S0.I2.i2.p1.m6" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> and <math id="S0.I2.i2.p1.m7" class="ltx_Math" alttext="Y" display="inline"><mi>Y</mi></math> are indistinguishable.</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I2.i2.p2" class="ltx_para">
+<p class="ltx_p">Let <math id="S0.I2.i2.p2.m1" class="ltx_Math" alttext="Q" display="inline"><mi>Q</mi></math> be the countable dense subset of <math id="S0.I2.i2.p2.m2" class="ltx_Math" alttext="E" display="inline"><mi>E</mi></math>, then as <math id="S0.I2.i2.p2.m3" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> is
+a modification of <math id="S0.I2.i2.p2.m4" class="ltx_Math" alttext="Y" display="inline"><mi>Y</mi></math> we have</p>
+<table id="S0.EGx5" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex7"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex7.m1" class="ltx_Math" alttext="\displaystyle\mathbb{P}(\forall t\in E:X_{t}=Y_{t})" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mo>∀</mo><mi>t</mi><mo>∈</mo><mi>E</mi><mo>:</mo><msub><mi>X</mi><mi>t</mi></msub><mo>=</mo><msub><mi>Y</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex7.m2" class="ltx_Math" alttext="\displaystyle\stackrel{{\scriptstyle X,Y\text{ contin.}}}{{=}}\mathbb{P}(%
+\forall t\in Q:X_{t}=Y_{t})=1-\mathbb{P}\bigg{(}\bigcup_{t\in Q}\{X_{t}\neq Y_%
+{t}\}\bigg{)}" display="inline"><mrow><mover><mo movablelimits="false">=</mo><mrow><mi>X</mi><mo>,</mo><mrow><mi>Y</mi><mo>⁢</mo><mtext> contin.</mtext></mrow></mrow></mover><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mo>∀</mo><mi>t</mi><mo>∈</mo><mi>Q</mi><mo>:</mo><msub><mi>X</mi><mi>t</mi></msub><mo>=</mo><msub><mi>Y</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow><mo>=</mo><mn>1</mn><mo>-</mo><mi>ℙ</mi><mrow><mo maxsize="210%" minsize="210%">(</mo><mstyle displaystyle="true"><munder><mo largeop="true" mathsize="160%" movablelimits="false" stretchy="false" symmetric="true">⋃</mo><mrow><mi>t</mi><mo>∈</mo><mi>Q</mi></mrow></munder></mstyle><mrow><mo stretchy="false">{</mo><msub><mi>X</mi><mi>t</mi></msub><mo>≠</mo><msub><mi>Y</mi><mi>t</mi></msub><mo stretchy="false">}</mo></mrow><mo maxsize="210%" minsize="210%">)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex8"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex8.m2" class="ltx_Math" alttext="\displaystyle\geq 1-\sum_{t\in Q}\underbrace{\mathbb{P}(X_{t}\neq Y_{t})}_{=0}.\qed" display="inline"><mrow><mrow><mi></mi><mo>≥</mo><mrow><mn>1</mn><mo>-</mo><mrow><mstyle displaystyle="true"><munder><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>t</mi><mo>∈</mo><mi>Q</mi></mrow></munder></mstyle><munder><munder accentunder="true"><mrow><mi>ℙ</mi><mrow><mo movablelimits="false" stretchy="false">(</mo><msub><mi>X</mi><mi>t</mi></msub><mo movablelimits="false">≠</mo><msub><mi>Y</mi><mi>t</mi></msub><mo movablelimits="false" stretchy="false">)</mo></mrow></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>=</mo><mn>0</mn></mrow></munder></mrow></mrow></mrow><mo>.</mo><mo mathvariant="italic" separator="true">∎</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="Thmexercise3" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 3</span></span><span class="ltx_text ltx_font_bold"> </span>(Hölder Continuity)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmexercise3.p1" class="ltx_para">
+<p class="ltx_p">Prove the following statements</p>
+<ol id="S0.I3" class="ltx_enumerate">
+<li id="S0.I3.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(i)</span> 
+<div id="S0.I3.i1.p1" class="ltx_para">
+<p class="ltx_p">If <math id="S0.I3.i1.p1.m1" class="ltx_Math" alttext="f" display="inline"><mi>f</mi></math> is locally <math id="S0.I3.i1.p1.m2" class="ltx_Math" alttext="\gamma" display="inline"><mi>γ</mi></math>-Hölder continuous, then <math id="S0.I3.i1.p1.m3" class="ltx_Math" alttext="f" display="inline"><mi>f</mi></math> is also
+locally <math id="S0.I3.i1.p1.m4" class="ltx_Math" alttext="\beta" display="inline"><mi>β</mi></math>-Hölder continuous for all <math id="S0.I3.i1.p1.m5" class="ltx_Math" alttext="\beta\leq\gamma" display="inline"><mrow><mi>β</mi><mo>≤</mo><mi>γ</mi></mrow></math>. Why is
+this wrong for global Hölder continuity?</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I3.i1.p2" class="ltx_para">
+<p class="ltx_p">Let <math id="S0.I3.i1.p2.m1" class="ltx_Math" alttext="U_{x}" display="inline"><msub><mi>U</mi><mi>x</mi></msub></math> be the neighborhood of <math id="S0.I3.i1.p2.m2" class="ltx_Math" alttext="x" display="inline"><mi>x</mi></math> such that for all <math id="S0.I3.i1.p2.m3" class="ltx_Math" alttext="y\in U_{x}" display="inline"><mrow><mi>y</mi><mo>∈</mo><msub><mi>U</mi><mi>x</mi></msub></mrow></math>
+we have the <math id="S0.I3.i1.p2.m4" class="ltx_Math" alttext="\gamma" display="inline"><mi>γ</mi></math>-Hölder continuity. Then
+for all <math id="S0.I3.i1.p2.m5" class="ltx_Math" alttext="\beta\leq\gamma" display="inline"><mrow><mi>β</mi><mo>≤</mo><mi>γ</mi></mrow></math> we get</p>
+<table id="S0.EGx6" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex9"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex9.m1" class="ltx_Math" alttext="\displaystyle\|f(x)-f(y)\|\leq K_{x}\|x-y\|^{\gamma}=\exp(\gamma\underbrace{%
+\log(\|x-y\|)}_{&lt;0\mathrlap{\quad(\text{if }\|x-y\|\leq 1)}})\leq K_{x}\|x-y\|%
+^{\beta}." display="inline"><mrow><mrow><mrow><mo>∥</mo><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>-</mo><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>∥</mo></mrow><mo>≤</mo><mrow><msub><mi>K</mi><mi>x</mi></msub><mo>⁢</mo><msup><mrow><mo>∥</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo>∥</mo></mrow><mi>γ</mi></msup></mrow><mo>=</mo><mrow><mi>exp</mi><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mrow><mi>γ</mi><mo>⁢</mo><munder><munder accentunder="true"><mrow><mi>log</mi><mo movablelimits="false">⁡</mo><mrow><mo movablelimits="false" stretchy="false">(</mo><mrow><mo movablelimits="false">∥</mo><mrow><mi>x</mi><mo movablelimits="false">-</mo><mi>y</mi></mrow><mo movablelimits="false">∥</mo></mrow><mo movablelimits="false" stretchy="false">)</mo></mrow></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>&lt;</mo><mrow><mn>0</mn><mo>⁢</mo><mpadded width="0pt"><mo lspace="12.5pt" stretchy="false">(</mo><mrow><mrow><mtext>if </mtext><mo>⁢</mo><mrow><mo>∥</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo>∥</mo></mrow></mrow><mo>≤</mo><mn>1</mn></mrow><mo stretchy="false">)</mo></mpadded></mrow></mrow></munder></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>≤</mo><mrow><msub><mi>K</mi><mi>x</mi></msub><mo>⁢</mo><msup><mrow><mo>∥</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo>∥</mo></mrow><mi>β</mi></msup></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">So using the neighborhood <math id="S0.I3.i1.p2.m6" class="ltx_Math" alttext="U_{x}\cap B_{1}(x)" display="inline"><mrow><msub><mi>U</mi><mi>x</mi></msub><mo>∩</mo><mrow><msub><mi>B</mi><mn>1</mn></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math> we have local
+<math id="S0.I3.i1.p2.m7" class="ltx_Math" alttext="\beta" display="inline"><mi>β</mi></math>-Hölder continuity. Because we can not intersect the neighborhood
+with a radius one ball in the global case, this is where the proof
+breaks. And <math id="S0.I3.i1.p2.m8" class="ltx_Math" alttext="f(y)=|y|^{\gamma}" display="inline"><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><msup><mrow><mo stretchy="false">|</mo><mi>y</mi><mo stretchy="false">|</mo></mrow><mi>γ</mi></msup></mrow></math> is already a counterexample of the
+statement as for <math id="S0.I3.i1.p2.m9" class="ltx_Math" alttext="x=0" display="inline"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math> we have</p>
+<table id="S0.EGx7" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex10"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex10.m1" class="ltx_Math" alttext="\displaystyle|f(x)-f(y)|=|x-y|^{\gamma}&gt;K|x-y|^{\beta}\iff|y|^{\gamma/\beta}&gt;K%
+\iff|y|\geq K^{\beta/\gamma}," display="inline"><mrow><mrow><mrow><mrow><mo stretchy="false">|</mo><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>-</mo><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo stretchy="false">|</mo></mrow><mo>=</mo><msup><mrow><mo stretchy="false">|</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo stretchy="false">|</mo></mrow><mi>γ</mi></msup><mo>&gt;</mo><mrow><mi>K</mi><mo>⁢</mo><msup><mrow><mo stretchy="false">|</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo stretchy="false">|</mo></mrow><mi>β</mi></msup></mrow></mrow><mo>⇔</mo><mrow><msup><mrow><mo stretchy="false">|</mo><mi>y</mi><mo stretchy="false">|</mo></mrow><mrow><mi>γ</mi><mo>/</mo><mi>β</mi></mrow></msup><mo>&gt;</mo><mi>K</mi></mrow><mo>⇔</mo><mrow><mrow><mo stretchy="false">|</mo><mi>y</mi><mo stretchy="false">|</mo></mrow><mo>≥</mo><msup><mi>K</mi><mrow><mi>β</mi><mo>/</mo><mi>γ</mi></mrow></msup></mrow></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">so we just have to select <math id="S0.I3.i1.p2.m10" class="ltx_Math" alttext="y" display="inline"><mi>y</mi></math> large enough.
+∎</p>
+</div>
+</div>
+</li>
+<li id="S0.I3.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(ii)</span> 
+<div id="S0.I3.i2.p1" class="ltx_para">
+<p class="ltx_p">If <math id="S0.I3.i2.p1.m1" class="ltx_Math" alttext="f" display="inline"><mi>f</mi></math> is continuously differentiable, then <math id="S0.I3.i2.p1.m2" class="ltx_Math" alttext="f" display="inline"><mi>f</mi></math> is locally
+<math id="S0.I3.i2.p1.m3" class="ltx_Math" alttext="1" display="inline"><mn>1</mn></math>-Hölder continuous (Lipschitz continuous).</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I3.i2.p2" class="ltx_para">
+<p class="ltx_p">Let <math id="S0.I3.i2.p2.m1" class="ltx_Math" alttext="\epsilon&gt;0" display="inline"><mrow><mi>ϵ</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, then for all <math id="S0.I3.i2.p2.m2" class="ltx_Math" alttext="y\in B_{\epsilon}(x)" display="inline"><mrow><mi>y</mi><mo>∈</mo><mrow><msub><mi>B</mi><mi>ϵ</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math> by
+the mean value theorem, there exists <math id="S0.I3.i2.p2.m3" class="ltx_Math" alttext="\xi\in B_{\epsilon}(x)" display="inline"><mrow><mi>ξ</mi><mo>∈</mo><mrow><msub><mi>B</mi><mi>ϵ</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math> such
+that</p>
+<table id="S0.EGx8" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex11"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex11.m1" class="ltx_Math" alttext="\displaystyle|f(x)-f(y)|" display="inline"><mrow><mo stretchy="false">|</mo><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>-</mo><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo stretchy="false">|</mo></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex11.m2" class="ltx_Math" alttext="\displaystyle=|f^{\prime}(\xi)|\|x-y\|\leq\underbrace{\sup_{z\in B_{\epsilon}(%
+x)}|f^{\prime}(z)|}_{=:K_{x}}\|x-y\|.\qed" display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><mrow><mo stretchy="false">|</mo><mrow><msup><mi>f</mi><mo>′</mo></msup><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>ξ</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">|</mo></mrow><mo>⁢</mo><mrow><mo>∥</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo>∥</mo></mrow></mrow><mo>≤</mo><mrow><munder><munder accentunder="true"><mrow><munder><mo movablelimits="false">sup</mo><mrow><mi>z</mi><mo movablelimits="false">∈</mo><mrow><msub><mi>B</mi><mi>ϵ</mi></msub><mo movablelimits="false">⁢</mo><mrow><mo movablelimits="false" stretchy="false">(</mo><mi>x</mi><mo movablelimits="false" stretchy="false">)</mo></mrow></mrow></mrow></munder><mo movablelimits="false">⁡</mo><mrow><mo movablelimits="false" stretchy="false">|</mo><mrow><msup><mi>f</mi><mo movablelimits="false">′</mo></msup><mo movablelimits="false">⁢</mo><mrow><mo movablelimits="false" stretchy="false">(</mo><mi>z</mi><mo movablelimits="false" stretchy="false">)</mo></mrow></mrow><mo movablelimits="false" stretchy="false">|</mo></mrow></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mo>=</mo><mo>⁣</mo><mrow><mi></mi><mo>:</mo><msub><mi>K</mi><mi>x</mi></msub></mrow></mrow></munder><mo>⁢</mo><mrow><mo>∥</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo>∥</mo></mrow></mrow></mrow><mo>.</mo><mo mathvariant="italic" separator="true">∎</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+</div>
+</div>
+</li>
+<li id="S0.I3.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(iii)</span> 
+<div id="S0.I3.i3.p1" class="ltx_para">
+<p class="ltx_p">If <math id="S0.I3.i3.p1.m1" class="ltx_Math" alttext="f" display="inline"><mi>f</mi></math> is Hölder continuous with index <math id="S0.I3.i3.p1.m2" class="ltx_Math" alttext="\gamma&gt;1" display="inline"><mrow><mi>γ</mi><mo>&gt;</mo><mn>1</mn></mrow></math>, then
+<math id="S0.I3.i3.p1.m3" class="ltx_Math" alttext="f" display="inline"><mi>f</mi></math> is constant.</p>
+</div>
+<div id="Thmhintx1" class="ltx_theorem ltx_theorem_hint">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Hint</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmhintx1.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">Show <math id="Thmhintx1.p1.m1" class="ltx_Math" alttext="f" display="inline"><mi>f</mi></math> is differentiable using the definition of differentiable.</span></p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I3.i3.p2" class="ltx_para">
+<p class="ltx_p">We have for every <math id="S0.I3.i3.p2.m1" class="ltx_Math" alttext="x" display="inline"><mi>x</mi></math>, <math id="S0.I3.i3.p2.m2" class="ltx_Math" alttext="f^{\prime}(x)=0" display="inline"><mrow><mrow><msup><mi>f</mi><mo>′</mo></msup><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mn>0</mn></mrow></math> because</p>
+<table id="S0.EGx9" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex12"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex12.m1" class="ltx_Math" alttext="\displaystyle\lim_{y\to x}\frac{\|f(y)-f(x)-f^{\prime}(x)(x-y)\|}{\|x-y\|}\leq%
+\lim_{y\to x}K_{x}\|x-y\|^{\gamma-1}=0." display="inline"><mrow><mrow><mrow><munder><mo movablelimits="false">lim</mo><mrow><mi>y</mi><mo>→</mo><mi>x</mi></mrow></munder><mo>⁡</mo><mstyle displaystyle="true"><mfrac><mrow><mo>∥</mo><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow><mo>-</mo><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>-</mo><mrow><msup><mi>f</mi><mo>′</mo></msup><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>∥</mo></mrow><mrow><mo>∥</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo>∥</mo></mrow></mfrac></mstyle></mrow><mo>≤</mo><mrow><munder><mo movablelimits="false">lim</mo><mrow><mi>y</mi><mo>→</mo><mi>x</mi></mrow></munder><mo>⁡</mo><mrow><msub><mi>K</mi><mi>x</mi></msub><mo>⁢</mo><msup><mrow><mo>∥</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo>∥</mo></mrow><mrow><mi>γ</mi><mo>-</mo><mn>1</mn></mrow></msup></mrow></mrow><mo>=</mo><mn>0</mn></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">But <math id="S0.I3.i3.p2.m3" class="ltx_Math" alttext="f^{\prime}\equiv 0" display="inline"><mrow><msup><mi>f</mi><mo>′</mo></msup><mo>≡</mo><mn>0</mn></mrow></math> implies <math id="S0.I3.i3.p2.m4" class="ltx_Math" alttext="f" display="inline"><mi>f</mi></math> is constant.
+∎</p>
+</div>
+</div>
+</li>
+<li id="S0.I3.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(iv)</span> 
+<div id="S0.I3.i4.p1" class="ltx_para">
+<p class="ltx_p">If <math id="S0.I3.i4.p1.m1" class="ltx_Math" alttext="g" display="inline"><mi>g</mi></math> is (locally) <math id="S0.I3.i4.p1.m2" class="ltx_Math" alttext="\gamma" display="inline"><mi>γ</mi></math>-Hölder
+continuous and <math id="S0.I3.i4.p1.m3" class="ltx_Math" alttext="f" display="inline"><mi>f</mi></math> is (locally) <math id="S0.I3.i4.p1.m4" class="ltx_Math" alttext="\beta" display="inline"><mi>β</mi></math>-Hölder continuous, then
+<math id="S0.I3.i4.p1.m5" class="ltx_Math" alttext="g\circ f" display="inline"><mrow><mi>g</mi><mo>∘</mo><mi>f</mi></mrow></math> is (locally) <math id="S0.I3.i4.p1.m6" class="ltx_Math" alttext="\gamma\beta" display="inline"><mrow><mi>γ</mi><mo>⁢</mo><mi>β</mi></mrow></math>-Hölder continuous.</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I3.i4.p2" class="ltx_para">
+<p class="ltx_p">Using the respective definitions we get</p>
+<table id="S0.EGx10" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex13"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex13.m1" class="ltx_Math" alttext="\displaystyle\|g\circ f(x)-g\circ f(y)\|\leq K_{g}\|f(x)-f(y)\|^{\gamma}\leq K%
+_{g}(K_{f}\|x-y\|^{\beta})^{\gamma}=\underbrace{K_{g}K_{f}^{\gamma}}_{=:K}\|x-%
+y\|^{\gamma\beta}." display="inline"><mrow><mrow><mrow><mo>∥</mo><mrow><mrow><mrow><mi>g</mi><mo>∘</mo><mi>f</mi></mrow><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>-</mo><mrow><mrow><mi>g</mi><mo>∘</mo><mi>f</mi></mrow><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>∥</mo></mrow><mo>≤</mo><mrow><msub><mi>K</mi><mi>g</mi></msub><mo>⁢</mo><msup><mrow><mo>∥</mo><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>-</mo><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>∥</mo></mrow><mi>γ</mi></msup></mrow><mo>≤</mo><mrow><msub><mi>K</mi><mi>g</mi></msub><mo>⁢</mo><msup><mrow><mo stretchy="false">(</mo><mrow><msub><mi>K</mi><mi>f</mi></msub><mo>⁢</mo><msup><mrow><mo>∥</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo>∥</mo></mrow><mi>β</mi></msup></mrow><mo stretchy="false">)</mo></mrow><mi>γ</mi></msup></mrow><mo>=</mo><mrow><munder><munder accentunder="true"><mrow><msub><mi>K</mi><mi>g</mi></msub><mo movablelimits="false">⁢</mo><msubsup><mi>K</mi><mi>f</mi><mi>γ</mi></msubsup></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mo>=</mo><mo>⁣</mo><mrow><mi></mi><mo>:</mo><mi>K</mi></mrow></mrow></munder><mo>⁢</mo><msup><mrow><mo>∥</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo>∥</mo></mrow><mrow><mi>γ</mi><mo>⁢</mo><mi>β</mi></mrow></msup></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">For the local version we need to ensure that <math id="S0.I3.i4.p2.m1" class="ltx_Math" alttext="f(y)" display="inline"><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow></math> is in an for <math id="S0.I3.i4.p2.m2" class="ltx_Math" alttext="g" display="inline"><mi>g</mi></math>
+appropriate neighborhood of <math id="S0.I3.i4.p2.m3" class="ltx_Math" alttext="f(x)" display="inline"><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow></math>. But due to Hölder continuity
+of <math id="S0.I3.i4.p2.m4" class="ltx_Math" alttext="f" display="inline"><mi>f</mi></math> we can ensure</p>
+<table id="S0.EGx11" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex14"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex14.m1" class="ltx_Math" alttext="\displaystyle\|f(x)-f(y)\|\leq\epsilon" display="inline"><mrow><mrow><mo>∥</mo><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>-</mo><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>∥</mo></mrow><mo>≤</mo><mi>ϵ</mi></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">by selecting <math id="S0.I3.i4.p2.m5" class="ltx_Math" alttext="\|x-y\|\leq(\tfrac{\epsilon}{K_{f}})^{1/\beta}" display="inline"><mrow><mrow><mo>∥</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo>∥</mo></mrow><mo>≤</mo><msup><mrow><mo stretchy="false">(</mo><mfrac><mi>ϵ</mi><msub><mi>K</mi><mi>f</mi></msub></mfrac><mo stretchy="false">)</mo></mrow><mrow><mn>1</mn><mo>/</mo><mi>β</mi></mrow></msup></mrow></math>.
+∎</p>
+</div>
+</div>
+</li>
+<li id="S0.I3.i5" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(v)</span> 
+<div id="S0.I3.i5.p1" class="ltx_para">
+<p class="ltx_p">For <math id="S0.I3.i5.p1.m1" class="ltx_Math" alttext="\beta&lt;1" display="inline"><mrow><mi>β</mi><mo>&lt;</mo><mn>1</mn></mrow></math>, <math id="S0.I3.i5.p1.m2" class="ltx_Math" alttext="f(x)=\|x\|^{\beta}" display="inline"><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><msup><mrow><mo>∥</mo><mi>x</mi><mo>∥</mo></mrow><mi>β</mi></msup></mrow></math> is Hölder continuous with index
+<math id="S0.I3.i5.p1.m3" class="ltx_Math" alttext="\beta" display="inline"><mi>β</mi></math>.</p>
+</div>
+<div id="Thmhintx2" class="ltx_theorem ltx_theorem_hint">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Hint</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmhintx2.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">Show that <math id="Thmhintx2.p1.m1" class="ltx_Math" alttext="g:\mathbb{R}_{+}\to x^{\beta}" display="inline"><mrow><mi>g</mi><mo mathvariant="normal">:</mo><mrow><msub><mi>ℝ</mi><mo mathvariant="normal">+</mo></msub><mo mathvariant="normal">→</mo><msup><mi>x</mi><mi>β</mi></msup></mrow></mrow></math> is <math id="Thmhintx2.p1.m2" class="ltx_Math" alttext="\beta" display="inline"><mi>β</mi></math>-Hölder continuous
+and use <a href="#S0.I3.i4" title="item (iv) ‣ Exercise 3 (Hölder Continuity). ‣ Sheet 11" class="ltx_ref"><span class="ltx_text ltx_ref_tag">(iv)</span></a>. Note that <math id="Thmhintx2.p1.m3" class="ltx_Math" alttext="z^{\beta}\geq z" display="inline"><mrow><msup><mi>z</mi><mi>β</mi></msup><mo mathvariant="normal">≥</mo><mi>z</mi></mrow></math> for all <math id="Thmhintx2.p1.m4" class="ltx_Math" alttext="z\in[0,1]" display="inline"><mrow><mi>z</mi><mo mathvariant="normal">∈</mo><mrow><mo mathvariant="normal" stretchy="false">[</mo><mn mathvariant="normal">0</mn><mo mathvariant="normal">,</mo><mn mathvariant="normal">1</mn><mo mathvariant="normal" stretchy="false">]</mo></mrow></mrow></math>. Deduce for all <math id="Thmhintx2.p1.m5" class="ltx_Math" alttext="a,b\geq 0" display="inline"><mrow><mrow><mi>a</mi><mo mathvariant="normal">,</mo><mi>b</mi></mrow><mo mathvariant="normal">≥</mo><mn mathvariant="normal">0</mn></mrow></math></span></p>
+<table id="S0.EGx12" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex15"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex15.m1" class="ltx_Math" alttext="\displaystyle\left(\frac{a}{a+b}\right)^{\beta}+\left(\frac{b}{a+b}\right)^{%
+\beta}\geq 1\implies a^{\beta}+b^{\beta}\geq(a+b)^{\beta}" display="inline"><mrow><mrow><msup><mrow><mo>(</mo><mstyle displaystyle="true"><mfrac><mi>a</mi><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac></mstyle><mo>)</mo></mrow><mi>β</mi></msup><mo>+</mo><msup><mrow><mo>(</mo><mstyle displaystyle="true"><mfrac><mi>b</mi><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac></mstyle><mo>)</mo></mrow><mi>β</mi></msup></mrow><mo>≥</mo><mn>1</mn><mo>⟹</mo><mrow><msup><mi>a</mi><mi>β</mi></msup><mo>+</mo><msup><mi>b</mi><mi>β</mi></msup></mrow><mo>≥</mo><msup><mrow><mo stretchy="false">(</mo><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mo stretchy="false">)</mo></mrow><mi>β</mi></msup></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">which is kind of a triangle inequality. Now you just need to recall
+how you show Lipschitz continuity for norms.</span></p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I3.i5.p2" class="ltx_para">
+<p class="ltx_p">We use <math id="S0.I3.i5.p2.m1" class="ltx_Math" alttext="f=g\circ\|\cdot\|" display="inline"><mrow><mi>f</mi><mo>=</mo><mi>g</mi><mo>∘</mo><mo>∥</mo><mo>⋅</mo><mo>∥</mo></mrow></math> with <math id="S0.I3.i5.p2.m2" class="ltx_Math" alttext="g:\mathbb{R}_{+}\to x^{\beta}" display="inline"><mrow><mi>g</mi><mo>:</mo><mrow><msub><mi>ℝ</mi><mo>+</mo></msub><mo>→</mo><msup><mi>x</mi><mi>β</mi></msup></mrow></mrow></math>. The
+norm is 1-Hölder continuous because of</p>
+<table id="S0.EGx13" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.E1"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.E1.m1" class="ltx_Math" alttext="\displaystyle\|x\|\leq\|x-y\|+\|y\|\implies\|x\|-\|y\|\leq\|x-y\|" display="inline"><mrow><mrow><mo>∥</mo><mi>x</mi><mo>∥</mo></mrow><mo>≤</mo><mrow><mrow><mo>∥</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo>∥</mo></mrow><mo>+</mo><mrow><mo>∥</mo><mi>y</mi><mo>∥</mo></mrow></mrow><mo>⟹</mo><mrow><mrow><mo>∥</mo><mi>x</mi><mo>∥</mo></mrow><mo>-</mo><mrow><mo>∥</mo><mi>y</mi><mo>∥</mo></mrow></mrow><mo>≤</mo><mrow><mo>∥</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo>∥</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right"><span class="ltx_tag ltx_tag_equation ltx_align_right">(1)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">since by symmetry we get Lipschitz continuity</p>
+<table id="S0.EGx14" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex16"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex16.m1" class="ltx_Math" alttext="\displaystyle\big{|}\|x\|-\|y\|\big{|}\leq\|x-y\|." display="inline"><mrow><mrow><mrow><mo maxsize="120%" minsize="120%">|</mo><mrow><mrow><mo>∥</mo><mi>x</mi><mo>∥</mo></mrow><mo>-</mo><mrow><mo>∥</mo><mi>y</mi><mo>∥</mo></mrow></mrow><mo maxsize="120%" minsize="120%">|</mo></mrow><mo>≤</mo><mrow><mo>∥</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo>∥</mo></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">So if <math id="S0.I3.i5.p2.m3" class="ltx_Math" alttext="g" display="inline"><mi>g</mi></math> is <math id="S0.I3.i5.p2.m4" class="ltx_Math" alttext="\beta" display="inline"><mi>β</mi></math>-Hölder continuous, we are done by <a href="#S0.I3.i4" title="item (iv) ‣ Exercise 3 (Hölder Continuity). ‣ Sheet 11" class="ltx_ref"><span class="ltx_text ltx_ref_tag">(iv)</span></a>. For <math id="S0.I3.i5.p2.m5" class="ltx_Math" alttext="\beta&lt;1" display="inline"><mrow><mi>β</mi><mo>&lt;</mo><mn>1</mn></mrow></math> we have <math id="S0.I3.i5.p2.m6" class="ltx_Math" alttext="z^{\beta}\geq z" display="inline"><mrow><msup><mi>z</mi><mi>β</mi></msup><mo>≥</mo><mi>z</mi></mrow></math> for
+all <math id="S0.I3.i5.p2.m7" class="ltx_Math" alttext="z\in[0,1]" display="inline"><mrow><mi>z</mi><mo>∈</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">]</mo></mrow></mrow></math>. Using this fact, we get for all <math id="S0.I3.i5.p2.m8" class="ltx_Math" alttext="a,b\geq 0" display="inline"><mrow><mrow><mi>a</mi><mo>,</mo><mi>b</mi></mrow><mo>≥</mo><mn>0</mn></mrow></math></p>
+<table id="S0.EGx15" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex17"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex17.m1" class="ltx_Math" alttext="\displaystyle\underbrace{\left(\frac{a}{a+b}\right)^{\beta}}_{\geq\frac{a}{a+b%
+}}+\underbrace{\left(\frac{b}{a+b}\right)^{\beta}}_{\geq\frac{b}{a+b}}\geq 1%
+\implies a^{\beta}+b^{\beta}\geq(a+b)^{\beta}." display="inline"><mrow><mrow><mrow><munder><munder accentunder="true"><msup><mrow><mo movablelimits="false">(</mo><mstyle displaystyle="true"><mfrac><mi>a</mi><mrow><mi>a</mi><mo movablelimits="false">+</mo><mi>b</mi></mrow></mfrac></mstyle><mo movablelimits="false">)</mo></mrow><mi>β</mi></msup><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>≥</mo><mfrac><mi>a</mi><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac></mrow></munder><mo>+</mo><munder><munder accentunder="true"><msup><mrow><mo movablelimits="false">(</mo><mstyle displaystyle="true"><mfrac><mi>b</mi><mrow><mi>a</mi><mo movablelimits="false">+</mo><mi>b</mi></mrow></mfrac></mstyle><mo movablelimits="false">)</mo></mrow><mi>β</mi></msup><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>≥</mo><mfrac><mi>b</mi><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac></mrow></munder></mrow><mo>≥</mo><mn>1</mn><mo>⟹</mo><mrow><msup><mi>a</mi><mi>β</mi></msup><mo>+</mo><msup><mi>b</mi><mi>β</mi></msup></mrow><mo>≥</mo><msup><mrow><mo stretchy="false">(</mo><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mo stretchy="false">)</mo></mrow><mi>β</mi></msup></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">This is a type of triangle inequality so we can essentially do
+(<a href="#S0.E1" title="(1) ‣ item (v) ‣ Exercise 3 (Hölder Continuity). ‣ Sheet 11" class="ltx_ref"><span class="ltx_text ltx_ref_tag">1</span></a>) again, except we need to keep <math id="S0.I3.i5.p2.m9" class="ltx_Math" alttext="a,b\geq 0" display="inline"><mrow><mrow><mi>a</mi><mo>,</mo><mi>b</mi></mrow><mo>≥</mo><mn>0</mn></mrow></math>. Assuming <math id="S0.I3.i5.p2.m10" class="ltx_Math" alttext="x,y\in\mathbb{R}_{+}" display="inline"><mrow><mrow><mi>x</mi><mo>,</mo><mi>y</mi></mrow><mo>∈</mo><msub><mi>ℝ</mi><mo>+</mo></msub></mrow></math>
+and without loss of generality <math id="S0.I3.i5.p2.m11" class="ltx_Math" alttext="x\geq y" display="inline"><mrow><mi>x</mi><mo>≥</mo><mi>y</mi></mrow></math>, we define <math id="S0.I3.i5.p2.m12" class="ltx_Math" alttext="b=x-y" display="inline"><mrow><mi>b</mi><mo>=</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow></mrow></math> and
+<math id="S0.I3.i5.p2.m13" class="ltx_Math" alttext="a=y" display="inline"><mrow><mi>a</mi><mo>=</mo><mi>y</mi></mrow></math> to get</p>
+<table id="S0.EGx16" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex18"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex18.m1" class="ltx_Math" alttext="\displaystyle x^{\beta}=(a+b)^{\beta}\leq y^{\beta}+(x-y)^{\beta}" display="inline"><mrow><msup><mi>x</mi><mi>β</mi></msup><mo>=</mo><msup><mrow><mo stretchy="false">(</mo><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mo stretchy="false">)</mo></mrow><mi>β</mi></msup><mo>≤</mo><mrow><msup><mi>y</mi><mi>β</mi></msup><mo>+</mo><msup><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo stretchy="false">)</mo></mrow><mi>β</mi></msup></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">and with <math id="S0.I3.i5.p2.m14" class="ltx_Math" alttext="x\geq y" display="inline"><mrow><mi>x</mi><mo>≥</mo><mi>y</mi></mrow></math> and monotonicity of <math id="S0.I3.i5.p2.m15" class="ltx_Math" alttext="g" display="inline"><mi>g</mi></math> we have</p>
+<table id="S0.EGx17" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex19"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex19.m1" class="ltx_Math" alttext="\displaystyle|g(x)-g(y)|=x^{\beta}-y^{\beta}\leq(x-y)^{\beta}=|x-y|^{\beta}." display="inline"><mrow><mrow><mrow><mo stretchy="false">|</mo><mrow><mrow><mi>g</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>-</mo><mrow><mi>g</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo stretchy="false">|</mo></mrow><mo>=</mo><mrow><msup><mi>x</mi><mi>β</mi></msup><mo>-</mo><msup><mi>y</mi><mi>β</mi></msup></mrow><mo>≤</mo><msup><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo stretchy="false">)</mo></mrow><mi>β</mi></msup><mo>=</mo><msup><mrow><mo stretchy="false">|</mo><mrow><mi>x</mi><mo>-</mo><mi>y</mi></mrow><mo stretchy="false">|</mo></mrow><mi>β</mi></msup></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">Therefore <math id="S0.I3.i5.p2.m16" class="ltx_Math" alttext="g" display="inline"><mi>g</mi></math> is <math id="S0.I3.i5.p2.m17" class="ltx_Math" alttext="\beta" display="inline"><mi>β</mi></math>-Hölder continuous.
+∎</p>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="Thmexercise4" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 4</span></span><span class="ltx_text ltx_font_bold"> </span>(Fractional Gaussian is Hölder)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmexercise4.p1" class="ltx_para">
+<ol id="S0.I4" class="ltx_enumerate">
+<li id="S0.I4.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(i)</span> 
+<div id="S0.I4.i1.p1" class="ltx_para">
+<p class="ltx_p">Prove that there exists a centred Gaussian process
+<math id="S0.I4.i1.p1.m1" class="ltx_Math" alttext="(X_{t})_{t\in\mathbb{R}}" display="inline"><msub><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow><mrow><mi>t</mi><mo>∈</mo><mi>ℝ</mi></mrow></msub></math> with <math id="S0.I4.i1.p1.m2" class="ltx_Math" alttext="\text{Var}(X_{t}-X_{s})=|t-s|^{2H}" display="inline"><mrow><mrow><mtext>Var</mtext><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>X</mi><mi>t</mi></msub><mo>-</mo><msub><mi>X</mi><mi>s</mi></msub></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><msup><mrow><mo stretchy="false">|</mo><mrow><mi>t</mi><mo>-</mo><mi>s</mi></mrow><mo stretchy="false">|</mo></mrow><mrow><mn>2</mn><mo>⁢</mo><mi>H</mi></mrow></msup></mrow></math> and <math id="S0.I4.i1.p1.m3" class="ltx_Math" alttext="X_{0}=0" display="inline"><mrow><msub><mi>X</mi><mn>0</mn></msub><mo>=</mo><mn>0</mn></mrow></math>
+for all <math id="S0.I4.i1.p1.m4" class="ltx_Math" alttext="H\in[0,1]" display="inline"><mrow><mi>H</mi><mo>∈</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">]</mo></mrow></mrow></math>. You can use that</p>
+<table id="S0.EGx18" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex20"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex20.m1" class="ltx_Math" alttext="\displaystyle k(s,t)=\tfrac{1}{2}(|t|^{2H}+|s|^{2H}-|t-s|^{2H})" display="inline"><mrow><mrow><mi>k</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><msup><mrow><mo stretchy="false">|</mo><mi>t</mi><mo stretchy="false">|</mo></mrow><mrow><mn>2</mn><mo>⁢</mo><mi>H</mi></mrow></msup><mo>+</mo><msup><mrow><mo stretchy="false">|</mo><mi>s</mi><mo stretchy="false">|</mo></mrow><mrow><mn>2</mn><mo>⁢</mo><mi>H</mi></mrow></msup></mrow><mo>-</mo><msup><mrow><mo stretchy="false">|</mo><mrow><mi>t</mi><mo>-</mo><mi>s</mi></mrow><mo stretchy="false">|</mo></mrow><mrow><mn>2</mn><mo>⁢</mo><mi>H</mi></mrow></msup></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">is positive semi-definite without proof. Prove that the law of this process
+is uniquely determined. (This process is called <em class="ltx_emph ltx_font_italic">fractional Brownian
+motion</em> and the BM is a special case with <math id="S0.I4.i1.p1.m5" class="ltx_Math" alttext="H=\tfrac{1}{2}" display="inline"><mrow><mi>H</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>).</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I4.i1.p2" class="ltx_para">
+<p class="ltx_p">By Theorem 8.1.18 there exists a centred Gaussian process <math id="S0.I4.i1.p2.m1" class="ltx_Math" alttext="X_{t}" display="inline"><msub><mi>X</mi><mi>t</mi></msub></math> with
+covariance <math id="S0.I4.i1.p2.m2" class="ltx_Math" alttext="k" display="inline"><mi>k</mi></math>. And we have</p>
+<table id="S0.EGx19" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex21"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex21.m1" class="ltx_Math" alttext="\displaystyle\text{Var}(X_{t}-X_{s})" display="inline"><mrow><mtext>Var</mtext><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>X</mi><mi>t</mi></msub><mo>-</mo><msub><mi>X</mi><mi>s</mi></msub></mrow><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex21.m2" class="ltx_Math" alttext="\displaystyle=\mathbb{E}[(X_{t}-X_{s})^{2}]=\mathbb{E}[X_{t}^{2}]-2\mathbb{E}[%
+X_{t}X_{s}]+\mathbb{E}[X_{s}^{2}]" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msup><mrow><mo stretchy="false">(</mo><mrow><msub><mi>X</mi><mi>t</mi></msub><mo>-</mo><msub><mi>X</mi><mi>s</mi></msub></mrow><mo stretchy="false">)</mo></mrow><mn>2</mn></msup><mo stretchy="false">]</mo></mrow></mrow><mo>=</mo><mrow><mrow><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msubsup><mi>X</mi><mi>t</mi><mn>2</mn></msubsup><mo stretchy="false">]</mo></mrow></mrow><mo>-</mo><mrow><mn>2</mn><mo>⁢</mo><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><msub><mi>X</mi><mi>t</mi></msub><mo>⁢</mo><msub><mi>X</mi><mi>s</mi></msub></mrow><mo stretchy="false">]</mo></mrow></mrow></mrow><mo>+</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msubsup><mi>X</mi><mi>s</mi><mn>2</mn></msubsup><mo stretchy="false">]</mo></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex22"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex22.m2" class="ltx_Math" alttext="\displaystyle=\underbrace{k(t,t)}_{=|t|^{2H}}-2k(t,s)+\underbrace{k(s,s)}_{=|s%
+|^{2H}}" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mrow><munder><munder accentunder="true"><mrow><mi>k</mi><mo movablelimits="false">⁢</mo><mrow><mo movablelimits="false" stretchy="false">(</mo><mi>t</mi><mo movablelimits="false">,</mo><mi>t</mi><mo movablelimits="false" stretchy="false">)</mo></mrow></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>=</mo><msup><mrow><mo stretchy="false">|</mo><mi>t</mi><mo stretchy="false">|</mo></mrow><mrow><mn>2</mn><mo>⁢</mo><mi>H</mi></mrow></msup></mrow></munder><mo>-</mo><mrow><mn>2</mn><mo>⁢</mo><mi>k</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>+</mo><munder><munder accentunder="true"><mrow><mi>k</mi><mo movablelimits="false">⁢</mo><mrow><mo movablelimits="false" stretchy="false">(</mo><mi>s</mi><mo movablelimits="false">,</mo><mi>s</mi><mo movablelimits="false" stretchy="false">)</mo></mrow></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>=</mo><msup><mrow><mo stretchy="false">|</mo><mi>s</mi><mo stretchy="false">|</mo></mrow><mrow><mn>2</mn><mo>⁢</mo><mi>H</mi></mrow></msup></mrow></munder></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex23"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex23.m2" class="ltx_Math" alttext="\displaystyle=|t-s|^{2H}" display="inline"><mrow><mi></mi><mo>=</mo><msup><mrow><mo stretchy="false">|</mo><mrow><mi>t</mi><mo>-</mo><mi>s</mi></mrow><mo stretchy="false">|</mo></mrow><mrow><mn>2</mn><mo>⁢</mo><mi>H</mi></mrow></msup></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">As the covariance function is uniquely determined because of</p>
+<table id="S0.EGx20" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex24"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex24.m1" class="ltx_Math" alttext="\displaystyle\text{Cov}(X_{t},X_{s})=\tfrac{1}{2}(\underbrace{\mathbb{E}[X_{t}%
+^{2}]}_{=\text{Var}(X_{t}-X_{0})}-\text{Var}(X_{t}-X_{s})+\mathbb{E}[X_{s}^{2}%
+])." display="inline"><mrow><mrow><mrow><mtext>Cov</mtext><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mi>t</mi></msub><mo>,</mo><msub><mi>X</mi><mi>s</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><munder><munder accentunder="true"><mrow><mi>𝔼</mi><mo movablelimits="false">⁢</mo><mrow><mo movablelimits="false" stretchy="false">[</mo><msubsup><mi>X</mi><mi>t</mi><mn>2</mn></msubsup><mo movablelimits="false" stretchy="false">]</mo></mrow></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>=</mo><mrow><mtext>Var</mtext><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>X</mi><mi>t</mi></msub><mo>-</mo><msub><mi>X</mi><mn>0</mn></msub></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></munder><mo>-</mo><mrow><mtext>Var</mtext><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>X</mi><mi>t</mi></msub><mo>-</mo><msub><mi>X</mi><mi>s</mi></msub></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>+</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msubsup><mi>X</mi><mi>s</mi><mn>2</mn></msubsup><mo stretchy="false">]</mo></mrow></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">The law is uniquely determined by Proposition 8.1.14.
+∎</p>
+</div>
+</div>
+</li>
+<li id="S0.I4.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(ii)</span> 
+<div id="S0.I4.i2.p1" class="ltx_para">
+<p class="ltx_p">Prove that for all <math id="S0.I4.i2.p1.m1" class="ltx_Math" alttext="\gamma&lt;H" display="inline"><mrow><mi>γ</mi><mo>&lt;</mo><mi>H</mi></mrow></math>, the fractional Brownian motion has a
+modification which is <math id="S0.I4.i2.p1.m2" class="ltx_Math" alttext="\gamma" display="inline"><mi>γ</mi></math>-Hölder continuous.</p>
+</div>
+<div id="Thmhintx3" class="ltx_theorem ltx_theorem_hint">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Hint</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmhintx3.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">For <math id="Thmhintx3.p1.m1" class="ltx_Math" alttext="X\sim\mathcal{N}(0,\sigma^{2})" display="inline"><mrow><mi>X</mi><mo mathvariant="normal">∼</mo><mrow><mi class="ltx_font_mathcaligraphic">𝒩</mi><mo mathvariant="italic">⁢</mo><mrow><mo mathvariant="normal" stretchy="false">(</mo><mn mathvariant="normal">0</mn><mo mathvariant="normal">,</mo><msup><mi>σ</mi><mn mathvariant="normal">2</mn></msup><mo mathvariant="normal" stretchy="false">)</mo></mrow></mrow></mrow></math> we have</span></p>
+<table id="S0.EGx21" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex25"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex25.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}[X^{n}]=\begin{cases}0&amp;n\text{ odd}\\
+\sigma^{n}(n-1)!!&amp;n\text{ even},\end{cases}" display="inline"><mrow><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msup><mi>X</mi><mi>n</mi></msup><mo stretchy="false">]</mo></mrow></mrow><mo>=</mo><mrow><mo>{</mo><mtable columnspacing="5pt" rowspacing="0pt"><mtr><mtd columnalign="left"><mn>0</mn></mtd><mtd columnalign="left"><mrow><mi>n</mi><mo>⁢</mo><mtext mathvariant="italic"> odd</mtext></mrow></mtd></mtr><mtr><mtd columnalign="left"><mrow><msup><mi>σ</mi><mi>n</mi></msup><mo>⁢</mo><mrow><mrow><mo stretchy="false">(</mo><mrow><mi>n</mi><mo>-</mo><mn>1</mn></mrow><mo stretchy="false">)</mo></mrow><mo>!!</mo></mrow></mrow></mtd><mtd columnalign="left"><mrow><mrow><mi>n</mi><mo>⁢</mo><mtext mathvariant="italic"> even</mtext></mrow><mo>,</mo></mrow></mtd></mtr></mtable></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">where <math id="Thmhintx3.p1.m2" class="ltx_Math" alttext="n!!=n(n-2)(n-4)\dots 3\cdot 1" display="inline"><mrow><mrow><mi>n</mi><mo mathvariant="normal">!!</mo></mrow><mo mathvariant="normal">=</mo><mrow><mrow><mi>n</mi><mo mathvariant="italic">⁢</mo><mrow><mo mathvariant="normal" stretchy="false">(</mo><mrow><mi>n</mi><mo mathvariant="normal">-</mo><mn mathvariant="normal">2</mn></mrow><mo mathvariant="normal" stretchy="false">)</mo></mrow><mo mathvariant="italic">⁢</mo><mrow><mo mathvariant="normal" stretchy="false">(</mo><mrow><mi>n</mi><mo mathvariant="normal">-</mo><mn mathvariant="normal">4</mn></mrow><mo mathvariant="normal" stretchy="false">)</mo></mrow><mo mathvariant="italic">⁢</mo><mi mathvariant="normal">…</mi><mo mathvariant="italic">⁢</mo><mn mathvariant="normal">3</mn></mrow><mo mathvariant="normal">⋅</mo><mn mathvariant="normal">1</mn></mrow></mrow></math> for odd <math id="Thmhintx3.p1.m3" class="ltx_Math" alttext="n" display="inline"><mi>n</mi></math>.</span></p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I4.i2.p2" class="ltx_para">
+<p class="ltx_p">Because we have for all <math id="S0.I4.i2.p2.m1" class="ltx_Math" alttext="n\in\mathbb{N}" display="inline"><mrow><mi>n</mi><mo>∈</mo><mi>ℕ</mi></mrow></math></p>
+<table id="S0.EGx22" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex26"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex26.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}[|X_{t}-X_{s}|^{2n}]=(2n-1)!!|t-s|^{2nH}" display="inline"><mrow><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><msup><mrow><mo stretchy="false">|</mo><mrow><msub><mi>X</mi><mi>t</mi></msub><mo>-</mo><msub><mi>X</mi><mi>s</mi></msub></mrow><mo stretchy="false">|</mo></mrow><mrow><mn>2</mn><mo>⁢</mo><mi>n</mi></mrow></msup><mo stretchy="false">]</mo></mrow></mrow><mo>=</mo><mrow><mrow><mrow><mo stretchy="false">(</mo><mrow><mrow><mn>2</mn><mo>⁢</mo><mi>n</mi></mrow><mo>-</mo><mn>1</mn></mrow><mo stretchy="false">)</mo></mrow><mo>!!</mo></mrow><mo>⁢</mo><msup><mrow><mo stretchy="false">|</mo><mrow><mi>t</mi><mo>-</mo><mi>s</mi></mrow><mo stretchy="false">|</mo></mrow><mrow><mn>2</mn><mo>⁢</mo><mi>n</mi><mo>⁢</mo><mi>H</mi></mrow></msup></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">We get a <math id="S0.I4.i2.p2.m2" class="ltx_Math" alttext="\gamma" display="inline"><mi>γ</mi></math>-Hölder continuous modification for all</p>
+<table id="S0.EGx23" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.E2"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.E2.m1" class="ltx_Math" alttext="\displaystyle\gamma&lt;\frac{2nH-1}{2n}=H-\frac{1}{2n}" display="inline"><mrow><mi>γ</mi><mo>&lt;</mo><mstyle displaystyle="true"><mfrac><mrow><mrow><mn>2</mn><mo>⁢</mo><mi>n</mi><mo>⁢</mo><mi>H</mi></mrow><mo>-</mo><mn>1</mn></mrow><mrow><mn>2</mn><mo>⁢</mo><mi>n</mi></mrow></mfrac></mstyle><mo>=</mo><mrow><mi>H</mi><mo>-</mo><mstyle displaystyle="true"><mfrac><mn>1</mn><mrow><mn>2</mn><mo>⁢</mo><mi>n</mi></mrow></mfrac></mstyle></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right"><span class="ltx_tag ltx_tag_equation ltx_align_right">(2)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">by the Kolmogorov-Chentsov Theorem. But as <math id="S0.I4.i2.p2.m3" class="ltx_Math" alttext="n" display="inline"><mi>n</mi></math> was arbitrary,
+we can find an <math id="S0.I4.i2.p2.m4" class="ltx_Math" alttext="n" display="inline"><mi>n</mi></math> for all <math id="S0.I4.i2.p2.m5" class="ltx_Math" alttext="\gamma&lt;H" display="inline"><mrow><mi>γ</mi><mo>&lt;</mo><mi>H</mi></mrow></math> such that Equation (<a href="#S0.E2" title="(2) ‣ item (ii) ‣ Exercise 4 (Fractional Gaussian is Hölder). ‣ Sheet 11" class="ltx_ref"><span class="ltx_text ltx_ref_tag">2</span></a>) is still satisfied.
+∎</p>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</article>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Tue May 17 12:52:29 2022 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"></a>
+</div></footer>
+</div>
+<script src="js/LaTeXML-maybeMathjax.js" type="text/javascript"></script>
+<script src="js/collapsing_proofs.js" type="text/javascript"></script>
+</body>
+</html>

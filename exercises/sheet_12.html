@@ -1,0 +1,710 @@
+<!DOCTYPE html><html>
+<head>
+<title>Sheet 12</title>
+<!--Generated on Tue May 24 09:48:44 2022 by LaTeXML (version 0.8.5) http://dlmf.nist.gov/LaTeXML/.-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="css/LaTeXML.css" type="text/css">
+<link rel="stylesheet" href="css/ltx-article.css" type="text/css">
+</head>
+<body>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<article class="ltx_document ltx_authors_1line">
+<h1 class="ltx_title ltx_title_document">Sheet 12</h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">Prof. Leif Döring, Felix Benning
+</span></span>
+</div>
+<span class="ltx_note ltx_role_course"><sup class="ltx_note_mark">†</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">†</sup><span class="ltx_note_type">course: </span>Wahrscheinlichkeitstheorie 1</span></span></span><span class="ltx_note ltx_role_semester"><sup class="ltx_note_mark">†</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">†</sup><span class="ltx_note_type">semester: </span>FSS 2022</span></span></span><span class="ltx_note ltx_role_tutorialDate"><sup class="ltx_note_mark">†</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">†</sup><span class="ltx_note_type">tutorialDate: </span>23.05.2022</span></span></span><span class="ltx_note ltx_role_dueDate"><sup class="ltx_note_mark">†</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">†</sup><span class="ltx_note_type">dueDate: </span>10:15 in the exercise on Monday 23.05.2022</span></span></span>
+<div id="Thmexercise1" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 1</span></span><span class="ltx_text ltx_font_bold"> </span>(Brownian Motion Unbounded)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmexercise1.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Prove that the Brownian motion is unbounded without using Exercise <a href="#Thmexercise3" title="Exercise 3 (Brownian Growth Rate). ‣ Sheet 12" class="ltx_ref"><span class="ltx_text ltx_ref_tag">3</span></a>.</p>
+</div>
+<div id="Thmhintx1" class="ltx_theorem ltx_theorem_hint">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Hint</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmhintx1.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">Borel Cantelli.</span></p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="Thmexercise1.p2" class="ltx_para ltx_noindent">
+<p class="ltx_p">First note that we have</p>
+<table id="S0.EGx1" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.E1"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.E1.m1" class="ltx_Math" alttext="\displaystyle\mathbb{P}(\limsup_{t\to\infty}X_{t}=\infty)=\lim_{k\to\infty}%
+\mathbb{P}(\limsup_{t\to\infty}X_{t}\geq k)" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><munder><mo movablelimits="false">lim sup</mo><mrow><mi>t</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><msub><mi>X</mi><mi>t</mi></msub><mo>=</mo><mi mathvariant="normal">∞</mi><mo stretchy="false">)</mo></mrow><mo>=</mo><munder><mo movablelimits="false">lim</mo><mrow><mi>k</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><munder><mo movablelimits="false">lim sup</mo><mrow><mi>t</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><msub><mi>X</mi><mi>t</mi></msub><mo>≥</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right"><span class="ltx_tag ltx_tag_equation ltx_align_right">(1)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">because of</p>
+<table id="S0.EGx2" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex1"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex1.m1" class="ltx_Math" alttext="\displaystyle\mathbb{P}(\limsup_{t\to\infty}X_{t}=\infty)" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><munder><mo movablelimits="false">lim sup</mo><mrow><mi>t</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><msub><mi>X</mi><mi>t</mi></msub><mo>=</mo><mi mathvariant="normal">∞</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex1.m2" class="ltx_Math" alttext="\displaystyle=\mathbb{P}(\lim_{t\to\infty}\left(\sup_{s\geq t}X_{t}\right)=\infty)" display="inline"><mrow><mo>=</mo><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><munder><mo movablelimits="false">lim</mo><mrow><mi>t</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><mrow><mo>(</mo><munder><mo movablelimits="false">sup</mo><mrow><mi>s</mi><mo>≥</mo><mi>t</mi></mrow></munder><msub><mi>X</mi><mi>t</mi></msub><mo>)</mo></mrow><mo>=</mo><mi mathvariant="normal">∞</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex2"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex2.m2" class="ltx_Math" alttext="\displaystyle=\mathbb{P}(\forall k\geq 0,\exists t_{0}\geq 0,\forall t\geq t_{%
+0}:\left(\exists s\geq t:X_{t}\geq k\right))" display="inline"><mrow><mo>=</mo><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mo>∀</mo><mi>k</mi><mo>≥</mo><mn>0</mn><mo>,</mo><mo>∃</mo><msub><mi>t</mi><mn>0</mn></msub><mo>≥</mo><mn>0</mn><mo>,</mo><mo>∀</mo><mi>t</mi><mo>≥</mo><msub><mi>t</mi><mn>0</mn></msub><mo>:</mo><mrow><mo>(</mo><mo>∃</mo><mi>s</mi><mo>≥</mo><mi>t</mi><mo>:</mo><msub><mi>X</mi><mi>t</mi></msub><mo>≥</mo><mi>k</mi><mo>)</mo></mrow><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex3"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex3.m2" class="ltx_Math" alttext="\displaystyle=\mathbb{P}(\forall k\geq 0,\forall t\geq 0,\exists s\geq t:X_{t}%
+\geq k)" display="inline"><mrow><mo>=</mo><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mo>∀</mo><mi>k</mi><mo>≥</mo><mn>0</mn><mo>,</mo><mo>∀</mo><mi>t</mi><mo>≥</mo><mn>0</mn><mo>,</mo><mo>∃</mo><mi>s</mi><mo>≥</mo><mi>t</mi><mo>:</mo><msub><mi>X</mi><mi>t</mi></msub><mo>≥</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex4"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex4.m2" class="ltx_Math" alttext="\displaystyle=\lim_{k\to\infty}\mathbb{P}(\limsup_{t\to\infty}X_{t}\geq k)," display="inline"><mrow><mo>=</mo><munder><mo movablelimits="false">lim</mo><mrow><mi>k</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><munder><mo movablelimits="false">lim sup</mo><mrow><mi>t</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><msub><mi>X</mi><mi>t</mi></msub><mo>≥</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">where we observed that the claim holds for all <math id="Thmexercise1.p2.m1" class="ltx_Math" alttext="t&lt;t_{0}" display="inline"><mrow><mi>t</mi><mo>&lt;</mo><msub><mi>t</mi><mn>0</mn></msub></mrow></math> if it holds
+for all <math id="Thmexercise1.p2.m2" class="ltx_Math" alttext="t\geq t_{0}" display="inline"><mrow><mi>t</mi><mo>≥</mo><msub><mi>t</mi><mn>0</mn></msub></mrow></math> in the third step and then used continuity of the
+probability distribution to move the first <math id="Thmexercise1.p2.m3" class="ltx_Math" alttext="\forall" display="inline"><mo>∀</mo></math> outside in the
+last step.</p>
+</div>
+<div id="Thmexercise1.p3" class="ltx_para">
+<p class="ltx_p">We also switch to a discretized version of the Brownian motion
+<math id="Thmexercise1.p3.m1" class="ltx_Math" alttext="(B_{n})_{n\in\mathbb{N}}" display="inline"><msub><mrow><mo stretchy="false">(</mo><msub><mi>B</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow><mrow><mi>n</mi><mo>∈</mo><mi>ℕ</mi></mrow></msub></math></p>
+<table id="S0.EGx3" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex5"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex5.m1" class="ltx_Math" alttext="\displaystyle\mathbb{P}(\limsup_{t\to\infty}|B_{t}|=\infty)" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><munder><mo movablelimits="false">lim sup</mo><mrow><mi>t</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><mo stretchy="false">|</mo><msub><mi>B</mi><mi>t</mi></msub><mo stretchy="false">|</mo><mo>=</mo><mi mathvariant="normal">∞</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex5.m2" class="ltx_Math" alttext="\displaystyle=\lim_{k\to\infty}\mathbb{P}(\limsup_{t\to\infty}|B_{t}|\geq k)" display="inline"><mrow><mo>=</mo><munder><mo movablelimits="false">lim</mo><mrow><mi>k</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><munder><mo movablelimits="false">lim sup</mo><mrow><mi>t</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><mo stretchy="false">|</mo><msub><mi>B</mi><mi>t</mi></msub><mo stretchy="false">|</mo><mo>≥</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex6"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex6.m2" class="ltx_Math" alttext="\displaystyle\geq\lim_{k\to\infty}\mathbb{P}(\limsup_{n\to\infty}|B_{n}|\geq k)" display="inline"><mrow><mo>≥</mo><munder><mo movablelimits="false">lim</mo><mrow><mi>k</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><munder><mo movablelimits="false">lim sup</mo><mrow><mi>n</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><mo stretchy="false">|</mo><msub><mi>B</mi><mi>n</mi></msub><mo stretchy="false">|</mo><mo>≥</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex7"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex7.m2" class="ltx_Math" alttext="\displaystyle\geq\lim_{k\to\infty}\mathbb{P}(\limsup_{n\to\infty}|B_{n+1}-B_{n%
+}|\geq 2k)." display="inline"><mrow><mo>≥</mo><munder><mo movablelimits="false">lim</mo><mrow><mi>k</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><munder><mo movablelimits="false">lim sup</mo><mrow><mi>n</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><mo stretchy="false">|</mo><msub><mi>B</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>-</mo><msub><mi>B</mi><mi>n</mi></msub><mo stretchy="false">|</mo><mo>≥</mo><mn>2</mn><mi>k</mi><mo stretchy="false">)</mo></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">For the last inequality we used that, if for any <math id="Thmexercise1.p3.m2" class="ltx_Math" alttext="n" display="inline"><mi>n</mi></math></p>
+<table id="S0.EGx4" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex8"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex8.m1" class="ltx_Math" alttext="\displaystyle\sup_{m\geq n}|B_{m+1}-B_{m}|\geq 2k," display="inline"><mrow><mrow><mrow><munder><mo movablelimits="false">sup</mo><mrow><mi>m</mi><mo>≥</mo><mi>n</mi></mrow></munder><mo>⁡</mo><mrow><mo stretchy="false">|</mo><mrow><msub><mi>B</mi><mrow><mi>m</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>-</mo><msub><mi>B</mi><mi>m</mi></msub></mrow><mo stretchy="false">|</mo></mrow></mrow><mo>≥</mo><mrow><mn>2</mn><mo>⁢</mo><mi>k</mi></mrow></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">then for some <math id="Thmexercise1.p3.m3" class="ltx_Math" alttext="m\geq n" display="inline"><mrow><mi>m</mi><mo>≥</mo><mi>n</mi></mrow></math> either <math id="Thmexercise1.p3.m4" class="ltx_Math" alttext="|B_{m}|\geq k" display="inline"><mrow><mrow><mo stretchy="false">|</mo><msub><mi>B</mi><mi>m</mi></msub><mo stretchy="false">|</mo></mrow><mo>≥</mo><mi>k</mi></mrow></math> or <math id="Thmexercise1.p3.m5" class="ltx_Math" alttext="|B_{m+1}|\geq k" display="inline"><mrow><mrow><mo stretchy="false">|</mo><msub><mi>B</mi><mrow><mi>m</mi><mo>+</mo><mn>1</mn></mrow></msub><mo stretchy="false">|</mo></mrow><mo>≥</mo><mi>k</mi></mrow></math> due to the triangle
+inequality and therefore</p>
+<table id="S0.EGx5" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex9"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex9.m1" class="ltx_Math" alttext="\displaystyle\sup_{m\geq n}|B_{m}|\geq k." display="inline"><mrow><mrow><mrow><munder><mo movablelimits="false">sup</mo><mrow><mi>m</mi><mo>≥</mo><mi>n</mi></mrow></munder><mo>⁡</mo><mrow><mo stretchy="false">|</mo><msub><mi>B</mi><mi>m</mi></msub><mo stretchy="false">|</mo></mrow></mrow><mo>≥</mo><mi>k</mi></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">But since <math id="Thmexercise1.p3.m6" class="ltx_Math" alttext="\{|B_{n+1}-B_{n}|\geq 2k\}" display="inline"><mrow><mo stretchy="false">{</mo><mrow><mrow><mo stretchy="false">|</mo><mrow><msub><mi>B</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>-</mo><msub><mi>B</mi><mi>n</mi></msub></mrow><mo stretchy="false">|</mo></mrow><mo>≥</mo><mrow><mn>2</mn><mo>⁢</mo><mi>k</mi></mrow></mrow><mo stretchy="false">}</mo></mrow></math> are independent events and</p>
+<table id="S0.EGx6" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex10"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex10.m1" class="ltx_Math" alttext="\displaystyle\sum_{n=0}^{\infty}\mathbb{P}(|B_{n+1}-B_{n}|\geq 2k)=\sum_{n=0}^%
+{\infty}\underbrace{\mathbb{P}(|B_{1}-B_{0}|\geq 2k)}_{=:c&gt;0}=\infty," display="inline"><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mi mathvariant="normal">∞</mi></munderover></mstyle><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mo stretchy="false">|</mo><msub><mi>B</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>-</mo><msub><mi>B</mi><mi>n</mi></msub><mo stretchy="false">|</mo><mo>≥</mo><mn>2</mn><mi>k</mi><mo stretchy="false">)</mo></mrow><mo>=</mo><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mi mathvariant="normal">∞</mi></munderover></mstyle><munder><munder accentunder="true"><mrow><mi>ℙ</mi><mrow><mo movablelimits="false" stretchy="false">(</mo><mo movablelimits="false" stretchy="false">|</mo><msub><mi>B</mi><mn>1</mn></msub><mo movablelimits="false">-</mo><msub><mi>B</mi><mn>0</mn></msub><mo movablelimits="false" stretchy="false">|</mo><mo movablelimits="false">≥</mo><mn>2</mn><mi>k</mi><mo movablelimits="false" stretchy="false">)</mo></mrow></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mo>=</mo><mo>⁣</mo><mrow><mi></mi><mo>:</mo><mi>c</mi></mrow><mo>⁣</mo><mrow><mi></mi><mo>&gt;</mo><mn>0</mn></mrow></mrow></munder><mo>=</mo><mi mathvariant="normal">∞</mi><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">we have by Borel-Cantelli</p>
+<table id="S0.EGx7" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex11"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex11.m1" class="ltx_Math" alttext="\displaystyle\mathbb{P}(\limsup_{n\to\infty}|B_{n+1}-B_{n}|\geq 2k)" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><munder><mo movablelimits="false">lim sup</mo><mrow><mi>n</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><mo stretchy="false">|</mo><msub><mi>B</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>-</mo><msub><mi>B</mi><mi>n</mi></msub><mo stretchy="false">|</mo><mo>≥</mo><mn>2</mn><mi>k</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex11.m2" class="ltx_Math" alttext="\displaystyle=1.\qed" display="inline"><mrow><mrow><mi></mi><mo>=</mo><mn>1</mn></mrow><mo>.</mo><mo mathvariant="italic" separator="true">∎</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="Thmexercise2" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 2</span></span><span class="ltx_text ltx_font_bold"> </span>(Brownian Bridge)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmexercise2.p1" class="ltx_para">
+<p class="ltx_p">A stochastic process <math id="Thmexercise2.p1.m1" class="ltx_Math" alttext="(X_{t})_{0\leq t\leq 1}" display="inline"><msub><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow><mrow><mn>0</mn><mo>≤</mo><mi>t</mi><mo>≤</mo><mn>1</mn></mrow></msub></math> is called a
+<em class="ltx_emph ltx_font_italic">Brownian bridge</em> if it is a continuous centred Gaussian process
+with covariance function given by</p>
+<table id="S0.Ex12" class="ltx_equation ltx_eqn_table">
+
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S0.Ex12.m1" class="ltx_Math" alttext="\text{Cov}(X_{s},X_{t})=s(1-t),\quad s\leq t." display="block"><mrow><mrow><mrow><mrow><mtext>Cov</mtext><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mi>s</mi></msub><mo>,</mo><msub><mi>X</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mi>s</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mn>1</mn><mo>-</mo><mi>t</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><mo rspace="12.5pt">,</mo><mrow><mi>s</mi><mo>≤</mo><mi>t</mi></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+</table>
+<p class="ltx_p">Let <math id="Thmexercise2.p1.m2" class="ltx_Math" alttext="(B_{t},t\geq 0)" display="inline"><mrow><mo stretchy="false">(</mo><mrow><mrow><msub><mi>B</mi><mi>t</mi></msub><mo>,</mo><mi>t</mi></mrow><mo>≥</mo><mn>0</mn></mrow><mo stretchy="false">)</mo></mrow></math> be a standard Brownian motion. Show that the process</p>
+<table id="S0.Ex13" class="ltx_equation ltx_eqn_table">
+
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S0.Ex13.m1" class="ltx_Math" alttext="X_{t}=B_{t}-tB_{1},\quad t\in[0,1]" display="block"><mrow><mrow><msub><mi>X</mi><mi>t</mi></msub><mo>=</mo><mrow><msub><mi>B</mi><mi>t</mi></msub><mo>-</mo><mrow><mi>t</mi><mo>⁢</mo><msub><mi>B</mi><mn>1</mn></msub></mrow></mrow></mrow><mo rspace="12.5pt">,</mo><mrow><mi>t</mi><mo>∈</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">]</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+</table>
+<p class="ltx_p">is a Brownian bridge. Moreover, prove that <math id="Thmexercise2.p1.m3" class="ltx_Math" alttext="B_{1}" display="inline"><msub><mi>B</mi><mn>1</mn></msub></math> is independent of
+<math id="Thmexercise2.p1.m4" class="ltx_Math" alttext="(X_{t},t\in[0,1])" display="inline"><mrow><mo stretchy="false">(</mo><mrow><mrow><msub><mi>X</mi><mi>t</mi></msub><mo>,</mo><mi>t</mi></mrow><mo>∈</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">]</mo></mrow></mrow><mo stretchy="false">)</mo></mrow></math>.</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="Thmexercise2.p2" class="ltx_para">
+<p class="ltx_p">Because <math id="Thmexercise2.p2.m1" class="ltx_Math" alttext="B" display="inline"><mi>B</mi></math> is a centered continuous Gaussian process, we know that
+<math id="Thmexercise2.p2.m2" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> is a centered continuous Gaussian process, because any linear
+combination of a finite gaussian vector <math id="Thmexercise2.p2.m3" class="ltx_Math" alttext="(X_{t_{1}},\dots,X_{t_{n}})" display="inline"><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><msub><mi>t</mi><mn>1</mn></msub></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>X</mi><msub><mi>t</mi><mi>n</mi></msub></msub><mo stretchy="false">)</mo></mrow></math> is a
+linear combination of <math id="Thmexercise2.p2.m4" class="ltx_Math" alttext="(B_{1},B_{t_{1}},\dots,B_{t_{n}})" display="inline"><mrow><mo stretchy="false">(</mo><msub><mi>B</mi><mn>1</mn></msub><mo>,</mo><msub><mi>B</mi><msub><mi>t</mi><mn>1</mn></msub></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>B</mi><msub><mi>t</mi><mi>n</mi></msub></msub><mo stretchy="false">)</mo></mrow></math> and therefore
+gaussian. For <math id="Thmexercise2.p2.m5" class="ltx_Math" alttext="s\leq t" display="inline"><mrow><mi>s</mi><mo>≤</mo><mi>t</mi></mrow></math>, the covariance is</p>
+<table id="S0.EGx8" class="ltx_equationgroup ltx_eqn_eqnarray ltx_eqn_table">
+
+<tbody id="S0.Ex14"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex14.m1" class="ltx_Math" alttext="\displaystyle\text{Cov}(X_{s},X_{t})=\text{Cov}(B_{s}-sB_{1},B_{t}-tB_{1})=%
+\mathbb{E}\left[(B_{s}-sB_{1})(B_{t}-tB_{1})\right]=s(1-t)." display="inline"><mrow><mrow><mrow><mtext>Cov</mtext><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mi>s</mi></msub><mo>,</mo><msub><mi>X</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mtext>Cov</mtext><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>B</mi><mi>s</mi></msub><mo>-</mo><mrow><mi>s</mi><mo>⁢</mo><msub><mi>B</mi><mn>1</mn></msub></mrow></mrow><mo>,</mo><mrow><msub><mi>B</mi><mi>t</mi></msub><mo>-</mo><mrow><mi>t</mi><mo>⁢</mo><msub><mi>B</mi><mn>1</mn></msub></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><mrow><mo stretchy="false">(</mo><mrow><msub><mi>B</mi><mi>s</mi></msub><mo>-</mo><mrow><mi>s</mi><mo>⁢</mo><msub><mi>B</mi><mn>1</mn></msub></mrow></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>B</mi><mi>t</mi></msub><mo>-</mo><mrow><mi>t</mi><mo>⁢</mo><msub><mi>B</mi><mn>1</mn></msub></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>]</mo></mrow></mrow><mo>=</mo><mrow><mi>s</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mn>1</mn><mo>-</mo><mi>t</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">To show that <math id="Thmexercise2.p2.m6" class="ltx_Math" alttext="B_{1}" display="inline"><msub><mi>B</mi><mn>1</mn></msub></math> is independent from <math id="Thmexercise2.p2.m7" class="ltx_Math" alttext="(X_{t},t\in[0,1])" display="inline"><mrow><mo stretchy="false">(</mo><mrow><mrow><msub><mi>X</mi><mi>t</mi></msub><mo>,</mo><mi>t</mi></mrow><mo>∈</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">]</mo></mrow></mrow><mo stretchy="false">)</mo></mrow></math>, it is enough
+to show independence from a finite dimensional marginal <math id="Thmexercise2.p2.m8" class="ltx_Math" alttext="(X_{t_{1}},\dots,X_{t_{n}})" display="inline"><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><msub><mi>t</mi><mn>1</mn></msub></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>X</mi><msub><mi>t</mi><mi>n</mi></msub></msub><mo stretchy="false">)</mo></mrow></math>. But because <math id="Thmexercise2.p2.m9" class="ltx_Math" alttext="(B_{1},X_{t_{1}},\dots,X_{t_{n}})" display="inline"><mrow><mo stretchy="false">(</mo><msub><mi>B</mi><mn>1</mn></msub><mo>,</mo><msub><mi>X</mi><msub><mi>t</mi><mn>1</mn></msub></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>X</mi><msub><mi>t</mi><mi>n</mi></msub></msub><mo stretchy="false">)</mo></mrow></math> is a
+Gaussian vector and</p>
+<table id="S0.EGx9" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex15"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex15.m1" class="ltx_Math" alttext="\displaystyle\text{Cov}(B_{1},X_{t_{i}})" display="inline"><mrow><mtext>Cov</mtext><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>B</mi><mn>1</mn></msub><mo>,</mo><msub><mi>X</mi><msub><mi>t</mi><mi>i</mi></msub></msub><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex15.m2" class="ltx_Math" alttext="\displaystyle=\mathbb{E}[B_{1}(B_{t_{i}}-t_{i}B_{1})]" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><msub><mi>B</mi><mn>1</mn></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>B</mi><msub><mi>t</mi><mi>i</mi></msub></msub><mo>-</mo><mrow><msub><mi>t</mi><mi>i</mi></msub><mo>⁢</mo><msub><mi>B</mi><mn>1</mn></msub></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">]</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex16"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex16.m2" class="ltx_Math" alttext="\displaystyle=\text{Cov}(B_{1},B_{t_{i}})-t_{i}\text{Var}(B_{1})" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mrow><mtext>Cov</mtext><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>B</mi><mn>1</mn></msub><mo>,</mo><msub><mi>B</mi><msub><mi>t</mi><mi>i</mi></msub></msub><mo stretchy="false">)</mo></mrow></mrow><mo>-</mo><mrow><msub><mi>t</mi><mi>i</mi></msub><mo>⁢</mo><mtext>Var</mtext><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>B</mi><mn>1</mn></msub><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex17"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex17.m2" class="ltx_Math" alttext="\displaystyle=\min(1,t_{i})-t_{i}\min(1,1)" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mrow><mi>min</mi><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><msub><mi>t</mi><mi>i</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo>-</mo><mrow><msub><mi>t</mi><mi>i</mi></msub><mo>⁢</mo><mrow><mi>min</mi><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex18"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex18.m2" class="ltx_Math" alttext="\displaystyle=0" display="inline"><mrow><mi></mi><mo>=</mo><mn>0</mn></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">we have the independence between <math id="Thmexercise2.p2.m10" class="ltx_Math" alttext="B_{1}" display="inline"><msub><mi>B</mi><mn>1</mn></msub></math> and <math id="Thmexercise2.p2.m11" class="ltx_Math" alttext="(X_{t_{1}},\dots,X_{t_{n}})" display="inline"><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><msub><mi>t</mi><mn>1</mn></msub></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>X</mi><msub><mi>t</mi><mi>n</mi></msub></msub><mo stretchy="false">)</mo></mrow></math> by Sheet 8 Exercise 4.
+∎</p>
+</div>
+</div>
+</div>
+<div id="Thmexercise3" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 3</span></span><span class="ltx_text ltx_font_bold"> </span>(Brownian Growth Rate)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmexercise3.p1" class="ltx_para">
+<p class="ltx_p">Let <math id="Thmexercise3.p1.m1" class="ltx_Math" alttext="(B_{t}\geq 0)" display="inline"><mrow><mo stretchy="false">(</mo><mrow><msub><mi>B</mi><mi>t</mi></msub><mo>≥</mo><mn>0</mn></mrow><mo stretchy="false">)</mo></mrow></math> be a Brownian motion.</p>
+<ol id="S0.I1" class="ltx_enumerate">
+<li id="S0.I1.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(i)</span> 
+<div id="S0.I1.i1.p1" class="ltx_para">
+<p class="ltx_p">Prove that, for any <math id="S0.I1.i1.p1.m1" class="ltx_Math" alttext="k&gt;0" display="inline"><mrow><mi>k</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, we have</p>
+<table id="S0.Ex19" class="ltx_equation ltx_eqn_table">
+
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S0.Ex19.m1" class="ltx_Math" alttext="\mathbb{P}(\inf\{t&gt;0\colon B_{t}\geq k\sqrt{t}\}=0)=1." display="block"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><mo movablelimits="false">inf</mo><mrow><mo stretchy="false">{</mo><mi>t</mi><mo>&gt;</mo><mn>0</mn><mo>:</mo><msub><mi>B</mi><mi>t</mi></msub><mo>≥</mo><mi>k</mi><msqrt><mi>t</mi></msqrt><mo stretchy="false">}</mo></mrow><mo>=</mo><mn>0</mn><mo stretchy="false">)</mo></mrow><mo>=</mo><mn>1</mn><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+</table>
+</div>
+<div id="Thmhintx2" class="ltx_theorem ltx_theorem_hint">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Hint</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmhintx2.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">Look for a similar statement in the lecture notes.</span></p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I1.i1.p2" class="ltx_para ltx_noindent">
+<p class="ltx_p">This is the same proof as in Theorem 8.2.12, but we drop the
+absolute value.</p>
+</div>
+<div id="S0.I1.i1.p3" class="ltx_para">
+<p class="ltx_p">We define the same sets (just without the absolute value)</p>
+<table id="S0.EGx10" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex20"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex20.m1" class="ltx_Math" alttext="\displaystyle A" display="inline"><mi>A</mi></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex20.m2" class="ltx_Math" alttext="\displaystyle:=\bigl{\{}\inf\{t\geq 0:B_{t}\geq k\sqrt{t}\}=0\bigr{\}}" display="inline"><mrow><mo>:=</mo><mrow><mo maxsize="120%" minsize="120%">{</mo><mo movablelimits="false">inf</mo><mrow><mo stretchy="false">{</mo><mi>t</mi><mo>≥</mo><mn>0</mn><mo>:</mo><msub><mi>B</mi><mi>t</mi></msub><mo>≥</mo><mi>k</mi><msqrt><mi>t</mi></msqrt><mo stretchy="false">}</mo></mrow><mo>=</mo><mn>0</mn><mo maxsize="120%" minsize="120%">}</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex21"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex21.m1" class="ltx_Math" alttext="\displaystyle A_{s}" display="inline"><msub><mi>A</mi><mi>s</mi></msub></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex21.m2" class="ltx_Math" alttext="\displaystyle:=\bigl{\{}\inf\{t\geq 0:B_{t}\geq k\sqrt{t}\}\leq s\bigr{\}}" display="inline"><mrow><mo>:=</mo><mrow><mo maxsize="120%" minsize="120%">{</mo><mo movablelimits="false">inf</mo><mrow><mo stretchy="false">{</mo><mi>t</mi><mo>≥</mo><mn>0</mn><mo>:</mo><msub><mi>B</mi><mi>t</mi></msub><mo>≥</mo><mi>k</mi><msqrt><mi>t</mi></msqrt><mo stretchy="false">}</mo></mrow><mo>≤</mo><mi>s</mi><mo maxsize="120%" minsize="120%">}</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">And also have <math id="S0.I1.i1.p3.m1" class="ltx_Math" alttext="A=\bigcap_{s&gt;0}A_{s}\in\mathcal{F}_{0+}" display="inline"><mrow><mi>A</mi><mo>=</mo><mrow><msub><mo largeop="true" mathsize="160%" stretchy="false" symmetric="true">⋂</mo><mrow><mi>s</mi><mo>&gt;</mo><mn>0</mn></mrow></msub><msub><mi>A</mi><mi>s</mi></msub></mrow><mo>∈</mo><msub><mi class="ltx_font_mathcaligraphic">ℱ</mi><mrow><mn>0</mn><mo>+</mo></mrow></msub></mrow></math>. Due to Blumenthal’s
+zero-one law we have <math id="S0.I1.i1.p3.m2" class="ltx_Math" alttext="\mathbb{P}(A)\in\{0,1\}" display="inline"><mrow><mrow><mi>ℙ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>A</mi><mo stretchy="false">)</mo></mrow></mrow><mo>∈</mo><mrow><mo stretchy="false">{</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">}</mo></mrow></mrow></math>, so we just need to show it
+is not zero. With the same argument as in the lecture we can finish
+the proof</p>
+<table id="S0.EGx11" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex22"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex22.m1" class="ltx_Math" alttext="\displaystyle\mathbb{P}(A)" display="inline"><mrow><mi>ℙ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>A</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex22.m2" class="ltx_Math" alttext="\displaystyle=\lim_{s\to 0}\mathbb{P}(A_{s})" display="inline"><mrow><mi></mi><mo>=</mo><mrow><munder><mo movablelimits="false">lim</mo><mrow><mi>s</mi><mo>→</mo><mn>0</mn></mrow></munder><mo>⁡</mo><mrow><mi>ℙ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>A</mi><mi>s</mi></msub><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex23"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex23.m2" class="ltx_Math" alttext="\displaystyle=\lim_{s\to 0}\mathbb{P}\left(\inf\left\{t\geq 0:\frac{B_{t}}{%
+\sqrt{t}}\geq k\right\}\right)" display="inline"><mrow><mi></mi><mo>=</mo><mrow><munder><mo movablelimits="false">lim</mo><mrow><mi>s</mi><mo>→</mo><mn>0</mn></mrow></munder><mo>⁡</mo><mrow><mi>ℙ</mi><mo>⁢</mo><mrow><mo>(</mo><mrow><mo movablelimits="false">inf</mo><mo>⁡</mo><mrow><mo>{</mo><mrow><mi>t</mi><mo>≥</mo><mn>0</mn></mrow><mo>:</mo><mrow><mstyle displaystyle="true"><mfrac><msub><mi>B</mi><mi>t</mi></msub><msqrt><mi>t</mi></msqrt></mfrac></mstyle><mo>≥</mo><mi>k</mi></mrow><mo>}</mo></mrow></mrow><mo>)</mo></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex24"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex24.m2" class="ltx_Math" alttext="\displaystyle\geq\lim_{s\to 0}\mathbb{P}\left(\frac{B_{s}}{\sqrt{s}}\geq k\right)" display="inline"><mrow><mo>≥</mo><munder><mo movablelimits="false">lim</mo><mrow><mi>s</mi><mo>→</mo><mn>0</mn></mrow></munder><mi>ℙ</mi><mrow><mo>(</mo><mstyle displaystyle="true"><mfrac><msub><mi>B</mi><mi>s</mi></msub><msqrt><mi>s</mi></msqrt></mfrac></mstyle><mo>≥</mo><mi>k</mi><mo>)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex25"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex25.m2" class="ltx_Math" alttext="\displaystyle\stackrel{{\scriptstyle\text{scaling}}}{{=}}\mathbb{P}\left(B_{1}%
+\geq k\right)" display="inline"><mrow><mover><mo movablelimits="false">=</mo><mtext>scaling</mtext></mover><mi>ℙ</mi><mrow><mo>(</mo><msub><mi>B</mi><mn>1</mn></msub><mo>≥</mo><mi>k</mi><mo>)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex26"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex26.m2" class="ltx_Math" alttext="\displaystyle&gt;0.\qed" display="inline"><mrow><mrow><mi></mi><mo>&gt;</mo><mn>0</mn></mrow><mo>.</mo><mo mathvariant="italic" separator="true">∎</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+</div>
+</div>
+</li>
+<li id="S0.I1.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(ii)</span> 
+<div id="S0.I1.i2.p1" class="ltx_para">
+<p class="ltx_p">Prove that,</p>
+<table id="S0.EGx12" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex27"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex27.m1" class="ltx_Math" alttext="\displaystyle\limsup_{t\to\infty}\frac{B_{t}}{\sqrt{t}}=\infty\quad\text{and}%
+\quad\liminf_{t\to\infty}\frac{B_{t}}{\sqrt{t}}=-\infty\quad\text{a.s..}" display="inline"><mrow><mrow><mrow><munder><mo movablelimits="false">lim sup</mo><mrow><mi>t</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><mo>⁡</mo><mstyle displaystyle="true"><mfrac><msub><mi>B</mi><mi>t</mi></msub><msqrt><mi>t</mi></msqrt></mfrac></mstyle></mrow><mo>=</mo><mrow><mi mathvariant="normal">∞</mi><mo mathvariant="italic" separator="true"> </mo><mtext>and</mtext></mrow></mrow><mo mathvariant="italic" separator="true"> </mo><mrow><mrow><munder><mo movablelimits="false">lim inf</mo><mrow><mi>t</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><mo>⁡</mo><mstyle displaystyle="true"><mfrac><msub><mi>B</mi><mi>t</mi></msub><msqrt><mi>t</mi></msqrt></mfrac></mstyle></mrow><mo>=</mo><mrow><mrow><mo>-</mo><mi mathvariant="normal">∞</mi></mrow><mo mathvariant="italic" separator="true"> </mo><mtext>a.s..</mtext></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+</div>
+<div id="Thmhintx3" class="ltx_theorem ltx_theorem_hint">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Hint</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmhintx3.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">Use time inversion.</span></p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution Spirit.</h6>
+<div id="S0.I1.i2.p2" class="ltx_para ltx_noindent">
+<p class="ltx_p">By applying the previous statement to <math id="S0.I1.i2.p2.m1" class="ltx_Math" alttext="tB_{1/t}" display="inline"><mrow><mi>t</mi><mo>⁢</mo><msub><mi>B</mi><mrow><mn>1</mn><mo>/</mo><mi>t</mi></mrow></msub></mrow></math> we want to essentially
+argue</p>
+<table id="S0.EGx13" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex28"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex28.m1" class="ltx_Math" alttext="\displaystyle 1" display="inline"><mn>1</mn></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex28.m2" class="ltx_Math" alttext="\displaystyle=\mathbb{P}\left(\inf\biggl{\{}t&gt;0:\frac{tB_{1/t}}{\sqrt{t}}\geq k%
+\biggr{\}}=0\right)" display="inline"><mrow><mo>=</mo><mi>ℙ</mi><mrow><mo>(</mo><mo movablelimits="false">inf</mo><mrow><mo maxsize="210%" minsize="210%">{</mo><mi>t</mi><mo>&gt;</mo><mn>0</mn><mo>:</mo><mstyle displaystyle="true"><mfrac><mrow><mi>t</mi><mo>⁢</mo><msub><mi>B</mi><mrow><mn>1</mn><mo>/</mo><mi>t</mi></mrow></msub></mrow><msqrt><mi>t</mi></msqrt></mfrac></mstyle><mo>≥</mo><mi>k</mi><mo maxsize="210%" minsize="210%">}</mo></mrow><mo>=</mo><mn>0</mn><mo>)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex29"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex29.m2" class="ltx_Math" alttext="\displaystyle\stackrel{{\scriptstyle t=\tfrac{1}{s}}}{{=}}\mathbb{P}\left(\sup%
+\biggl{\{}s&lt;\infty:\frac{B_{s}}{\sqrt{s}}\geq k\biggr{\}}=1/0=\infty\right)." display="inline"><mrow><mover><mo movablelimits="false">=</mo><mrow><mi>t</mi><mo>=</mo><mstyle scriptlevel="-1"><mfrac><mn>1</mn><mi>s</mi></mfrac></mstyle></mrow></mover><mi>ℙ</mi><mrow><mo>(</mo><mo movablelimits="false">sup</mo><mrow><mo maxsize="210%" minsize="210%">{</mo><mi>s</mi><mo>&lt;</mo><mi mathvariant="normal">∞</mi><mo>:</mo><mstyle displaystyle="true"><mfrac><msub><mi>B</mi><mi>s</mi></msub><msqrt><mi>s</mi></msqrt></mfrac></mstyle><mo>≥</mo><mi>k</mi><mo maxsize="210%" minsize="210%">}</mo></mrow><mo>=</mo><mn>1</mn><mo>/</mo><mn>0</mn><mo>=</mo><mi mathvariant="normal">∞</mi><mo>)</mo></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">For the supremum over times <math id="S0.I1.i2.p2.m2" class="ltx_Math" alttext="s" display="inline"><mi>s</mi></math> to be infinite, there can be no largest
+<math id="S0.I1.i2.p2.m3" class="ltx_Math" alttext="s" display="inline"><mi>s</mi></math> for which <math id="S0.I1.i2.p2.m4" class="ltx_Math" alttext="\frac{B_{s}}{\sqrt{s}}\geq k" display="inline"><mrow><mfrac><msub><mi>B</mi><mi>s</mi></msub><msqrt><mi>s</mi></msqrt></mfrac><mo>≥</mo><mi>k</mi></mrow></math>. There has to be an
+infinite amount of these <math id="S0.I1.i2.p2.m5" class="ltx_Math" alttext="s" display="inline"><mi>s</mi></math> which implies almost surely</p>
+<table id="S0.EGx14" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex30"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex30.m1" class="ltx_Math" alttext="\displaystyle\limsup_{s\geq t}\frac{B_{s}}{\sqrt{s}}\geq k." display="inline"><mrow><mrow><mrow><munder><mo movablelimits="false">lim sup</mo><mrow><mi>s</mi><mo>≥</mo><mi>t</mi></mrow></munder><mo>⁡</mo><mstyle displaystyle="true"><mfrac><msub><mi>B</mi><mi>s</mi></msub><msqrt><mi>s</mi></msqrt></mfrac></mstyle></mrow><mo>≥</mo><mi>k</mi></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">Since <math id="S0.I1.i2.p2.m6" class="ltx_Math" alttext="k" display="inline"><mi>k</mi></math> is arbitrary we get the claim.</p>
+</div>
+<div id="S0.I1.i2.p3" class="ltx_para">
+<p class="ltx_p">But the transformation <math id="S0.I1.i2.p3.m1" class="ltx_Math" alttext="t=\tfrac{1}{s}" display="inline"><mrow><mi>t</mi><mo>=</mo><mfrac><mn>1</mn><mi>s</mi></mfrac></mrow></math> is of course not quite formally
+correct. Which is why there is a formal solution below.
+∎</p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Formal Solution.</h6>
+<div id="S0.I1.i2.p4" class="ltx_para">
+<p class="ltx_p">Using (<a href="#S0.E1" title="(1) ‣ Exercise 1 (Brownian Motion Unbounded). ‣ Sheet 12" class="ltx_ref"><span class="ltx_text ltx_ref_tag">1</span></a>) and continuity
+of probability measures, we have</p>
+<table id="S0.EGx15" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex31"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex31.m1" class="ltx_Math" alttext="\displaystyle\mathbb{P}\biggl{(}\limsup_{t\to\infty}\frac{B_{t}}{\sqrt{t}}=%
+\infty\biggr{)}" display="inline"><mrow><mi>ℙ</mi><mrow><mo maxsize="210%" minsize="210%">(</mo><munder><mo movablelimits="false">lim sup</mo><mrow><mi>t</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><mstyle displaystyle="true"><mfrac><msub><mi>B</mi><mi>t</mi></msub><msqrt><mi>t</mi></msqrt></mfrac></mstyle><mo>=</mo><mi mathvariant="normal">∞</mi><mo maxsize="210%" minsize="210%">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex31.m2" class="ltx_Math" alttext="\displaystyle=\lim_{k\to\infty}\lim_{t\to\infty}\mathbb{P}\biggl{(}\sup_{s\geq
+t%
+}\frac{B_{s}}{\sqrt{s}}\geq k\biggr{)}." display="inline"><mrow><mo>=</mo><munder><mo movablelimits="false">lim</mo><mrow><mi>k</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><munder><mo movablelimits="false">lim</mo><mrow><mi>t</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><mi>ℙ</mi><mrow><mo maxsize="210%" minsize="210%">(</mo><munder><mo movablelimits="false">sup</mo><mrow><mi>s</mi><mo>≥</mo><mi>t</mi></mrow></munder><mstyle displaystyle="true"><mfrac><msub><mi>B</mi><mi>s</mi></msub><msqrt><mi>s</mi></msqrt></mfrac></mstyle><mo>≥</mo><mi>k</mi><mo maxsize="210%" minsize="210%">)</mo></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">It is therefore sufficient to show for every <math id="S0.I1.i2.p4.m1" class="ltx_Math" alttext="k,t" display="inline"><mrow><mi>k</mi><mo>,</mo><mi>t</mi></mrow></math> that</p>
+<table id="S0.EGx16" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.E2"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.E2.m1" class="ltx_Math" alttext="\displaystyle\mathbb{P}\biggl{(}\sup_{s\geq t}\frac{B_{s}}{\sqrt{s}}\geq k%
+\biggr{)}=1." display="inline"><mrow><mi>ℙ</mi><mrow><mo maxsize="210%" minsize="210%">(</mo><munder><mo movablelimits="false">sup</mo><mrow><mi>s</mi><mo>≥</mo><mi>t</mi></mrow></munder><mstyle displaystyle="true"><mfrac><msub><mi>B</mi><mi>s</mi></msub><msqrt><mi>s</mi></msqrt></mfrac></mstyle><mo>≥</mo><mi>k</mi><mo maxsize="210%" minsize="210%">)</mo></mrow><mo>=</mo><mn>1</mn><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right"><span class="ltx_tag ltx_tag_equation ltx_align_right">(2)</span></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">So assume some given <math id="S0.I1.i2.p4.m2" class="ltx_Math" alttext="k,t" display="inline"><mrow><mi>k</mi><mo>,</mo><mi>t</mi></mrow></math>. Because <math id="S0.I1.i2.p4.m3" class="ltx_Math" alttext="\tilde{s}B_{1/\tilde{s}}" display="inline"><mrow><mover accent="true"><mi>s</mi><mo stretchy="false">~</mo></mover><mo>⁢</mo><msub><mi>B</mi><mrow><mn>1</mn><mo>/</mo><mover accent="true"><mi>s</mi><mo stretchy="false">~</mo></mover></mrow></msub></mrow></math> is a
+Brownian motion, we have almost surely</p>
+<table id="S0.EGx17" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex32"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex32.m1" class="ltx_Math" alttext="\displaystyle\inf\{\tilde{s}&gt;0:\sqrt{\tilde{s}}B_{1/\tilde{s}}\geq k\}=0." display="inline"><mrow><mrow><mrow><mo movablelimits="false">inf</mo><mo>⁡</mo><mrow><mo stretchy="false">{</mo><mrow><mover accent="true"><mi>s</mi><mo stretchy="false">~</mo></mover><mo>&gt;</mo><mn>0</mn></mrow><mo>:</mo><mrow><mrow><msqrt><mover accent="true"><mi>s</mi><mo stretchy="false">~</mo></mover></msqrt><mo>⁢</mo><msub><mi>B</mi><mrow><mn>1</mn><mo>/</mo><mover accent="true"><mi>s</mi><mo stretchy="false">~</mo></mover></mrow></msub></mrow><mo>≥</mo><mi>k</mi></mrow><mo stretchy="false">}</mo></mrow></mrow><mo>=</mo><mn>0</mn></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">So there exists <math id="S0.I1.i2.p4.m4" class="ltx_Math" alttext="0&lt;\tilde{s}(\omega)&lt;\tfrac{1}{t}" display="inline"><mrow><mn>0</mn><mo>&lt;</mo><mrow><mover accent="true"><mi>s</mi><mo stretchy="false">~</mo></mover><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>ω</mi><mo stretchy="false">)</mo></mrow></mrow><mo>&lt;</mo><mfrac><mn>1</mn><mi>t</mi></mfrac></mrow></math> for all <math id="S0.I1.i2.p4.m5" class="ltx_Math" alttext="\omega\in N^{c}" display="inline"><mrow><mi>ω</mi><mo>∈</mo><msup><mi>N</mi><mi>c</mi></msup></mrow></math>
+where <math id="S0.I1.i2.p4.m6" class="ltx_Math" alttext="N" display="inline"><mi>N</mi></math> is a null set, such that</p>
+<table id="S0.EGx18" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex33"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex33.m1" class="ltx_Math" alttext="\displaystyle\sqrt{\tilde{s}}B_{1/\tilde{s}}(\omega)\geq k." display="inline"><mrow><mrow><mrow><msqrt><mover accent="true"><mi>s</mi><mo stretchy="false">~</mo></mover></msqrt><mo>⁢</mo><msub><mi>B</mi><mrow><mn>1</mn><mo>/</mo><mover accent="true"><mi>s</mi><mo stretchy="false">~</mo></mover></mrow></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>ω</mi><mo stretchy="false">)</mo></mrow></mrow><mo>≥</mo><mi>k</mi></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">Defining <math id="S0.I1.i2.p4.m7" class="ltx_Math" alttext="s:=1/\tilde{s}" display="inline"><mrow><mi>s</mi><mo>:=</mo><mrow><mn>1</mn><mo>/</mo><mover accent="true"><mi>s</mi><mo stretchy="false">~</mo></mover></mrow></mrow></math> implies <math id="S0.I1.i2.p4.m8" class="ltx_Math" alttext="s\geq t" display="inline"><mrow><mi>s</mi><mo>≥</mo><mi>t</mi></mrow></math> and results in</p>
+<table id="S0.EGx19" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex34"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex34.m1" class="ltx_Math" alttext="\displaystyle\frac{B_{s}}{\sqrt{s}}(\omega)\geq k." display="inline"><mrow><mrow><mrow><mstyle displaystyle="true"><mfrac><msub><mi>B</mi><mi>s</mi></msub><msqrt><mi>s</mi></msqrt></mfrac></mstyle><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>ω</mi><mo stretchy="false">)</mo></mrow></mrow><mo>≥</mo><mi>k</mi></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">But this implies that forall <math id="S0.I1.i2.p4.m9" class="ltx_Math" alttext="\omega\in N^{c}" display="inline"><mrow><mi>ω</mi><mo>∈</mo><msup><mi>N</mi><mi>c</mi></msup></mrow></math> we have</p>
+<table id="S0.EGx20" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex35"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex35.m1" class="ltx_Math" alttext="\displaystyle\sup_{s\geq t}\frac{B_{s}(\omega)}{\sqrt{s}}\geq k." display="inline"><mrow><mrow><mrow><munder><mo movablelimits="false">sup</mo><mrow><mi>s</mi><mo>≥</mo><mi>t</mi></mrow></munder><mo>⁡</mo><mstyle displaystyle="true"><mfrac><mrow><msub><mi>B</mi><mi>s</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>ω</mi><mo stretchy="false">)</mo></mrow></mrow><msqrt><mi>s</mi></msqrt></mfrac></mstyle></mrow><mo>≥</mo><mi>k</mi></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">This proves (<a href="#S0.E2" title="(2) ‣ item (ii) ‣ Exercise 3 (Brownian Growth Rate). ‣ Sheet 12" class="ltx_ref"><span class="ltx_text ltx_ref_tag">2</span></a>). And
+because <math id="S0.I1.i2.p4.m10" class="ltx_Math" alttext="-B_{t}" display="inline"><mrow><mo>-</mo><msub><mi>B</mi><mi>t</mi></msub></mrow></math> is also a brownian motion we also have</p>
+<table id="S0.EGx21" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex36"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex36.m1" class="ltx_Math" alttext="\displaystyle\liminf_{t\to\infty}\frac{B_{t}}{\sqrt{t}}" display="inline"><mrow><munder><mo movablelimits="false">lim inf</mo><mrow><mi>t</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><mo>⁡</mo><mstyle displaystyle="true"><mfrac><msub><mi>B</mi><mi>t</mi></msub><msqrt><mi>t</mi></msqrt></mfrac></mstyle></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex36.m2" class="ltx_Math" alttext="\displaystyle=-\left(\limsup_{t\to\infty}\frac{-B_{t}}{\sqrt{t}}\right)=-%
+\infty.\qed" display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><mo>-</mo><mrow><mo>(</mo><mrow><munder><mo movablelimits="false">lim sup</mo><mrow><mi>t</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></munder><mo>⁡</mo><mstyle displaystyle="true"><mfrac><mrow><mo>-</mo><msub><mi>B</mi><mi>t</mi></msub></mrow><msqrt><mi>t</mi></msqrt></mfrac></mstyle></mrow><mo>)</mo></mrow></mrow><mo>=</mo><mrow><mo>-</mo><mi mathvariant="normal">∞</mi></mrow></mrow><mo>.</mo><mo mathvariant="italic" separator="true">∎</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="Thmexercise4" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 4</span></span><span class="ltx_text ltx_font_bold"> </span>(Compound Poisson is Lévy)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmexercise4.p1" class="ltx_para">
+<p class="ltx_p">Show that the compound Poisson process <math id="Thmexercise4.p1.m1" class="ltx_Math" alttext="X=(X_{t})_{t\geq 0}" display="inline"><mrow><mi>X</mi><mo>=</mo><msub><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow><mrow><mi>t</mi><mo>≥</mo><mn>0</mn></mrow></msub></mrow></math> is a Lévy
+Process. You can assume that the Poisson process <math id="Thmexercise4.p1.m2" class="ltx_Math" alttext="N=(N_{t})_{t\geq 0}" display="inline"><mrow><mi>N</mi><mo>=</mo><msub><mrow><mo stretchy="false">(</mo><msub><mi>N</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow><mrow><mi>t</mi><mo>≥</mo><mn>0</mn></mrow></msub></mrow></math> is a
+Lévy Process.</p>
+</div>
+<div id="Thmhintx4" class="ltx_theorem ltx_theorem_hint">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Hint</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmhintx4.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">Show <math id="Thmhintx4.p1.m1" class="ltx_Math" alttext="\mathbb{E}[f(X_{\overline{t}}-X_{\underline{t}})g(X_{\overline{s}}-X_{%
+\underline{s}})]" display="inline"><mrow><mi>𝔼</mi><mo mathvariant="italic">⁢</mo><mrow><mo mathvariant="normal" stretchy="false">[</mo><mrow><mi>f</mi><mo mathvariant="italic">⁢</mo><mrow><mo mathvariant="normal" stretchy="false">(</mo><mrow><msub><mi>X</mi><mover accent="true"><mi>t</mi><mo mathvariant="normal">¯</mo></mover></msub><mo mathvariant="normal">-</mo><msub><mi>X</mi><munder accentunder="true"><mi>t</mi><mo mathvariant="normal">¯</mo></munder></msub></mrow><mo mathvariant="normal" stretchy="false">)</mo></mrow><mo mathvariant="italic">⁢</mo><mi>g</mi><mo mathvariant="italic">⁢</mo><mrow><mo mathvariant="normal" stretchy="false">(</mo><mrow><msub><mi>X</mi><mover accent="true"><mi>s</mi><mo mathvariant="normal">¯</mo></mover></msub><mo mathvariant="normal">-</mo><msub><mi>X</mi><munder accentunder="true"><mi>s</mi><mo mathvariant="normal">¯</mo></munder></msub></mrow><mo mathvariant="normal" stretchy="false">)</mo></mrow></mrow><mo mathvariant="normal" stretchy="false">]</mo></mrow></mrow></math> factorizes.</span></p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="Thmexercise4.p2" class="ltx_para">
+<ol id="S0.I2" class="ltx_enumerate">
+<li id="S0.I2.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(i)</span> 
+<div id="S0.I2.i1.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Start in 0 (because <math id="S0.I2.i1.p1.m1" class="ltx_Math" alttext="N_{0}=0" display="inline"><mrow><msub><mi>N</mi><mn>0</mn></msub><mo>=</mo><mn>0</mn></mrow></math>).</p>
+</div>
+</li>
+<li id="S0.I2.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(ii)</span> 
+<div id="S0.I2.i2.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Right continuity with left limits</p>
+</div>
+<div id="S0.I2.i2.p2" class="ltx_para ltx_noindent">
+<p class="ltx_p">For any <math id="S0.I2.i2.p2.m1" class="ltx_Math" alttext="t" display="inline"><mi>t</mi></math> we have <math id="S0.I2.i2.p2.m2" class="ltx_Math" alttext="\lim_{s\downarrow t}N_{s}=N_{t}" display="inline"><mrow><mrow><msub><mo>lim</mo><mrow><mi>s</mi><mo>↓</mo><mi>t</mi></mrow></msub><mo>⁡</mo><msub><mi>N</mi><mi>s</mi></msub></mrow><mo>=</mo><msub><mi>N</mi><mi>t</mi></msub></mrow></math> and
+<math id="S0.I2.i2.p2.m3" class="ltx_Math" alttext="N_{s}\in\mathbb{N}" display="inline"><mrow><msub><mi>N</mi><mi>s</mi></msub><mo>∈</mo><mi>ℕ</mi></mrow></math>. Therefore there exists <math id="S0.I2.i2.p2.m4" class="ltx_Math" alttext="\epsilon&gt;0" display="inline"><mrow><mi>ϵ</mi><mo>&gt;</mo><mn>0</mn></mrow></math> such that
+<math id="S0.I2.i2.p2.m5" class="ltx_Math" alttext="N_{s}=N_{t}" display="inline"><mrow><msub><mi>N</mi><mi>s</mi></msub><mo>=</mo><msub><mi>N</mi><mi>t</mi></msub></mrow></math> for all <math id="S0.I2.i2.p2.m6" class="ltx_Math" alttext="s\in[t,t+\epsilon]" display="inline"><mrow><mi>s</mi><mo>∈</mo><mrow><mo stretchy="false">[</mo><mi>t</mi><mo>,</mo><mrow><mi>t</mi><mo>+</mo><mi>ϵ</mi></mrow><mo stretchy="false">]</mo></mrow></mrow></math>. But then by definition
+for all <math id="S0.I2.i2.p2.m7" class="ltx_Math" alttext="s\in[t,t+\epsilon]" display="inline"><mrow><mi>s</mi><mo>∈</mo><mrow><mo stretchy="false">[</mo><mi>t</mi><mo>,</mo><mrow><mi>t</mi><mo>+</mo><mi>ϵ</mi></mrow><mo stretchy="false">]</mo></mrow></mrow></math> we have</p>
+<table id="S0.EGx22" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex37"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex37.m1" class="ltx_Math" alttext="\displaystyle X_{s}=\sum_{i=1}^{N_{s}}Y_{i}=\sum_{i=1}^{N_{t}}Y_{i}=X_{t}" display="inline"><mrow><msub><mi>X</mi><mi>s</mi></msub><mo>=</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><msub><mi>N</mi><mi>s</mi></msub></munderover></mstyle><msub><mi>Y</mi><mi>i</mi></msub></mrow><mo>=</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><msub><mi>N</mi><mi>t</mi></msub></munderover></mstyle><msub><mi>Y</mi><mi>i</mi></msub></mrow><mo>=</mo><msub><mi>X</mi><mi>t</mi></msub></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">therefore <math id="S0.I2.i2.p2.m8" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> is right continuous in <math id="S0.I2.i2.p2.m9" class="ltx_Math" alttext="t" display="inline"><mi>t</mi></math>. Let
+<math id="S0.I2.i2.p2.m10" class="ltx_Math" alttext="N_{-t}:=\lim_{s\uparrow t}N_{s}" display="inline"><mrow><msub><mi>N</mi><mrow><mo>-</mo><mi>t</mi></mrow></msub><mo>:=</mo><mrow><msub><mo>lim</mo><mrow><mi>s</mi><mo>↑</mo><mi>t</mi></mrow></msub><mo>⁡</mo><msub><mi>N</mi><mi>s</mi></msub></mrow></mrow></math> be the left limit of the process
+<math id="S0.I2.i2.p2.m11" class="ltx_Math" alttext="N" display="inline"><mi>N</mi></math> in <math id="S0.I2.i2.p2.m12" class="ltx_Math" alttext="t" display="inline"><mi>t</mi></math>. Again because <math id="S0.I2.i2.p2.m13" class="ltx_Math" alttext="N_{s}\in\mathbb{N}" display="inline"><mrow><msub><mi>N</mi><mi>s</mi></msub><mo>∈</mo><mi>ℕ</mi></mrow></math> there exists <math id="S0.I2.i2.p2.m14" class="ltx_Math" alttext="\epsilon&gt;0" display="inline"><mrow><mi>ϵ</mi><mo>&gt;</mo><mn>0</mn></mrow></math>
+such that <math id="S0.I2.i2.p2.m15" class="ltx_Math" alttext="N_{s}=N_{-t}" display="inline"><mrow><msub><mi>N</mi><mi>s</mi></msub><mo>=</mo><msub><mi>N</mi><mrow><mo>-</mo><mi>t</mi></mrow></msub></mrow></math> for all <math id="S0.I2.i2.p2.m16" class="ltx_Math" alttext="s\in[t-\epsilon,t)" display="inline"><mrow><mi>s</mi><mo>∈</mo><mrow><mo stretchy="false">[</mo><mrow><mi>t</mi><mo>-</mo><mi>ϵ</mi></mrow><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></math>. For all
+<math id="S0.I2.i2.p2.m17" class="ltx_Math" alttext="s_{1},s_{2}\in[t-\epsilon,t)" display="inline"><mrow><mrow><msub><mi>s</mi><mn>1</mn></msub><mo>,</mo><msub><mi>s</mi><mn>2</mn></msub></mrow><mo>∈</mo><mrow><mo stretchy="false">[</mo><mrow><mi>t</mi><mo>-</mo><mi>ϵ</mi></mrow><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></math> we have <math id="S0.I2.i2.p2.m18" class="ltx_Math" alttext="X_{s_{1}}=X_{s_{2}}" display="inline"><mrow><msub><mi>X</mi><msub><mi>s</mi><mn>1</mn></msub></msub><mo>=</mo><msub><mi>X</mi><msub><mi>s</mi><mn>2</mn></msub></msub></mrow></math> so we can
+define the left limit of <math id="S0.I2.i2.p2.m19" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> in <math id="S0.I2.i2.p2.m20" class="ltx_Math" alttext="t" display="inline"><mi>t</mi></math> as <math id="S0.I2.i2.p2.m21" class="ltx_Math" alttext="X_{-t}:=X_{t-\epsilon}" display="inline"><mrow><msub><mi>X</mi><mrow><mo>-</mo><mi>t</mi></mrow></msub><mo>:=</mo><msub><mi>X</mi><mrow><mi>t</mi><mo>-</mo><mi>ϵ</mi></mrow></msub></mrow></math>
+and get convergence</p>
+<table id="S0.EGx23" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex38"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex38.m1" class="ltx_Math" alttext="\displaystyle\lim_{s\uparrow t}X_{s}=X_{-t}." display="inline"><mrow><mrow><mrow><munder><mo movablelimits="false">lim</mo><mrow><mi>s</mi><mo>↑</mo><mi>t</mi></mrow></munder><mo>⁡</mo><msub><mi>X</mi><mi>s</mi></msub></mrow><mo>=</mo><msub><mi>X</mi><mrow><mo>-</mo><mi>t</mi></mrow></msub></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">Because <math id="S0.I2.i2.p2.m22" class="ltx_Math" alttext="t" display="inline"><mi>t</mi></math> was arbitrary we are done.</p>
+</div>
+</li>
+<li id="S0.I2.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(iii)</span> 
+<div id="S0.I2.i3.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Independent increments</p>
+</div>
+<div id="S0.I2.i3.p2" class="ltx_para ltx_noindent">
+<p class="ltx_p">We first observe that for <math id="S0.I2.i3.p2.m1" class="ltx_Math" alttext="s\leq t" display="inline"><mrow><mi>s</mi><mo>≤</mo><mi>t</mi></mrow></math>, we have <math id="S0.I2.i3.p2.m2" class="ltx_Math" alttext="N_{s}\leq N_{t}" display="inline"><mrow><msub><mi>N</mi><mi>s</mi></msub><mo>≤</mo><msub><mi>N</mi><mi>t</mi></msub></mrow></math> since for
+independent waiting times <math id="S0.I2.i3.p2.m3" class="ltx_Math" alttext="\xi_{i}\sim\text{Exp}(\lambda)" display="inline"><mrow><msub><mi>ξ</mi><mi>i</mi></msub><mo>∼</mo><mrow><mtext>Exp</mtext><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>λ</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math> we have</p>
+<table id="S0.EGx24" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex39"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex39.m1" class="ltx_Math" alttext="\displaystyle N_{s}=\max\underbrace{\left\{k\in\mathbb{N}_{0}:\sum_{i=1}^{k}%
+\xi_{i}\leq s\right\}}_{A(s)}\leq\max\underbrace{\left\{k\in\mathbb{N}_{0}:%
+\sum_{i=1}^{k}\xi_{i}\leq t\right\}}_{A(t)}=N_{t}" display="inline"><mrow><msub><mi>N</mi><mi>s</mi></msub><mo>=</mo><mrow><mi>max</mi><mo>⁡</mo><munder><munder accentunder="true"><mrow><mo movablelimits="false">{</mo><mrow><mi>k</mi><mo movablelimits="false">∈</mo><msub><mi>ℕ</mi><mn>0</mn></msub></mrow><mo movablelimits="false">:</mo><mrow><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo movablelimits="false">=</mo><mn>1</mn></mrow><mi>k</mi></munderover></mstyle><msub><mi>ξ</mi><mi>i</mi></msub></mrow><mo movablelimits="false">≤</mo><mi>s</mi></mrow><mo movablelimits="false">}</mo></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mi>A</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></munder></mrow><mo>≤</mo><mrow><mi>max</mi><mo>⁡</mo><munder><munder accentunder="true"><mrow><mo movablelimits="false">{</mo><mrow><mi>k</mi><mo movablelimits="false">∈</mo><msub><mi>ℕ</mi><mn>0</mn></msub></mrow><mo movablelimits="false">:</mo><mrow><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo movablelimits="false">=</mo><mn>1</mn></mrow><mi>k</mi></munderover></mstyle><msub><mi>ξ</mi><mi>i</mi></msub></mrow><mo movablelimits="false">≤</mo><mi>t</mi></mrow><mo movablelimits="false">}</mo></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mi>A</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></munder></mrow><mo>=</mo><msub><mi>N</mi><mi>t</mi></msub></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">due to <math id="S0.I2.i3.p2.m4" class="ltx_Math" alttext="A(s)\subseteq A(t)" display="inline"><mrow><mrow><mi>A</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow><mo>⊆</mo><mrow><mi>A</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math>.</p>
+</div>
+<div id="S0.I2.i3.p3" class="ltx_para ltx_noindent">
+<p class="ltx_p">So to show that <math id="S0.I2.i3.p3.m1" class="ltx_Math" alttext="X_{\overline{t}}-X_{\underline{t}}" display="inline"><mrow><msub><mi>X</mi><mover accent="true"><mi>t</mi><mo>¯</mo></mover></msub><mo>-</mo><msub><mi>X</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub></mrow></math> is independent of <math id="S0.I2.i3.p3.m2" class="ltx_Math" alttext="X_{\overline{s}}-X_{\underline{s}}" display="inline"><mrow><msub><mi>X</mi><mover accent="true"><mi>s</mi><mo>¯</mo></mover></msub><mo>-</mo><msub><mi>X</mi><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder></msub></mrow></math>
+for <math id="S0.I2.i3.p3.m3" class="ltx_Math" alttext="\underline{s}\leq\overline{s}\leq\underline{t}\leq\overline{t}" display="inline"><mrow><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder><mo>≤</mo><mover accent="true"><mi>s</mi><mo>¯</mo></mover><mo>≤</mo><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder><mo>≤</mo><mover accent="true"><mi>t</mi><mo>¯</mo></mover></mrow></math> we use</p>
+<table id="S0.EGx25" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex40"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex40.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}\left[f(X_{\overline{t}}-X_{\underline{t}})g(X_{%
+\overline{s}}-X_{\underline{s}})\right]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>X</mi><mover accent="true"><mi>t</mi><mo>¯</mo></mover></msub><mo>-</mo><msub><mi>X</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mi>g</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>X</mi><mover accent="true"><mi>s</mi><mo>¯</mo></mover></msub><mo>-</mo><msub><mi>X</mi><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder></msub></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>]</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex41"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex41.m1" class="ltx_Math" alttext="\displaystyle=\mathbb{E}\left[f\left(\sum_{i=N_{\underline{t}}+1}^{N_{%
+\overline{t}}}Y_{i}\right)g\left(\sum_{i=N_{\underline{s}}+1}^{N_{\overline{s}%
+}}Y_{i}\right)\right]" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><mi>f</mi><mo>⁢</mo><mrow><mo>(</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mrow><msub><mi>N</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub><mo>+</mo><mn>1</mn></mrow></mrow><msub><mi>N</mi><mover accent="true"><mi>t</mi><mo>¯</mo></mover></msub></munderover></mstyle><msub><mi>Y</mi><mi>i</mi></msub></mrow><mo>)</mo></mrow><mo>⁢</mo><mi>g</mi><mo>⁢</mo><mrow><mo>(</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mrow><msub><mi>N</mi><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder></msub><mo>+</mo><mn>1</mn></mrow></mrow><msub><mi>N</mi><mover accent="true"><mi>s</mi><mo>¯</mo></mover></msub></munderover></mstyle><msub><mi>Y</mi><mi>i</mi></msub></mrow><mo>)</mo></mrow></mrow><mo>]</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex42"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex42.m1" class="ltx_Math" alttext="\displaystyle\stackrel{{\scriptstyle N{\perp\!\!\!\perp}Y}}{{=}}\smashoperator%
+[l]{\sum_{k_{\underline{s}},k_{\overline{s}},k_{\underline{t}},k_{\overline{t}%
+}}^{}}\mathbb{E}\left[f\left(\sum_{i=k_{\underline{t}}+1}^{k_{\overline{t}}}Y_%
+{i}\right)g\left(\sum_{i=k_{\underline{s}}+1}^{k_{\overline{s}}}Y_{i}\right)%
+\right]\mathbb{P}(N_{\underline{s}}=k_{\underline{s}},N_{\overline{s}}=k_{%
+\overline{s}},N_{\underline{t}}=k_{\underline{t}},N_{\overline{t}}=k_{%
+\overline{t}})." display="inline"><mrow><mover><mo movablelimits="false">=</mo><mrow><mi>N</mi><mo rspace="0pt">⟂</mo><mo>⟂</mo><mi>Y</mi></mrow></mover><mpadded width="+26.6pt"><mstyle displaystyle="true"><munder><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mpadded lspace="-30.4pt" width="0.0pt"><msub><mi>k</mi><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder></msub><mo>,</mo><msub><mi>k</mi><mover accent="true"><mi>s</mi><mo>¯</mo></mover></msub><mo>,</mo><msub><mi>k</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub><mo>,</mo><msub><mi>k</mi><mover accent="true"><mi>t</mi><mo>¯</mo></mover></msub></mpadded></munder></mstyle></mpadded><mi>𝔼</mi><mrow><mo>[</mo><mi>f</mi><mrow><mo>(</mo><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mrow><msub><mi>k</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub><mo>+</mo><mn>1</mn></mrow></mrow><msub><mi>k</mi><mover accent="true"><mi>t</mi><mo>¯</mo></mover></msub></munderover></mstyle><msub><mi>Y</mi><mi>i</mi></msub><mo>)</mo></mrow><mi>g</mi><mrow><mo>(</mo><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mrow><msub><mi>k</mi><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder></msub><mo>+</mo><mn>1</mn></mrow></mrow><msub><mi>k</mi><mover accent="true"><mi>s</mi><mo>¯</mo></mover></msub></munderover></mstyle><msub><mi>Y</mi><mi>i</mi></msub><mo>)</mo></mrow><mo>]</mo></mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><msub><mi>N</mi><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder></msub><mo>=</mo><msub><mi>k</mi><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder></msub><mo>,</mo><msub><mi>N</mi><mover accent="true"><mi>s</mi><mo>¯</mo></mover></msub><mo>=</mo><msub><mi>k</mi><mover accent="true"><mi>s</mi><mo>¯</mo></mover></msub><mo>,</mo><msub><mi>N</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub><mo>=</mo><msub><mi>k</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub><mo>,</mo><msub><mi>N</mi><mover accent="true"><mi>t</mi><mo>¯</mo></mover></msub><mo>=</mo><msub><mi>k</mi><mover accent="true"><mi>t</mi><mo>¯</mo></mover></msub><mo stretchy="false">)</mo></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">Since <math id="S0.I2.i3.p3.m4" class="ltx_Math" alttext="\overline{s}\leq\underline{t}" display="inline"><mrow><mover accent="true"><mi>s</mi><mo>¯</mo></mover><mo>≤</mo><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></mrow></math> implies <math id="S0.I2.i3.p3.m5" class="ltx_Math" alttext="N_{\overline{s}}\leq N_{\underline{t}}" display="inline"><mrow><msub><mi>N</mi><mover accent="true"><mi>s</mi><mo>¯</mo></mover></msub><mo>≤</mo><msub><mi>N</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub></mrow></math> we can assume
+<math id="S0.I2.i3.p3.m6" class="ltx_Math" alttext="k_{\overline{s}}\leq k_{\underline{t}}" display="inline"><mrow><msub><mi>k</mi><mover accent="true"><mi>s</mi><mo>¯</mo></mover></msub><mo>≤</mo><msub><mi>k</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub></mrow></math>, which means that the sums contain different <math id="S0.I2.i3.p3.m7" class="ltx_Math" alttext="Y_{i}" display="inline"><msub><mi>Y</mi><mi>i</mi></msub></math>
+which are all independent and identically distributed so the expectation
+factorizes like so
+</p>
+<table id="S0.EGx26" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex43"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex43.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}\left[f\left(\sum_{i=k_{\underline{t}}+1}^{k_{\overline%
+{t}}}Y_{i}\right)g\left(\sum_{i=k_{\underline{s}}+1}^{k_{\overline{s}}}Y_{i}%
+\right)\right]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><mi>f</mi><mo>⁢</mo><mrow><mo>(</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mrow><msub><mi>k</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub><mo>+</mo><mn>1</mn></mrow></mrow><msub><mi>k</mi><mover accent="true"><mi>t</mi><mo>¯</mo></mover></msub></munderover></mstyle><msub><mi>Y</mi><mi>i</mi></msub></mrow><mo>)</mo></mrow><mo>⁢</mo><mi>g</mi><mo>⁢</mo><mrow><mo>(</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mrow><msub><mi>k</mi><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder></msub><mo>+</mo><mn>1</mn></mrow></mrow><msub><mi>k</mi><mover accent="true"><mi>s</mi><mo>¯</mo></mover></msub></munderover></mstyle><msub><mi>Y</mi><mi>i</mi></msub></mrow><mo>)</mo></mrow></mrow><mo>]</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex43.m2" class="ltx_Math" alttext="\displaystyle=\mathbb{E}\left[f\left(\sum_{i=k_{\underline{t}}+1}^{k_{%
+\overline{t}}}Y_{i}\right)\right]\mathbb{E}\left[g\left(\sum_{i=k_{\underline{%
+s}}+1}^{k_{\overline{s}}}Y_{i}\right)\right]" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><mi>f</mi><mo>⁢</mo><mrow><mo>(</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mrow><msub><mi>k</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub><mo>+</mo><mn>1</mn></mrow></mrow><msub><mi>k</mi><mover accent="true"><mi>t</mi><mo>¯</mo></mover></msub></munderover></mstyle><msub><mi>Y</mi><mi>i</mi></msub></mrow><mo>)</mo></mrow></mrow><mo>]</mo></mrow><mo>⁢</mo><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><mi>g</mi><mo>⁢</mo><mrow><mo>(</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mrow><msub><mi>k</mi><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder></msub><mo>+</mo><mn>1</mn></mrow></mrow><msub><mi>k</mi><mover accent="true"><mi>s</mi><mo>¯</mo></mover></msub></munderover></mstyle><msub><mi>Y</mi><mi>i</mi></msub></mrow><mo>)</mo></mrow></mrow><mo>]</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex44"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex44.m2" class="ltx_Math" alttext="\displaystyle=\mathbb{E}\left[f\left(\sum_{i=1}^{k_{\overline{t}}-k_{%
+\underline{t}}}Y_{i}\right)\right]\mathbb{E}\left[g\left(\sum_{i=1}^{k_{%
+\overline{s}}-k_{\underline{s}}}Y_{i}\right)\right]." display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><mi>f</mi><mo>⁢</mo><mrow><mo>(</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mrow><msub><mi>k</mi><mover accent="true"><mi>t</mi><mo>¯</mo></mover></msub><mo>-</mo><msub><mi>k</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub></mrow></munderover></mstyle><msub><mi>Y</mi><mi>i</mi></msub></mrow><mo>)</mo></mrow></mrow><mo>]</mo></mrow><mo>⁢</mo><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><mi>g</mi><mo>⁢</mo><mrow><mo>(</mo><mrow><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mrow><msub><mi>k</mi><mover accent="true"><mi>s</mi><mo>¯</mo></mover></msub><mo>-</mo><msub><mi>k</mi><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder></msub></mrow></munderover></mstyle><msub><mi>Y</mi><mi>i</mi></msub></mrow><mo>)</mo></mrow></mrow><mo>]</mo></mrow></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">Defining <math id="S0.I2.i3.p3.m8" class="ltx_Math" alttext="\Delta_{s}:=k_{\overline{s}}-k_{\underline{s}}" display="inline"><mrow><msub><mi mathvariant="normal">Δ</mi><mi>s</mi></msub><mo>:=</mo><mrow><msub><mi>k</mi><mover accent="true"><mi>s</mi><mo>¯</mo></mover></msub><mo>-</mo><msub><mi>k</mi><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder></msub></mrow></mrow></math> and <math id="S0.I2.i3.p3.m9" class="ltx_Math" alttext="\Delta_{t}:=k_{\overline{t}}-k_{\underline{t}}" display="inline"><mrow><msub><mi mathvariant="normal">Δ</mi><mi>t</mi></msub><mo>:=</mo><mrow><msub><mi>k</mi><mover accent="true"><mi>t</mi><mo>¯</mo></mover></msub><mo>-</mo><msub><mi>k</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub></mrow></mrow></math>
+we can also write</p>
+<table id="S0.EGx27" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex45"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex45.m1" class="ltx_Math" alttext="\displaystyle\mathbb{P}(N_{\underline{s}}=k_{\underline{s}},N_{\overline{s}}=k%
+_{\overline{s}},N_{\underline{t}}=k_{\underline{t}},N_{\overline{t}}=k_{%
+\overline{t}})" display="inline"><mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><msub><mi>N</mi><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder></msub><mo>=</mo><msub><mi>k</mi><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder></msub><mo>,</mo><msub><mi>N</mi><mover accent="true"><mi>s</mi><mo>¯</mo></mover></msub><mo>=</mo><msub><mi>k</mi><mover accent="true"><mi>s</mi><mo>¯</mo></mover></msub><mo>,</mo><msub><mi>N</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub><mo>=</mo><msub><mi>k</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub><mo>,</mo><msub><mi>N</mi><mover accent="true"><mi>t</mi><mo>¯</mo></mover></msub><mo>=</mo><msub><mi>k</mi><mover accent="true"><mi>t</mi><mo>¯</mo></mover></msub><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex46"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex46.m1" class="ltx_Math" alttext="\displaystyle=\mathbb{P}(N_{\underline{s}}=k_{\underline{s}},N_{\underline{t}}%
+=k_{\underline{t}},\quad N_{\overline{s}}-N_{\underline{s}}=\Delta_{s},\quad N%
+_{\overline{t}}-N_{\underline{t}}=\Delta_{t})" display="inline"><mrow><mo>=</mo><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><msub><mi>N</mi><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder></msub><mo>=</mo><msub><mi>k</mi><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder></msub><mo>,</mo><msub><mi>N</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub><mo>=</mo><msub><mi>k</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub><mo rspace="12.5pt">,</mo><msub><mi>N</mi><mover accent="true"><mi>s</mi><mo>¯</mo></mover></msub><mo>-</mo><msub><mi>N</mi><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder></msub><mo>=</mo><msub><mi mathvariant="normal">Δ</mi><mi>s</mi></msub><mo rspace="12.5pt">,</mo><msub><mi>N</mi><mover accent="true"><mi>t</mi><mo>¯</mo></mover></msub><mo>-</mo><msub><mi>N</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub><mo>=</mo><msub><mi mathvariant="normal">Δ</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">so if we sum over <math id="S0.I2.i3.p3.m10" class="ltx_Math" alttext="k_{\underline{s}},\Delta_{s}" display="inline"><mrow><msub><mi>k</mi><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder></msub><mo>,</mo><msub><mi mathvariant="normal">Δ</mi><mi>s</mi></msub></mrow></math> instead of <math id="S0.I2.i3.p3.m11" class="ltx_Math" alttext="k_{\underline{s}},k_{\overline{s}}" display="inline"><mrow><msub><mi>k</mi><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder></msub><mo>,</mo><msub><mi>k</mi><mover accent="true"><mi>s</mi><mo>¯</mo></mover></msub></mrow></math>
+and <math id="S0.I2.i3.p3.m12" class="ltx_Math" alttext="k_{\underline{t}},\Delta_{t}" display="inline"><mrow><msub><mi>k</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub><mo>,</mo><msub><mi mathvariant="normal">Δ</mi><mi>t</mi></msub></mrow></math> instead of <math id="S0.I2.i3.p3.m13" class="ltx_Math" alttext="k_{\underline{t}},k_{\overline{t}}" display="inline"><mrow><msub><mi>k</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub><mo>,</mo><msub><mi>k</mi><mover accent="true"><mi>t</mi><mo>¯</mo></mover></msub></mrow></math> and
+use independence of the increments of <math id="S0.I2.i3.p3.m14" class="ltx_Math" alttext="N" display="inline"><mi>N</mi></math>, we get</p>
+<table id="S0.EGx28" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex47"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex47.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}\left[f(X_{\overline{t}}-X_{\underline{t}})g(X_{%
+\overline{s}}-X_{\underline{s}})\right]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>X</mi><mover accent="true"><mi>t</mi><mo>¯</mo></mover></msub><mo>-</mo><msub><mi>X</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mi>g</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>X</mi><mover accent="true"><mi>s</mi><mo>¯</mo></mover></msub><mo>-</mo><msub><mi>X</mi><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder></msub></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>]</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex48"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex48.m1" class="ltx_Math" alttext="\displaystyle=\sum_{\Delta_{s},\Delta_{t}}\mathbb{E}\left[f\left(\sum_{i=1}^{%
+\Delta_{t}}Y_{i}\right)\right]\mathbb{E}\left[g\left(\sum_{i=1}^{\Delta_{s}}Y_%
+{i}\right)\right]\mathbb{P}(N_{\overline{s}}-N_{\underline{s}}=\Delta_{s},N_{%
+\overline{t}}-N_{\underline{t}}=\Delta_{t})" display="inline"><mrow><mo>=</mo><mstyle displaystyle="true"><munder><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><msub><mi mathvariant="normal">Δ</mi><mi>s</mi></msub><mo>,</mo><msub><mi mathvariant="normal">Δ</mi><mi>t</mi></msub></mrow></munder></mstyle><mi>𝔼</mi><mrow><mo>[</mo><mi>f</mi><mrow><mo>(</mo><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><msub><mi mathvariant="normal">Δ</mi><mi>t</mi></msub></munderover></mstyle><msub><mi>Y</mi><mi>i</mi></msub><mo>)</mo></mrow><mo>]</mo></mrow><mi>𝔼</mi><mrow><mo>[</mo><mi>g</mi><mrow><mo>(</mo><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><msub><mi mathvariant="normal">Δ</mi><mi>s</mi></msub></munderover></mstyle><msub><mi>Y</mi><mi>i</mi></msub><mo>)</mo></mrow><mo>]</mo></mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><msub><mi>N</mi><mover accent="true"><mi>s</mi><mo>¯</mo></mover></msub><mo>-</mo><msub><mi>N</mi><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder></msub><mo>=</mo><msub><mi mathvariant="normal">Δ</mi><mi>s</mi></msub><mo>,</mo><msub><mi>N</mi><mover accent="true"><mi>t</mi><mo>¯</mo></mover></msub><mo>-</mo><msub><mi>N</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub><mo>=</mo><msub><mi mathvariant="normal">Δ</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex49"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex49.m1" class="ltx_Math" alttext="\displaystyle=\underbrace{\sum_{\Delta_{t}}\mathbb{E}\left[f\left(\sum_{i=1}^{%
+\Delta_{t}}Y_{i}\right)\right]\mathbb{P}(N_{\overline{t}}-N_{\underline{t}}=%
+\Delta_{t})}_{=\mathbb{E}[f(X_{\overline{t}}-X_{\underline{t}})]}\underbrace{%
+\sum_{\Delta_{s}}\mathbb{E}\left[g\left(\sum_{i=1}^{\Delta_{s}}Y_{i}\right)%
+\right]\mathbb{P}(N_{\overline{s}}-N_{\underline{s}}=\Delta_{s})}_{=\mathbb{E}%
+[g(X_{\overline{s}}-X_{\underline{s}})]}." display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><munder><munder accentunder="true"><mrow><mstyle displaystyle="true"><munder><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><msub><mi mathvariant="normal">Δ</mi><mi>t</mi></msub></munder></mstyle><mi>𝔼</mi><mrow><mo movablelimits="false">[</mo><mi>f</mi><mrow><mo movablelimits="false">(</mo><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo movablelimits="false">=</mo><mn>1</mn></mrow><msub><mi mathvariant="normal">Δ</mi><mi>t</mi></msub></munderover></mstyle><msub><mi>Y</mi><mi>i</mi></msub><mo movablelimits="false">)</mo></mrow><mo movablelimits="false">]</mo></mrow><mi>ℙ</mi><mrow><mo movablelimits="false" stretchy="false">(</mo><msub><mi>N</mi><mover accent="true"><mi>t</mi><mo movablelimits="false">¯</mo></mover></msub><mo movablelimits="false">-</mo><msub><mi>N</mi><munder accentunder="true"><mi>t</mi><mo movablelimits="false">¯</mo></munder></msub><mo movablelimits="false">=</mo><msub><mi mathvariant="normal">Δ</mi><mi>t</mi></msub><mo movablelimits="false" stretchy="false">)</mo></mrow></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>=</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>X</mi><mover accent="true"><mi>t</mi><mo>¯</mo></mover></msub><mo>-</mo><msub><mi>X</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub></mrow><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">]</mo></mrow></mrow></mrow></munder><mo>⁢</mo><munder><munder accentunder="true"><mrow><mstyle displaystyle="true"><munder><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><msub><mi mathvariant="normal">Δ</mi><mi>s</mi></msub></munder></mstyle><mi>𝔼</mi><mrow><mo movablelimits="false">[</mo><mi>g</mi><mrow><mo movablelimits="false">(</mo><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo movablelimits="false">=</mo><mn>1</mn></mrow><msub><mi mathvariant="normal">Δ</mi><mi>s</mi></msub></munderover></mstyle><msub><mi>Y</mi><mi>i</mi></msub><mo movablelimits="false">)</mo></mrow><mo movablelimits="false">]</mo></mrow><mi>ℙ</mi><mrow><mo movablelimits="false" stretchy="false">(</mo><msub><mi>N</mi><mover accent="true"><mi>s</mi><mo movablelimits="false">¯</mo></mover></msub><mo movablelimits="false">-</mo><msub><mi>N</mi><munder accentunder="true"><mi>s</mi><mo movablelimits="false">¯</mo></munder></msub><mo movablelimits="false">=</mo><msub><mi mathvariant="normal">Δ</mi><mi>s</mi></msub><mo movablelimits="false" stretchy="false">)</mo></mrow></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>=</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mi>g</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>X</mi><mover accent="true"><mi>s</mi><mo>¯</mo></mover></msub><mo>-</mo><msub><mi>X</mi><munder accentunder="true"><mi>s</mi><mo>¯</mo></munder></msub></mrow><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">]</mo></mrow></mrow></mrow></munder></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">Therefore the increments of <math id="S0.I2.i3.p3.m15" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> are independent.</p>
+</div>
+</li>
+<li id="S0.I2.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(iv)</span> 
+<div id="S0.I2.i4.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Stationary Increments</p>
+</div>
+<div id="S0.I2.i4.p2" class="ltx_para ltx_noindent">
+<p class="ltx_p">With the stationarity of the increments of <math id="S0.I2.i4.p2.m1" class="ltx_Math" alttext="N" display="inline"><mi>N</mi></math> and the previous
+section we get</p>
+<table id="S0.EGx29" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex50"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex50.m1" class="ltx_Math" alttext="\displaystyle\mathbb{E}[f(X_{\overline{t}}-X_{\underline{t}})]" display="inline"><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>X</mi><mover accent="true"><mi>t</mi><mo>¯</mo></mover></msub><mo>-</mo><msub><mi>X</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub></mrow><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">]</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex50.m2" class="ltx_Math" alttext="\displaystyle=\sum_{\Delta_{t}}\mathbb{E}\left[f\left(\sum_{i=1}^{\Delta_{t}}Y%
+_{i}\right)\right]\mathbb{P}(N_{\overline{t}}-N_{\underline{t}}=\Delta_{t})" display="inline"><mrow><mo>=</mo><mstyle displaystyle="true"><munder><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><msub><mi mathvariant="normal">Δ</mi><mi>t</mi></msub></munder></mstyle><mi>𝔼</mi><mrow><mo>[</mo><mi>f</mi><mrow><mo>(</mo><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><msub><mi mathvariant="normal">Δ</mi><mi>t</mi></msub></munderover></mstyle><msub><mi>Y</mi><mi>i</mi></msub><mo>)</mo></mrow><mo>]</mo></mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><msub><mi>N</mi><mover accent="true"><mi>t</mi><mo>¯</mo></mover></msub><mo>-</mo><msub><mi>N</mi><munder accentunder="true"><mi>t</mi><mo>¯</mo></munder></msub><mo>=</mo><msub><mi mathvariant="normal">Δ</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex51"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex51.m2" class="ltx_Math" alttext="\displaystyle=\sum_{\Delta_{t}}\mathbb{E}\left[f\left(\sum_{i=1}^{\Delta_{t}}Y%
+_{i}\right)\right]\mathbb{P}(N_{\Delta_{t}}-N_{0}=\Delta_{t})" display="inline"><mrow><mo>=</mo><mstyle displaystyle="true"><munder><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><msub><mi mathvariant="normal">Δ</mi><mi>t</mi></msub></munder></mstyle><mi>𝔼</mi><mrow><mo>[</mo><mi>f</mi><mrow><mo>(</mo><mstyle displaystyle="true"><munderover><mo largeop="true" movablelimits="false" symmetric="true">∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><msub><mi mathvariant="normal">Δ</mi><mi>t</mi></msub></munderover></mstyle><msub><mi>Y</mi><mi>i</mi></msub><mo>)</mo></mrow><mo>]</mo></mrow><mi>ℙ</mi><mrow><mo stretchy="false">(</mo><msub><mi>N</mi><msub><mi mathvariant="normal">Δ</mi><mi>t</mi></msub></msub><mo>-</mo><msub><mi>N</mi><mn>0</mn></msub><mo>=</mo><msub><mi mathvariant="normal">Δ</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex52"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex52.m2" class="ltx_Math" alttext="\displaystyle=\mathbb{E}[f(X_{\Delta_{t}}-X_{0})].\qed" display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo stretchy="false">[</mo><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>X</mi><msub><mi mathvariant="normal">Δ</mi><mi>t</mi></msub></msub><mo>-</mo><msub><mi>X</mi><mn>0</mn></msub></mrow><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">]</mo></mrow></mrow></mrow><mo>.</mo><mo mathvariant="italic" separator="true">∎</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</article>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Tue May 24 09:48:44 2022 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"></a>
+</div></footer>
+</div>
+<script src="js/LaTeXML-maybeMathjax.js" type="text/javascript"></script>
+<script src="js/collapsing_proofs.js" type="text/javascript"></script>
+</body>
+</html>

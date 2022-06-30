@@ -1,0 +1,203 @@
+<!DOCTYPE html><html>
+<head>
+<title>Sheet 13</title>
+<!--Generated on Thu Jun 30 12:00:12 2022 by LaTeXML (version 0.8.5) http://dlmf.nist.gov/LaTeXML/.-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="css/LaTeXML.css" type="text/css">
+<link rel="stylesheet" href="css/ltx-article.css" type="text/css">
+</head>
+<body>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<article class="ltx_document ltx_authors_1line">
+<h1 class="ltx_title ltx_title_document">Sheet 13</h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">Prof. Leif Döring, Felix Benning
+</span></span>
+</div>
+<span class="ltx_note ltx_role_course"><sup class="ltx_note_mark">†</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">†</sup><span class="ltx_note_type">course: </span>Wahrscheinlichkeitstheorie 1</span></span></span><span class="ltx_note ltx_role_semester"><sup class="ltx_note_mark">†</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">†</sup><span class="ltx_note_type">semester: </span>FSS 2022</span></span></span><span class="ltx_note ltx_role_tutorialDate"><sup class="ltx_note_mark">†</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">†</sup><span class="ltx_note_type">tutorialDate: </span>30.05.2022</span></span></span><span class="ltx_note ltx_role_dueDate"><sup class="ltx_note_mark">†</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">†</sup><span class="ltx_note_type">dueDate: </span>10:15 in the exercise on Monday 30.05.2022</span></span></span>
+<div id="Thmexercise1" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 1</span></span><span class="ltx_text ltx_font_bold"> </span>(Brownian Bridge Time Change)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmexercise1.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Let <math id="Thmexercise1.p1.m1" class="ltx_Math" alttext="(B_{t},t\geq 0)" display="inline"><mrow><mo stretchy="false">(</mo><mrow><mrow><msub><mi>B</mi><mi>t</mi></msub><mo>,</mo><mi>t</mi></mrow><mo>≥</mo><mn>0</mn></mrow><mo stretchy="false">)</mo></mrow></math> be a standard Brownian motion. Set <math id="Thmexercise1.p1.m2" class="ltx_Math" alttext="X_{1}=0" display="inline"><mrow><msub><mi>X</mi><mn>1</mn></msub><mo>=</mo><mn>0</mn></mrow></math> and</p>
+<table id="S0.Ex1" class="ltx_equation ltx_eqn_table">
+
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S0.Ex1.m1" class="ltx_Math" alttext="X_{t}=(1-t)B_{\frac{t}{1-t}},\quad t\in[0,1)." display="block"><mrow><mrow><mrow><msub><mi>X</mi><mi>t</mi></msub><mo>=</mo><mrow><mrow><mo stretchy="false">(</mo><mrow><mn>1</mn><mo>-</mo><mi>t</mi></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><msub><mi>B</mi><mfrac><mi>t</mi><mrow><mn>1</mn><mo>-</mo><mi>t</mi></mrow></mfrac></msub></mrow></mrow><mo rspace="12.5pt">,</mo><mrow><mi>t</mi><mo>∈</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr>
+</table>
+<p class="ltx_p">Show that <math id="Thmexercise1.p1.m3" class="ltx_Math" alttext="(X_{t},t\in[0,1])" display="inline"><mrow><mo stretchy="false">(</mo><mrow><mrow><msub><mi>X</mi><mi>t</mi></msub><mo>,</mo><mi>t</mi></mrow><mo>∈</mo><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">]</mo></mrow></mrow><mo stretchy="false">)</mo></mrow></math> is a Brownian bridge (with continuous paths).</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="Thmexercise1.p2" class="ltx_para">
+<p class="ltx_p"><math id="Thmexercise1.p2.m1" class="ltx_Math" alttext="\tilde{B}:t\mapsto tB_{1/t}" display="inline"><mrow><mover accent="true"><mi>B</mi><mo stretchy="false">~</mo></mover><mo>:</mo><mrow><mi>t</mi><mo>↦</mo><mrow><mi>t</mi><mo>⁢</mo><msub><mi>B</mi><mrow><mn>1</mn><mo>/</mo><mi>t</mi></mrow></msub></mrow></mrow></mrow></math> is a Brownian motion by Proposition 8.2.8
+(time inversion) and therefore almost surely continuous on <math id="Thmexercise1.p2.m2" class="ltx_Math" alttext="[0,\infty)" display="inline"><mrow><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><mi mathvariant="normal">∞</mi><mo stretchy="false">)</mo></mrow></math>.
+So due to <math id="Thmexercise1.p2.m3" class="ltx_Math" alttext="\lim_{t\to 1}\tfrac{1-t}{t}=0" display="inline"><mrow><mrow><msub><mo>lim</mo><mrow><mi>t</mi><mo>→</mo><mn>1</mn></mrow></msub><mo>⁡</mo><mfrac><mrow><mn>1</mn><mo>-</mo><mi>t</mi></mrow><mi>t</mi></mfrac></mrow><mo>=</mo><mn>0</mn></mrow></math>, we have</p>
+<table id="S0.EGx1" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex2"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex2.m1" class="ltx_Math" alttext="\displaystyle\lim_{t\to 1}\tilde{B}_{\tfrac{1-t}{t}}=\tilde{B}_{0}=0." display="inline"><mrow><mrow><mrow><munder><mo movablelimits="false">lim</mo><mrow><mi>t</mi><mo>→</mo><mn>1</mn></mrow></munder><mo>⁡</mo><msub><mover accent="true"><mi>B</mi><mo stretchy="false">~</mo></mover><mstyle scriptlevel="-1"><mfrac><mrow><mn>1</mn><mo>-</mo><mi>t</mi></mrow><mi>t</mi></mfrac></mstyle></msub></mrow><mo>=</mo><msub><mover accent="true"><mi>B</mi><mo stretchy="false">~</mo></mover><mn>0</mn></msub><mo>=</mo><mn>0</mn></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">But this implies continuity of <math id="Thmexercise1.p2.m4" class="ltx_Math" alttext="X_{t}" display="inline"><msub><mi>X</mi><mi>t</mi></msub></math> in <math id="Thmexercise1.p2.m5" class="ltx_Math" alttext="t=1" display="inline"><mrow><mi>t</mi><mo>=</mo><mn>1</mn></mrow></math>, because</p>
+<table id="S0.EGx2" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex3"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex3.m1" class="ltx_Math" alttext="\displaystyle X_{t}=t\tfrac{1-t}{t}B_{\tfrac{t}{1-t}}=t\tilde{B}_{\tfrac{1-t}{%
+t}}\to 0=X_{1}." display="inline"><mrow><mrow><msub><mi>X</mi><mi>t</mi></msub><mo>=</mo><mrow><mi>t</mi><mo>⁢</mo><mfrac><mrow><mn>1</mn><mo>-</mo><mi>t</mi></mrow><mi>t</mi></mfrac><mo>⁢</mo><msub><mi>B</mi><mstyle scriptlevel="-1"><mfrac><mi>t</mi><mrow><mn>1</mn><mo>-</mo><mi>t</mi></mrow></mfrac></mstyle></msub></mrow><mo>=</mo><mrow><mi>t</mi><mo>⁢</mo><msub><mover accent="true"><mi>B</mi><mo stretchy="false">~</mo></mover><mstyle scriptlevel="-1"><mfrac><mrow><mn>1</mn><mo>-</mo><mi>t</mi></mrow><mi>t</mi></mfrac></mstyle></msub></mrow><mo>→</mo><mn>0</mn><mo>=</mo><msub><mi>X</mi><mn>1</mn></msub></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">Further, we know that <math id="Thmexercise1.p2.m6" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> is a centred continuous Gaussian process because
+<math id="Thmexercise1.p2.m7" class="ltx_Math" alttext="B" display="inline"><mi>B</mi></math> is a centred continuous Gaussian process. For <math id="Thmexercise1.p2.m8" class="ltx_Math" alttext="0\leq s\leq t\leq 1" display="inline"><mrow><mn>0</mn><mo>≤</mo><mi>s</mi><mo>≤</mo><mi>t</mi><mo>≤</mo><mn>1</mn></mrow></math>,
+we have</p>
+<table id="S0.EGx3" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex4"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex4.m1" class="ltx_Math" alttext="\displaystyle s-st\leq t-st" display="inline"><mrow><mrow><mi>s</mi><mo>-</mo><mrow><mi>s</mi><mo>⁢</mo><mi>t</mi></mrow></mrow><mo>≤</mo><mrow><mi>t</mi><mo>-</mo><mrow><mi>s</mi><mo>⁢</mo><mi>t</mi></mrow></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex4.m2" class="ltx_Math" alttext="\displaystyle\implies s(1-t)\leq t(1-s)\implies\frac{s}{1-s}\leq\frac{t}{1-t}" display="inline"><mrow><mi></mi><mo>⟹</mo><mrow><mi>s</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mn>1</mn><mo>-</mo><mi>t</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>≤</mo><mrow><mi>t</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mn>1</mn><mo>-</mo><mi>s</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>⟹</mo><mstyle displaystyle="true"><mfrac><mi>s</mi><mrow><mn>1</mn><mo>-</mo><mi>s</mi></mrow></mfrac></mstyle><mo>≤</mo><mstyle displaystyle="true"><mfrac><mi>t</mi><mrow><mn>1</mn><mo>-</mo><mi>t</mi></mrow></mfrac></mstyle></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">which implies</p>
+<table id="S0.EGx4" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex5"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex5.m1" class="ltx_Math" alttext="\displaystyle\text{Cov}(X_{s},X_{t})" display="inline"><mrow><mtext>Cov</mtext><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>X</mi><mi>s</mi></msub><mo>,</mo><msub><mi>X</mi><mi>t</mi></msub><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex5.m2" class="ltx_Math" alttext="\displaystyle=\mathbb{E}\left[(1-s)B_{\frac{s}{1-s}}(1-t)B_{\frac{t}{1-t}}%
+\right]=(1-s)(1-t)\min\{\tfrac{s}{1-s},\tfrac{t}{1-t}\}=s(1-t)." display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><mi>𝔼</mi><mo>⁢</mo><mrow><mo>[</mo><mrow><mrow><mo stretchy="false">(</mo><mrow><mn>1</mn><mo>-</mo><mi>s</mi></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><msub><mi>B</mi><mfrac><mi>s</mi><mrow><mn>1</mn><mo>-</mo><mi>s</mi></mrow></mfrac></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mn>1</mn><mo>-</mo><mi>t</mi></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><msub><mi>B</mi><mfrac><mi>t</mi><mrow><mn>1</mn><mo>-</mo><mi>t</mi></mrow></mfrac></msub></mrow><mo>]</mo></mrow></mrow><mo>=</mo><mrow><mrow><mo stretchy="false">(</mo><mrow><mn>1</mn><mo>-</mo><mi>s</mi></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mn>1</mn><mo>-</mo><mi>t</mi></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mrow><mi>min</mi><mo>⁡</mo><mrow><mo stretchy="false">{</mo><mfrac><mi>s</mi><mrow><mn>1</mn><mo>-</mo><mi>s</mi></mrow></mfrac><mo>,</mo><mfrac><mi>t</mi><mrow><mn>1</mn><mo>-</mo><mi>t</mi></mrow></mfrac><mo stretchy="false">}</mo></mrow></mrow></mrow><mo>=</mo><mrow><mi>s</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mn>1</mn><mo>-</mo><mi>t</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">So <math id="Thmexercise1.p2.m9" class="ltx_Math" alttext="X_{t}" display="inline"><msub><mi>X</mi><mi>t</mi></msub></math> is a centred continuous Gaussian process with the right
+covariance and endpoints and is therefore a Brownian Bridge.
+∎</p>
+</div>
+</div>
+</div>
+<div id="Thmexercise2" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 2</span></span><span class="ltx_text ltx_font_bold"> </span>(Converging Covariance)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmexercise2.p1" class="ltx_para">
+<p class="ltx_p">If <math id="Thmexercise2.p1.m1" class="ltx_Math" alttext="X_{1},X_{2},\dots" display="inline"><mrow><msub><mi>X</mi><mn>1</mn></msub><mo>,</mo><msub><mi>X</mi><mn>2</mn></msub><mo>,</mo><mi mathvariant="normal">…</mi></mrow></math> are centred Gaussian processes with covariance
+functions <math id="Thmexercise2.p1.m2" class="ltx_Math" alttext="K_{1},K_{2},\dots" display="inline"><mrow><msub><mi>K</mi><mn>1</mn></msub><mo>,</mo><msub><mi>K</mi><mn>2</mn></msub><mo>,</mo><mi mathvariant="normal">…</mi></mrow></math>, and <math id="Thmexercise2.p1.m3" class="ltx_Math" alttext="K" display="inline"><mi>K</mi></math> is another covariance function, then
+there exists a Gaussian process <math id="Thmexercise2.p1.m4" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> with covariance function <math id="Thmexercise2.p1.m5" class="ltx_Math" alttext="K" display="inline"><mi>K</mi></math> with
+<math id="Thmexercise2.p1.m6" class="ltx_Math" alttext="X_{n}\stackrel{{\scriptstyle\text{fdd}}}{{\implies}}X" display="inline"><mrow><msub><mi>X</mi><mi>n</mi></msub><mover><mo movablelimits="false">⟹</mo><mtext>fdd</mtext></mover><mi>X</mi></mrow></math> if and only if <math id="Thmexercise2.p1.m7" class="ltx_Math" alttext="\lim_{n\to\infty}K_{n}(t,s)=K(t,s)" display="inline"><mrow><mrow><msub><mo>lim</mo><mrow><mi>n</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></msub><mo>⁡</mo><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>=</mo><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math> for all <math id="Thmexercise2.p1.m8" class="ltx_Math" alttext="t,s\in I" display="inline"><mrow><mrow><mi>t</mi><mo>,</mo><mi>s</mi></mrow><mo>∈</mo><mi>I</mi></mrow></math>.</p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="Thmexercise2.p2" class="ltx_para ltx_noindent">
+<p class="ltx_p">If there exists such an <math id="Thmexercise2.p2.m1" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math>, we have for any <math id="Thmexercise2.p2.m2" class="ltx_Math" alttext="t,s" display="inline"><mrow><mi>t</mi><mo>,</mo><mi>s</mi></mrow></math>,
+<math id="Thmexercise2.p2.m3" class="ltx_Math" alttext="(X_{n}(t),X_{n}(s))\to(X(t),X(s))" display="inline"><mrow><mrow><mo stretchy="false">(</mo><mrow><msub><mi>X</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><mo>,</mo><mrow><msub><mi>X</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">)</mo></mrow><mo>→</mo><mrow><mo stretchy="false">(</mo><mrow><mi>X</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><mo>,</mo><mrow><mi>X</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></math> in distribution. Therefore</p>
+<table id="S0.EGx5" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex6"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex6.m1" class="ltx_Math" alttext="\displaystyle\varphi_{(X_{n}(t),X_{n}(s))}(x)" display="inline"><mrow><msub><mi>φ</mi><mrow><mo stretchy="false">(</mo><mrow><msub><mi>X</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><mo>,</mo><mrow><msub><mi>X</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">)</mo></mrow></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex6.m2" class="ltx_Math" alttext="\displaystyle=\exp\left(-\frac{1}{2}x^{T}\begin{pmatrix}K_{n}(t,t)&amp;K_{n}(t,s)%
+\\
+K_{n}(s,t)&amp;K_{n}(s,s)\end{pmatrix}x\right)" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mi>exp</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mo>-</mo><mrow><mstyle displaystyle="true"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mo>⁢</mo><msup><mi>x</mi><mi>T</mi></msup><mo>⁢</mo><mrow><mo>(</mo><mtable columnspacing="5pt" rowspacing="0pt"><mtr><mtd columnalign="center"><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></mtd><mtd columnalign="center"><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mtd></mtr><mtr><mtd columnalign="center"><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></mtd><mtd columnalign="center"><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mtd></mtr></mtable><mo>)</mo></mrow><mo>⁢</mo><mi>x</mi></mrow></mrow><mo>)</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex7"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex7.m2" class="ltx_Math" alttext="\displaystyle\to\exp\left(-\frac{1}{2}x^{T}\begin{pmatrix}K(t,t)&amp;K(t,s)\\
+K(s,t)&amp;K(s,s)\end{pmatrix}x\right)=\varphi_{(X(t),X(s))}(x)." display="inline"><mrow><mrow><mi></mi><mo>→</mo><mrow><mi>exp</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mo>-</mo><mrow><mstyle displaystyle="true"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mo>⁢</mo><msup><mi>x</mi><mi>T</mi></msup><mo>⁢</mo><mrow><mo>(</mo><mtable columnspacing="5pt" rowspacing="0pt"><mtr><mtd columnalign="center"><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></mtd><mtd columnalign="center"><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mtd></mtr><mtr><mtd columnalign="center"><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></mtd><mtd columnalign="center"><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mtd></mtr></mtable><mo>)</mo></mrow><mo>⁢</mo><mi>x</mi></mrow></mrow><mo>)</mo></mrow></mrow><mo>=</mo><mrow><msub><mi>φ</mi><mrow><mo stretchy="false">(</mo><mrow><mi>X</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><mo>,</mo><mrow><mi>X</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">)</mo></mrow></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">Taking the logarithm we get for all <math id="Thmexercise2.p2.m4" class="ltx_Math" alttext="x" display="inline"><mi>x</mi></math></p>
+<table id="S0.EGx6" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex8"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex8.m1" class="ltx_Math" alttext="\displaystyle x^{T}\begin{pmatrix}K_{n}(t,t)&amp;K_{n}(t,s)\\
+K_{n}(s,t)&amp;K_{n}(s,s)\end{pmatrix}x\to x^{T}\begin{pmatrix}K(t,t)&amp;K(t,s)\\
+K(s,t)&amp;K(s,s)\end{pmatrix}x" display="inline"><mrow><mrow><msup><mi>x</mi><mi>T</mi></msup><mo>⁢</mo><mrow><mo>(</mo><mtable columnspacing="5pt" rowspacing="0pt"><mtr><mtd columnalign="center"><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></mtd><mtd columnalign="center"><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mtd></mtr><mtr><mtd columnalign="center"><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></mtd><mtd columnalign="center"><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mtd></mtr></mtable><mo>)</mo></mrow><mo>⁢</mo><mi>x</mi></mrow><mo>→</mo><mrow><msup><mi>x</mi><mi>T</mi></msup><mo>⁢</mo><mrow><mo>(</mo><mtable columnspacing="5pt" rowspacing="0pt"><mtr><mtd columnalign="center"><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></mtd><mtd columnalign="center"><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mtd></mtr><mtr><mtd columnalign="center"><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></mtd><mtd columnalign="center"><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mtd></mtr></mtable><mo>)</mo></mrow><mo>⁢</mo><mi>x</mi></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">Taking <math id="Thmexercise2.p2.m5" class="ltx_Math" alttext="x=(1,0)^{T}" display="inline"><mrow><mi>x</mi><mo>=</mo><msup><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo stretchy="false">)</mo></mrow><mi>T</mi></msup></mrow></math> we get <math id="Thmexercise2.p2.m6" class="ltx_Math" alttext="K_{n}(t,t)\to K(t,t)" display="inline"><mrow><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><mo>→</mo><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math>, while <math id="Thmexercise2.p2.m7" class="ltx_Math" alttext="x=(0,1)^{T}" display="inline"><mrow><mi>x</mi><mo>=</mo><msup><mrow><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><mi>T</mi></msup></mrow></math>
+results in <math id="Thmexercise2.p2.m8" class="ltx_Math" alttext="K_{n}(s,s)\to K(s,s)" display="inline"><mrow><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow><mo>→</mo><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math>. And, due to symmetry of the
+covariance matrix, we get for <math id="Thmexercise2.p2.m9" class="ltx_Math" alttext="x=(1,1)^{T}" display="inline"><mrow><mi>x</mi><mo>=</mo><msup><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><mi>T</mi></msup></mrow></math></p>
+<table id="S0.EGx7" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex9"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex9.m1" class="ltx_Math" alttext="\displaystyle 2K_{n}(s,t)" display="inline"><mrow><mn>2</mn><mo>⁢</mo><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex9.m2" class="ltx_Math" alttext="\displaystyle=(K_{n}(t,t)+2K_{n}(s,t)+K_{n}(s,s))-K_{n}(t,t)-K_{n}(s,s)" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mrow><mo stretchy="false">(</mo><mrow><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><mo>+</mo><mrow><mn>2</mn><mo>⁢</mo><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><mo>+</mo><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo stretchy="false">)</mo></mrow><mo>-</mo><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><mo>-</mo><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex10"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex10.m2" class="ltx_Math" alttext="\displaystyle=x^{T}\begin{pmatrix}K_{n}(t,t)&amp;K_{n}(t,s)\\
+K_{n}(s,t)&amp;K_{n}(s,s)\end{pmatrix}x-K_{n}(t,t)-K_{n}(s,s)" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mrow><msup><mi>x</mi><mi>T</mi></msup><mo>⁢</mo><mrow><mo>(</mo><mtable columnspacing="5pt" rowspacing="0pt"><mtr><mtd columnalign="center"><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></mtd><mtd columnalign="center"><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mtd></mtr><mtr><mtd columnalign="center"><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></mtd><mtd columnalign="center"><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mtd></mtr></mtable><mo>)</mo></mrow><mo>⁢</mo><mi>x</mi></mrow><mo>-</mo><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><mo>-</mo><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex11"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex11.m2" class="ltx_Math" alttext="\displaystyle\to x^{T}\begin{pmatrix}K(t,t)&amp;K(t,s)\\
+K(s,t)&amp;K(s,s)\end{pmatrix}x-K(t,t)-K(s,s)" display="inline"><mrow><mi></mi><mo>→</mo><mrow><mrow><msup><mi>x</mi><mi>T</mi></msup><mo>⁢</mo><mrow><mo>(</mo><mtable columnspacing="5pt" rowspacing="0pt"><mtr><mtd columnalign="center"><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></mtd><mtd columnalign="center"><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mtd></mtr><mtr><mtd columnalign="center"><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></mtd><mtd columnalign="center"><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mtd></mtr></mtable><mo>)</mo></mrow><mo>⁢</mo><mi>x</mi></mrow><mo>-</mo><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>t</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow><mo>-</mo><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.Ex12"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex12.m2" class="ltx_Math" alttext="\displaystyle=2K(s,t)." display="inline"><mrow><mrow><mi></mi><mo>=</mo><mrow><mn>2</mn><mo>⁢</mo><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">Since <math id="Thmexercise2.p2.m10" class="ltx_Math" alttext="s,t" display="inline"><mrow><mi>s</mi><mo>,</mo><mi>t</mi></mrow></math> were arbitrary we have <math id="Thmexercise2.p2.m11" class="ltx_Math" alttext="\lim_{n\to\infty}K_{n}(s,t)=K(s,t)" display="inline"><mrow><mrow><msub><mo>lim</mo><mrow><mi>n</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></msub><mo>⁡</mo><mrow><msub><mi>K</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>=</mo><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math>.</p>
+</div>
+<div id="Thmexercise2.p3" class="ltx_para">
+<p class="ltx_p">A Gaussian process <math id="Thmexercise2.p3.m1" class="ltx_Math" alttext="X" display="inline"><mi>X</mi></math> with covariance function <math id="Thmexercise2.p3.m2" class="ltx_Math" alttext="K" display="inline"><mi>K</mi></math> exists, because
+we can construct consistent finite dimensional distributions of
+<math id="Thmexercise2.p3.m3" class="ltx_Math" alttext="(X(t_{1}),\dots,X(t_{n})" display="inline"><mrow><mo stretchy="false">(</mo><mi>X</mi><mrow><mo stretchy="false">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo stretchy="false">)</mo></mrow><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><mi>X</mi><mrow><mo stretchy="false">(</mo><msub><mi>t</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow></mrow></math> using</p>
+<table id="S0.EGx8" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex13"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex13.m1" class="ltx_Math" alttext="\displaystyle\Sigma=\begin{pmatrix}K(t_{1},t_{1})&amp;\cdots&amp;K(t_{1},t_{n})\\
+\vdots&amp;&amp;\vdots\\
+K(t_{n},t_{1})&amp;\cdots&amp;K(t_{n},t_{n})\end{pmatrix}" display="inline"><mrow><mi mathvariant="normal">Σ</mi><mo>=</mo><mrow><mo>(</mo><mtable columnspacing="5pt" rowspacing="0pt"><mtr><mtd columnalign="center"><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><msub><mi>t</mi><mn>1</mn></msub><mo stretchy="false">)</mo></mrow></mrow></mtd><mtd columnalign="center"><mi mathvariant="normal">⋯</mi></mtd><mtd columnalign="center"><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>t</mi><mn>1</mn></msub><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow></mrow></mtd></mtr><mtr><mtd columnalign="center"><mi mathvariant="normal">⋮</mi></mtd><mtd columnalign="center"><mi></mi></mtd><mtd columnalign="center"><mi mathvariant="normal">⋮</mi></mtd></mtr><mtr><mtd columnalign="center"><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>t</mi><mi>n</mi></msub><mo>,</mo><msub><mi>t</mi><mn>1</mn></msub><mo stretchy="false">)</mo></mrow></mrow></mtd><mtd columnalign="center"><mi mathvariant="normal">⋯</mi></mtd><mtd columnalign="center"><mrow><mi>K</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>t</mi><mi>n</mi></msub><mo>,</mo><msub><mi>t</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow></mrow></mtd></mtr></mtable><mo>)</mo></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">i.e. find <math id="Thmexercise2.p3.m4" class="ltx_Math" alttext="B" display="inline"><mi>B</mi></math> such that <math id="Thmexercise2.p3.m5" class="ltx_Math" alttext="BB^{T}=\Sigma" display="inline"><mrow><mrow><mi>B</mi><mo>⁢</mo><msup><mi>B</mi><mi>T</mi></msup></mrow><mo>=</mo><mi mathvariant="normal">Σ</mi></mrow></math> and apply <math id="Thmexercise2.p3.m6" class="ltx_Math" alttext="B" display="inline"><mi>B</mi></math> to iid standard
+normal random variables, resulting in a gaussian vector with the desired
+distribution. For similarly defined <math id="Thmexercise2.p3.m7" class="ltx_Math" alttext="\Sigma_{n}" display="inline"><msub><mi mathvariant="normal">Σ</mi><mi>n</mi></msub></math>, we have that all the
+entries of <math id="Thmexercise2.p3.m8" class="ltx_Math" alttext="\Sigma_{n}" display="inline"><msub><mi mathvariant="normal">Σ</mi><mi>n</mi></msub></math> converging to <math id="Thmexercise2.p3.m9" class="ltx_Math" alttext="\Sigma" display="inline"><mi mathvariant="normal">Σ</mi></math> by assumption. And
+therefore by continuity of sums and products <math id="Thmexercise2.p3.m10" class="ltx_Math" alttext="x^{T}\Sigma_{n}x\to x^{T}\Sigma x" display="inline"><mrow><mrow><msup><mi>x</mi><mi>T</mi></msup><mo>⁢</mo><msub><mi mathvariant="normal">Σ</mi><mi>n</mi></msub><mo>⁢</mo><mi>x</mi></mrow><mo>→</mo><mrow><msup><mi>x</mi><mi>T</mi></msup><mo>⁢</mo><mi mathvariant="normal">Σ</mi><mo>⁢</mo><mi>x</mi></mrow></mrow></math>
+for all <math id="Thmexercise2.p3.m11" class="ltx_Math" alttext="x\in\mathbb{R}^{2}" display="inline"><mrow><mi>x</mi><mo>∈</mo><msup><mi>ℝ</mi><mn>2</mn></msup></mrow></math>. But this implies that the characteristic
+functions of all finite dimensional marginals converge and therefore
+<math id="Thmexercise2.p3.m12" class="ltx_Math" alttext="X_{n}\stackrel{{\scriptstyle\text{fdd}}}{{\implies}}X" display="inline"><mrow><msub><mi>X</mi><mi>n</mi></msub><mover><mo movablelimits="false">⟹</mo><mtext>fdd</mtext></mover><mi>X</mi></mrow></math>.
+∎</p>
+</div>
+</div>
+</div>
+</article>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Thu Jun 30 12:00:12 2022 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"></a>
+</div></footer>
+</div>
+<script src="js/LaTeXML-maybeMathjax.js" type="text/javascript"></script>
+<script src="js/collapsing_proofs.js" type="text/javascript"></script>
+</body>
+</html>
